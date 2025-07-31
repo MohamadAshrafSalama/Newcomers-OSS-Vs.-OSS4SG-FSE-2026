@@ -1,0 +1,438 @@
+repo_name_with_owner,sdg_topic,ovio_topic
+openfarmcc/OpenFarm,"[9, 'Industry, Innovation and Infrastructure']",
+sleepbusorg/sleepbus.org,"[1, 'No Poverty']",['Humanitarian']
+openfoodfacts/openfoodfacts-androidapp,"[12, 'Responsible Consumption and Production']",['Environment & Nature']
+tmrowco/electricitymap-contrib,"[7, 'Affordable and Clean Energy']",['Environment & Nature']
+WorldBank-Transport/DRIVER,"[16, 'Peace, Justice and Strong Institutions']",['Civic Tech']
+mysociety/pombola,"[16, 'Peace, Justice and Strong Institutions']",['Civic Tech']
+orcasound/orcanode,"[14, 'Life Below Water']",['Environment & Nature']
+onaio/onadata,"[4, 'Quality Education']",
+opendatateam/udata,"[17, 'Partnerships for the Goals']",['Civic Tech']
+drivendataorg/zamba,"[17, 'Partnerships for the Goals']",['Humanitarian']
+wri/global-power-plant-database,"[13, 'Climate Action']",['Environment & Nature']
+developmentseed/geolambda,"[17, 'Partnerships for the Goals']","['Civic Tech', 'Humanitarian']"
+EskaleraInc/catalyst-bias-correct,"[5, 'Gender Equality']",['Society & Culture']
+nordic-institute/X-Road,"[17, 'Partnerships for the Goals']",
+sugarlabs/musicblocks,"[4, 'Quality Education']",['Education']
+conative-labs/Platform-API,"[6, 'Clean Water and Sanitation']",
+odoo/odoo,"[17, 'Partnerships for the Goals']",
+openMF/android-client,"[1, 'No Poverty']",['Humanitarian']
+consul/consul,"[16, 'Peace, Justice and Strong Institutions']",['Civic Tech']
+Ideasis/VivoosVR,"[3, 'Good Health and Well-Being']",
+tidepool-org/uploader,"[3, 'Good Health and Well-Being']",
+developmentseed/label-maker,"[17, 'Partnerships for the Goals']","['Civic Tech', 'Humanitarian']"
+otsimo/aac,"[3, 'Good Health and Well-Being']",['Health & Well-being']
+cboard-org/cboard,"[4, 'Quality Education']",
+instedd/planwise,"[17, 'Partnerships for the Goals']",
+w3-engineers/telemesh,"[10, 'Reduced Inequalities']",
+radiantearth/stac-browser,"[9, 'Industry, Innovation and Infrastructure']",['Humanitarian']
+dymaxionlabs/ap-latam,"[11, 'Sustainable Cities and Communities']",
+getodk/xlsform-offline,"[17, 'Partnerships for the Goals']",['Humanitarian']
+openMF/community-app,"[11, 'Sustainable Cities and Communities']",['Humanitarian']
+hotosm/tasking-manager,"[17, 'Partnerships for the Goals']",['Humanitarian']
+iHRIS/iHRIS,"[3, 'Good Health and Well-Being']",
+developmentseed/landsat-util,"[17, 'Partnerships for the Goals']","['Civic Tech', 'Humanitarian']"
+GFDRR/open-risk-data-dashboard,"[13, 'Climate Action']","['Civic Tech', 'Society & Culture', 'Environment & Nature']"
+GlobalDigitalLibraryio/book-api,"[4, 'Quality Education']",
+Veativetech/VeativeWebVR,"[4, 'Quality Education']",
+GFDRR/thinkhazard,"[13, 'Climate Action']","['Civic Tech', 'Society & Culture', 'Environment & Nature']"
+MSH/PViMS,"[17, 'Partnerships for the Goals']",
+arkhn/fhir-pipe,"[3, 'Good Health and Well-Being']",['Health & Well-being']
+MuckRock/muckrock,"[16, 'Peace, Justice and Strong Institutions']",['Civic Tech']
+AsylumConnect/asylum-connect-catalog,"[10, 'Reduced Inequalities']",['Humanitarian']
+muzima/muzima-android,"[5, 'Gender Equality']",
+PecanProject/pecan,"[13, 'Climate Action']",['Environment & Nature']
+RefugeRestrooms/refugerestrooms-ios,"[5, 'Gender Equality']",['Society & Culture']
+codepath/android_guides,"[4, 'Quality Education']","['Economics', 'Education']"
+nubianvr-source/BasicElectronics,"[4, 'Quality Education']",
+OpenSourcePolitics/decidim,"[16, 'Peace, Justice and Strong Institutions']",['Civic Tech']
+drivendataorg/deon,"[17, 'Partnerships for the Goals']",['Humanitarian']
+MSH/eTBManager3,"[17, 'Partnerships for the Goals']",
+llaske/sugarizer,"[4, 'Quality Education']",['Education']
+WattTime/watttime-python-client,"[7, 'Affordable and Clean Energy']",['Environment & Nature']
+liberapay/liberapay.com,"[17, 'Partnerships for the Goals']",['Humanitarian']
+ushahidi/platform-client,"[10, 'Reduced Inequalities']",['Economics']
+sharmalab/Datascope,"[3, 'Good Health and Well-Being']",['Health & Well-being']
+HTBox/MobileKidsIdApp,"[4, 'Quality Education']",['Humanitarian']
+openmrs/openmrs-core,"[3, 'Good Health and Well-Being']",['Health & Well-being']
+Data4Democracy/crash-model,"[16, 'Peace, Justice and Strong Institutions']",['Civic Tech']
+TheTorProject/gettor,"[16, 'Peace, Justice and Strong Institutions']",
+opengovernment/opengovernment,"[16, 'Peace, Justice and Strong Institutions']",['Civic Tech']
+mojaloop/mojaloop,"[17, 'Partnerships for the Goals']",['Humanitarian']
+energy-market-methods/caltrack,"[7, 'Affordable and Clean Energy']",
+SFDigitalServices/sf-dahlia-web,"[11, 'Sustainable Cities and Communities']",
+motech/motech,"[17, 'Partnerships for the Goals']",
+Social-Synergy/inclusion-UKR,"[10, 'Reduced Inequalities']",
+Tanibox/tania-core,"[9, 'Industry, Innovation and Infrastructure']",
+openai/spinningup,"[17, 'Partnerships for the Goals']",['Civic Tech']
+mapswipe/mapswipe,"[17, 'Partnerships for the Goals']",['Humanitarian']
+hotosm/osm-analytics,"[17, 'Partnerships for the Goals']",['Humanitarian']
+public-accountability/littlesis-rails,"[16, 'Peace, Justice and Strong Institutions']",['Civic Tech']
+betagouv/mes-aides-ui,"[16, 'Peace, Justice and Strong Institutions']",['Civic Tech']
+medic/cht-core,"[3, 'Good Health and Well-Being']",
+MSH/QuanTB,"[17, 'Partnerships for the Goals']",
+Datawheel/canon,"[11, 'Sustainable Cities and Communities']",
+oppia/oppia-ml,"[4, 'Quality Education']",['Education']
+betagouv/api.gouv.fr,"[16, 'Peace, Justice and Strong Institutions']",['Civic Tech']
+bayesimpact/bob-emploi,"[8, 'Decent Work and Economic Growth']","['Civic Tech', 'Society & Culture']"
+codeforboston/safe-water,"[6, 'Clean Water and Sanitation']",['Environment & Nature']
+ourresearch/oadoi,"[4, 'Quality Education']",['Education']
+osm-search/Nominatim,"[11, 'Sustainable Cities and Communities']",
+tidepool-org/viz,"[3, 'Good Health and Well-Being']",['Health & Well-being']
+openeemeter/eemeter,"[7, 'Affordable and Clean Energy']",
+JustFixNYC/tenants,"[10, 'Reduced Inequalities']",['Economics']
+camicroscope/caMicroscope,"[3, 'Good Health and Well-Being']",['Health & Well-being']
+OpenRefine/OpenRefine,"[17, 'Partnerships for the Goals']",
+enketo/enketo-express,"[16, 'Peace, Justice and Strong Institutions']",['Civic Tech']
+rubyforgood/diaper,"[10, 'Reduced Inequalities']",['Civic Tech']
+Intelehealth/intelehealth-openmrs-ui,"[3, 'Good Health and Well-Being']",['Health & Well-being']
+ShelterTechSF/askdarcel-api,"[1, 'No Poverty']",['Humanitarian']
+openml/OpenML,"[4, 'Quality Education']",['Education']
+OperationCode/front-end,"[10, 'Reduced Inequalities']","['Economics', 'Education']"
+etalab/croquemort,"[17, 'Partnerships for the Goals']",
+JustFixNYC/who-owns-what,"[10, 'Reduced Inequalities']",['Economics']
+enketo/enketo-core,"[16, 'Peace, Justice and Strong Institutions']",['Civic Tech']
+instedd/pollit,"[17, 'Partnerships for the Goals']",
+dimagi/commcare-cloud,"[3, 'Good Health and Well-Being']",['Civic Tech']
+energy-data/energydata.info,"[13, 'Climate Action']",['Environment & Nature']
+betagouv/leximpact-client,"[10, 'Reduced Inequalities']",['Economics']
+opendatacube/datacube-core,"[17, 'Partnerships for the Goals']","['Civic Tech', 'Humanitarian']"
+Bahmni/bahmni-core,"[3, 'Good Health and Well-Being']",
+pg-irc/pathways-backend,"[10, 'Reduced Inequalities']",['Humanitarian']
+wevote/WeVoteServer,"[16, 'Peace, Justice and Strong Institutions']",['Civic Tech']
+JustFixNYC/eviction-free-nyc,"[10, 'Reduced Inequalities']",['Economics']
+SEED-platform/seed,"[11, 'Sustainable Cities and Communities']",
+radiantearth/stac-spec,"[17, 'Partnerships for the Goals']",['Humanitarian']
+LoopKit/LoopKit,"[3, 'Good Health and Well-Being']",['Health & Well-being']
+NREL/EnergyPlus,"[7, 'Affordable and Clean Energy']",['Environment & Nature']
+nvaccess/nvda,"[3, 'Good Health and Well-Being']",['Health & Well-being']
+utopic-studio/hanselygretelVR,"[4, 'Quality Education']",
+rubyforgood/playtime,"[10, 'Reduced Inequalities']",['Civic Tech']
+dimagi/commcare-android,"[3, 'Good Health and Well-Being']",['Civic Tech']
+avniproject/avni-server,"[16, 'Peace, Justice and Strong Institutions']",
+codeforamerica/brigade,"[16, 'Peace, Justice and Strong Institutions']",['Civic Tech']
+get-alex/SublimeLinter-contrib-alex,"[11, 'Sustainable Cities and Communities']",['Society & Culture']
+mysociety/alaveteli,"[16, 'Peace, Justice and Strong Institutions']",['Civic Tech']
+SEL-Columbia/formhub,"[4, 'Quality Education']",
+chaynHQ/soulmedicine,"[5, 'Gender Equality']","['Society & Culture', 'Humanitarian']"
+dimagi/commcare-hq,"[3, 'Good Health and Well-Being']",['Civic Tech']
+resource-watch/resource-watch,"[9, 'Industry, Innovation and Infrastructure']","['Civic Tech', 'Environment & Nature']"
+ESIPFed/sweet,"[13, 'Climate Action']",['Environment & Nature']
+opencrvs/opencrvs-core,"[17, 'Partnerships for the Goals']",
+team-asr/od-Data,"[2, 'Zero Hunger']",
+JustFixNYC/tenants2,"[10, 'Reduced Inequalities']",['Economics']
+openfisca/openfisca-france,"[16, 'Peace, Justice and Strong Institutions']",['Civic Tech']
+OpenSRP/opensrp-client-core,"[3, 'Good Health and Well-Being']",
+instedd/resourcemap,"[17, 'Partnerships for the Goals']",
+getodk/collect,"[17, 'Partnerships for the Goals']",['Humanitarian']
+openfoodsource/OFS_trunk,"[12, 'Responsible Consumption and Production']",
+openstreetmap/openstreetmap-website,"[17, 'Partnerships for the Goals']",['Humanitarian']
+Gapminder/dollar-street-pages,"[17, 'Partnerships for the Goals']","['Economics', 'Humanitarian']"
+moodle/moodle,"[4, 'Quality Education']",['Education']
+teliportme/remixvr,"[4, 'Quality Education']",
+OneBusAway/onebusaway-android,"[11, 'Sustainable Cities and Communities']",['Society & Culture']
+get-alex/atom-linter-alex,"[11, 'Sustainable Cities and Communities']",['Society & Culture']
+getodk/briefcase,"[17, 'Partnerships for the Goals']",['Humanitarian']
+unicef/etools,"[10, 'Reduced Inequalities']","['Economics', 'Education']"
+dhis2/dhis2-core,"[3, 'Good Health and Well-Being']",
+wikitongues/poly,"[11, 'Sustainable Cities and Communities']",['Society & Culture']
+publiclab/infragram,"[13, 'Climate Action']","['Society & Culture', 'Environment & Nature']"
+codeforboston/migrant_service_map,"[11, 'Sustainable Cities and Communities']",['Humanitarian']
+energywebfoundation/energyweb-ui,"[13, 'Climate Action']",['Civic Tech']
+hackoregon/civic,"[17, 'Partnerships for the Goals']",['Civic Tech']
+openpantry/open_pantry,"[11, 'Sustainable Cities and Communities']","['Society & Culture', 'Humanitarian']"
+codeforamerica/intake,"[16, 'Peace, Justice and Strong Institutions']",['Civic Tech']
+CenterForOpenScience/SHARE,"[17, 'Partnerships for the Goals']",['Humanitarian']
+learningequality/kolibri,"[4, 'Quality Education']",['Education']
+LLK/scratch-vm,"[4, 'Quality Education']",['Education']
+hotosm/OpenAerialMap,"[17, 'Partnerships for the Goals']",
+azavea/raster-vision,"[9, 'Industry, Innovation and Infrastructure']",['Civic Tech']
+getodk/aggregate,"[17, 'Partnerships for the Goals']",['Humanitarian']
+MSH/Pharmadex,"[17, 'Partnerships for the Goals']",
+mysociety/fixmystreet,"[16, 'Peace, Justice and Strong Institutions']",['Civic Tech']
+afinidata2019/afinidata-content-manager,"[4, 'Quality Education']",
+openMF/web-app,"[1, 'No Poverty']",['Humanitarian']
+regardscitoyens/nosdeputes.fr,"[16, 'Peace, Justice and Strong Institutions']",['Civic Tech']
+openoakland/openbudgetoakland,"[16, 'Peace, Justice and Strong Institutions']",['Civic Tech']
+apache/climate,"[13, 'Climate Action']",['Environment & Nature']
+VRMakerTeam/VRMaker,"[4, 'Quality Education']",
+sugarlabs/turtleart-activity,"[4, 'Quality Education']",['Education']
+Envirometrix/LandGISmaps,"[15, 'Life On Land']",['Environment & Nature']
+HospitalRun/hospitalrun-server,"[3, 'Good Health and Well-Being']",['Health & Well-being']
+unep-grid/map-x-mgl,"[13, 'Climate Action']",['Environment & Nature']
+5calls/ios,"[16, 'Peace, Justice and Strong Institutions']",['Civic Tech']
+OpenConceptLab/oclapi,"[3, 'Good Health and Well-Being']",
+kobotoolbox/kobocat,"[17, 'Partnerships for the Goals']",['Humanitarian']
+mosip/commons,"[17, 'Partnerships for the Goals']",
+guardianproject/ripple,"[11, 'Sustainable Cities and Communities']",
+openstates/openstates-scrapers,"[16, 'Peace, Justice and Strong Institutions']",
+code4romania/seismic-risc,"[11, 'Sustainable Cities and Communities']","['Civic Tech', 'Society & Culture']"
+OSU-Battelle-Center/DRC-Ebola-Conflict,"[3, 'Good Health and Well-Being']",['Health & Well-being']
+catalyst-cooperative/pudl,"[13, 'Climate Action']",['Environment & Nature']
+digidem/mapeo-desktop,"[11, 'Sustainable Cities and Communities']","['Society & Culture', 'Humanitarian']"
+openMF/mifos-mobile,"[1, 'No Poverty']",['Humanitarian']
+Gapminder/gapminder-offline,"[17, 'Partnerships for the Goals']","['Economics', 'Humanitarian']"
+datosgcba/obras-abiertas,"[16, 'Peace, Justice and Strong Institutions']",
+HospitalRun/hospitalrun-server-routes,"[3, 'Good Health and Well-Being']",['Health & Well-being']
+ushahidi/platform,"[11, 'Sustainable Cities and Communities']",['Economics']
+code4romania/redirectioneaza,"[17, 'Partnerships for the Goals']","['Civic Tech', 'Society & Culture', 'Humanitarian']"
+codeforamerica/michigan-benefits,"[16, 'Peace, Justice and Strong Institutions']",['Civic Tech']
+get-alex/alex,"[11, 'Sustainable Cities and Communities']",['Society & Culture']
+rapidpro/ureport,"[16, 'Peace, Justice and Strong Institutions']",
+WildbookOrg/Wildbook,"[15, 'Life On Land']",['Environment & Nature']
+farmOS/farmOS,"[9, 'Industry, Innovation and Infrastructure']",
+openmrs/openmrs-contrib-android-client,"[3, 'Good Health and Well-Being']",['Health & Well-being']
+openelisglobal/openelisglobal-core,"[3, 'Good Health and Well-Being']",
+OperationCode/operationcode-pyback,"[10, 'Reduced Inequalities']","['Economics', 'Education']"
+codeforamerica/cfapi,"[16, 'Peace, Justice and Strong Institutions']",['Civic Tech']
+ushahidi/tenfour,"[17, 'Partnerships for the Goals']",
+LLK/scratch-gui,"[4, 'Quality Education']",['Education']
+radicallyopensecurity/pentext,"[17, 'Partnerships for the Goals']",['Humanitarian']
+OpenLMIS/openlmis-ref-distro,"[9, 'Industry, Innovation and Infrastructure']",
+pixframe/towi,"[4, 'Quality Education']",
+somleng/somleng-scfm,"[9, 'Industry, Innovation and Infrastructure']",
+openimis/web_app_vb,"[9, 'Industry, Innovation and Infrastructure']",
+hikmahealth/hikma-mobile,"[3, 'Good Health and Well-Being']","['Health & Well-being', 'Humanitarian']"
+marytts/marytts,"[17, 'Partnerships for the Goals']",
+Terrastories/terrastories,"[11, 'Sustainable Cities and Communities']",['Society & Culture']
+tidepool-org/blip,"[3, 'Good Health and Well-Being']",['Health & Well-being']
+LoopKit/CGMBLEKit,"[3, 'Good Health and Well-Being']",['Health & Well-being']
+OperationCode/operationcode_backend,"[10, 'Reduced Inequalities']","['Economics', 'Education']"
+OpenUpSA/pmg-cms-2,"[16, 'Peace, Justice and Strong Institutions']",['Civic Tech']
+h5p/h5p-interactive-video,"[4, 'Quality Education']",
+Vizzuality/climate-watch,"[13, 'Climate Action']",['Environment & Nature']
+benetech/MathShare,"[4, 'Quality Education']",['Education']
+sfbrigade/adopt-a-drain,"[11, 'Sustainable Cities and Communities']",['Civic Tech']
+opt-out-tools/opt-out,"[5, 'Gender Equality']",
+Vizzuality/gfw,"[15, 'Life On Land']",['Environment & Nature']
+bothub-it/bothub,"[4, 'Quality Education']",
+VOLTTRON/volttron,"[9, 'Industry, Innovation and Infrastructure']",
+codeforboston/voiceapp311,"[17, 'Partnerships for the Goals']",['Civic Tech']
+Recidiviz/pulse-data,"[16, 'Peace, Justice and Strong Institutions']",['Civic Tech']
+Growstuff/growstuff,"[12, 'Responsible Consumption and Production']",['Environment & Nature']
+kimetrica/MERON_model,"[3, 'Good Health and Well-Being']",
+Welthungerhilfe/cgm-ml,"[2, 'Zero Hunger']",['Humanitarian']
+openaq/openaq-api,"[13, 'Climate Action']",['Environment & Nature']
+edx/edx-platform,"[4, 'Quality Education']",
+bayesimpact/encompass,"[8, 'Decent Work and Economic Growth']","['Civic Tech', 'Society & Culture']"
+datamade/census,"[16, 'Peace, Justice and Strong Institutions']",['Civic Tech']
+mapswipe/python-mapswipe-workers,"[17, 'Partnerships for the Goals']",['Humanitarian']
+LibreHealthIO/lh-toolkit,"[3, 'Good Health and Well-Being']",['Health & Well-being']
+OADA/oada-srvc-docker,"[12, 'Responsible Consumption and Production']",['Environment & Nature']
+LLK/scratch-blocks,"[4, 'Quality Education']",['Education']
+sozialhelden/accessibility-cloud,"[10, 'Reduced Inequalities']","['Economics', 'Health & Well-being']"
+righton-dev/righton-app,"[4, 'Quality Education']",
+openbudgets/participatory-budgeting,"[16, 'Peace, Justice and Strong Institutions']",['Civic Tech']
+openstreetmap/osm2pgsql,"[17, 'Partnerships for the Goals']",['Humanitarian']
+patadejaguar/safeosms,"[17, 'Partnerships for the Goals']",
+primeroIMS/primero,"[16, 'Peace, Justice and Strong Institutions']","['Society & Culture', 'Education']"
+ifmeorg/ifme,"[3, 'Good Health and Well-Being']",['Health & Well-being']
+sozialhelden/wheelmap-frontend,"[10, 'Reduced Inequalities']",
+5calls/5calls,"[16, 'Peace, Justice and Strong Institutions']",['Civic Tech']
+NREL/OpenStudio-server,"[7, 'Affordable and Clean Energy']",['Environment & Nature']
+avniproject/avni-client,"[16, 'Peace, Justice and Strong Institutions']",
+openhie/facility-recon,"[3, 'Good Health and Well-Being']",
+OpenTreeMap/otm-core,"[15, 'Life On Land']",['Environment & Nature']
+jellow-aac/Jellow-Communicator,"[4, 'Quality Education']",
+RefugeRestrooms/refugerestrooms,"[5, 'Gender Equality']",['Society & Culture']
+tidepool-org/data-analytics,"[3, 'Good Health and Well-Being']",['Health & Well-being']
+CodeForAfrica/openAFRICA,"[17, 'Partnerships for the Goals']",['Civic Tech']
+HTBox/allReady,"[16, 'Peace, Justice and Strong Institutions']",['Humanitarian']
+jembi/openhim-core-js,"[3, 'Good Health and Well-Being']",
+claytonrcarter/cropplanning,"[12, 'Responsible Consumption and Production']",
+publiclab/plots2,"[13, 'Climate Action']","['Society & Culture', 'Environment & Nature']"
+letsdoitworld/World-Cleanup-Day,"[11, 'Sustainable Cities and Communities']","['Society & Culture', 'Environment & Nature']"
+empirical-org/Quill-NLP-Tools-and-Datasets,"[4, 'Quality Education']",['Education']
+xiaoyudi-China/yuudee,"[4, 'Quality Education']",
+GliaX/pulseox,"[3, 'Good Health and Well-Being']",['Health & Well-being']
+opennorth/represent-canada,"[16, 'Peace, Justice and Strong Institutions']",['Civic Tech']
+public-accountability/littlesis-main,"[16, 'Peace, Justice and Strong Institutions']",['Civic Tech']
+LLK/scratchjr,"[4, 'Quality Education']",['Education']
+eKitabu/Accessible-EPUB-Toolkit,"[4, 'Quality Education']",
+heatseeknyc/heatseeknyc,"[10, 'Reduced Inequalities']",['Economics']
+CenterForOpenScience/osf.io,"[17, 'Partnerships for the Goals']",['Humanitarian']
+open-contracting/standard,"[16, 'Peace, Justice and Strong Institutions']",
+OpenEnergyDashboard/OED,"[7, 'Affordable and Clean Energy']",['Environment & Nature']
+onaio/mspray,"[3, 'Good Health and Well-Being']",
+kobotoolbox/kpi,"[17, 'Partnerships for the Goals']",['Humanitarian']
+codeforamerica/etpl-search,"[8, 'Decent Work and Economic Growth']","['Civic Tech', 'Society & Culture']"
+sozialhelden/wheelmap-classic,"[10, 'Reduced Inequalities']",
+LibreHealthIO/lh-ehr,"[3, 'Good Health and Well-Being']",['Health & Well-being']
+OptiKey/OptiKey,"[3, 'Good Health and Well-Being']",['Health & Well-being']
+OpenAgricultureFoundation/openag-device-software,"[12, 'Responsible Consumption and Production']",
+openfoodfoundation/openfoodnetwork,"[12, 'Responsible Consumption and Production']",['Environment & Nature']
+energy-data/market-opportunities,"[13, 'Climate Action']",['Environment & Nature']
+ctt-gob-es/clienteafirma,"[16, 'Peace, Justice and Strong Institutions']",
+WattTime/pyiso,"[7, 'Affordable and Clean Energy']",['Environment & Nature']
+pwyf/aid-transparency-tracker,"[16, 'Peace, Justice and Strong Institutions']",['Humanitarian']
+EvictionLab/eviction-maps,"[1, 'No Poverty']",['Humanitarian']
+uptake/autofocus,"[15, 'Life On Land']",
+ShelterTechSF/askdarcel-web,"[1, 'No Poverty']",['Humanitarian']
+coralproject/ask,"[8, 'Decent Work and Economic Growth']",['Society & Culture']
+sugarlabs/sugar,"[4, 'Quality Education']",['Education']
+instedd/surveda,"[17, 'Partnerships for the Goals']",
+apache/fineract,"[17, 'Partnerships for the Goals']",
+openstreetmap/iD,"[17, 'Partnerships for the Goals']",['Humanitarian']
+HospitalRun/hospitalrun-frontend,"[3, 'Good Health and Well-Being']",['Health & Well-being']
+inasafe/inasafe,"[13, 'Climate Action']",['Environment & Nature']
+getodk/build,"[17, 'Partnerships for the Goals']",['Humanitarian']
+owid/owid-grapher,"[17, 'Partnerships for the Goals']",['Humanitarian']
+Flowminder/FlowKit,"[11, 'Sustainable Cities and Communities']","['Economics', 'Health & Well-being']"
+OperationCode/operationcode-pybot,"[10, 'Reduced Inequalities']","['Economics', 'Education']"
+synthetichealth/synthea,"[3, 'Good Health and Well-Being']",
+humansis/front,"[9, 'Industry, Innovation and Infrastructure']",
+tidepool-org/platform,"[3, 'Good Health and Well-Being']",['Health & Well-being']
+Intelehealth/Android-Mobile-Client,"[3, 'Good Health and Well-Being']",['Health & Well-being']
+unicef/magicbox-open-api,"[10, 'Reduced Inequalities']","['Economics', 'Education']"
+sahana/eden,"[13, 'Climate Action']",['Humanitarian']
+WFP-VAM/HRM,"[2, 'Zero Hunger']",['Humanitarian']
+facebookincubator/magma,"[9, 'Industry, Innovation and Infrastructure']",
+saycel/Saycel.Phone,"[9, 'Industry, Innovation and Infrastructure']",
+rapidpro/rapidpro,"[16, 'Peace, Justice and Strong Institutions']",
+code-dot-org/blockly,"[4, 'Quality Education']","['Economics', 'Education']"
+tidepool-org/tideline,"[3, 'Good Health and Well-Being']",['Health & Well-being']
+jembi/hearth,"[3, 'Good Health and Well-Being']",
+huridocs/uwazi,"[16, 'Peace, Justice and Strong Institutions']",['Civic Tech']
+OperationCode/resources_api,"[10, 'Reduced Inequalities']","['Economics', 'Education']"
+betagouv/demarches-simplifiees.fr,"[16, 'Peace, Justice and Strong Institutions']",['Civic Tech']
+curiouslearning/Norad-Eduapp4syria,"[4, 'Quality Education']",
+ConservationInternational/trends.earth,"[13, 'Climate Action']",['Environment & Nature']
+publiclab/leaflet-environmental-layers,"[13, 'Climate Action']","['Society & Culture', 'Environment & Nature']"
+okfn/reconcile-csv,"[17, 'Partnerships for the Goals']",
+GlobalFishingWatch/vessel-classification,"[14, 'Life Below Water']",['Environment & Nature']
+healthsites/healthsites,"[17, 'Partnerships for the Goals']",['Health & Well-being']
+giving-a-fuck-about-climate-change/carbon-inferno,"[13, 'Climate Action']",['Environment & Nature']
+openfoodfacts/openfoodfacts-ios,"[12, 'Responsible Consumption and Production']",['Environment & Nature']
+foodcoops/foodsoft,"[12, 'Responsible Consumption and Production']",['Environment & Nature']
+microsoft/Smart-Energy-Foundation-Demo-Stack,"[13, 'Climate Action']",
+opengovfoundation/madison,"[17, 'Partnerships for the Goals']",['Civic Tech']
+oppia/oppia,"[4, 'Quality Education']",['Education']
+instedd/verboice,"[17, 'Partnerships for the Goals']",
+guardianproject/haven,"[11, 'Sustainable Cities and Communities']",['Civic Tech']
+GreenButtonAlliance/OpenESPI-Common-java,"[7, 'Affordable and Clean Energy']",
+thinkingmachines/geomancer,"[11, 'Sustainable Cities and Communities']",
+okfde/froide,"[16, 'Peace, Justice and Strong Institutions']",['Civic Tech']
+signdict/website,"[3, 'Good Health and Well-Being']",['Health & Well-being']
+coralproject/talk,"[8, 'Decent Work and Economic Growth']",['Society & Culture']
+jembi/bsis,"[3, 'Good Health and Well-Being']",
+learningequality/ka-lite,"[4, 'Quality Education']",['Education']
+project-sunbird/sunbird-data-pipeline,"[17, 'Partnerships for the Goals']",
+Imisi3D/leVRn-beta,"[4, 'Quality Education']",
+LLK/scratch-www,"[4, 'Quality Education']",['Education']
+OpenBankProject/OBP-API,"[17, 'Partnerships for the Goals']",
+code-dot-org/code-dot-org,"[4, 'Quality Education']","['Economics', 'Education']"
+Welthungerhilfe/cgm-scanner,"[2, 'Zero Hunger']",
+GliaX/Stethoscope,"[3, 'Good Health and Well-Being']",['Health & Well-being']
+CodeForAfrica/HealthTools.KE-theStarHealth,"[3, 'Good Health and Well-Being']","['Civic Tech', 'Health & Well-being']"
+kvklrao/NEOSEPALG,"[3, 'Good Health and Well-Being']",
+MSH/RxSolution,"[17, 'Partnerships for the Goals']",
+WorldHealthOrganization/app,"[3, 'Good Health and Well-Being']",['Health & Well-being']
+Prescrypto/rxchain,"[3, 'Good Health and Well-Being']",
+project-callisto/callisto-core,"[5, 'Gender Equality']",['Society & Culture']
+PopulateTools/gobierto,"[16, 'Peace, Justice and Strong Institutions']",
+openfoodfacts/openfoodfacts-server,"[12, 'Responsible Consumption and Production']",['Environment & Nature']
+openclimatedata/global-carbon-budget,"[13, 'Climate Action']",['Environment & Nature']
+Coinsence/coinsence-monorepo,"[17, 'Partnerships for the Goals']",
+openml/openml-python,"[4, 'Quality Education']",['Education']
+hzi-braunschweig/SORMAS-Project,"[17, 'Partnerships for the Goals']",
+TransparencyToolkit/LookingGlass,"[17, 'Partnerships for the Goals']",['Civic Tech']
+Ecohackerfarm/powerplant,"[12, 'Responsible Consumption and Production']",['Environment & Nature']
+drnikki/open-demographics,"[5, 'Gender Equality']",['Society & Culture']
+GeoNode/geonode,"[17, 'Partnerships for the Goals']",['Humanitarian']
+ciudadanointeligente/no-mas-cohecho,,['Civic Tech']
+codepath/android-navigation-drawer-exercise,,"['Economics', 'Education']"
+openMF/mobile-wallet,,['Humanitarian']
+openventilatorregistry/OpenVentilatorRegistry,,['Health & Well-being']
+sozialhelden/wheelmap,,"['Economics', 'Health & Well-being']"
+owid/sdg-tracker.org,,['Humanitarian']
+opennorth/represent-canada-data,,['Civic Tech']
+miracle-messages/mm-ios-mobile,,"['Society & Culture', 'Humanitarian']"
+tidepool-org/tidepool-org.github.io,,['Health & Well-being']
+datakind/caseworker-scheduler,,['Civic Tech']
+govtrack/misconduct,,['Civic Tech']
+CSSEGISandData/COVID-19,,['Health & Well-being']
+theleadio/coronatracker,,['Health & Well-being']
+openstreetmap/Nominatim,,['Humanitarian']
+openlawlibrary/taf,,['Civic Tech']
+guardianproject/Ripple,,['Civic Tech']
+nytimes/covid-19-data,,['Health & Well-being']
+fieldpapers/fieldpapers,,['Humanitarian']
+tidepool-org/chrome-uploader,,['Health & Well-being']
+etalab/covid19-dashboard,,['Health & Well-being']
+kobotoolbox/kobo-docker,,['Humanitarian']
+sleepbusorg/toolbus,,['Humanitarian']
+datauy/ATuServicio,,"['Civic Tech', 'Health & Well-being']"
+FoldingAtHome/coronavirus,,['Health & Well-being']
+Exygy/sf-dahlia-web,,['Society & Culture']
+wevote/WebApp,,['Civic Tech']
+OpenSourceMalaria/OSM_To_Do_List,,['Health & Well-being']
+nextstrain/ncov,,['Health & Well-being']
+etalab/data.gouv.fr,,['Civic Tech']
+XLSForm/pyxform,,['Civic Tech']
+midas-network/COVID-19,,['Health & Well-being']
+wikirona/wikirona,,['Health & Well-being']
+hotosm/learnosm,,['Humanitarian']
+crisisboard/opencrisisboard,,['Health & Well-being']
+okfde/offenesparlament.de,,['Civic Tech']
+posm/posm,,['Humanitarian']
+CodeForPhilly/chime,,['Health & Well-being']
+okfn/opendatahandbook,,['Civic Tech']
+everypolitician/everypolitician-data,,['Civic Tech']
+NovelCOVID/API,,['Health & Well-being']
+iceweasel1/COVID-19-Germany,,['Health & Well-being']
+rightoneducation/righton-app,,['Education']
+lifen-labs/covid,,['Health & Well-being']
+pg-irc/pathways-frontend,,['Humanitarian']
+octopicorn/covid19-charts,,['Health & Well-being']
+chschoenenberger/covid19_dashboard,,['Health & Well-being']
+ahmadawais/corona-cli,,['Health & Well-being']
+UPchieve/web,,"['Economics', 'Education']"
+tidepool-org/tide-whisperer,,['Health & Well-being']
+RefugeRestrooms/refugerestrooms-android,,['Society & Culture']
+jcl5m1/ventilator,,['Health & Well-being']
+openstates/openstates,,['Civic Tech']
+reach4help/reach4help,,['Health & Well-being']
+opencovid19-fr/data,,['Health & Well-being']
+hotosm/hotosm-website,,['Humanitarian']
+unicef/magicbox-kepler-app,,"['Economics', 'Education']"
+AaronWard/covidify,,['Health & Well-being']
+Data4Democracy/usa-dashboard,,['Civic Tech']
+tokyo-metropolitan-gov/covid19,,['Health & Well-being']
+theirc/web,,['Humanitarian']
+COVID19Tracking/website,,['Health & Well-being']
+tgalopin/enpremiereligne.fr,,['Health & Well-being']
+openstreetmap/osmosis,,['Humanitarian']
+opt-out-tool/opt-out,,['Society & Culture']
+covidcaremap/covid19-healthsystemcapacity,,['Health & Well-being']
+github/covid19-dashboard,,['Health & Well-being']
+openoakland/OakCrime,,['Civic Tech']
+codeforamerica/colorado-benefits,,['Civic Tech']
+UPchieve/server,,"['Economics', 'Education']"
+WildbookOrg/reid-manta,,['Environment & Nature']
+unicef/magicbox-app,,"['Economics', 'Education']"
+Data4Democracy/immigration-connect,,['Civic Tech']
+medic/medic,,['Health & Well-being']
+mhdhejazi/CoronaTracker,,['Health & Well-being']
+OpenAgInitiative/openag-device-software,,"['Humanitarian', 'Environment & Nature']"
+sozialhelden/wheelmap-react-frontend,,"['Economics', 'Health & Well-being']"
+neherlab/covid19_scenarios,,['Health & Well-being']
+openclimatedata/paris-agreement-entry-into-force,,['Environment & Nature']
+BustByte/coronastatus,,['Health & Well-being']
+ExpDev07/coronavirus-tracker-api,,['Health & Well-being']
+fieldpapers/josm-fieldpapers,,['Humanitarian']
+dhis2/app-platform,,['Health & Well-being']
+emergenzeHack/covid19italia,,['Health & Well-being']
+openoakland/clean-water,,['Environment & Nature']
+kaz-ogiwara/covid19,,['Health & Well-being']
+UptakeOpenSource/autofocus,,['Environment & Nature']
+opendatateam/croquemort,,['Civic Tech']
+benetech/ServiceNet,,['Humanitarian']
+pcm-dpc/COVID-19,,['Health & Well-being']
+Microsoft/Smart-Energy-Foundation-Demo-Stack,,['Environment & Nature']
+nextstrain/nextstrain.org,,['Health & Well-being']
+codersagainstcovidorg/covid19testing-map,,['Health & Well-being']
+JohnCoene/coronavirus,,['Health & Well-being']
+globalcitizen/2019-wuhan-coronavirus-data,,['Health & Well-being']
+okfde/offenerhaushalt.de,,['Civic Tech']
+theirc/airbel,,['Humanitarian']
+ieee8023/covid-chestxray-dataset,,['Health & Well-being']
