@@ -1,0 +1,186 @@
+================================================================================
+                   NEWCOMERS OSS VS OSS4SG FSE 2026 RESEARCH PROJECT
+                         Project Overview & Documentation
+================================================================================
+
+RESEARCH GOAL:
+==============
+This project investigates developer transitions from newcomer to core contributor 
+in Open Source Software (OSS) vs Open Source Software for Social Good (OSS4SG) 
+projects. The study examines transition rates, speeds, treatment patterns, and 
+engagement characteristics to understand how mission-driven vs conventional 
+projects support newcomer advancement.
+
+PAPER TITLE: "From Newcomer to Core: A Comparative Study of Developer Transitions 
+in OSS and OSS4SG Communities"
+
+TARGET VENUE: FSE 2026
+
+RESEARCH QUESTIONS:
+==================
+RQ1: How frequently and how fast do newcomers become core contributors in OSS vs OSS4SG?
+RQ2: How are successful newcomers treated during their transition journey in OSS vs OSS4SG?
+RQ3: What engagement patterns characterize successful newcomer transitions in OSS vs OSS4SG?
+
+FINAL DATASET SUMMARY:
+=====================
+Dataset Name: final_balanced_dataset.csv
+Location: preparing_dataset/data/final_balanced_dataset.csv
+Total Projects: 375 projects
+- OSS Projects: 185 (49.3%)
+- OSS4SG Projects: 190 (50.7%)
+- Balance Ratio: 1:1.03 (near-perfect balance for comparative analysis)
+
+PROJECT INCLUSION CRITERIA (All 5 Must Be Met):
+===============================================
+1. Minimum 10 contributors
+2. Minimum 500 commits
+3. Minimum 50 closed Pull Requests
+4. Project history > 1 year
+5. Updated within the last year
+
+SYSTEMATIC METHODOLOGY FOR DATASET CREATION:
+============================================
+
+PHASE 1: Initial Dataset Collection
+- Started with pre-filtered OSS and OSS4SG projects from existing research
+- Applied systematic filtering using the 5 inclusion criteria
+- Initial Result: 90 OSS + 193 OSS4SG projects (283 total)
+
+PHASE 2: Full Project Verification (Using GitHub API)
+- Implemented programmatic verification against all 5 criteria
+- Used GitHub Personal Access Token for higher rate limits (5,000/hour vs 60/hour)
+- Removed 3 projects that failed verification:
+  * openeemeter/eemeter (insufficient PRs)
+  * somleng/somleng-scfm (insufficient PRs)  
+  * sahana/eden (insufficient PRs)
+- Result: 90 OSS + 190 OSS4SG projects (280 total)
+
+PHASE 3: Dataset Balancing - Systematic Collection of Additional OSS Projects
+- Identified imbalance (90 OSS vs 190 OSS4SG = 1:2.11 ratio)
+- Systematically collected 95 additional OSS projects using stratified sampling:
+
+STRATIFICATION CRITERIA:
+- Languages: JavaScript/TypeScript, Python, Java/Kotlin, Go/Rust/C++/C/Ruby
+- Star Tiers: 500-1K, 1K-5K, 5K-15K, 15K-50K, 50K+ stars
+- Geographic Distribution: Global projects
+- Domain Coverage: Various application domains
+
+COLLECTION METHODOLOGY:
+1. Used GitHub Search API with systematic queries
+2. Applied random sampling within each stratum
+3. Verified each project against all 5 criteria in real-time
+4. Ensured no duplicates with existing dataset
+5. Collected until target numbers met for each stratum
+
+API VERIFICATION PROCESS:
+- Made ~2,000 GitHub API calls for comprehensive verification
+- Checked contributors count, commit history, PR statistics, creation date, last update
+- Documented all verification results in: preparing_dataset/verification_results/
+
+FINAL RESULT: 185 OSS + 190 OSS4SG = 375 Total Projects (1:1.03 balance ratio)
+
+PROJECT STRUCTURE:
+==================
+Newcomers-OSS-vs-OSS4SG-FSE-2026/
+├── README.md                                    # Main project overview
+├── PROJECT_OVERVIEW.txt                         # This file - complete methodology
+├── Dataset/                                     # Original raw data files
+└── preparing_dataset/                           # Dataset preparation experiment
+    ├── README.md                                # Detailed methodology documentation
+    ├── data/
+    │   ├── final_balanced_dataset.csv           # MAIN DATASET (375 projects)
+    │   ├── additional_oss_projects.csv          # 95 newly collected OSS projects
+    │   ├── final_clean_dataset.csv             # Pre-balance dataset (280 projects)
+    │   ├── Filtered-OSS-Project-Info.csv       # Original 90 OSS projects
+    │   └── Filtered-OSS4SG-Project-Info.csv    # Original 190 OSS4SG projects
+    ├── scripts/
+    │   ├── verify_systematic_projects.py        # GitHub API verification script
+    │   ├── create_verified_dataset.py           # Combines original datasets
+    │   ├── create_final_clean_dataset.py        # Removes failed projects
+    │   └── create_balanced_dataset.py           # Creates final balanced dataset
+    └── verification_results/
+        └── all_projects_verification.csv        # Detailed API verification results
+
+FUTURE EXPERIMENT STRUCTURE:
+============================
+Each Research Question should be implemented in its own folder:
+
+RQ1_transition_rates_and_speeds/
+├── scripts/                     # Analysis code
+├── data/                       # Processed data specific to RQ1
+├── results/                    # Statistical outputs, tables
+├── visualizations/             # Plots and graphs
+└── README.md                   # RQ1 methodology and findings
+
+RQ2_newcomer_treatment_patterns/
+├── scripts/                    # Analysis code  
+├── data/                       # Processed data specific to RQ2
+├── results/                    # Statistical outputs, tables
+├── visualizations/             # Plots and graphs
+└── README.md                   # RQ2 methodology and findings
+
+RQ3_engagement_patterns/
+├── scripts/                    # Analysis code
+├── data/                       # Processed data specific to RQ3  
+├── results/                    # Statistical outputs, tables
+├── visualizations/             # Plots and graphs
+└── README.md                   # RQ3 methodology and findings
+
+REPLICATION GUIDELINES:
+======================
+- All visualizations data should be saved in separate files for easy replication
+- Each plot/graph should have corresponding raw data in CSV format
+- Analysis scripts should be well-documented with parameter explanations
+- Statistical results should be saved in structured formats (CSV/JSON)
+- Version control all intermediate results for reproducibility
+
+DATA USAGE FOR ANALYSIS:
+========================
+PRIMARY DATASET: preparing_dataset/data/final_balanced_dataset.csv
+- Use for all comparative analyses between OSS and OSS4SG
+- Balanced design ensures statistical validity
+- All projects verified against consistent criteria
+
+NORMALIZATION METHOD:
+- Use "Number of Code Characters" as normalization method (as established in prior OSS4SG work)
+- This accounts for project size differences when comparing metrics
+
+ACADEMIC RIGOR:
+==============
+- Systematic stratified sampling ensures representativeness
+- Programmatic verification eliminates manual bias
+- Balanced design enables valid statistical comparisons
+- Complete methodology documentation enables replication
+- Version-controlled data collection process
+- Clear inclusion/exclusion criteria established a priori
+
+NEXT STEPS FOR ANALYSIS:
+=======================
+1. Begin with RQ3 (engagement patterns) - highest priority as noted in paper
+2. Apply time series clustering using Soft-DTW methodology
+3. Compare successful vs unsuccessful newcomer transitions
+4. Implement survival analysis for transition timing
+5. Conduct social network analysis for community treatment patterns
+
+API RATE LIMITS CONSIDERATION:
+=============================
+- GitHub API: 5,000 requests/hour with Personal Access Token
+- Use token placeholder in scripts: "your_github_token_here"
+- Implement rate limit checking and backoff strategies
+- Cache results to avoid redundant API calls
+
+CONTACT & COLLABORATION:
+=======================
+This project is designed for multi-LLM collaboration. Any AI assistant working on 
+this project should:
+1. Read this PROJECT_OVERVIEW.txt first to understand context
+2. Follow the established folder structure for new experiments
+3. Maintain academic rigor in methodology and documentation
+4. Use the main dataset (final_balanced_dataset.csv) for analyses
+5. Document all work clearly for human researchers and future AI collaborators
+
+================================================================================
+Project Status: READY FOR RESEARCH QUESTION ANALYSIS
+Last Updated: Dataset Preparation Complete - Balanced 375-project dataset verified
+================================================================================
