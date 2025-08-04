@@ -37,7 +37,7 @@ class RepositoryCloner:
             base_dir = Path(__file__).parent
         
         self.base_dir = Path(base_dir)
-        self.dataset_path = self.base_dir.parent.parent.parent.parent / "preparing_dataset" / "data" / "final_balanced_dataset.csv"
+        self.dataset_path = self.base_dir.parent.parent.parent / "preparing_dataset" / "data" / "final_balanced_dataset.csv"
         self.clone_dir = self.base_dir / "cloned_repositories"
         self.progress_file = self.base_dir / "clone_progress.json"
         self.log_file = self.base_dir / "clone_log.txt"

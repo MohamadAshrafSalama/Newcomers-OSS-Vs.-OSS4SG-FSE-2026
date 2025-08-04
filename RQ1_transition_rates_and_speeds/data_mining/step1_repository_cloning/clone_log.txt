@@ -1,0 +1,20 @@
+[2025-08-04 09:39:36] ERROR: Dataset file not found: /Users/mohamadashraf/Desktop/Projects/preparing_dataset/data/final_balanced_dataset.csv
+[2025-08-04 09:40:05] INFO: Successfully loaded 375 projects from dataset
+[2025-08-04 09:40:05] INFO: Starting to clone 375 repositories
+[2025-08-04 09:40:05] INFO: Total projects: 375
+[2025-08-04 09:40:05] INFO: Already completed: 0
+[2025-08-04 09:40:05] INFO: Previously failed: 0
+[2025-08-04 10:34:13] WARNING: Timeout cloning odoo/odoo
+[2025-08-04 11:24:54] WARNING: Timeout cloning inasafe/inasafe
+[2025-08-04 11:51:19] WARNING: Timeout cloning hotosm/hotosm-website
+[2025-08-04 11:57:45] INFO: 
+============================================================
+[2025-08-04 11:57:45] INFO: CLONING SUMMARY
+[2025-08-04 11:57:45] INFO: ============================================================
+[2025-08-04 11:57:45] INFO: Total projects in dataset: 375
+[2025-08-04 11:57:45] INFO: Successfully cloned: 364
+[2025-08-04 11:57:45] INFO: Failed to clone: 3
+[2025-08-04 11:57:45] INFO: Skipped (already exists): 8
+[2025-08-04 11:57:45] INFO: Total processed: 375
+[2025-08-04 11:57:45] INFO: 
+Failed projects logged in: /Users/mohamadashraf/Desktop/Projects/Newcomers OSS Vs. OSS4SG FSE 2026/RQ1_transition_rates_and_speeds/data_mining/step1_repository_cloning/clone_progress.json
