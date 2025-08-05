@@ -102,21 +102,59 @@ Newcomers-OSS-vs-OSS4SG-FSE-2026/
     └── verification_results/
         └── all_projects_verification.csv        # Detailed API verification results
 
+IMPLEMENTED EXPERIMENT STRUCTURE:
+=================================
+
+RQ1_transition_rates_and_speeds/ ✅ COMPLETED - DATA MINING PIPELINE
+├── data_mining/                           # Complete data extraction pipeline
+│   ├── step1_repository_cloning/
+│   │   ├── clone_all_projects.py         # Clone 375 repositories
+│   │   ├── README.md                     # Documentation
+│   │   ├── clone_log.txt                 # Process logs
+│   │   ├── clone_progress.json           # Resume capability data
+│   │   └── cloned_repositories/          # 372 successfully cloned repos [EXCLUDED FROM GIT]
+│   └── step2_commit_analysis/
+│       ├── initiating_the_dataset/
+│       │   └── 1_initialize_dataset_with_paths.py  # CSV with repo paths
+│       ├── extracting_commit_data/
+│       │   ├── extract_single_project_commits.py  # Single repo extraction
+│       │   └── mine_all_projects.py              # Batch processing with progress
+│       └── consolidating_master_dataset/
+│           ├── 1_clean_failed_projects.py         # Clean failed extractions  
+│           ├── 2_consolidate_all_commits.py       # Master CSV generation
+│           ├── clean_projects_mining_status.csv   # 366 successful projects
+│           └── master_commits_dataset.csv         # 3.5M commits with 21 metrics [EXCLUDED FROM GIT]
+
+RQ1 DATA MINING RESULTS:
+========================
+✅ Total Projects Processed: 366/372 cloned (98.4% success rate)
+✅ Total Commits Extracted: 3,519,946 commits
+✅ OSS Commits: 1,628,059 (46.3%)
+✅ OSS4SG Commits: 1,891,887 (53.7%)
+✅ Ratio: 1:1.16 (OSS:OSS4SG)
+✅ Dataset Size: 809.2 MB
+✅ Metrics Per Commit: 21 objective metrics
+    - Basic Info: project_name, project_type, commit_hash, author_name, author_email, commit_date, commit_message
+    - Message Metrics: message_length_chars, message_length_words  
+    - File Change Metrics: files_modified_count, total_insertions, total_deletions, total_lines_changed, churn_ratio
+    - Temporal Metrics: commit_hour, commit_day_of_week, commit_day_of_month, commit_day_of_year, commit_month, commit_year, commit_is_weekend
+
 FUTURE EXPERIMENT STRUCTURE:
 ============================
-Each Research Question should be implemented in its own folder:
-
-RQ1_transition_rates_and_speeds/
-├── scripts/                     # Analysis code
-├── data/                       # Processed data specific to RQ1
-├── results/                    # Statistical outputs, tables
-├── visualizations/             # Plots and graphs
-└── README.md                   # RQ1 methodology and findings
 
 RQ2_newcomer_treatment_patterns/
 ├── scripts/                    # Analysis code  
 ├── data/                       # Processed data specific to RQ2
 ├── results/                    # Statistical outputs, tables
+├── visualizations/             # Plots and graphs
+└── README.md                   # RQ2 methodology and findings
+
+RQ3_engagement_patterns/
+├── scripts/                    # Analysis code
+├── data/                       # Processed data specific to RQ3  
+├── results/                    # Statistical outputs, tables
+├── visualizations/             # Plots and graphs
+└── README.md                   # RQ3 methodology and findings
 ├── visualizations/             # Plots and graphs
 └── README.md                   # RQ2 methodology and findings
 
@@ -157,11 +195,13 @@ ACADEMIC RIGOR:
 
 NEXT STEPS FOR ANALYSIS:
 =======================
-1. Begin with RQ3 (engagement patterns) - highest priority as noted in paper
-2. Apply time series clustering using Soft-DTW methodology
-3. Compare successful vs unsuccessful newcomer transitions
-4. Implement survival analysis for transition timing
-5. Conduct social network analysis for community treatment patterns
+✅ RQ1 DATA MINING: COMPLETED - 3.5M commits with 21 objective metrics extracted
+🔄 CURRENT PRIORITY: 
+1. RQ1 Analysis: Transition rates and speeds using master_commits_dataset.csv
+2. RQ2 Data Collection: Community treatment patterns (PR/issue responses)
+3. RQ3 Data Collection: Engagement patterns (time series analysis)
+4. Statistical Analysis: Comparative analysis between OSS vs OSS4SG
+5. Paper Writing: Results synthesis and academic writing
 
 API RATE LIMITS CONSIDERATION:
 =============================
@@ -181,6 +221,7 @@ this project should:
 5. Document all work clearly for human researchers and future AI collaborators
 
 ================================================================================
-Project Status: READY FOR RESEARCH QUESTION ANALYSIS
-Last Updated: Dataset Preparation Complete - Balanced 375-project dataset verified
+Project Status: RQ1 DATA MINING COMPLETE - READY FOR STATISTICAL ANALYSIS
+Last Updated: RQ1 Data Mining Pipeline Complete - 3,519,946 commits with 21 metrics extracted from 366 projects
+Current Phase: Statistical analysis and visualization of newcomer transition patterns
 ================================================================================
