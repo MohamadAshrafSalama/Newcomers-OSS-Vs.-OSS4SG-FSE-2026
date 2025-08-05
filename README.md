@@ -60,20 +60,44 @@ Projects are stratified across:
 │   ├── scripts/                 # Verification and processing scripts
 │   ├── verification_results/    # Detailed verification outputs
 │   └── documentation/           # Additional documentation
-└── RQ1_transition_rates_and_speeds/  # ✅ COMPLETED: Data mining pipeline
-    └── data_mining/
-        ├── step1_repository_cloning/     # 372 repositories cloned
-        └── step2_commit_analysis/        # 3.5M commits with 21 metrics extracted
+└── RQ1_transition_rates_and_speeds/  # ✅ COMPLETED: Community structure analysis
+    ├── data_mining/
+    │   ├── step1_repository_cloning/     # 372 repositories cloned
+    │   └── step2_commit_analysis/        # 3.5M commits with 21 metrics extracted
+    └── step3_per_project_metrics/        # ✅ NEW: Statistical comparison results
+        ├── calculate_project_metrics.py     # Per-project metrics calculation
+        ├── statistical_comparison_analysis.py  # OSS vs OSS4SG comparison
+        ├── project_metrics.csv              # 358 projects × 17 metrics
+        └── showing_plotting_results/         # Publication-ready results
+            ├── community_structure_boxplots.png/pdf
+            ├── community_structure_violins.png/pdf
+            ├── statistical_test_results.csv
+            ├── summary_table_for_paper.csv
+            └── analysis_summary.txt
 ```
 
 ## Key Contributions
 
-1. **First empirical comparison** of newcomer-to-core transitions between OSS and OSS4SG projects
+1. **First empirical comparison** of community structures between OSS and OSS4SG projects
 2. **Systematic dataset** of 375 verified projects with transparent methodology
 3. **Comprehensive commit analysis** - 3.5M commits with 21 objective metrics from 366 projects
 4. **Automated data mining pipeline** - reproducible infrastructure for large-scale OSS analysis
-5. **Community treatment analysis** revealing how different ecosystems support newcomer advancement
-6. **Engagement pattern identification** showing diverse pathways to core contributor status
+5. **Statistical evidence** showing OSS4SG projects have healthier community structures
+6. **Publication-ready results** with significant findings across all measured dimensions
+
+## 🏆 Major Research Findings
+
+Our statistical analysis of 358 projects reveals **remarkable differences** between OSS and OSS4SG community structures:
+
+### **OSS4SG Projects Show Consistently Healthier Communities:**
+
+- **2.4× More Collaborative Leadership**: 12.9% vs 5.3% core contributor ratios (p<0.001)
+- **Dramatically Better Newcomer Retention**: 25.1% vs 56.6% one-time contributors (p<0.001, large effect)
+- **More Egalitarian Participation**: Lower Gini coefficients (0.832 vs 0.878, p<0.001)
+- **Higher Project Resilience**: 3 vs 2 median bus factor (p<0.001)
+- **80% Higher Recent Engagement**: 6.3% vs 3.5% active contributors (p<0.001)
+
+**All 5 metrics show significant differences with medium to large effect sizes!**
 
 ## Methodology
 
@@ -137,9 +161,9 @@ For questions about the research methodology, dataset, or findings, please refer
 
 ---
 
-**Status**: RQ1 Data Mining Complete - Statistical Analysis Phase  
-**Dataset**: 375 verified projects  
+**Status**: ✅ RQ1 Community Structure Analysis COMPLETE - Ready for Paper Writing  
+**Dataset**: 375 verified projects → 358 analyzed (17 metrics each)  
 **Commits Extracted**: 3,519,946 with 21 objective metrics  
-**Projects Processed**: 366/372 cloned (98.4% success rate)  
-**Balance Ratio**: 1:1.16 commits (OSS:OSS4SG)  
+**Major Finding**: OSS4SG projects have significantly healthier community structures  
+**Statistical Results**: 5/5 metrics significant (p<0.001), medium-large effect sizes  
 **Target Venue**: FSE 2026
