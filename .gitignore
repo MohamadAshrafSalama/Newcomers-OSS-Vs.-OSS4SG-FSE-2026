@@ -62,14 +62,22 @@ tmp/
 
 # RQ1 Data Mining - Large Files and Repositories
 RQ1_transition_rates_and_speeds/data_mining/step1_repository_cloning/cloned_repositories/
-*.csv
+
+# Large CSV datasets (exclude big data files but keep analysis results)
+RQ1_transition_rates_and_speeds/data_mining/step2_commit_analysis/consolidating_master_dataset/master_commits_dataset.csv
+RQ1_transition_rates_and_speeds/data_mining/step2_commit_analysis/consolidating_master_dataset/projects_mining_status.csv
+RQ1_transition_rates_and_speeds/data_mining/step2_commit_analysis/consolidating_master_dataset/clean_projects_mining_status.csv
+RQ1_transition_rates_and_speeds/data_mining/step2_commit_analysis/extracting_commit_data/projects_mining_status.csv
+RQ1_transition_rates_and_speeds/data_mining/step2_commit_analysis/initiating_the_dataset/projects_with_absolute_paths.csv
+
+# Large JSON files
 *.json
 *_commits.json
-master_commits_dataset.csv
-projects_mining_status.csv
-clean_projects_mining_status.csv
-projects_with_absolute_paths.csv
 
-# Large datasets
-*.csv
+# Large original datasets
 preparing_dataset/data/*.csv
+
+# BUT ALLOW important analysis results CSVs
+!RQ1_transition_rates_and_speeds/step3_per_project_metrics/project_metrics.csv
+!RQ1_transition_rates_and_speeds/step3_per_project_metrics/showing_plotting_results/statistical_test_results.csv
+!RQ1_transition_rates_and_speeds/step3_per_project_metrics/showing_plotting_results/summary_table_for_paper.csv
