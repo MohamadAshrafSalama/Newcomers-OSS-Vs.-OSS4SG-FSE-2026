@@ -60,11 +60,11 @@ Projects are stratified across:
 │   ├── scripts/                 # Verification and processing scripts
 │   ├── verification_results/    # Detailed verification outputs
 │   └── documentation/           # Additional documentation
-└── RQ1_transition_rates_and_speeds/  # ✅ COMPLETED: Community structure analysis
+└── RQ1_transition_rates_and_speeds/  # COMPLETED: Community structure analysis
     ├── data_mining/
     │   ├── step1_repository_cloning/     # 372 repositories cloned
     │   └── step2_commit_analysis/        # 3.5M commits with 21 metrics extracted
-    └── step3_per_project_metrics/        # ✅ NEW: Statistical comparison results
+    └── step3_per_project_metrics/        # NEW: Statistical comparison results
         ├── calculate_project_metrics.py     # Per-project metrics calculation
         ├── statistical_comparison_analysis.py  # OSS vs OSS4SG comparison
         ├── project_metrics.csv              # 358 projects × 17 metrics
@@ -85,7 +85,7 @@ Projects are stratified across:
 5. **Statistical evidence** showing OSS4SG projects have healthier community structures
 6. **Publication-ready results** with significant findings across all measured dimensions
 
-## 🏆 Major Research Findings
+## Major Research Findings
 
 Our statistical analysis of 358 projects reveals **remarkable differences** between OSS and OSS4SG community structures:
 
@@ -161,7 +161,7 @@ For questions about the research methodology, dataset, or findings, please refer
 
 ---
 
-**Status**: ✅ RQ1 Community Structure Analysis COMPLETE - Ready for Paper Writing  
+**Status**: RQ1 Community Structure Analysis COMPLETE - Ready for Paper Writing  
 **Dataset**: 375 verified projects → 358 analyzed (17 metrics each)  
 **Commits Extracted**: 3,519,946 with 21 objective metrics  
 **Major Finding**: OSS4SG projects have significantly healthier community structures  

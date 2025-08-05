@@ -105,7 +105,7 @@ Newcomers-OSS-vs-OSS4SG-FSE-2026/
 IMPLEMENTED EXPERIMENT STRUCTURE:
 =================================
 
-RQ1_transition_rates_and_speeds/ ✅ COMPLETED - DATA MINING PIPELINE
+RQ1_transition_rates_and_speeds/ COMPLETED - DATA MINING PIPELINE
 ├── data_mining/                           # Complete data extraction pipeline
 │   ├── step1_repository_cloning/
 │   │   ├── clone_all_projects.py         # Clone 375 repositories
@@ -127,13 +127,13 @@ RQ1_transition_rates_and_speeds/ ✅ COMPLETED - DATA MINING PIPELINE
 
 RQ1 DATA MINING RESULTS:
 ========================
-✅ Total Projects Processed: 366/372 cloned (98.4% success rate)
-✅ Total Commits Extracted: 3,519,946 commits
-✅ OSS Commits: 1,628,059 (46.3%)
-✅ OSS4SG Commits: 1,891,887 (53.7%)
-✅ Ratio: 1:1.16 (OSS:OSS4SG)
-✅ Dataset Size: 809.2 MB
-✅ Metrics Per Commit: 21 objective metrics
+Total Projects Processed: 366/372 cloned (98.4% success rate)
+Total Commits Extracted: 3,519,946 commits
+OSS Commits: 1,628,059 (46.3%)
+OSS4SG Commits: 1,891,887 (53.7%)
+Ratio: 1:1.16 (OSS:OSS4SG)
+Dataset Size: 809.2 MB
+Metrics Per Commit: 21 objective metrics
     - Basic Info: project_name, project_type, commit_hash, author_name, author_email, commit_date, commit_message
     - Message Metrics: message_length_chars, message_length_words  
     - File Change Metrics: files_modified_count, total_insertions, total_deletions, total_lines_changed, churn_ratio
@@ -195,17 +195,17 @@ ACADEMIC RIGOR:
 
 RQ1 COMMUNITY STRUCTURE ANALYSIS RESULTS:
 ==========================================
-✅ RQ1 ANALYSIS: COMPLETED - Statistical comparison of OSS vs OSS4SG community structures
-📊 DATASET ANALYZED: 358 projects with 17 community structure metrics each
-🏆 MAJOR FINDINGS: OSS4SG projects show significantly healthier community structures across ALL metrics
+RQ1 ANALYSIS: COMPLETED - Statistical comparison of OSS vs OSS4SG community structures
+DATASET ANALYZED: 358 projects with 17 community structure metrics each
+MAJOR FINDINGS: OSS4SG projects show significantly healthier community structures across ALL metrics
 
 KEY RESEARCH FINDINGS:
 ======================
-✅ Core Contributors (80% Rule): OSS4SG has 2.4× higher core ratios (12.9% vs 5.3%, p<0.001)
-✅ Newcomer Retention: OSS4SG has dramatically lower one-time contributor ratios (25.1% vs 56.6%, p<0.001, LARGE effect)
-✅ Participation Equality: OSS4SG has lower Gini coefficients (0.832 vs 0.878, p<0.001)
-✅ Project Resilience: OSS4SG has higher bus factors (3 vs 2, p<0.001)
-✅ Recent Engagement: OSS4SG has 80% higher active contributor ratios (6.3% vs 3.5%, p<0.001)
+Core Contributors (80% Rule): OSS4SG has 2.4× higher core ratios (12.9% vs 5.3%, p<0.001)
+Newcomer Retention: OSS4SG has dramatically lower one-time contributor ratios (25.1% vs 56.6%, p<0.001, LARGE effect)
+Participation Equality: OSS4SG has lower Gini coefficients (0.832 vs 0.878, p<0.001)
+Project Resilience: OSS4SG has higher bus factors (3 vs 2, p<0.001)
+Recent Engagement: OSS4SG has 80% higher active contributor ratios (6.3% vs 3.5%, p<0.001)
 
 STATISTICAL RIGOR:
 ==================
@@ -216,15 +216,15 @@ STATISTICAL RIGOR:
 
 GENERATED OUTPUTS:
 ==================
-📁 Publication-ready visualizations: Box plots and violin plots
-📊 Statistical results: Complete test results with effect sizes
-📋 Summary table: Ready for academic paper inclusion
-📈 All data available for replication
+Publication-ready visualizations: Box plots and violin plots
+Statistical results: Complete test results with effect sizes
+Summary table: Ready for academic paper inclusion
+All data available for replication
 
 NEXT STEPS FOR ANALYSIS:
 =======================
-✅ RQ1 COMMUNITY STRUCTURE: COMPLETED - Ready for paper writing
-🔄 NEXT PRIORITIES: 
+RQ1 COMMUNITY STRUCTURE: COMPLETED - Ready for paper writing
+NEXT PRIORITIES: 
 1. Academic Paper Writing: Document findings for FSE 2026 submission
 2. RQ2 Data Collection: Community treatment patterns (PR/issue responses)
 3. RQ3 Data Collection: Engagement patterns (time series analysis)
