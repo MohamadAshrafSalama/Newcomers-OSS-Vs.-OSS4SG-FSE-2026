@@ -59,3 +59,17 @@ venv.bak/
 *.temp
 temp/
 tmp/
+
+# RQ1 Data Mining - Large Files and Repositories
+RQ1_transition_rates_and_speeds/data_mining/step1_repository_cloning/cloned_repositories/
+*.csv
+*.json
+*_commits.json
+master_commits_dataset.csv
+projects_mining_status.csv
+clean_projects_mining_status.csv
+projects_with_absolute_paths.csv
+
+# Large datasets
+*.csv
+preparing_dataset/data/*.csv
