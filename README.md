@@ -48,25 +48,32 @@ Projects are stratified across:
 
 ```
 ├── README.md                    # This file
+├── PROJECT_OVERVIEW.txt         # Complete methodology and results documentation
 ├── Dataset/                     # Original raw datasets
 │   ├── OSS-Project-List.csv
 │   ├── OSS4SG-Project-List.csv
 │   ├── Active-OSS-Project-Info.csv
 │   └── Active-OSS4SG-Project-Info.csv
-└── preparing_dataset/           # Systematic dataset preparation
-    ├── README.md                # Detailed methodology documentation
-    ├── data/                    # Final verified datasets
-    ├── scripts/                 # Verification and processing scripts
-    ├── verification_results/    # Detailed verification outputs
-    └── documentation/           # Additional documentation
+├── preparing_dataset/           # Systematic dataset preparation
+│   ├── README.md                # Detailed methodology documentation
+│   ├── data/                    # Final verified datasets (375 projects)
+│   ├── scripts/                 # Verification and processing scripts
+│   ├── verification_results/    # Detailed verification outputs
+│   └── documentation/           # Additional documentation
+└── RQ1_transition_rates_and_speeds/  # ✅ COMPLETED: Data mining pipeline
+    └── data_mining/
+        ├── step1_repository_cloning/     # 372 repositories cloned
+        └── step2_commit_analysis/        # 3.5M commits with 21 metrics extracted
 ```
 
 ## Key Contributions
 
 1. **First empirical comparison** of newcomer-to-core transitions between OSS and OSS4SG projects
-2. **Systematic dataset** of 280 verified projects with transparent methodology
-3. **Community treatment analysis** revealing how different ecosystems support newcomer advancement
-4. **Engagement pattern identification** showing diverse pathways to core contributor status
+2. **Systematic dataset** of 375 verified projects with transparent methodology
+3. **Comprehensive commit analysis** - 3.5M commits with 21 objective metrics from 366 projects
+4. **Automated data mining pipeline** - reproducible infrastructure for large-scale OSS analysis
+5. **Community treatment analysis** revealing how different ecosystems support newcomer advancement
+6. **Engagement pattern identification** showing diverse pathways to core contributor status
 
 ## Methodology
 
@@ -130,8 +137,9 @@ For questions about the research methodology, dataset, or findings, please refer
 
 ---
 
-**Status**: In Development  
+**Status**: RQ1 Data Mining Complete - Statistical Analysis Phase  
 **Dataset**: 375 verified projects  
-**Verification Rate**: 98.9%  
-**Balance Ratio**: 1:1.03 (OSS:OSS4SG)  
+**Commits Extracted**: 3,519,946 with 21 objective metrics  
+**Projects Processed**: 366/372 cloned (98.4% success rate)  
+**Balance Ratio**: 1:1.16 commits (OSS:OSS4SG)  
 **Target Venue**: FSE 2026
