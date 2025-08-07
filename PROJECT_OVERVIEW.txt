@@ -230,6 +230,13 @@ NEXT PRIORITIES:
 3. RQ3 Data Collection: Engagement patterns (time series analysis)
 4. Extension Analysis: Deep-dive into specific patterns and outliers
 
+PROJECT RULES AND GUIDELINES:
+=============================
+- NO EMOJIS: Do not use emojis in code, documentation, or output unless explicitly requested
+- Data Quality: Handle edge cases like zero values appropriately for statistical analysis
+- Documentation: Keep all methodology transparent and reproducible
+- Code Style: Use clear, professional formatting without decorative elements
+
 API RATE LIMITS CONSIDERATION:
 =============================
 - GitHub API: 5,000 requests/hour with Personal Access Token

@@ -81,3 +81,9 @@ preparing_dataset/data/*.csv
 !RQ1_transition_rates_and_speeds/step3_per_project_metrics/project_metrics.csv
 !RQ1_transition_rates_and_speeds/step3_per_project_metrics/showing_plotting_results/statistical_test_results.csv
 !RQ1_transition_rates_and_speeds/step3_per_project_metrics/showing_plotting_results/summary_table_for_paper.csv
+# Large datasets and checkpoints (do not track)
+RQ1_transition_rates_and_speeds/**/datasets/*.csv
+RQ1_transition_rates_and_speeds/**/weekly_datasets*/**/*.csv
+RQ1_transition_rates_and_speeds/**/corrected_transition_results/*transitions*.csv
+RQ1_transition_rates_and_speeds/data_mining/**/master_commits_dataset*.csv
+RQ1_transition_rates_and_speeds/**/checkpoints/**/*.pkl
