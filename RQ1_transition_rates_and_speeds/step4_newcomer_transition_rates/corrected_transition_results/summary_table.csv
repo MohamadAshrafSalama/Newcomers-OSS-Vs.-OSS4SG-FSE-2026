@@ -1,0 +1,2 @@
+Metric,OSS_Median,OSS4SG_Median,P_Value,Effect_Size,Significant
+Monthly Transition Rate (Non-Zero Months),0.08333333333333333,0.125,1.7217925916450705e-32,small,True
