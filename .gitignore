@@ -93,3 +93,8 @@ RQ1_transition_rates_and_speeds/step6_contributor_transitions/results/**
 RQ1_transition_rates_and_speeds/step6_contributor_transitions/trying some stuf ../*.csv
 RQ1_transition_rates_and_speeds/step6_contributor_transitions/trying some stuf ../*.png
 RQ1_transition_rates_and_speeds/step6_contributor_transitions/**/*.log
+RQ1_transition_rates_and_speeds/step7_ml_features/results/**
+RQ1_transition_rates_and_speeds/step8_survival_analysis/data/**
+RQ1_transition_rates_and_speeds/step8_survival_analysis/results/**
+RQ1_transition_rates_and_speeds/step8_survival_analysis/visualizations/**
+RQ1_transition_rates_and_speeds/step8_survival_analysis/publication_figures/**

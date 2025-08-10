@@ -1,4 +1,447 @@
 ================================================================================
+               NEWCOMERS OSS VS OSS4SG FSE 2026 — MASTER OVERVIEW
+                         Single-File Project Handbook
+================================================================================
+
+This is a single, exhaustive overview intended for both humans and LLMs. It
+encapsulates the full context, pipeline, artifacts, decisions, issues, and
+reproduction instructions needed to understand and continue the work.
+
+TABLE OF CONTENTS (SECTIONS)
+============================
+1. Research Goal, Venue, RQs
+2. Canonical Definitions
+3. Repository Structure (Map)
+4. Environments & Dependencies
+5. Step-by-Step Pipeline (RQ1)
+   5.1 Step 5 – Weekly Datasets (inputs for later steps)
+   5.2 Step 6 – Contributor Transitions (Dataset 3, v2)
+   5.3 Step 7 – ML Features (Dataset 4)
+   5.4 Step 8 – Survival Analysis (KM + Cox)
+6. Key Findings to Date (RQ1)
+7. Known Issues, Trials, and Fixes (Historical Log)
+8. Normalization & Sensitivity Guidance
+9. Run Books (Copy/Paste Commands)
+10. Git Hygiene & Large Files
+11. Next Steps (Proposed)
+
+Use this as the single source of truth when opening a new chat/session.
+
+
+RESEARCH GOAL
+=============
+Study developer transitions from newcomer to core contributor in conventional
+OSS vs OSS for Social Good (OSS4SG) projects. Focus on RQ1: transition rates
+and speeds; later RQs analyze treatment and engagement patterns.
+
+Paper: "From Newcomer to Core: A Comparative Study of Developer Transitions in
+OSS and OSS4SG Communities" (Target venue: FSE 2026)
+
+
+DATA DEFINITIONS & CORE RULES
+=============================
+- Core contributors per week: smallest set of contributors whose cumulative
+  commits account for at least 80% of total commits up to that week (80% rule).
+- Time origin for a contributor: the week of their first commit to the project
+  in the weekly timeline.
+- Time to core (weeks_to_core): first week index when that contributor appears
+  in the weekly core set minus their first week index (inclusive semantics are
+  handled consistently in our scripts).
+- Effort to core (commits_to_core): contributor’s cumulative commit count at
+  the first week they become core.
+- True newcomers (Step 6 v2): excludes instant core (week 0) and early project
+  joiners (first_commit_week ≤ 8) who become core very fast (weeks_to_core ≤ 4).
+
+
+DIRECTORY MAP (TOP-LEVEL)
+=========================
+Newcomers OSS Vs. OSS4SG FSE 2026/
+- PROJECT_OVERVIEW.txt (this file)
+- README.md (short overview)
+- RQ1_transition_rates_and_speeds/
+  - data_mining/ (cloning, commit extraction, consolidation)
+  - step3_per_project_metrics/
+  - step4_newcomer_transition_rates/
+  - step5_weekly_datasets/
+    - dataset1: weekly project core timeline
+    - dataset2: weekly contributor activity
+  - step6_contributor_transitions/ (Dataset 3; v2 finalized)
+    - results/ (CSV/JSON/LOG; ignored by git)
+    - tester/, analysis utilities, and exploratory plots
+  - step7_ml_features/ (Dataset 4; ML features; complete)
+    - results/ (CSV/JSON/LOG; ignored by git)
+- preparing_dataset/ (375 balanced projects methodology)
+- Dataset/ (original input lists)
+- .venv/ (Python env)
+
+Paths contain spaces—always quote the root path in shell commands.
+
+
+FULL PROJECT TREE (ANNOTATED)
+=============================
+Root
+- PROJECT_OVERVIEW.txt — single-file handbook (this document)
+- README.md — short intro summary
+- .gitignore — excludes large artifacts (results/, CSV/PNG/logs)
+- .venv/ — local Python environment (not tracked)
+- Dataset/ — original raw lists (e.g., OSS/OSS4SG project CSVs); reference only
+- preparing_dataset/
+  - README.md — balancing and verification methodology for 375 projects
+  - data/ — final balanced dataset and derived CSVs
+  - scripts/ — verification/creation scripts for balanced dataset
+  - verification_results/ — API verification outputs
+- RQ1_transition_rates_and_speeds/
+  - data_mining/
+    - step1_repository_cloning/ — cloning utilities, logs, cloned_repositories/ (excluded)
+    - step2_commit_analysis/
+      - initiating_the_dataset/ — initializes repo paths list
+      - extracting_commit_data/ — single/batch commit mining scripts
+      - consolidating_master_dataset/ — cleans and merges into master (excluded)
+  - step3_per_project_metrics/
+    - calculate_project_metrics.py — per-project community metrics
+    - project_metrics.csv — metrics output
+    - showing_plotting_results/ — plots, tables, stats for RQ1 community structure
+    - statistical_comparison_analysis.py — significance/effect sizes
+  - step4_newcomer_transition_rates/
+    - corrected_transition_analysis.py — analysis for transition rates
+    - corrected_transition_results/ — CSVs and plots (PDF/PNG)
+    - create_visualizations.py, FINAL_RESULTS_SUMMARY.md, README.md, test/
+  - step5_weekly_datasets/
+    - project_core_timeline_weekly.py — builds Dataset 1 (weekly core set per project)
+    - contributor_activity_weekly_fixed.py (if present) — builds Dataset 2
+    - dataset2_contributor_activity/
+      - contributor_activity_weekly.csv — primary input for Steps 6–7
+      - project_results/ — per-project weekly outputs (large)
+    - datasets/ — helper/aggregated outputs
+    - tester/ — quick checks for weekly datasets
+    - README.md
+  - step6_contributor_transitions/
+    - contributor_transitions_analysis_v2.py — Step 6 main (Dataset 3, v2 exclusions)
+    - analyze_early_contributors.py — diagnoses early joiners/instant core
+    - threshold_analysis.py — generates datasets excluding cores ≤W weeks
+    - tester/
+      - test_transitions_v2.py — validator for v2 datasets
+      - test_commit_requirement_investigation.py — commit-gap analysis
+    - results/ (ignored by git)
+      - contributor_transitions.csv — main v2
+      - contributor_transitions_no_instant.csv — instant-only excluded
+      - contributor_transitions_including_all.csv — no exclusions
+      - transition_statistics_v2.json, validation_report_v2.json
+      - threshold_analysis/ — threshold datasets and comprehensive plot
+      - investigation_results.json, investigation_plots.png
+    - trying some stuf .. / — sandbox for exploratory plots
+      - plot_commits_to_core.py, distribution tables/plots
+    - README.md — step rationale, issues, fixes, and guidance
+  - step7_ml_features/
+    - ml_feature_extraction.py — Step 7 main (Dataset 4, ML features)
+    - tester/verify_ml_features.py — validates schema/labels/features
+    - results/ (ignored) — ml_features_dataset.csv, stats, logs
+    - README.md — what features are built and why; how to run
+  - step8_survival_analysis/
+    - scripts/ — pipeline scripts (1–4), master runner, quickstart, setup
+    - data/ — prepared survival datasets (ignored by git)
+    - results/ — analysis outputs (ignored by git)
+    - visualizations/ — plots (ignored by git)
+    - publication_figures/ — paper-ready figures (ignored by git)
+- failed attepmpt/ — archived earlier attempts; not part of the current pipeline
+- paper/ — manuscript/assets (not detailed here)
+- draft.py — scratch/utility code not in the formal pipeline
+
+
+ENVIRONMENT & DEPENDENCIES
+==========================
+Python 3.x with:
+- pandas, numpy, tqdm
+- scipy, seaborn, matplotlib (plots/investigations)
+
+Install (already done locally):
+"/Users/mohamadashraf/Desktop/Projects/Newcomers OSS Vs. OSS4SG FSE 2026/.venv/bin/python3" -m pip install pandas numpy tqdm scipy seaborn matplotlib
+
+Large artifacts are ignored by git via .gitignore. Do not commit datasets.
+
+
+RQ1 END-TO-END PIPELINE (SUMMARY)
+=================================
+1) Data mining (cloning, commit extraction, consolidation)
+   - Lives under `data_mining/`. Produces a master commit dataset (excluded
+     from git due to size). Not re-run during Step 5–7 work.
+
+2) Step 5: Weekly datasets (foundation for Steps 6–7)
+   - Dataset 1 (project level): weekly core timeline per project (80% rule),
+     one row per project-week.
+   - Dataset 2 (contributor level): weekly activity per contributor per
+     project-week, with cumulative fields and `is_core_this_week`.
+   - Output: `step5_weekly_datasets/dataset2_contributor_activity/contributor_activity_weekly.csv`
+
+3) Step 6 (Dataset 3): Contributor transitions (v2)
+   - One row per (project, contributor). Captures the journey from first week
+     to first core (or censoring), with time and effort metrics.
+   - v2 exclusions for true newcomers:
+     • Exclude instant core (weeks_to_core = 0)
+     • Exclude early joiners (first_commit_week ≤ 8) who become core fast
+       (weeks_to_core ≤ 4)
+   - Outputs under `step6_contributor_transitions/results/`.
+
+4) Step 7 (Dataset 4): ML features for core prediction
+   - Early behavior features from the first 4/8/12 observed weeks, computed
+     only from pre-core weeks for positives. Requires ≥12 pre-core weeks.
+    - Outputs under `step7_ml_features/results/`.
+
+5) Step 8: Survival analysis (KM + Cox)
+    - Builds survival datasets from Step 6 transitions and compares time-to-core dynamics.
+    - Kaplan–Meier curves and log-rank tests for OSS vs OSS4SG.
+    - Cox proportional hazards models to quantify effects and covariates.
+    - Outputs under `step8_survival_analysis/results/` with plots in `visualizations/`.
+
+
+STEP 5 — WEEKLY DATASETS (KEY FIELDS)
+=====================================
+File: step5_weekly_datasets/dataset2_contributor_activity/contributor_activity_weekly.csv
+Columns used downstream:
+- project_name, project_type, contributor_email
+- week_number, week_date
+- commits_this_week, cumulative_commits
+- cumulative_lines_changed
+- is_core_this_week (derived from Dataset 1 using 80% rule)
+- rank_this_week, contribution_percentage
+
+Notes on Dataset 1 (project-level weekly core timeline):
+- Used to derive `is_core_this_week` in Dataset 2 via 80% rule; one timeline per
+  project enumerating the weekly core set. Not directly edited in recent work.
+
+
+STEP 6 — DATASET 3: CONTRIBUTOR TRANSITIONS (v2)
+================================================
+Scripts
+- contributor_transitions_analysis_v2.py (main)
+- tester/test_transitions_v2.py (validator)
+- analyze_early_contributors.py (diagnostic)
+- tester/test_commit_requirement_investigation.py (commit gap analysis)
+- threshold_analysis.py (exclude cores within ≤X weeks sensitivity)
+
+Inputs
+- Step 5 Dataset 2: contributor_activity_weekly.csv
+
+Outputs (under step6_contributor_transitions/results/)
+- contributor_transitions.csv (main v2; fully filtered)
+- contributor_transitions_no_instant.csv (instant only excluded)
+- contributor_transitions_including_all.csv (no exclusions)
+- transition_statistics_v2.json (summary)
+- validation_report_v2.json
+- investigation_results.json, investigation_plots.png (commit-gap study)
+- threshold_analysis/*.csv and threshold_analysis_comprehensive.png
+
+Exclusion logic (v2)
+- Exclude instant core: weeks_to_core == 0
+- Exclude early+fast core: first_commit_week ≤ 8 AND weeks_to_core ≤ 4
+
+Dataset sizes (current run)
+- Total processed: 99,350 contributor-project pairs
+- Excluded instant core: 13,297
+- Excluded early+fast: 290
+- Included in main v2: 85,763 transitions
+- Became core: 8,812 (10.3%)
+
+Key results (main v2)
+- Time to core (weeks):
+  • Overall median 48, mean 89.5
+  • OSS median 53 (mean 98.5)
+  • OSS4SG median 34 (mean 65.2)
+- Effort to core (commits):
+  • Overall median 12, mean 66.5
+  • OSS median 2 (mean 37.8)
+  • OSS4SG median 59 (mean 144.1)
+
+Interpretation: Time-to-core is consistently longer for OSS by ~20–30 weeks;
+effort-to-core counts are dramatically lower in OSS. This is structural (not a
+bug) and concentrated in specific OSS projects (curated lists/docs/squash).
+
+Commit-gap investigation (tester/test_commit_requirement_investigation.py)
+- Distribution comparison significant (Mann–Whitney p≈0), with OSS heavy mass
+  at ≤5 commits.
+- Project-level: 20 OSS projects have median ≤5 commits vs 1 for OSS4SG.
+- Suspicious projects: some OSS repos where all core achievers need ≤2 commits.
+- Sensitivity: imposing ≥5 commit threshold reduces ratio to ~1.5x but the gap
+  persists. Visuals saved in results.
+
+Threshold sweep (exclude cores that occur within ≤W weeks)
+- None → medians: OSS 0, OSS4SG 22
+- ≤0w (no instant): OSS 52, OSS4SG 32
+- ≤1w: 55 vs 35; ≤2w: 58 vs 38; ≤4w: 67 vs 41; ≤8w: 76 vs 47; ≤12w: 82 vs 54;
+  ≤26w: 103 vs 74; ≤52w: 132 vs 107
+- Conclusion: after removing instant cores, OSS remains ~20–30 weeks slower.
+
+Exploratory visuals (trying some stuf ..)
+- commits_to_core hist/CDF/log-violin per type; weeks vs commits heatmaps.
+
+Common issues and fixes in Step 6
+- Step number (7→6) and mixed CWDs → standardized relative paths and results/
+- Missing libs for plots (seaborn/scipy) → installed in venv
+- Tester path assumptions → fixed to read from results/
+- Large artifacts in git → expanded .gitignore; do not push datasets
+
+Step 6 (v2) output schema (important columns)
+- project_name, project_type, contributor_email
+- first_commit_date, first_commit_week, last_observed_date, last_observed_week
+- total_weeks_observed, total_commits, total_lines_changed
+- total_active_weeks, activity_rate
+- became_core (bool), contributor_classification
+- first_core_date, first_core_week, weeks_to_core
+- commits_to_core, lines_changed_to_core
+- active_weeks_to_core
+- avg_commits_per_active_week_before_core, max_commits_week_before_core,
+  std_commits_before_core, burst_ratio_before_core,
+  commit_consistency_before_core, growth_rate_before_core
+- rank_at_first_core, contribution_percentage_at_first_core
+- censored (bool), time_to_event_weeks
+- is_early_joiner (flag), is_fast_core (flag)
+- weeks_observed_after_core, still_core_at_end, total_weeks_as_core,
+  core_retention_rate
+
+Run book (Step 6)
+"""
+cd "/Users/mohamadashraf/Desktop/Projects/Newcomers OSS Vs. OSS4SG FSE 2026"
+python3 RQ1_transition_rates_and_speeds/step6_contributor_transitions/contributor_transitions_analysis_v2.py
+python3 RQ1_transition_rates_and_speeds/step6_contributor_transitions/tester/test_transitions_v2.py
+python3 RQ1_transition_rates_and_speeds/step6_contributor_transitions/tester/test_commit_requirement_investigation.py
+python3 RQ1_transition_rates_and_speeds/step6_contributor_transitions/threshold_analysis.py
+"""
+
+
+STEP 7 — DATASET 4: ML FEATURES FOR CORE PREDICTION
+===================================================
+Scripts
+- step7_ml_features/ml_feature_extraction.py (extractor)
+- step7_ml_features/tester/verify_ml_features.py (verifier)
+- README.md (step details)
+
+Inputs
+- Activity weekly (Step 5 Dataset 2)
+- Transitions (Step 6 v2 main): step6_contributor_transitions/results/contributor_transitions.csv
+
+Labeling and leakage prevention
+- Join on (project_name, contributor_email); use `became_core` and
+  `first_core_week`.
+- For positives, compute features only from pre-core weeks
+  (week_number < first_core_week).
+- Enforce ≥12 pre-core observed weeks; require ≥3 total commits.
+
+Features (selection)
+- First week: commits, lines_changed (derived), rank, contribution_pct
+- Windows (4/8/12): totals (commits/lines), active weeks, consistency,
+  avg/max/std commits, burst_ratio, trend slope/R², rank start/end/improvement,
+  contribution_pct_end, inactive streak metrics
+- Temporal patterns: gaps between active weeks (avg/max/std), activity_regularity,
+  12w acceleration (late/early)
+
+Derivation notes
+- Lines changed per week are computed from cumulative_lines_changed.diff()
+  per contributor; the first row uses its cumulative value.
+
+Outputs (step7_ml_features/results/)
+- ml_features_dataset.csv (28,430 samples; positives 4,302 = 15.1%)
+  • By type: OSS 14.1% (2,511/17,814), OSS4SG 16.9% (1,791/10,616)
+- ml_dataset_statistics.json
+- processing.log
+
+Verification (tester)
+- Schema/base present; no NaNs/Infs in numeric fields
+- Key features discriminate (p << 0.01): w1_{4,8,12}_total_commits, activity_regularity
+
+Step 7 output schema (base + examples)
+- Base: project_name, project_type, contributor_email, label_became_core,
+  weeks_to_core (if available), total_weeks_observed
+- First week: w1_commits, w1_lines_changed, w1_rank, w1_contribution_pct
+- Window 4: w1_4_total_commits, w1_4_total_lines, w1_4_active_weeks,
+  w1_4_consistency, w1_4_avg_commits, w1_4_max_commits, w1_4_std_commits,
+  w1_4_burst_ratio, w1_4_trend_slope, w1_4_trend_r2, w1_4_rank_start,
+  w1_4_rank_end, w1_4_rank_improvement, w1_4_contribution_pct_end,
+  w1_4_longest_inactive_streak, w1_4_num_inactive_streaks
+- Similarly for Window 8 and 12 (prefixes w1_8_, w1_12_)
+- Temporal patterns: avg_gap_between_active_weeks, max_gap_between_active_weeks,
+  std_gap_between_active_weeks, activity_regularity, activity_acceleration,
+  activity_front_loaded
+
+Run book (Step 7)
+"""
+python3 RQ1_transition_rates_and_speeds/step7_ml_features/ml_feature_extraction.py
+python3 RQ1_transition_rates_and_speeds/step7_ml_features/tester/verify_ml_features.py
+"""
+
+
+STEP 8 — SURVIVAL ANALYSIS (KM + COX)
+=====================================
+Scripts
+- step8_survival_analysis/scripts/1_prepare_survival_data.py
+- step8_survival_analysis/scripts/2_kaplan_meier_analysis.py
+- step8_survival_analysis/scripts/3_cox_regression.py
+- step8_survival_analysis/scripts/4_validate_results.py
+- step8_survival_analysis/scripts/run_all_analysis.py (master)
+
+Inputs
+- Step 6 v2 transitions: step6_contributor_transitions/results/contributor_transitions.csv
+
+Outputs (under step8_survival_analysis/)
+- data/survival_data*.csv (prepared datasets; ignored by git)
+- results/*.json, *.txt (KM and Cox results; ignored by git)
+- visualizations/*.png (plots; ignored by git)
+- publication_figures/* (paper-ready figures; ignored by git)
+
+Run book (Step 8)
+"""
+cd "/Users/mohamadashraf/Desktop/Projects/Newcomers OSS Vs. OSS4SG FSE 2026"
+python3 RQ1_transition_rates_and_speeds/step8_survival_analysis/scripts/run_all_analysis.py
+# Or run individual steps in order
+python3 RQ1_transition_rates_and_speeds/step8_survival_analysis/scripts/1_prepare_survival_data.py
+python3 RQ1_transition_rates_and_speeds/step8_survival_analysis/scripts/2_kaplan_meier_analysis.py
+python3 RQ1_transition_rates_and_speeds/step8_survival_analysis/scripts/3_cox_regression.py
+python3 RQ1_transition_rates_and_speeds/step8_survival_analysis/scripts/4_validate_results.py
+"""
+
+
+GUIDANCE FOR NORMALIZATION & SENSITIVITIES
+==========================================
+- Always report raw and log-scale (log10(commits_to_core+1)) for heavy tails.
+- Compare project-level medians across types to reduce dominance by large repos.
+- Relative-to-project metrics (fold-change vs project median, within-project
+  percentile) can contextualize effort.
+- Rate metrics (commits_per_active_week, lines_per_active_week) decouple pace
+  from duration.
+- Cross-check results with lines_changed_to_core to detect commit granularity
+  artifacts (e.g., squash merges, docs commits).
+
+
+OPEN QUESTIONS / NEXT STEPS (PROPOSED)
+======================================
+- Model training (Step 8): establish baselines (logistic regression, gradient
+  boosting); evaluation (stratified 5x CV, PR-AUC/F1/ROC-AUC); per-type models.
+- Robustness: re-run Step 6 with additional filters (e.g., exclude curated-list
+  repos) and re-extract Step 7 features to quantify impact.
+- Feature extensions: PR/issue activity when available (RQ2/RQ3 inputs).
+
+
+REPRO & OPERATIONS NOTES
+========================
+- Always quote base path due to spaces.
+- Scripts read in chunks (500k rows) to handle large CSVs.
+- Artifacts live in step-specific `results/` and are ignored by git.
+- If libraries missing: install into `./.venv` and run with that interpreter.
+ - Memory: processing Step 5/6/7 can take minutes and several GB; chunked
+   reading prevents OOM. Avoid loading entire CSVs when unnecessary.
+
+
+CONTACT & CONTRIBUTION RULES
+============================
+- Keep changes documented here; update run books and READMEs per step.
+- Do not commit large CSV/PNG artifacts—regenerate locally.
+- Maintain clear, reviewable Python (explicit names, low nesting).
+
+================================================================================
+Project Status (RQ1): Step 6 (v2) finalized; Step 7 dataset created & verified.
+Key Findings: OSS requires far fewer commits to reach core than OSS4SG (structural),
+yet typically takes longer in time. Threshold sensitivities do not erase gap.
+================================================================================
+================================================================================
                    NEWCOMERS OSS VS OSS4SG FSE 2026 RESEARCH PROJECT
                          Project Overview & Documentation
 ================================================================================
