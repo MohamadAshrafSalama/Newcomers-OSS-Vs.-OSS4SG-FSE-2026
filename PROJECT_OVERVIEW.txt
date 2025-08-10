@@ -697,6 +697,7 @@ PROJECT RULES AND GUIDELINES:
 - Data Quality: Handle edge cases like zero values appropriately for statistical analysis
 - Documentation: Keep all methodology transparent and reproducible
 - Code Style: Use clear, professional formatting without decorative elements
+ - Terminal Command Policy: Before running any terminal command, clearly state what the command does and why it is necessary. Obtain confirmation when appropriate.
 
 API RATE LIMITS CONSIDERATION:
 =============================
