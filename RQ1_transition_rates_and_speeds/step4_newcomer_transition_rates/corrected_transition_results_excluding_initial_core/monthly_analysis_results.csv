@@ -1,0 +1,2 @@
+oss_median,oss4sg_median,oss_mean,oss4sg_mean,p_value,cliff_delta,effect_magnitude,significant,oss_count,oss4sg_count,total_valid_months,total_non_zero_months
+0.0909090909090909,0.125,0.19920977580156998,0.23720930007828256,2.083889532393255e-47,-0.252547113252794,small,True,3180,2224,37794,5404

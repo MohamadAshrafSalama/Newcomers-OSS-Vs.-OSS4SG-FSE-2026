@@ -1,0 +1,8 @@
+extracted_data/
+**/*.csv
+**/*.parquet
+**/*.log
+**/*.json
+!README.md
+
+

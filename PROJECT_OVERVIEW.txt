@@ -18,6 +18,7 @@ TABLE OF CONTENTS (SECTIONS)
    5.2 Step 6 – Contributor Transitions (Dataset 3, v2)
    5.3 Step 7 – ML Features (Dataset 4)
    5.4 Step 8 – Survival Analysis (KM + Cox)
+   5.5 Step 9 – ML Modeling (Predictive)
 6. Key Findings to Date (RQ1)
 7. Known Issues, Trials, and Fixes (Historical Log)
 8. Normalization & Sensitivity Guidance
@@ -143,6 +144,11 @@ Root
     - results/ — analysis outputs (ignored by git)
     - visualizations/ — plots (ignored by git)
     - publication_figures/ — paper-ready figures (ignored by git)
+  - step9_ml_modeling/
+    - scripts/ — dataset prep, training/eval, importance/correlations, master
+    - data/ — model-ready features/labels/meta (ignored by git)
+    - results/ — metrics JSONs (ignored by git)
+    - visualizations/ — plots (ignored by git)
 - failed attepmpt/ — archived earlier attempts; not part of the current pipeline
 - paper/ — manuscript/assets (not detailed here)
 - draft.py — scratch/utility code not in the formal pipeline
@@ -192,6 +198,12 @@ RQ1 END-TO-END PIPELINE (SUMMARY)
     - Kaplan–Meier curves and log-rank tests for OSS vs OSS4SG.
     - Cox proportional hazards models to quantify effects and covariates.
     - Outputs under `step8_survival_analysis/results/` with plots in `visualizations/`.
+
+6) Step 9: ML modeling (predictive)
+    - Uses Step 7 features to train predictive models of becoming core.
+    - Combined and per-type models (OSS, OSS4SG); 5-fold CV; PR-AUC primary metric.
+    - Models: Logistic Regression, RandomForest, HistGradientBoosting; calibration via Brier score.
+    - Outputs under `step9_ml_modeling/`.
 
 
 STEP 5 — WEEKLY DATASETS (KEY FIELDS)
@@ -396,6 +408,12 @@ python3 RQ1_transition_rates_and_speeds/step8_survival_analysis/scripts/1_prepar
 python3 RQ1_transition_rates_and_speeds/step8_survival_analysis/scripts/2_kaplan_meier_analysis.py
 python3 RQ1_transition_rates_and_speeds/step8_survival_analysis/scripts/3_cox_regression.py
 python3 RQ1_transition_rates_and_speeds/step8_survival_analysis/scripts/4_validate_results.py
+"""
+
+
+Run book (Step 9)
+"""
+python3 RQ1_transition_rates_and_speeds/step9_ml_modeling/scripts/run_all_ml.py
 """
 
 

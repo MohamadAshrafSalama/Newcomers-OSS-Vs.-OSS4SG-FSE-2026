@@ -98,3 +98,6 @@ RQ1_transition_rates_and_speeds/step8_survival_analysis/data/**
 RQ1_transition_rates_and_speeds/step8_survival_analysis/results/**
 RQ1_transition_rates_and_speeds/step8_survival_analysis/visualizations/**
 RQ1_transition_rates_and_speeds/step8_survival_analysis/publication_figures/**
+RQ1_transition_rates_and_speeds/step9_ml_modeling/data/**
+RQ1_transition_rates_and_speeds/step9_ml_modeling/results/**
+RQ1_transition_rates_and_speeds/step9_ml_modeling/visualizations/**
