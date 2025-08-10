@@ -87,3 +87,9 @@ RQ1_transition_rates_and_speeds/**/weekly_datasets*/**/*.csv
 RQ1_transition_rates_and_speeds/**/corrected_transition_results/*transitions*.csv
 RQ1_transition_rates_and_speeds/data_mining/**/master_commits_dataset*.csv
 RQ1_transition_rates_and_speeds/**/checkpoints/**/*.pkl
+
+# Step 6 outputs (ignore datasets/artifacts)
+RQ1_transition_rates_and_speeds/step6_contributor_transitions/results/**
+RQ1_transition_rates_and_speeds/step6_contributor_transitions/trying some stuf ../*.csv
+RQ1_transition_rates_and_speeds/step6_contributor_transitions/trying some stuf ../*.png
+RQ1_transition_rates_and_speeds/step6_contributor_transitions/**/*.log
