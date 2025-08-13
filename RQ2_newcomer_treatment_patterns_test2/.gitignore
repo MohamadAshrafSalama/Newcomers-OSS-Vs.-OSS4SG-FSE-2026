@@ -1,0 +1,10 @@
+# Local ignores for RQ2 test2 workspace
+daraset/
+results/
+github_tokens.txt
+cache/
+failed/
+extraction_state.pkl
+treatment_metrics_summary.csv
+*.log
+
