@@ -238,118 +238,75 @@ class RQ2DataExtractor:
     def get_prs_and_issues(self, username: str, repo: str, 
                           end_date: str, lookback_days: int = 365) -> Dict:
         """
-        Get PRs and issues for a contributor up to their core date.
-        
-        Args:
-            username: GitHub username
-            repo: Repository name (owner/name format)
-            end_date: ISO format date when they became core
-            lookback_days: How many days before core date to look (default 365)
+        Get PRs and issues for a contributor up to their core date, using
+        user.contributionsCollection within a lookback window.
         """
-        # Calculate start date (1 year before becoming core by default)
         end_dt = datetime.fromisoformat(end_date.replace('Z', '+00:00'))
         start_dt = end_dt - timedelta(days=lookback_days)
-        
-        # GraphQL query for PRs and issues
+        owner, name = repo.split('/')
+        repo_key = f"{owner}/{name}"
+
         query = """
-        query($owner: String!, $name: String!, $author: String!, $prCursor: String, $issueCursor: String) {
-          repository(owner: $owner, name: $name) {
-            pullRequests(first: 50, author: $author, after: $prCursor, orderBy: {field: CREATED_AT, direction: ASC}) {
-              pageInfo {
-                hasNextPage
-                endCursor
-              }
-              nodes {
-                number
-                title
-                state
-                createdAt
-                closedAt
-                mergedAt
-                additions
-                deletions
-                changedFiles
-                mergeable
-                merged
-                
-                reviews(first: 20) {
-                  totalCount
+        query($login: String!, $from: DateTime!, $to: DateTime!) {
+          user(login: $login) {
+            contributionsCollection(from: $from, to: $to) {
+              pullRequestContributionsByRepository(maxRepositories: 25) {
+                repository { nameWithOwner }
+                contributions(first: 100) {
                   nodes {
-                    author { login }
-                    state
-                    submittedAt
-                    body
-                  }
-                }
-                
-                comments(first: 20) {
-                  totalCount
-                  nodes {
-                    author { login }
-                    createdAt
-                    body
-                  }
-                }
-                
-                labels(first: 10) {
-                  nodes { name }
-                }
-                
-                timelineItems(first: 30, itemTypes: [REVIEW_REQUESTED_EVENT, ASSIGNED_EVENT, MENTIONED_EVENT]) {
-                  nodes {
-                    __typename
-                    ... on ReviewRequestedEvent {
+                    pullRequest {
+                      number
+                      title
+                      state
                       createdAt
-                      requestedReviewer {
-                        ... on User { login }
+                      closedAt
+                      mergedAt
+                      additions
+                      deletions
+                      changedFiles
+                      merged
+                      reviews(first: 20) {
+                        nodes {
+                          author { login }
+                          state
+                          submittedAt
+                          body
+                        }
+                      }
+                      comments(first: 20) {
+                        nodes {
+                          author { login }
+                          createdAt
+                          body
+                        }
+                      }
+                      labels(first: 10) {
+                        nodes { name }
                       }
                     }
-                    ... on AssignedEvent {
-                      createdAt
-                      assignee { login }
-                    }
-                    ... on MentionedEvent {
-                      createdAt
-                    }
                   }
                 }
               }
-            }
-            
-            issues(first: 50, author: $author, after: $issueCursor, orderBy: {field: CREATED_AT, direction: ASC}) {
-              pageInfo {
-                hasNextPage
-                endCursor
-              }
-              nodes {
-                number
-                title
-                state
-                createdAt
-                closedAt
-                
-                comments(first: 20) {
-                  totalCount
+              issueContributionsByRepository(maxRepositories: 25) {
+                repository { nameWithOwner }
+                contributions(first: 100) {
                   nodes {
-                    author { login }
-                    createdAt
-                    body
-                  }
-                }
-                
-                labels(first: 10) {
-                  nodes { name }
-                }
-                
-                timelineItems(first: 20, itemTypes: [ASSIGNED_EVENT, MENTIONED_EVENT]) {
-                  nodes {
-                    __typename
-                    ... on AssignedEvent {
+                    issue {
+                      number
+                      title
+                      state
                       createdAt
-                      assignee { login }
-                    }
-                    ... on MentionedEvent {
-                      createdAt
+                      closedAt
+                      comments(first: 20) {
+                        nodes {
+                          author { login }
+                          createdAt
+                          body
+                        }
+                      }
+                      labels(first: 10) {
+                        nodes { name }
+                      }
                     }
                   }
                 }
@@ -358,76 +315,43 @@ class RQ2DataExtractor:
           }
         }
         """
-        
-        owner, name = repo.split('/')
-        all_prs = []
-        all_issues = []
-        
-        # Paginate through PRs
-        pr_cursor = None
-        while True:
-            result = self.graphql_query(query, {
-                'owner': owner,
-                'name': name,
-                'author': username,
-                'prCursor': pr_cursor,
-                'issueCursor': None
-            })
-            
-            if not result or not result.get('repository'):
-                break
-            
-            prs = result['repository'].get('pullRequests', {})
-            pr_nodes = prs.get('nodes', [])
-            
-            # Filter by date
-            for pr in pr_nodes:
-                if pr and pr.get('createdAt'):
-                    created_date = datetime.fromisoformat(pr['createdAt'].replace('Z', '+00:00'))
-                    if created_date <= end_dt:
-                        all_prs.append(pr)
-            
-            # Check for more pages
-            page_info = prs.get('pageInfo', {})
-            if page_info.get('hasNextPage'):
-                pr_cursor = page_info.get('endCursor')
-            else:
-                break
-        
-        # Paginate through issues
-        issue_cursor = None
-        while True:
-            result = self.graphql_query(query, {
-                'owner': owner,
-                'name': name,
-                'author': username,
-                'prCursor': None,
-                'issueCursor': issue_cursor
-            })
-            
-            if not result or not result.get('repository'):
-                break
-            
-            issues = result['repository'].get('issues', {})
-            issue_nodes = issues.get('nodes', [])
-            
-            # Filter by date
-            for issue in issue_nodes:
-                if issue and issue.get('createdAt'):
-                    created_date = datetime.fromisoformat(issue['createdAt'].replace('Z', '+00:00'))
-                    if created_date <= end_dt:
-                        all_issues.append(issue)
-            
-            # Check for more pages
-            page_info = issues.get('pageInfo', {})
-            if page_info.get('hasNextPage'):
-                issue_cursor = page_info.get('endCursor')
-            else:
-                break
-        
+
+        variables = {
+            'login': username,
+            'from': start_dt.isoformat(),
+            'to': end_dt.isoformat()
+        }
+
+        data = self.graphql_query(query, variables)
+
+        prs: List[Dict] = []
+        issues: List[Dict] = []
+        if not data or not data.get('user'):
+            return {
+                'pull_requests': prs,
+                'issues': issues,
+                'extraction_date': datetime.now().isoformat(),
+                'lookback_days': lookback_days,
+                'date_range': {'start': start_dt.isoformat(), 'end': end_dt.isoformat()}
+            }
+
+        coll = data['user'].get('contributionsCollection', {})
+        for block in (coll.get('pullRequestContributionsByRepository') or []):
+            if block and block.get('repository', {}).get('nameWithOwner') == repo_key:
+                for node in (block.get('contributions', {}).get('nodes') or []):
+                    pr = node.get('pullRequest') if node else None
+                    if pr:
+                        prs.append(pr)
+        for block in (coll.get('issueContributionsByRepository') or []):
+            if block and block.get('repository', {}).get('nameWithOwner') == repo_key:
+                for node in (block.get('contributions', {}).get('nodes') or []):
+                    issue = node.get('issue') if node else None
+                    if issue:
+                        issues.append(issue)
+
         return {
-            'pull_requests': all_prs,
-            'issues': all_issues,
+            'pull_requests': prs,
+            'issues': issues,
             'extraction_date': datetime.now().isoformat(),
             'lookback_days': lookback_days,
             'date_range': {
@@ -649,13 +573,37 @@ class RQ2DataExtractor:
             
             return False
     
-    def run(self, contributors_file: str, sample_size: Optional[int] = None):
+    def run(self, contributors_file: str, sample_size: Optional[int] = None, identity_file: Optional[str] = None):
         """Run extraction process."""
         print(f"\n🚀 Starting RQ2 treatment data extraction")
         print(f"📄 Input file: {contributors_file}")
         
         # Load contributors
         df = pd.read_csv(contributors_file)
+
+        # If identity file provided, enrich and strictly set usernames from it
+        if identity_file and Path(identity_file).exists():
+            try:
+                id_df = pd.read_csv(identity_file)
+                # Prefer resolved_username if provided by identity file; else derive from noreply
+                def username_from_noreply(email: Optional[str]) -> Optional[str]:
+                    if email is None or pd.isna(email):
+                        return None
+                    s = str(email).strip().strip('"').strip("'")
+                    if 'users.noreply.github.com' in s:
+                        local = s.split('@', 1)[0]
+                        return local.split('+', 1)[1] if '+' in local else local
+                    return None
+                if 'resolved_username' not in id_df.columns:
+                    id_df['resolved_username'] = id_df.get('original_author_email', pd.Series([None]*len(id_df))).apply(username_from_noreply)
+                df = df.merge(id_df[['project_name','contributor_email','resolved_username']],
+                              on=['project_name','contributor_email'], how='left', suffixes=('', '_id'))
+                # STRICT: use identity-provided resolved_username column
+                df['resolved_username'] = df['resolved_username_id'] if 'resolved_username_id' in df.columns else df['resolved_username']
+                if 'resolved_username_id' in df.columns:
+                    df = df.drop(columns=['resolved_username_id'])
+            except Exception as e:
+                print(f"⚠️ Unable to merge identity file: {e}")
         
         # Create unique ID
         df['contributor_id'] = df['project_name'] + '_' + df['contributor_email']
@@ -683,7 +631,8 @@ class RQ2DataExtractor:
         with tqdm(total=total, desc="Extracting") as pbar:
             for idx, row in df_to_process.iterrows():
                 # Update description
-                username = row.get('resolved_username', 'unknown')[:20]
+                ru = row.get('resolved_username')
+                username = (str(ru).strip()[:20]) if (ru is not None and pd.notna(ru) and str(ru).strip() != '') else 'unknown'
                 pbar.set_description(f"Processing {username}")
                 
                 # Process contributor
@@ -784,6 +733,8 @@ def main():
                        help='Output directory for results')
     parser.add_argument('--sample', type=int, default=None,
                        help='Sample size for testing (optional)')
+    parser.add_argument('--identity', type=str, default=None,
+                       help='Path to core_commit_identity.csv to use for strict username mapping')
     
     args = parser.parse_args()
     
@@ -812,7 +763,7 @@ def main():
     
     # Run extractor
     extractor = RQ2DataExtractor(tokens, args.output_dir)
-    extractor.run(args.contributors, args.sample)
+    extractor.run(args.contributors, args.sample, args.identity)
 
 
 if __name__ == "__main__":
