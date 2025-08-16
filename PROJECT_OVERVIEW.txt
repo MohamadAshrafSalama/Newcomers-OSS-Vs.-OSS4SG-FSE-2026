@@ -603,12 +603,21 @@ Metrics Per Commit: 21 objective metrics
 FUTURE EXPERIMENT STRUCTURE:
 ============================
 
-RQ2_newcomer_treatment_patterns/
-├── scripts/                    # Analysis code  
-├── data/                       # Processed data specific to RQ2
-├── results/                    # Statistical outputs, tables
-├── visualizations/             # Plots and graphs
-└── README.md                   # RQ2 methodology and findings
+ RQ2_newcomer_treatment_patterns_test2/ (COMPLETED - RQ2 treatment patterns analysis)
+ ├── scripts/
+ │   ├── enrich_identity_with_usernames.py   # Resolve usernames via commit hashes (author.login) + noreply
+ │   └── rq2_treatment_extractor.py          # Extract PR/issue treatment metrics (contributionsCollection)
+ ├── daraset/
+ │   ├── core_contributors_filtered.csv      # Timing per contributor (first_commit_date, first_core_date)
+ │   └── core_commit_identity_enriched.csv   # Enriched identity with resolved_username (7,633 rows; 6,721 resolved)
+ ├── results/
+ │   ├── enriched_test/                      # Sample run outputs (state/cache/summary)
+ │   └── full_enriched/                      # Full run outputs (state/cache/summary; see extraction.log)
+ ├── step2_timelines/                        # Timeline generation (COMPLETED)
+ │   └── convert_caches_to_timelines.py      # Convert cache to individual contributor timelines
+ ├── step3_treatment_metrics/                # Treatment metrics calculation (COMPLETED)
+ │   └── calculate_treatment_metrics.py      # Calculate comprehensive treatment metrics
+ └── README.md                               # RQ2 pipeline and experiment log (updated)
 
 RQ3_engagement_patterns/
 ├── scripts/                    # Analysis code
@@ -717,8 +726,10 @@ this project should:
 5. Document all work clearly for human researchers and future AI collaborators
 
 ================================================================================
-Project Status: RQ1 COMMUNITY STRUCTURE ANALYSIS COMPLETE - PUBLICATION READY
-Last Updated: RQ1 Statistical Analysis Complete - Significant differences found across all 5 community metrics
-Current Phase: Ready for academic paper writing and FSE 2026 submission
-Major Finding: OSS4SG projects have significantly healthier community structures than conventional OSS
+Project Status: RQ1 COMPLETE + RQ2 COMPLETE - READY FOR ANALYSIS
+Last Updated: RQ2 Treatment Patterns Analysis Complete - All 3 steps completed successfully
+Current Phase: Ready for RQ2 statistical analysis and integration with RQ1 findings
+Major Findings: 
+- RQ1: OSS4SG projects have significantly healthier community structures than conventional OSS
+- RQ2: Treatment patterns data extracted for 6,721 contributors across 5 metric categories
 ================================================================================
