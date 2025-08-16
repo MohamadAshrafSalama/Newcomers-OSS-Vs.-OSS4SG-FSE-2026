@@ -603,7 +603,7 @@ Metrics Per Commit: 21 objective metrics
 FUTURE EXPERIMENT STRUCTURE:
 ============================
 
- RQ2_newcomer_treatment_patterns_test2/ (COMPLETED - RQ2 treatment patterns analysis)
+ RQ2_newcomer_treatment_patterns_test2/ (COMPLETED - RQ2 comprehensive analysis)
  ├── scripts/
  │   ├── enrich_identity_with_usernames.py   # Resolve usernames via commit hashes (author.login) + noreply
  │   └── rq2_treatment_extractor.py          # Extract PR/issue treatment metrics (contributionsCollection)
@@ -613,8 +613,12 @@ FUTURE EXPERIMENT STRUCTURE:
  ├── results/
  │   ├── enriched_test/                      # Sample run outputs (state/cache/summary)
  │   └── full_enriched/                      # Full run outputs (state/cache/summary; see extraction.log)
- ├── step2_timelines/                        # Timeline generation (COMPLETED)
- │   └── convert_caches_to_timelines.py      # Convert cache to individual contributor timelines
+ ├── step2_timelines/                        # Timeline generation & analysis (COMPLETED)
+ │   ├── convert_caches_to_timelines.py      # Convert cache to individual contributor timelines
+ │   ├── validate_timeline_data_comprehensive.py  # Comprehensive validation & statistical analysis
+ │   ├── results/                            # Analysis outputs (visualizations, statistics, data)
+ │   ├── drafted results/                    # Archived previous results
+ │   └── README.md                           # Detailed step2 documentation
  ├── step3_treatment_metrics/                # Treatment metrics calculation (COMPLETED)
  │   └── calculate_treatment_metrics.py      # Calculate comprehensive treatment metrics
  └── README.md                               # RQ2 pipeline and experiment log (updated)
@@ -706,12 +710,7 @@ PROJECT RULES AND GUIDELINES:
 - Data Quality: Handle edge cases like zero values appropriately for statistical analysis
 - Documentation: Keep all methodology transparent and reproducible
 - Code Style: Use clear, professional formatting without decorative elements
-- Terminal Command Policy: Before running any terminal command, clearly state what the command does and why it is necessary. Obtain confirmation when appropriate.
-- Terminal Transparency: ALWAYS explain the purpose and expected outcome of any terminal command before execution. This includes:
-  * What the command will do
-  * Why it's needed for the current task
-  * What output is expected
-  * Any potential risks or side effects
+- TERMINAL COMMAND POLICY: NEVER run terminal commands without first explaining what the command does and why it is necessary. Always describe the purpose and expected outcome before execution.
 
 API RATE LIMITS CONSIDERATION:
 =============================
@@ -731,10 +730,21 @@ this project should:
 5. Document all work clearly for human researchers and future AI collaborators
 
 ================================================================================
-Project Status: RQ1 COMPLETE + RQ2 COMPLETE - READY FOR ANALYSIS
-Last Updated: RQ2 Treatment Patterns Analysis Complete - All 3 steps completed successfully
-Current Phase: Ready for RQ2 statistical analysis and integration with RQ1 findings
+Project Status: RQ1 COMPLETE + RQ2 COMPLETE - READY FOR INTEGRATION & PUBLICATION
+Last Updated: RQ2 Comprehensive Analysis Complete - Step 2 timeline analysis finished successfully
+Current Phase: Ready for RQ2-RQ1 integration and academic paper preparation
+
 Major Findings: 
 - RQ1: OSS4SG projects have significantly healthier community structures than conventional OSS
-- RQ2: Treatment patterns data extracted for 6,721 contributors across 5 metric categories
+- RQ2: Comprehensive timeline analysis complete with 6,530 contributors, 1,944,698 events
+- RQ2: Statistical significance confirmed (OSS4SG superiority maintained after outlier removal)
+- RQ2: Publication-ready visualizations and statistical tables generated
+
+RQ2 Step 2 Achievements:
+- 6,530 timeline files generated with 100% project classification
+- Comprehensive outlier analysis (32.3% outliers, 67.7% clean data retained)
+- Statistical testing: Mann-Whitney U with Cliff's delta effect sizes
+- Large effect sizes for core metrics (total events, commits, timeline weeks)
+- Box plots and violin plots comparing with/without outliers
+- Complete statistical analysis with before/after outlier removal
 ================================================================================

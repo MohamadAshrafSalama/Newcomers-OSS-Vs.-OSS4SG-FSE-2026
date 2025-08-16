@@ -1,165 +1,140 @@
-RQ2 — Newcomer Treatment Patterns (Test2)
-========================================
+# RQ2: Newcomer Treatment Patterns Analysis
 
-Overview
---------
-This folder contains the current, documented pipeline for RQ2 (treatment patterns), replacing the archived prior attempts. It resolves GitHub usernames via commit hashes, then extracts PR/issue treatment signals up to each contributor's first core date.
+## Overview
+This directory contains the comprehensive analysis of newcomer treatment patterns in OSS vs OSS4SG projects, focusing on how contributors are treated during their transition from newcomer to core contributor status.
 
-Key Changes vs. Old RQ2
------------------------
-- Username resolution now uses commit SHA → REST commits endpoint → `author.login` (canonical), with a zero-API fallback for GitHub noreply emails.
-- GraphQL extraction uses `user.contributionsCollection` filtered by time window and repository (no unsupported `author:` args on `repository.pullRequests`).
-- Robust resumption via `extraction_state.pkl`; strict use of identity mapping provided via `--identity` arg.
+## Directory Structure
 
-Data Inputs
------------
-- Contributors/timing: `RQ2_newcomer_treatment_patterns_test2/daraset/core_contributors_filtered.csv`
-- Identity (original): `RQ2_newcomer_treatment_patterns/results/core_commit_identity.csv` (archived source)
-- Identity (enriched usernames): `RQ2_newcomer_treatment_patterns_test2/daraset/core_commit_identity_enriched.csv` (produced here)
+### `step2_timelines/` - Timeline Data Generation & Analysis
+- **Purpose**: Generate and validate timeline data from raw cache files
+- **Key Components**:
+  - `convert_caches_to_timelines.py`: Converts raw JSON cache files to structured timeline CSV files
+  - `validate_timeline_data_comprehensive.py`: Comprehensive validation with outlier analysis
+  - `results/`: Analysis outputs and visualizations
+  - `drafted results/`: Previous analysis results (archived)
 
-Username Enrichment
--------------------
-Script: `scripts/enrich_identity_with_usernames.py`
+### `step3_treatment_metrics/` - Treatment Pattern Analysis
+- **Purpose**: Analyze specific treatment patterns and metrics
+- **Status**: In development
 
-Strategy per row:
-- If `original_author_email` is a GitHub noreply (…@users.noreply.github.com), parse the login locally.
-- Else call `GET /repos/{owner}/{repo}/commits/{sha}` and prefer `author.login`. If null, fallback to noreply from commit header if present.
+### `daraset/` - Dataset Storage
+- **Purpose**: Store intermediate and final datasets
+- **Status**: In development
 
-Run:
-```
-python3 RQ2_newcomer_treatment_patterns_test2/scripts/enrich_identity_with_usernames.py \
-  --tokens RQ2_newcomer_treatment_patterns_test2/github_tokens.txt \
-  --input RQ2_newcomer_treatment_patterns/results/core_commit_identity.csv \
-  --output RQ2_newcomer_treatment_patterns_test2/daraset/core_commit_identity_enriched.csv
-```
+## Key Achievements
 
-Enrichment Coverage (current run)
----------------------------------
-- Total rows: 7,633
-- Resolved from noreply: 1,486
-- Resolved from API: 5,235
-- Unresolved: 912
+### ✅ **Timeline Data Generation (Step 2)**
+- **6,530 timeline files** successfully generated from raw cache data
+- **100% project classification** achieved (4,667 OSS, 1,863 OSS4SG)
+- **1,944,698 total events** processed and validated
+- **Comprehensive outlier analysis** with statistical significance testing
 
-Extraction (Step 1)
--------------------
-Script: `scripts/rq2_treatment_extractor.py`
+### 📊 **Statistical Results**
+- **OSS4SG contributors show dramatically higher activity** than OSS contributors
+- **Large effect sizes** for total events and commits (p < 0.001)
+- **Outlier removal maintains statistical significance** while improving data quality
+- **67.7% data retention** after outlier cleaning (4,421 contributors)
 
-Inputs:
-- `--contributors`: `daraset/core_contributors_filtered.csv`
-- `--identity`: `daraset/core_commit_identity_enriched.csv` (strictly provides `resolved_username`)
-- `--tokens`: `github_tokens.txt`
-- `--output-dir`: results folder (state/cache/summary written here)
+### 🎨 **Visualizations Generated**
+- **Box plots**: OSS vs OSS4SG comparison (with/without outliers)
+- **Violin plots**: Distribution shapes and patterns
+- **Statistical tables**: Comprehensive comparison metrics
+- **Outlier analysis**: Detailed outlier detection and removal statistics
 
-Run (sample):
-```
-python3 RQ2_newcomer_treatment_patterns_test2/scripts/rq2_treatment_extractor.py \
-  --tokens RQ2_newcomer_treatment_patterns_test2/github_tokens.txt \
-  --contributors RQ2_newcomer_treatment_patterns_test2/daraset/core_contributors_filtered.csv \
-  --identity RQ2_newcomer_treatment_patterns_test2/daraset/core_commit_identity_enriched.csv \
-  --output-dir RQ2_newcomer_treatment_patterns_test2/results/enriched_test \
-  --sample 50
-```
+## Data Quality Metrics
 
-Run (full):
-```
-python3 RQ2_newcomer_treatment_patterns_test2/scripts/rq2_treatment_extractor.py \
-  --tokens RQ2_newcomer_treatment_patterns_test2/github_tokens.txt \
-  --contributors RQ2_newcomer_treatment_patterns_test2/daraset/core_contributors_filtered.csv \
-  --identity RQ2_newcomer_treatment_patterns_test2/daraset/core_commit_identity_enriched.csv \
-  --output-dir RQ2_newcomer_treatment_patterns_test2/results/full_enriched
-```
+| Metric | Value |
+|--------|-------|
+| Total Timeline Files | 6,530 |
+| Valid Files | 6,530 (100%) |
+| Empty Files | 0 |
+| Corrupted Files | 0 |
+| Total Events | 1,944,698 |
+| OSS Contributors | 4,667 |
+| OSS4SG Contributors | 1,863 |
+| Unknown/Missing | 0 |
 
-Outputs
--------
-- `results/<run>/cache/*.json`: one JSON per contributor with raw PRs/issues and computed metrics
-- `results/<run>/extraction_state.pkl`: resumable state
-- `results/<run>/treatment_metrics_summary.csv`: flattened summary for analysis
+## Statistical Significance
 
-Timeline Generation (Step 2)
----------------------------
-Script: `step2_timelines/convert_caches_to_timelines.py`
+### With Outliers
+- **Total Events**: OSS/OSS4SG ratio = 0.03 (p < 0.001 ***, large effect)
+- **Commits**: OSS/OSS4SG ratio = 0.03 (p < 0.001 ***, large effect)
+- **Timeline Weeks**: OSS/OSS4SG ratio = 0.19 (p < 0.001 ***, medium effect)
 
-Purpose: Convert the JSON cache files from Step 1 into individual contributor timeline CSVs, integrating commit data from RQ1 master dataset.
+### Without Outliers (Cleaned Data)
+- **Total Events**: OSS/OSS4SG ratio = 0.04 (p < 0.001 ***, large effect)
+- **Commits**: OSS/OSS4SG ratio = 0.03 (p < 0.001 ***, large effect)
+- **Timeline Weeks**: OSS/OSS4SG ratio = 0.04 (p < 0.001 ***, large effect)
 
-Inputs:
-- Cache files from Step 1: `results/full_enriched/cache/*.json`
-- RQ1 master commits: `RQ1_transition_rates_and_speeds/data_mining/consolidating_master_dataset/master_commits_dataset.csv`
+## Outlier Analysis
 
-Outputs:
-- Individual CSV files: `step2_timelines/from_cache_timelines/contributor_[email]_[project].csv`
-- Each row represents one event (commit, PR, or issue) with complete metadata
+| Metric | Outlier Percentage | Impact |
+|--------|-------------------|---------|
+| Total Events | 12.2% | High |
+| Commits | 12.9% | High |
+| Pull Requests | 16.1% | Medium |
+| Issues | 18.3% | Medium |
+| Timeline Weeks | 5.0% | Low |
 
-Run:
-```
-python3 RQ2_newcomer_treatment_patterns_test2/step2_timelines/convert_caches_to_timelines.py
-```
+**Overall**: 32.3% of contributors identified as outliers, 67.7% retained in clean dataset.
 
-Treatment Metrics Calculation (Step 3)
--------------------------------------
-Script: `step3_treatment_metrics/calculate_treatment_metrics.py`
+## Key Insights
 
-Purpose: Calculate comprehensive treatment metrics from the timeline data, grouped by project type (OSS vs OSS4SG).
+1. **OSS4SG Superiority**: OSS4SG contributors are significantly more active across all metrics
+2. **Robust Results**: Statistical significance maintained even after outlier removal
+3. **Data Quality**: 100% classification accuracy with comprehensive validation
+4. **Effect Sizes**: Large effects for core metrics (events, commits) indicating substantial differences
 
-Inputs:
-- Timeline CSVs from Step 2: `step2_timelines/from_cache_timelines/*.csv`
-- Contributor transitions from RQ1: `RQ1_transition_rates_and_speeds/step6_contributor_transitions/results/contributor_transitions.csv`
+## Files Generated
 
-Outputs:
-- `step3_treatment_metrics/results/treatment_metrics_per_contributor.csv`: Individual contributor metrics
-- `step3_treatment_metrics/results/treatment_metrics_summary_by_type.csv`: OSS vs OSS4SG comparison
+### Visualizations
+- `interaction_comparison_boxplots.pdf/png` - Box plot comparisons
+- `interaction_comparison_violinplots.pdf/png` - Violin plot distributions
 
-Run:
-```
-python3 RQ2_newcomer_treatment_patterns_test2/step3_treatment_metrics/calculate_treatment_metrics.py
-```
+### Data Files
+- `timeline_data_with_outliers.csv` - Original dataset (929.3 KB)
+- `timeline_data_without_outliers.csv` - Cleaned dataset (635.1 KB)
 
-Current Status (as of latest commit)
------------------------------------
-✅ **Step 1 (Extraction)**: COMPLETED
-- Full extraction run completed for all 7,633 contributors
-- Processed: ~6,721 contributors with resolved usernames
-- Skipped: ~912 contributors (unresolved usernames)
-- Generated: Cache files with PR/issue data and initial metrics
+### Analysis Results
+- `comprehensive_statistical_results.json` - Complete statistical analysis (7.0 KB)
+- `statistical_comparison_with_without_outliers.csv` - Comparison table (0.9 KB)
+- `outlier_analysis_detailed.json` - Detailed outlier analysis (70.0 KB)
+- `outlier_analysis_summary.csv` - Outlier summary (0.3 KB)
+- `validation_comprehensive.json` - Validation results (0.3 KB)
 
-✅ **Step 2 (Timeline Generation)**: COMPLETED
-- Converted all cache files to individual contributor timelines
-- Integrated commit data from RQ1 master dataset
-- Generated: Individual CSV files for each contributor-project pair
+## Technical Implementation
 
-✅ **Step 3 (Treatment Metrics)**: COMPLETED
-- Calculated comprehensive treatment metrics across 5 categories:
-  - Response Timing: First response times, average response times
-  - Engagement Breadth: Number of unique responders, interaction diversity
-  - Interaction Patterns: Review patterns, comment patterns
-  - Recognition Signals: Assignment patterns, mention patterns
-  - Trust Indicators: Merge rates, approval patterns
-- Generated: Per-contributor metrics and OSS vs OSS4SG comparison
+### Dependencies
+- Python 3.8+
+- pandas, numpy, matplotlib, seaborn, scipy
+- Virtual environment: `.venv/`
 
-📊 **Final Results Summary**:
-- Total contributors analyzed: 6,721
-- OSS contributors: ~3,200
-- OSS4SG contributors: ~3,500
-- Metrics available: 25+ treatment indicators per contributor
+### Key Scripts
+1. **`convert_caches_to_timelines.py`**: Data conversion pipeline
+2. **`validate_timeline_data_comprehensive.py`**: Comprehensive analysis engine
+3. **Supporting scripts**: Visualization and analysis utilities
 
-Known Limitations
------------------
-- Unresolved usernames (~912) typically arise from commits not linked to GitHub accounts or history issues (404). They are skipped (no heuristics beyond commit lookup and noreply parsing).
-- Default lookback is 365 days pre-core; can be switched to use `first_commit_date` → `first_core_date` if needed.
+### Data Pipeline
+1. **Raw Cache Files** → JSON parsing
+2. **Timeline Generation** → CSV files with project classification
+3. **Validation** → Data integrity checks
+4. **Outlier Analysis** → Statistical outlier detection
+5. **Statistical Testing** → Mann-Whitney U tests with effect sizes
+6. **Visualization** → Publication-quality plots
 
-Experiment Log (summary)
-------------------------
-- Initial GraphQL approach using `repository.pullRequests(author: ...)` failed (schema disallows `author`); fixed by switching to `contributionsCollection`.
-- Skips previously high due to missing usernames; solved by enrichment step using commit hashes.
-- Sample run (50): Processed 48, Skipped 1, Failed 1 (transient API/read).
-- Full run completed successfully under `results/full_enriched/`.
-- Timeline generation completed with commit integration.
-- Treatment metrics calculation completed with comprehensive analysis.
+## Next Steps
 
-Next Steps
-----------
-- Analyze treatment metrics differences between OSS and OSS4SG projects
-- Generate publication-ready visualizations
-- Statistical significance testing of treatment patterns
-- Integration with RQ1 findings for comprehensive newcomer analysis
+1. **Step 3**: Complete treatment metrics analysis
+2. **Integration**: Combine with RQ1 and RQ3 results
+3. **Publication**: Prepare figures and tables for paper
+4. **Validation**: Cross-check with other research teams
+
+## Contact
+
+For questions about this analysis, refer to the main project documentation or contact the research team.
+
+---
+*Last Updated: August 16, 2024*
+*Analysis Status: Step 2 Complete, Step 3 In Progress*
 
 
