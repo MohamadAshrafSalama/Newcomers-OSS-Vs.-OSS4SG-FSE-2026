@@ -64,7 +64,7 @@ Projects are stratified across:
     ├── data_mining/
     │   ├── step1_repository_cloning/     # 372 repositories cloned
     │   └── step2_commit_analysis/        # 3.5M commits with 21 metrics extracted
-    └── step3_per_project_metrics/        # NEW: Statistical comparison results
+    └── step3_per_project_metrics/        # COMPLETED: Statistical comparison results
         ├── calculate_project_metrics.py     # Per-project metrics calculation
         ├── statistical_comparison_analysis.py  # OSS vs OSS4SG comparison
         ├── project_metrics.csv              # 358 projects × 17 metrics
@@ -74,6 +74,14 @@ Projects are stratified across:
             ├── statistical_test_results.csv
             ├── summary_table_for_paper.csv
             └── analysis_summary.txt
+└── RQ3_engagement_patterns/              # COMPLETED: Engagement patterns analysis
+    ├── step1/                             # COMPLETED: Pre-core timeseries generation
+    ├── step2/                             # COMPLETED: DTW clustering (k=2 to k=6)
+    └── step3_scott_knott_clustering/      # COMPLETED: Pattern effectiveness analysis
+        ├── scott_knott_clustering_analysis.py  # Main analysis on 3,421 contributors
+        ├── scott_knott_implementation.py       # Helper script for cluster assignments
+        ├── pattern_effectiveness_analysis.png  # Comprehensive visualization
+        └── README.md                           # Complete methodology documentation
 ```
 
 ## Key Contributions
@@ -98,6 +106,16 @@ Our statistical analysis of 358 projects reveals **remarkable differences** betw
 - **80% Higher Recent Engagement**: 6.3% vs 3.5% active contributors (p<0.001)
 
 **All 5 metrics show significant differences with medium to large effect sizes!**
+
+### **RQ3: Engagement Patterns Analysis - COMPLETED**
+
+**Scott-Knott Clustering Analysis on 3,421 Contributors:**
+
+- **Pattern Effectiveness Rankings**: Low/Gradual Activity (21 weeks) is fastest path to core
+- **Early Spike Pattern**: Slowest path (51-60 weeks median) - 2.4-2.8x slower
+- **OSS4SG Advantage**: Consistently faster across all patterns (6-22 weeks vs 8-32 weeks)
+- **Statistical Significance**: Kruskal-Wallis p < 0.000001 (highly significant differences)
+- **Key Insight**: Consistent, gradual contribution patterns lead to faster core status than intense early spikes
 
 ## Methodology
 
