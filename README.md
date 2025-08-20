@@ -93,6 +93,18 @@ Projects are stratified across:
 5. **Statistical evidence** showing OSS4SG projects have healthier community structures
 6. **Publication-ready results** with significant findings across all measured dimensions
 
+## Step 10 (ML Modeling) — Recent Results
+
+The Step 10 pipeline (`RQ1_transition_rates_and_speeds/step10_ml_modeling/`) was rebuilt to use the master commits dataset and monthly core transitions. Key outputs:
+
+- **Contributors analyzed:** 23,069
+- **Core contributors:** 8,045 (34.9%)
+- **Projects covered:** 358
+- **Best model (RandomForest):** ROC AUC = 0.746, PR AUC = 0.657
+- **Top feature:** `lines_changed_90d` (22.2% importance)
+
+See `RQ1_transition_rates_and_speeds/step10_ml_modeling/README.md` for full details and reproduction scripts.
+
 ## Major Research Findings
 
 Our statistical analysis of 358 projects reveals **remarkable differences** between OSS and OSS4SG community structures:
