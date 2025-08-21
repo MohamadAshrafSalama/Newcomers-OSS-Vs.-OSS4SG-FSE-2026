@@ -1,0 +1,77 @@
+======================================================================
+CONTRIBUTION TIME SERIES VALIDATION REPORT
+======================================================================
+
+Generated: 2025-08-17 01:47:14
+Timeline Directory: ../../RQ2_newcomer_treatment_patterns_test2/step2_timelines/from_cache_timelines
+
+TEST RESULTS:
+----------------------------------------
+File Loading: PASSED
+Data Structure: PASSED
+JSON Parsing: PASSED
+Metric Extraction: PASSED
+Contribution Index: PASSED
+Time Series Consistency: PASSED
+Monthly Aggregation: PASSED
+Edge Cases: PASSED
+
+DETAILED LOGS:
+----------------------------------------
+[INFO] ======================================================================
+[INFO] CONTRIBUTION TIME SERIES VALIDATION TEST SUITE
+[INFO] ======================================================================
+[INFO] Timeline directory: ../../RQ2_newcomer_treatment_patterns_test2/step2_timelines/from_cache_timelines
+[INFO] Starting validation at: 2025-08-17 01:46:56
+[INFO] 
+[INFO] ============================================================
+[INFO] TEST 1: File Loading Validation
+[INFO] ----------------------------------------
+[INFO] Found 6530 timeline files
+[SUCCESS] PASSED: All 6530 files loaded successfully
+[INFO] ============================================================
+[INFO] TEST 2: Data Structure Validation
+[INFO] ----------------------------------------
+[SUCCESS] PASSED: All checked files have correct structure
+[INFO] ============================================================
+[INFO] TEST 3: Event Data JSON Parsing Validation
+[INFO] ----------------------------------------
+[SUCCESS] PASSED: All event_data JSON parsed successfully
+[INFO] ============================================================
+[INFO] TEST 4: Metric Extraction Validation
+[INFO] ----------------------------------------
+[SUCCESS] PASSED: Metric extraction validation successful
+[INFO] ============================================================
+[INFO] TEST 5: Contribution Index Calculation Validation
+[INFO] ----------------------------------------
+[SUCCESS] PASSED: Contribution index calculation correct
+[INFO]   Expected: [4.05       0.39285714 1.88928571]
+[INFO]   Calculated: [4.05       0.39285714 1.88928571]
+[INFO] ============================================================
+[INFO] TEST 6: Time Series Consistency Validation
+[INFO] ----------------------------------------
+[SUCCESS] PASSED: All time series are consistent
+[INFO] ============================================================
+[INFO] TEST 7: Monthly Aggregation Validation
+[INFO] ----------------------------------------
+[SUCCESS] PASSED: Monthly aggregation is correct
+[INFO]   Month 0 commits: 10.0 (expected: 10)
+[INFO] ============================================================
+[INFO] TEST 8: Edge Cases Validation
+[INFO] ----------------------------------------
+[SUCCESS] PASSED: All 1 edge cases handled correctly
+[INFO] 
+[INFO] ======================================================================
+[INFO] VALIDATION SUMMARY
+[INFO] ======================================================================
+[INFO] File Loading.................. ✓ PASSED
+[INFO] Data Structure................ ✓ PASSED
+[INFO] JSON Parsing.................. ✓ PASSED
+[INFO] Metric Extraction............. ✓ PASSED
+[INFO] Contribution Index............ ✓ PASSED
+[INFO] Time Series Consistency....... ✓ PASSED
+[INFO] Monthly Aggregation........... ✓ PASSED
+[INFO] Edge Cases.................... ✓ PASSED
+[INFO] 
+[INFO] Overall Result: 8/8 tests passed
+[SUCCESS] 🎉 ALL TESTS PASSED! Time series generation is working correctly.

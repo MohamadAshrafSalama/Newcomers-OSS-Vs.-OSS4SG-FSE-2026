@@ -1,0 +1,6 @@
+,roc_auc_train_mean,roc_auc_train_std,roc_auc_test_mean,roc_auc_test_std,pr_auc_train_mean,pr_auc_train_std,pr_auc_test_mean,pr_auc_test_std,f1_train_mean,f1_train_std,f1_test_mean,f1_test_std,precision_train_mean,precision_train_std,precision_test_mean,precision_test_std,recall_train_mean,recall_train_std,recall_test_mean,recall_test_std
+Logistic Regression,1.0,0.0,,,1.0,0.0,0.4,0.48989794855663565,1.0,0.0,0.4,0.48989794855663565,1.0,0.0,0.4,0.48989794855663565,1.0,0.0,0.4,0.48989794855663565
+Random Forest,1.0,0.0,,,1.0,0.0,0.4,0.48989794855663565,1.0,0.0,0.2,0.4000000000000001,1.0,0.0,0.2,0.4000000000000001,1.0,0.0,0.2,0.4000000000000001
+Gradient Boosting,1.0,0.0,,,1.0,0.0,0.4,0.48989794855663565,1.0,0.0,0.4,0.48989794855663565,1.0,0.0,0.4,0.48989794855663565,1.0,0.0,0.4,0.48989794855663565
+XGBoost,1.0,0.0,,,1.0,0.0,0.4,0.48989794855663565,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+SVM,1.0,0.0,,,1.0,0.0,0.4,0.48989794855663565,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0

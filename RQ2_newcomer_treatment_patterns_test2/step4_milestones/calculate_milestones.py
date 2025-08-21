@@ -280,11 +280,19 @@ class MilestoneAnalyzer:
                     continue
                 
                 # Check required columns
-                required_cols = ['event_timestamp', 'event_week', 'event_type', 'event_data']
+                required_cols = ['event_timestamp', 'event_week', 'event_type', 'event_data', 'is_pre_core']
                 missing_cols = [col for col in required_cols if col not in timeline_df.columns]
                 if missing_cols:
                     print(f"Warning: Skipping {timeline_file.name} - missing columns: {missing_cols}")
                     continue
+                
+                # CRITICAL FIX: Filter to only pre-core events (newcomer transition period)
+                pre_core_df = timeline_df[timeline_df['is_pre_core'] == True].copy()
+                if len(pre_core_df) == 0:
+                    continue  # Skip if no pre-core events
+                
+                # Use the filtered timeline for milestone detection
+                timeline_df = pre_core_df
                     
             except Exception as e:
                 print(f"Error loading {timeline_file.name}: {e}")

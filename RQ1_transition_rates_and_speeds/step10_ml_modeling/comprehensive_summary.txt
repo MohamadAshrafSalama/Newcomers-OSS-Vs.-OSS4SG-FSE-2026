@@ -1,0 +1,26 @@
+
+SIMPLE COMPREHENSIVE ML PIPELINE SUMMARY
+========================================
+Generated: 2025-08-19 13:08:09
+
+DATASET SUMMARY:
+- Total contributors analyzed: 23,069
+- Core contributors: 8,045 (34.9%)
+- Projects: 358
+
+PROJECT TYPE BREAKDOWN:
+- OSS: 15,858 contributors, 4,914 cores (31.0%)
+- OSS4SG: 7,211 contributors, 3,131 cores (43.4%)
+
+MODEL PERFORMANCE:
+- LogisticRegression: ROC AUC = 0.689 ± 0.009, PR AUC = 0.622 ± 0.011
+- RandomForest: ROC AUC = 0.746 ± 0.008, PR AUC = 0.657 ± 0.008
+- GradientBoosting: ROC AUC = 0.746 ± 0.009, PR AUC = 0.656 ± 0.009
+
+FILES GENERATED:
+- features_90day_comprehensive.csv: All contributor features
+- filtered_contributors.csv: Basic contributor stats
+- all_core_contributors.csv: Core contributor records
+- model_results_comprehensive.csv: Model performance metrics
+- feature_importance_comprehensive.csv: Feature rankings
+- feature_importance_comprehensive.png: Feature importance plot

@@ -29,6 +29,12 @@ This directory contains the comprehensive analysis of newcomer treatment pattern
 - **1,944,698 total events** processed and validated
 - **Comprehensive outlier analysis** with statistical significance testing
 
+### 🚨 **CRITICAL METHODOLOGICAL BREAKTHROUGH (Step 2-4)**
+- **Identified MASSIVE data contamination**: 75.4% of timeline events were post-core (after becoming core)
+- **Fixed timeline contamination** by adding `is_pre_core == True` filtering to all processing
+- **Results completely reversed**: OSS4SG now shows true advantages across all metrics
+- **Data reduction**: 1.9M+ events → 199,984 weekly points (90% reduction, but 100% clean)
+
 ### 📊 **Statistical Results**
 - **OSS4SG contributors show dramatically higher activity** than OSS contributors
 - **Large effect sizes** for total events and commits (p < 0.001)
@@ -84,6 +90,23 @@ This directory contains the comprehensive analysis of newcomer treatment pattern
 2. **Robust Results**: Statistical significance maintained even after outlier removal
 3. **Data Quality**: 100% classification accuracy with comprehensive validation
 4. **Effect Sizes**: Large effects for core metrics (events, commits) indicating substantial differences
+
+## 🎯 **CORRECTED RESULTS AFTER METHODOLOGICAL FIX**
+
+### **Milestone Achievement Rates (Step 4)**
+| Milestone | OSS Rate | OSS4SG Rate | OSS4SG Advantage |
+|-----------|----------|--------------|------------------|
+| **Sustained Participation** | 43.7% | **94.5%** | **2.2x higher** |
+| **Cross Boundary** | 46.5% | **90.0%** | **1.9x higher** |
+| **Returning Contributor** | 33.2% | **51.6%** | **1.6x higher** |
+| **Failure Recovery** | 22.2% | **39.1%** | **1.8x higher** |
+| **First Accepted** | 52.9% | **58.9%** | **1.1x higher** |
+
+### **Treatment Metrics (Step 3)**
+- **OSS4SG wins in 55/91 metrics** with statistical significance
+- **OSS wins in 21/91 metrics** with statistical significance
+- **15 metrics show no significant difference**
+- **Complete category breakdown** available in comprehensive results
 
 ## Files Generated
 

@@ -1,0 +1,69 @@
+================================================================================
+90-DAY CORE CONTRIBUTOR PREDICTION: SUMMARY REPORT
+================================================================================
+Generated: 2025-08-19 00:05:29
+
+DATASET SUMMARY
+----------------------------------------
+Total contributors analyzed: 61
+Core contributors: 2 (3.3%)
+Features extracted: 22
+
+BY PROJECT TYPE
+----------------------------------------
+OSS:
+  Contributors: 11
+  Core: 0 (0.0%)
+OSS4SG:
+  Contributors: 50
+  Core: 2 (4.0%)
+
+TOP 10 PREDICTIVE FEATURES
+----------------------------------------
+sustained_growth               | r=+1.000 | increases likelihood
+month3_commits                 | r=+0.445 | increases likelihood
+month2_commits                 | r=+0.357 | increases likelihood
+trend_slope                    | r=+0.354 | increases likelihood
+total_commits_90d              | r=+0.311 | increases likelihood
+peak_week_commits              | r=+0.311 | increases likelihood
+acceleration_rate              | r=+0.311 | increases likelihood
+relative_productivity          | r=+0.309 | increases likelihood
+final_contribution_pct         | r=+0.308 | increases likelihood
+max_contribution_pct           | r=+0.308 | increases likelihood
+
+MODEL PERFORMANCE (5-FOLD CV)
+----------------------------------------
+
+Logistic Regression:
+  ROC-AUC:  nan ± nan
+  PR-AUC:   0.400 ± 0.490
+  F1 Score: 0.400 ± 0.490
+
+Random Forest:
+  ROC-AUC:  nan ± nan
+  PR-AUC:   0.400 ± 0.490
+  F1 Score: 0.200 ± 0.400
+
+Gradient Boosting:
+  ROC-AUC:  nan ± nan
+  PR-AUC:   0.400 ± 0.490
+  F1 Score: 0.400 ± 0.490
+
+XGBoost:
+  ROC-AUC:  nan ± nan
+  PR-AUC:   0.400 ± 0.490
+  F1 Score: 0.000 ± 0.000
+
+SVM:
+  ROC-AUC:  nan ± nan
+  PR-AUC:   0.400 ± 0.490
+  F1 Score: 0.000 ± 0.000
+
+KEY INSIGHTS
+----------------------------------------
+• Core contributors make 12.9x more commits in first 90 days (median: 90 vs 7)
+• Core contributors are active 50% of weeks vs 20% for non-core
+• 100% of core contributors show sustained growth vs 0% of non-core
+• OSS4SG projects have 4.0% core rate vs 0.0% for conventional OSS
+
+================================================================================

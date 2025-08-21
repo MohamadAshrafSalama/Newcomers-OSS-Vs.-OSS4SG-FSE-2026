@@ -1,0 +1,2 @@
+Error: 'RobustGitHubExtractor' object has no attribute 'search_username_by_email'
+Row data: {'project_name': 'BLCM/BLCMods', 'contributor_email': 'mr2002@live.nl', 'weeks_to_core': 1.0, 'first_core_week': 10.0, 'first_commit_date': '2017-05-01', 'first_core_date': '2017-05-08', 'total_weeks_observed': 431, 'last_observed_date': '2025-07-28', 'sample_commit_hash': '78f69fa49cef0d190b24eca6418f85967be49be2', 'original_author_name': 'infamous27x', 'original_author_email': 'mr2002@live.nl', 'resolved_username': nan, 'contributor_id': 'BLCM/BLCMods_mr2002@live.nl'}

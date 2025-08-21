@@ -1,0 +1,78 @@
+================================================================================
+90-DAY CORE CONTRIBUTOR PREDICTION: SUMMARY REPORT
+================================================================================
+Generated: 2025-08-19 00:17:50
+
+DATASET SUMMARY
+----------------------------------------
+Total contributors analyzed: 61
+Core contributors: 2 (3.3%)
+Features extracted: 22
+
+BY PROJECT TYPE
+----------------------------------------
+OSS:
+  Contributors: 11
+  Core: 0 (0.0%)
+OSS4SG:
+  Contributors: 50
+  Core: 2 (4.0%)
+
+TOP 10 PREDICTIVE FEATURES (COMBINED MODEL)
+----------------------------------------
+sustained_growth               | r=+1.000 | increases likelihood
+month3_commits                 | r=+0.445 | increases likelihood
+month2_commits                 | r=+0.357 | increases likelihood
+trend_slope                    | r=+0.354 | increases likelihood
+total_commits_90d              | r=+0.311 | increases likelihood
+peak_week_commits              | r=+0.311 | increases likelihood
+acceleration_rate              | r=+0.311 | increases likelihood
+relative_productivity          | r=+0.309 | increases likelihood
+final_contribution_pct         | r=+0.308 | increases likelihood
+max_contribution_pct           | r=+0.308 | increases likelihood
+
+TYPE-SPECIFIC TOP FEATURES
+----------------------------------------
+
+OSS Top 5 Predictive Features:
+  active_weeks_count        | r=+nan ↓
+  activity_rate             | r=+nan ↓
+  longest_inactive_streak   | r=+nan ↓
+  activity_regularity       | r=+nan ↓
+  month1_commits            | r=+nan ↓
+
+OSS4SG Top 5 Predictive Features:
+  sustained_growth          | r=+1.000 ↑
+  month3_commits            | r=+0.468 ↑
+  trend_slope               | r=+0.374 ↑
+  month2_commits            | r=+0.368 ↑
+  peak_week_commits         | r=+0.341 ↑
+
+Unique to OSS top-10: activity_regularity, month1_commits, longest_inactive_streak, activity_rate, active_weeks_count
+Unique to OSS4SG top-10: total_commits_90d, peak_week_commits, relative_productivity, max_contribution_pct, final_contribution_pct
+
+MODEL PERFORMANCE COMPARISON
+----------------------------------------
+
+Combined Models:
+  LogisticReg : ROC=nan, PR=0.400, F1=0.400
+  RandomForest: ROC=nan, PR=0.400, F1=0.200
+  XGBoost     : ROC=nan, PR=0.400, F1=0.000
+
+OSS Models:
+
+OSS4SG Models:
+  LogisticReg : ROC=nan, PR=0.400, F1=0.400
+  RandomForest: ROC=nan, PR=0.400, F1=0.000
+  XGBoost     : ROC=nan, PR=0.250, F1=0.000
+
+KEY INSIGHTS
+----------------------------------------
+• Core contributors make 12.9x more commits in first 90 days (median: 90 vs 7)
+• Core contributors are active 50% of weeks vs 20% for non-core
+• 100% of core contributors show sustained growth vs 0% of non-core
+• OSS4SG projects have 4.0% core rate vs 0.0% for conventional OSS
+• OSS core contributors: nan median commits
+• OSS4SG core contributors: 90 median commits
+
+================================================================================
