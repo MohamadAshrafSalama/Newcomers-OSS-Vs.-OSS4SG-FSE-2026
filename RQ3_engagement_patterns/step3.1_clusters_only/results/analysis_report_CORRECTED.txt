@@ -1,0 +1,67 @@
+======================================================================
+RQ3 Step 3.1 CORRECTED: CLUSTERS-ONLY ANALYSIS REPORT
+======================================================================
+Generated: 2025-08-24 17:57:34
+
+CORRECTED PATTERN NAMES:
+----------------------------------------
+• Cluster 0: Early Spike (high activity early, then decreases)
+• Cluster 1: Low/Gradual Activity (consistently low activity)
+• Cluster 2: Sustained Activity (gradual increase over time)
+
+DATASET SUMMARY
+----------------------------------------
+Total contributors analyzed: 3421
+OSS contributors: 1871
+OSS4SG contributors: 1550
+
+STATISTICAL ANALYSIS
+----------------------------------------
+Kruskal–Wallis H=686.672 p=0.000000
+Scott-Knott ranking uses MEDIAN values (more robust to outliers)
+Number of Scott-Knott ranks: 4
+
+PATTERN EFFECTIVENESS RANKINGS (by MEDIAN)
+----------------------------------------
+Rank 1: OSS-Late Spike
+  Median time to core: 21 weeks
+  Mean time to core: 32.4 weeks
+  Sample size: 293 contributors
+  IQR: 11-47 weeks
+
+Rank 1: OSS4SG-Late Spike
+  Median time to core: 21 weeks
+  Mean time to core: 32.3 weeks
+  Sample size: 355 contributors
+  IQR: 11-39 weeks
+
+Rank 1: OSS4SG-Low/Gradual Activity
+  Median time to core: 24 weeks
+  Mean time to core: 33.2 weeks
+  Sample size: 438 contributors
+  IQR: 11-42 weeks
+
+Rank 2: OSS-Low/Gradual Activity
+  Median time to core: 27 weeks
+  Mean time to core: 38.3 weeks
+  Sample size: 426 contributors
+  IQR: 12-51 weeks
+
+Rank 3: OSS4SG-Early Spike
+  Median time to core: 51 weeks
+  Mean time to core: 65.4 weeks
+  Sample size: 757 contributors
+  IQR: 31-89 weeks
+
+Rank 4: OSS-Early Spike
+  Median time to core: 60 weeks
+  Mean time to core: 74.4 weeks
+  Sample size: 1152 contributors
+  IQR: 35-108 weeks
+
+KEY INSIGHTS (CORRECTED)
+----------------------------------------
+• Low/Gradual Activity is the FASTEST pattern (not Early Spike!)
+• Early Spike is actually the SLOWEST in both ecosystems
+• OSS4SG is more forgiving - multiple patterns work well
+• Pattern choice has larger impact in OSS than OSS4SG

@@ -25,7 +25,7 @@ class PatternEffectivenessAnalysis:
     """
     
     def __init__(self, clustering_results_path, transition_data_path, 
-                 clustering_k=3, output_dir="pattern_effectiveness_results"):
+                 clustering_k=3, output_dir="pattern_effectiveness_results", use_esd=False, esd_threshold=0.147):
         """
         Initialize the analysis.
         
@@ -38,8 +38,14 @@ class PatternEffectivenessAnalysis:
         self.clustering_results_path = Path(clustering_results_path)
         self.transition_data_path = Path(transition_data_path)
         self.clustering_k = clustering_k
+        # If ESD requested, suffix output dir
+        if use_esd and not output_dir.endswith("_esd"):
+            output_dir = f"{output_dir}_esd"
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(exist_ok=True, parents=True)
+        self.use_esd = use_esd
+        # Cliff's delta small-effect threshold (ESD)
+        self.esd_threshold = esd_threshold
         
         # Pattern names for interpretation
         self.pattern_names = {
@@ -58,12 +64,19 @@ class PatternEffectivenessAnalysis:
         self.log("Loading clustering data with built-in transition analysis...")
         
         # Load cluster assignments (all 3,421 contributors)
-        cluster_labels_file = self.clustering_results_path / f"cluster_assignments_k{self.clustering_k}.csv"
-        if cluster_labels_file.exists():
-            df_clusters = pd.read_csv(cluster_labels_file)
+        # Prefer finalized Step 2 membership if available
+        df_clusters = None
+        membership_final = Path("../step2_final/clustering_results_min6_per_series/cluster_membership_k3.csv")
+        if membership_final.exists():
+            self.log("Loading finalized cluster membership from step2_final", "INFO")
+            df_clusters = pd.read_csv(membership_final)[['contributor_id','cluster','project','project_type']]
         else:
-            self.log("Cluster assignments file not found. Creating from time series data...", "WARNING")
-            df_clusters = self.create_cluster_assignments()
+            cluster_labels_file = self.clustering_results_path / f"cluster_assignments_k{self.clustering_k}.csv"
+            if cluster_labels_file.exists():
+                df_clusters = pd.read_csv(cluster_labels_file)
+            else:
+                self.log("Cluster assignments file not found. Creating from time series data...", "WARNING")
+                df_clusters = self.create_cluster_assignments()
         
         self.log(f"Loaded cluster assignments for {len(df_clusters)} contributors")
         
@@ -250,9 +263,12 @@ class PatternEffectivenessAnalysis:
             if HAS_POSTHOCS:
                 # Use Dunn's test for pairwise comparisons
                 dunn_results = sp.posthoc_dunn(sk_data, val_col='weeks_to_core', group_col='group')
-                
-                # Create Scott-Knott-like clusters based on pairwise comparisons
-                self.cluster_groups(dunn_results)
+                # Optionally compute effect sizes (Cliff's delta) for ESD
+                effect_sizes = None
+                if self.use_esd:
+                    effect_sizes = self.compute_effect_sizes(sk_data)
+                # Create Scott-Knott-like clusters based on pairwise comparisons (+ESD if enabled)
+                self.cluster_groups(dunn_results, effect_sizes)
             else:
                 self.log("scikit-posthocs not available. Using simplified ranking by median.", "WARNING")
                 # Simple ranking by median as fallback
@@ -271,7 +287,7 @@ class PatternEffectivenessAnalysis:
         
         return self.stats_df
     
-    def cluster_groups(self, pairwise_results):
+    def cluster_groups(self, pairwise_results, effect_sizes=None):
         """
         Create Scott-Knott-like clusters from pairwise comparison results.
         """
@@ -284,7 +300,7 @@ class PatternEffectivenessAnalysis:
         # Initialize all groups with their own rank
         ranks = list(range(1, n_groups + 1))
         
-        # Merge ranks for non-significant differences
+        # Merge ranks for non-significant differences (and small effect if ESD)
         for i in range(n_groups):
             for j in range(i+1, n_groups):
                 group_i = groups[i]
@@ -293,11 +309,40 @@ class PatternEffectivenessAnalysis:
                 # If not significantly different (p > 0.05), give same rank
                 if group_i in pairwise_results.index and group_j in pairwise_results.columns:
                     p_val = pairwise_results.loc[group_i, group_j]
-                    if p_val > 0.05:
+                    esd_small = False
+                    if effect_sizes is not None:
+                        # effect_sizes is a dict of tuple(sorted(g1,g2)) -> abs(delta)
+                        key = tuple(sorted([group_i, group_j]))
+                        delta = effect_sizes.get(key, 0)
+                        esd_small = abs(delta) < self.esd_threshold
+                    if p_val > 0.05 or esd_small:
                         # Merge ranks
                         min_rank = min(ranks[i], ranks[j])
                         ranks[i] = min_rank
                         ranks[j] = min_rank
+    def compute_effect_sizes(self, sk_data):
+        """
+        Compute Cliff's delta for each pair of groups; returns dict {(g1,g2): delta}.
+        """
+        self.log("Computing effect sizes (Cliff's delta) for ESD...", "INFO")
+        effect_sizes = {}
+        groups = sk_data['group'].unique()
+        # Preload group arrays to avoid repeated filtering
+        group_to_vals = {g: sk_data[sk_data['group'] == g]['weeks_to_core'].values for g in groups}
+        for i in range(len(groups)):
+            for j in range(i+1, len(groups)):
+                g1, g2 = groups[i], groups[j]
+                a = group_to_vals[g1]
+                b = group_to_vals[g2]
+                # Compute Cliff's delta
+                # Efficient approximation via ranks could be used; direct O(mn) for clarity
+                gt = lt = 0
+                for ai in a:
+                    gt += np.sum(ai > b)
+                    lt += np.sum(ai < b)
+                delta = (gt - lt) / (len(a) * len(b)) if (len(a) > 0 and len(b) > 0) else 0.0
+                effect_sizes[tuple(sorted([g1, g2]))] = delta
+        return effect_sizes
         
         # Normalize ranks to start from 1
         unique_ranks = sorted(set(ranks))
@@ -319,39 +364,41 @@ class PatternEffectivenessAnalysis:
         # Create figure with subplots
         fig = plt.figure(figsize=(20, 14))
         
-        # 1. Box plot of weeks to core by pattern and type
+        # 1. Rank-sorted box plot of weeks to core (MAIN)
         ax1 = plt.subplot(3, 3, 1)
-        
-        # Prepare data for plotting
         plot_data = self.data.copy()
         plot_data['Group'] = plot_data['pattern_name'] + '\n(' + plot_data['project_type'] + ')'
-        
-        # Create box plot
-        box_order = ['Early Spike\n(OSS4SG)', 'Early Spike\n(OSS)', 
-                     'Sustained Activity\n(OSS4SG)', 'Sustained Activity\n(OSS)',
-                     'Low/Gradual Activity\n(OSS4SG)', 'Low/Gradual Activity\n(OSS)']
-        
-        # Filter to existing groups
-        existing_order = [g for g in box_order if g in plot_data['Group'].unique()]
-        
-        sns.boxplot(data=plot_data, x='Group', y='weeks_to_core', 
-                   order=existing_order, ax=ax1,
-                   palette=['lightcoral' if 'OSS4SG' in g else 'lightblue' for g in existing_order])
-        ax1.set_title('Time to Core by Pattern and Project Type', fontsize=12, fontweight='bold')
+        # Order groups by Scott–Knott rank, then by median weeks
+        order_df = self.stats_df.copy()
+        order_df['Group'] = order_df['pattern'] + '\n(' + order_df['project_type'] + ')'
+        order_df = order_df.sort_values(['sk_rank', 'median_weeks']) if 'sk_rank' in order_df.columns else order_df.sort_values('median_weeks')
+        group_order = order_df['Group'].tolist()
+        # Color by rank
+        unique_ranks = sorted(order_df['sk_rank'].unique()) if 'sk_rank' in order_df.columns else [1]
+        cmap = plt.cm.Set3
+        rank_to_color = {rk: cmap((i % 12) / max(11, len(unique_ranks)-1 or 1)) for i, rk in enumerate(unique_ranks)}
+        group_to_color = {}
+        for _, row in order_df.iterrows():
+            rk = row['sk_rank'] if 'sk_rank' in row else 1
+            group_to_color[row['Group']] = rank_to_color[rk]
+        sns.boxplot(data=plot_data, x='Group', y='weeks_to_core', order=group_order, ax=ax1, palette=group_to_color)
+        ax1.set_title('Time to Core (Rank-sorted; color = Scott–Knott rank)', fontsize=12, fontweight='bold')
         ax1.set_xlabel('Pattern (Project Type)', fontsize=10)
         ax1.set_ylabel('Weeks to Core', fontsize=10)
         ax1.tick_params(axis='x', rotation=45)
         
-        # 2. Median comparison bar chart
+        # 2. Median comparison bar chart (sorted by rank)
         ax2 = plt.subplot(3, 3, 2)
         
         # Prepare data
-        bar_data = self.stats_df.sort_values('median_weeks')
-        colors = ['#ff9999' if 'OSS4SG' in g else '#66b3ff' for g in bar_data['group']]
+        bar_data = self.stats_df.copy()
+        bar_data['group_label'] = bar_data['pattern'] + '\n(' + bar_data['project_type'] + ')'
+        bar_data = bar_data.sort_values(['sk_rank', 'median_weeks']) if 'sk_rank' in bar_data.columns else bar_data.sort_values('median_weeks')
+        colors = [rank_to_color[row['sk_rank']] if 'sk_rank' in bar_data.columns else '#66b3ff' for _, row in bar_data.iterrows()]
         
         bars = ax2.bar(range(len(bar_data)), bar_data['median_weeks'], color=colors)
         ax2.set_xticks(range(len(bar_data)))
-        ax2.set_xticklabels([g.replace('-', '\n') for g in bar_data['group']], rotation=45, ha='right')
+        ax2.set_xticklabels(bar_data['group_label'].tolist(), rotation=45, ha='right')
         ax2.set_title('Median Weeks to Core (Sorted)', fontsize=12, fontweight='bold')
         ax2.set_ylabel('Median Weeks', fontsize=10)
         
@@ -360,7 +407,7 @@ class PatternEffectivenessAnalysis:
             ax2.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 1,
                     f'{val:.0f}', ha='center', va='bottom', fontsize=9)
         
-        # 3. Scott-Knott clustering visualization
+        # 3. Scott-Knott clustering visualization (rank borders + rank colors)
         ax3 = plt.subplot(3, 3, 3)
         
         if 'sk_rank' in self.stats_df.columns:
@@ -376,10 +423,9 @@ class PatternEffectivenessAnalysis:
             
             for rank, (rank_id, group) in enumerate(rank_groups):
                 for _, row in group.iterrows():
-                    color = '#ff9999' if 'OSS4SG' in row['group'] else '#66b3ff'
-                    bar = ax3.bar(x_pos, row['median_weeks'], color=color, 
-                                 edgecolor=rank_colors[rank], linewidth=3)
-                    x_labels.append(row['group'].replace('-', '\n'))
+                    color = rank_to_color[row['sk_rank']]
+                    bar = ax3.bar(x_pos, row['median_weeks'], color=color, edgecolor='black', linewidth=1)
+                    x_labels.append((row['pattern'] + '\n(' + row['project_type'] + ')'))
                     x_positions.append(x_pos)
                     x_pos += 1
                 

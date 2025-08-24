@@ -1,7 +1,7 @@
 ======================================================================
 RQ3: PATTERN EFFECTIVENESS ANALYSIS REPORT
 ======================================================================
-Generated: 2025-08-18 16:25:37
+Generated: 2025-08-24 17:15:53
 
 DATASET SUMMARY
 ----------------------------------------
@@ -11,37 +11,37 @@ OSS4SG contributors: 1550
 
 PATTERN EFFECTIVENESS RANKINGS
 ----------------------------------------
-Rank 4.0: OSS-Low/Gradual Activity
+Rank 4: OSS-Low/Gradual Activity
   Median time to core: 21 weeks
   Sample size: 293 contributors
   IQR: 11-47 weeks
   Intensity: 1.01 commits/week
 
-Rank 5.0: OSS4SG-Low/Gradual Activity
+Rank 5: OSS4SG-Low/Gradual Activity
   Median time to core: 21 weeks
   Sample size: 355 contributors
   IQR: 11-39 weeks
   Intensity: 1.32 commits/week
 
-Rank 2.0: OSS4SG-Sustained Activity
+Rank 2: OSS4SG-Sustained Activity
   Median time to core: 24 weeks
   Sample size: 438 contributors
   IQR: 11-42 weeks
   Intensity: 1.49 commits/week
 
-Rank 6.0: OSS-Sustained Activity
+Rank 6: OSS-Sustained Activity
   Median time to core: 27 weeks
   Sample size: 426 contributors
   IQR: 12-51 weeks
   Intensity: 1.17 commits/week
 
-Rank 1.0: OSS4SG-Early Spike
+Rank 1: OSS4SG-Early Spike
   Median time to core: 51 weeks
   Sample size: 757 contributors
   IQR: 31-89 weeks
   Intensity: 0.47 commits/week
 
-Rank 3.0: OSS-Early Spike
+Rank 3: OSS-Early Spike
   Median time to core: 60 weeks
   Sample size: 1152 contributors
   IQR: 35-108 weeks

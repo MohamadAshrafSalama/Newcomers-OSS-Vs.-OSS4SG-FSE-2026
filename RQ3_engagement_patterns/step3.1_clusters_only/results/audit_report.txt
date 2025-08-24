@@ -1,0 +1,29 @@
+AUDIT REPORT — Step 3.1 (clusters-only)
+
+Input clusters: ../step2_final/clustering_results_min6_per_series/cluster_membership_k3.csv
+Input timeseries: ../step1/results/rolling_4week/weekly_pivot_for_dtw.csv
+clusters rows=3421 unique_contributors=3421
+clusters project_type dist={'OSS': 1871, 'OSS4SG': 1550}
+clusters cluster dist={0: 1909, 1: 864, 2: 648}
+merged rows=3421 (expected 3421)
+t_* columns count=259 first6=['t_-51', 't_-50', 't_-49', 't_-48', 't_-47', 't_-46'] last6=['t_202', 't_203', 't_204', 't_205', 't_206', 't_207']
+w2c non-null=3421 median=41.0 mean=54.7
+
+Group medians (ascending):
+  OSS-Late Spike: median=21.0
+  OSS4SG-Late Spike: median=21.0
+  OSS4SG-Low/Gradual Activity: median=24.0
+  OSS-Low/Gradual Activity: median=27.0
+  OSS4SG-Early Spike: median=51.0
+  OSS-Early Spike: median=59.5
+
+Comparison vs scott_knott_results.csv (expect zeros):
+  OSS-Early Spike: n_diff=0, median_diff=0.0, mean_diff=0.0, rank=4
+  OSS-Late Spike: n_diff=0, median_diff=0.0, mean_diff=0.0, rank=1
+  OSS-Low/Gradual Activity: n_diff=0, median_diff=0.0, mean_diff=0.0, rank=2
+  OSS4SG-Early Spike: n_diff=0, median_diff=0.0, mean_diff=0.0, rank=3
+  OSS4SG-Late Spike: n_diff=0, median_diff=0.0, mean_diff=0.0, rank=1
+  OSS4SG-Low/Gradual Activity: n_diff=0, median_diff=0.0, mean_diff=0.0, rank=1
+
+Kruskal–Wallis H=686.672 p=3.741e-146
+Dunn matrix saved: results/audit_dunn.csv

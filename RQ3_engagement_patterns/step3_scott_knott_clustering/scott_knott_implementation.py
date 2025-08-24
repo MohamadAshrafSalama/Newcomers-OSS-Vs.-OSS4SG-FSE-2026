@@ -87,8 +87,15 @@ def save_cluster_assignments_from_existing():
     
     # Convert to array and scale
     X_processed = np.array(processed_series)
-    scaler = MinMaxScaler()
-    X_scaled = scaler.fit_transform(X_processed.T).T
+    # Use per-series scaling to align with finalized Step 2 settings
+    X_scaled = []
+    for series in X_processed:
+        s_min, s_max = series.min(), series.max()
+        if s_max > s_min:
+            X_scaled.append((series - s_min) / (s_max - s_min))
+        else:
+            X_scaled.append(series * 0)
+    X_scaled = np.array(X_scaled)
     
     print(f"Processed {len(X_scaled)} valid contributors")
     
