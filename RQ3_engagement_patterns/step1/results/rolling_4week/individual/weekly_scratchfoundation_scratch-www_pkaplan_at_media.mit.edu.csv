@@ -1,0 +1,5 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,7,0,0,0,4,0.25,0.5714285714285714,1.8607142857142855,scratchfoundation_scratch-www_pkaplan_at_media.mit.edu,scratchfoundation/scratch-www,OSS4SG,0
+1,18,0,0,0,4,0.5,0.5714285714285714,4.635714285714285,scratchfoundation_scratch-www_pkaplan_at_media.mit.edu,scratchfoundation/scratch-www,OSS4SG,0
+2,30,0,0,0,5,0.75,0.7142857142857143,7.682142857142857,scratchfoundation_scratch-www_pkaplan_at_media.mit.edu,scratchfoundation/scratch-www,OSS4SG,0
+3,21,0,0,0,4,1.0,0.5714285714285714,5.435714285714285,scratchfoundation_scratch-www_pkaplan_at_media.mit.edu,scratchfoundation/scratch-www,OSS4SG,0

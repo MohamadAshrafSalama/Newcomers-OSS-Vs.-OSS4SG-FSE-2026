@@ -1,0 +1,11 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,2,0,0,0,1,0.25,0.14285714285714285,0.5464285714285715,Recidiviz_pulse-data_zacharydgarcia_at_gmail.com,Recidiviz/pulse-data,OSS4SG,0
+1,7,0,0,0,3,0.5,0.42857142857142855,1.8642857142857143,Recidiviz_pulse-data_zacharydgarcia_at_gmail.com,Recidiviz/pulse-data,OSS4SG,0
+2,3,0,0,0,3,0.75,0.42857142857142855,0.8892857142857142,Recidiviz_pulse-data_zacharydgarcia_at_gmail.com,Recidiviz/pulse-data,OSS4SG,0
+3,0,0,0,0,0,0.75,0.0,0.07500000000000001,Recidiviz_pulse-data_zacharydgarcia_at_gmail.com,Recidiviz/pulse-data,OSS4SG,0
+4,3,0,0,0,1,0.75,0.14285714285714285,0.8464285714285715,Recidiviz_pulse-data_zacharydgarcia_at_gmail.com,Recidiviz/pulse-data,OSS4SG,1
+5,2,0,0,0,1,0.75,0.14285714285714285,0.5964285714285715,Recidiviz_pulse-data_zacharydgarcia_at_gmail.com,Recidiviz/pulse-data,OSS4SG,1
+6,3,0,0,0,1,0.75,0.14285714285714285,0.8464285714285715,Recidiviz_pulse-data_zacharydgarcia_at_gmail.com,Recidiviz/pulse-data,OSS4SG,1
+7,3,0,0,0,1,1.0,0.14285714285714285,0.8714285714285714,Recidiviz_pulse-data_zacharydgarcia_at_gmail.com,Recidiviz/pulse-data,OSS4SG,1
+8,6,0,0,0,4,1.0,0.5714285714285714,1.6857142857142857,Recidiviz_pulse-data_zacharydgarcia_at_gmail.com,Recidiviz/pulse-data,OSS4SG,2
+9,6,0,0,0,4,1.0,0.5714285714285714,1.6857142857142857,Recidiviz_pulse-data_zacharydgarcia_at_gmail.com,Recidiviz/pulse-data,OSS4SG,2

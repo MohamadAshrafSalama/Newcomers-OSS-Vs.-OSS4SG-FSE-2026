@@ -1,0 +1,5 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,0,0,0,1,0.25,0.14285714285714285,0.29642857142857143,trekhleb_javascript-algorithms_tapaswenipathak_at_gmail.com,trekhleb/javascript-algorithms,OSS,0
+1,1,0,0,0,1,0.5,0.14285714285714285,0.3214285714285714,trekhleb_javascript-algorithms_tapaswenipathak_at_gmail.com,trekhleb/javascript-algorithms,OSS,0
+2,0,0,0,0,0,0.5,0.0,0.05,trekhleb_javascript-algorithms_tapaswenipathak_at_gmail.com,trekhleb/javascript-algorithms,OSS,0
+3,1,0,0,0,1,0.75,0.14285714285714285,0.3464285714285714,trekhleb_javascript-algorithms_tapaswenipathak_at_gmail.com,trekhleb/javascript-algorithms,OSS,0

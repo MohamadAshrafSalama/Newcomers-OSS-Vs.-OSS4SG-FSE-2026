@@ -1,0 +1,8 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,5,4,1,2,3,0.25,0.42857142857142855,2.589285714285714,togglz_togglz_mail_at_bennet-schulz.de,togglz/togglz,OSS,0
+1,1,2,1,1,2,0.5,0.2857142857142857,1.042857142857143,togglz_togglz_mail_at_bennet-schulz.de,togglz/togglz,OSS,0
+2,3,2,0,0,2,0.75,0.2857142857142857,1.2678571428571428,togglz_togglz_mail_at_bennet-schulz.de,togglz/togglz,OSS,0
+3,1,1,0,0,1,1.0,0.14285714285714285,0.5714285714285714,togglz_togglz_mail_at_bennet-schulz.de,togglz/togglz,OSS,0
+4,0,0,0,0,0,0.75,0.0,0.07500000000000001,togglz_togglz_mail_at_bennet-schulz.de,togglz/togglz,OSS,1
+5,1,0,0,0,1,0.75,0.14285714285714285,0.3464285714285714,togglz_togglz_mail_at_bennet-schulz.de,togglz/togglz,OSS,1
+6,4,3,1,0,4,0.75,0.5714285714285714,1.9107142857142856,togglz_togglz_mail_at_bennet-schulz.de,togglz/togglz,OSS,1

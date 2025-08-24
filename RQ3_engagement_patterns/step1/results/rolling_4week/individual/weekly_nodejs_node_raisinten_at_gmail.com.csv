@@ -1,0 +1,11 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,1,2,1,2,0.25,0.2857142857142857,0.9678571428571429,nodejs_node_raisinten_at_gmail.com,nodejs/node,OSS,0
+1,1,1,2,0,1,0.5,0.14285714285714285,0.8214285714285715,nodejs_node_raisinten_at_gmail.com,nodejs/node,OSS,0
+2,3,0,6,0,4,0.75,0.5714285714285714,1.8107142857142855,nodejs_node_raisinten_at_gmail.com,nodejs/node,OSS,0
+3,1,0,1,1,1,1.0,0.14285714285714285,0.6714285714285715,nodejs_node_raisinten_at_gmail.com,nodejs/node,OSS,0
+4,5,2,7,1,6,1.0,0.8571428571428571,3.0785714285714287,nodejs_node_raisinten_at_gmail.com,nodejs/node,OSS,1
+5,3,0,21,1,4,1.0,0.5714285714285714,4.235714285714285,nodejs_node_raisinten_at_gmail.com,nodejs/node,OSS,1
+6,0,0,2,1,1,1.0,0.14285714285714285,0.5714285714285714,nodejs_node_raisinten_at_gmail.com,nodejs/node,OSS,1
+7,1,0,2,0,1,1.0,0.14285714285714285,0.6714285714285715,nodejs_node_raisinten_at_gmail.com,nodejs/node,OSS,1
+8,4,1,22,1,6,1.0,0.8571428571428571,4.878571428571428,nodejs_node_raisinten_at_gmail.com,nodejs/node,OSS,2
+9,0,0,5,1,4,1.0,0.5714285714285714,1.0857142857142859,nodejs_node_raisinten_at_gmail.com,nodejs/node,OSS,2

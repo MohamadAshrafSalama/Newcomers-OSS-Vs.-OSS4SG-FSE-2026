@@ -1,0 +1,5 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,3,0,0,0,1,0.25,0.14285714285714285,0.7964285714285715,dimagi_commcare-hq_czue_at_dimagi.com,dimagi/commcare-hq,OSS4SG,0
+1,2,0,0,0,1,0.5,0.14285714285714285,0.5714285714285715,dimagi_commcare-hq_czue_at_dimagi.com,dimagi/commcare-hq,OSS4SG,0
+2,19,0,0,0,2,0.75,0.2857142857142857,4.867857142857143,dimagi_commcare-hq_czue_at_dimagi.com,dimagi/commcare-hq,OSS4SG,0
+3,43,0,0,0,6,1.0,0.8571428571428571,10.978571428571428,dimagi_commcare-hq_czue_at_dimagi.com,dimagi/commcare-hq,OSS4SG,0

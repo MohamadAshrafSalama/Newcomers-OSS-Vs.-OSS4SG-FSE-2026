@@ -1,0 +1,12 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+-2,0,2,2,0,1,0.25,0.14285714285714285,0.7464285714285714,togglz_togglz_jan-hendrik.peters_at_idealo.de,togglz/togglz,OSS,-1
+-1,0,0,0,0,0,0.25,0.0,0.025,togglz_togglz_jan-hendrik.peters_at_idealo.de,togglz/togglz,OSS,-1
+0,1,1,3,1,3,0.5,0.42857142857142855,1.1642857142857141,togglz_togglz_jan-hendrik.peters_at_idealo.de,togglz/togglz,OSS,0
+1,4,5,3,0,5,0.75,0.7142857142857143,2.6321428571428576,togglz_togglz_jan-hendrik.peters_at_idealo.de,togglz/togglz,OSS,0
+2,4,5,2,1,4,0.75,0.5714285714285714,2.6107142857142858,togglz_togglz_jan-hendrik.peters_at_idealo.de,togglz/togglz,OSS,0
+3,3,2,5,1,3,1.0,0.42857142857142855,2.214285714285714,togglz_togglz_jan-hendrik.peters_at_idealo.de,togglz/togglz,OSS,0
+4,0,0,0,0,0,0.75,0.0,0.07500000000000001,togglz_togglz_jan-hendrik.peters_at_idealo.de,togglz/togglz,OSS,1
+5,0,0,0,0,0,0.5,0.0,0.05,togglz_togglz_jan-hendrik.peters_at_idealo.de,togglz/togglz,OSS,1
+6,0,0,0,0,0,0.25,0.0,0.025,togglz_togglz_jan-hendrik.peters_at_idealo.de,togglz/togglz,OSS,1
+7,2,0,0,0,1,0.25,0.14285714285714285,0.5464285714285715,togglz_togglz_jan-hendrik.peters_at_idealo.de,togglz/togglz,OSS,1
+8,1,0,0,0,1,0.5,0.14285714285714285,0.3214285714285714,togglz_togglz_jan-hendrik.peters_at_idealo.de,togglz/togglz,OSS,2

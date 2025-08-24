@@ -1,0 +1,2 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,8,2,2,0,3,0.25,0.42857142857142855,2.789285714285714,AUTOMATIC1111_stable-diffusion-webui_73501718+m-art-ucci_at_users.noreply.github.com,AUTOMATIC1111/stable-diffusion-webui,OSS,0

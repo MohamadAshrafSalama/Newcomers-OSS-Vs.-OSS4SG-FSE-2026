@@ -1,0 +1,13 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,5,0,0,0,2,0.25,0.2857142857142857,1.3178571428571428,camicroscope_caMicroscope_alina.jasniewski_at_stonybrook.edu,camicroscope/caMicroscope,OSS4SG,0
+1,13,3,0,0,4,0.5,0.5714285714285714,3.9857142857142858,camicroscope_caMicroscope_alina.jasniewski_at_stonybrook.edu,camicroscope/caMicroscope,OSS4SG,0
+2,9,1,0,0,6,0.75,0.8571428571428571,2.653571428571429,camicroscope_caMicroscope_alina.jasniewski_at_stonybrook.edu,camicroscope/caMicroscope,OSS4SG,0
+3,6,3,0,0,2,1.0,0.2857142857142857,2.242857142857143,camicroscope_caMicroscope_alina.jasniewski_at_stonybrook.edu,camicroscope/caMicroscope,OSS4SG,0
+4,3,2,0,0,3,1.0,0.42857142857142855,1.3142857142857143,camicroscope_caMicroscope_alina.jasniewski_at_stonybrook.edu,camicroscope/caMicroscope,OSS4SG,1
+5,0,0,0,0,0,0.75,0.0,0.07500000000000001,camicroscope_caMicroscope_alina.jasniewski_at_stonybrook.edu,camicroscope/caMicroscope,OSS4SG,1
+6,4,2,1,0,2,0.75,0.2857142857142857,1.6678571428571427,camicroscope_caMicroscope_alina.jasniewski_at_stonybrook.edu,camicroscope/caMicroscope,OSS4SG,1
+7,7,1,0,0,2,0.75,0.2857142857142857,2.067857142857143,camicroscope_caMicroscope_alina.jasniewski_at_stonybrook.edu,camicroscope/caMicroscope,OSS4SG,1
+8,4,1,0,0,3,0.75,0.42857142857142855,1.3392857142857142,camicroscope_caMicroscope_alina.jasniewski_at_stonybrook.edu,camicroscope/caMicroscope,OSS4SG,2
+9,8,3,0,0,3,1.0,0.42857142857142855,2.7642857142857147,camicroscope_caMicroscope_alina.jasniewski_at_stonybrook.edu,camicroscope/caMicroscope,OSS4SG,2
+10,10,3,0,0,2,1.0,0.2857142857142857,3.242857142857143,camicroscope_caMicroscope_alina.jasniewski_at_stonybrook.edu,camicroscope/caMicroscope,OSS4SG,2
+11,4,2,0,0,3,1.0,0.42857142857142855,1.5642857142857143,camicroscope_caMicroscope_alina.jasniewski_at_stonybrook.edu,camicroscope/caMicroscope,OSS4SG,2

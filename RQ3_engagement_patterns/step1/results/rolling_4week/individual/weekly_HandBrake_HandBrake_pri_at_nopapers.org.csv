@@ -1,0 +1,7 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,3,0,0,0,2,0.25,0.2857142857142857,0.8178571428571428,HandBrake_HandBrake_pri_at_nopapers.org,HandBrake/HandBrake,OSS,0
+1,2,0,0,0,2,0.5,0.2857142857142857,0.5928571428571429,HandBrake_HandBrake_pri_at_nopapers.org,HandBrake/HandBrake,OSS,0
+2,0,0,0,0,0,0.5,0.0,0.05,HandBrake_HandBrake_pri_at_nopapers.org,HandBrake/HandBrake,OSS,0
+3,0,0,0,0,0,0.5,0.0,0.05,HandBrake_HandBrake_pri_at_nopapers.org,HandBrake/HandBrake,OSS,0
+4,0,0,0,0,0,0.25,0.0,0.025,HandBrake_HandBrake_pri_at_nopapers.org,HandBrake/HandBrake,OSS,1
+5,8,0,0,0,1,0.25,0.14285714285714285,2.0464285714285713,HandBrake_HandBrake_pri_at_nopapers.org,HandBrake/HandBrake,OSS,1

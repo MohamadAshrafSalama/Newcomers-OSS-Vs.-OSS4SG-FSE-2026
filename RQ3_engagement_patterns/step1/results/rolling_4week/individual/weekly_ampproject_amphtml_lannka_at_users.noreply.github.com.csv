@@ -1,0 +1,10 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,5,7,5,3,5,0.25,0.7142857142857143,3.9821428571428577,ampproject_amphtml_lannka_at_users.noreply.github.com,ampproject/amphtml,OSS,0
+1,5,4,6,3,5,0.5,0.7142857142857143,3.5571428571428565,ampproject_amphtml_lannka_at_users.noreply.github.com,ampproject/amphtml,OSS,0
+2,3,4,3,0,5,0.75,0.7142857142857143,2.1821428571428574,ampproject_amphtml_lannka_at_users.noreply.github.com,ampproject/amphtml,OSS,0
+3,7,7,5,2,5,1.0,0.7142857142857143,4.407142857142857,ampproject_amphtml_lannka_at_users.noreply.github.com,ampproject/amphtml,OSS,0
+4,5,4,3,0,2,1.0,0.2857142857142857,2.642857142857143,ampproject_amphtml_lannka_at_users.noreply.github.com,ampproject/amphtml,OSS,1
+5,2,2,2,1,2,1.0,0.2857142857142857,1.4928571428571429,ampproject_amphtml_lannka_at_users.noreply.github.com,ampproject/amphtml,OSS,1
+6,5,6,8,2,5,1.0,0.7142857142857143,4.157142857142857,ampproject_amphtml_lannka_at_users.noreply.github.com,ampproject/amphtml,OSS,1
+7,5,5,5,2,3,1.0,0.42857142857142855,3.464285714285714,ampproject_amphtml_lannka_at_users.noreply.github.com,ampproject/amphtml,OSS,1
+8,7,6,8,3,5,1.0,0.7142857142857143,4.807142857142857,ampproject_amphtml_lannka_at_users.noreply.github.com,ampproject/amphtml,OSS,2

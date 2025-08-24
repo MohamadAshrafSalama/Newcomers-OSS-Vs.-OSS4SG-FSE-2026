@@ -1,0 +1,14 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,5,2,3,0,2,0.25,0.2857142857142857,2.1678571428571423,rubyforgood_human-essentials_chase.southard_at_gmail.com,rubyforgood/human-essentials,OSS4SG,0
+1,0,0,0,0,0,0.25,0.0,0.025,rubyforgood_human-essentials_chase.southard_at_gmail.com,rubyforgood/human-essentials,OSS4SG,0
+2,4,0,0,0,2,0.5,0.2857142857142857,1.092857142857143,rubyforgood_human-essentials_chase.southard_at_gmail.com,rubyforgood/human-essentials,OSS4SG,0
+3,1,1,0,0,2,0.75,0.2857142857142857,0.5678571428571428,rubyforgood_human-essentials_chase.southard_at_gmail.com,rubyforgood/human-essentials,OSS4SG,0
+4,0,0,0,0,0,0.5,0.0,0.05,rubyforgood_human-essentials_chase.southard_at_gmail.com,rubyforgood/human-essentials,OSS4SG,1
+5,0,0,0,0,0,0.5,0.0,0.05,rubyforgood_human-essentials_chase.southard_at_gmail.com,rubyforgood/human-essentials,OSS4SG,1
+6,0,0,0,0,0,0.25,0.0,0.025,rubyforgood_human-essentials_chase.southard_at_gmail.com,rubyforgood/human-essentials,OSS4SG,1
+7,0,0,0,0,0,0.0,0.0,0.0,rubyforgood_human-essentials_chase.southard_at_gmail.com,rubyforgood/human-essentials,OSS4SG,1
+8,0,0,0,0,0,0.0,0.0,0.0,rubyforgood_human-essentials_chase.southard_at_gmail.com,rubyforgood/human-essentials,OSS4SG,2
+9,0,0,0,0,0,0.0,0.0,0.0,rubyforgood_human-essentials_chase.southard_at_gmail.com,rubyforgood/human-essentials,OSS4SG,2
+10,1,1,0,0,1,0.25,0.14285714285714285,0.49642857142857144,rubyforgood_human-essentials_chase.southard_at_gmail.com,rubyforgood/human-essentials,OSS4SG,2
+11,0,0,0,0,0,0.25,0.0,0.025,rubyforgood_human-essentials_chase.southard_at_gmail.com,rubyforgood/human-essentials,OSS4SG,2
+12,2,1,1,0,1,0.5,0.14285714285714285,0.9214285714285715,rubyforgood_human-essentials_chase.southard_at_gmail.com,rubyforgood/human-essentials,OSS4SG,3

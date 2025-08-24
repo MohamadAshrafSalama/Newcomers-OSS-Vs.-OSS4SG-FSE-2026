@@ -1,0 +1,16 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,6,2,1,0,2,0.25,0.2857142857142857,2.1178571428571424,postmanlabs_openapi-to-postman_shreyshah97_at_gmail.com,postmanlabs/openapi-to-postman,OSS,0
+1,11,1,1,0,2,0.5,0.2857142857142857,3.1928571428571426,postmanlabs_openapi-to-postman_shreyshah97_at_gmail.com,postmanlabs/openapi-to-postman,OSS,0
+2,0,0,0,0,0,0.5,0.0,0.05,postmanlabs_openapi-to-postman_shreyshah97_at_gmail.com,postmanlabs/openapi-to-postman,OSS,0
+3,6,1,0,0,2,0.75,0.2857142857142857,1.8178571428571428,postmanlabs_openapi-to-postman_shreyshah97_at_gmail.com,postmanlabs/openapi-to-postman,OSS,0
+4,8,0,2,0,3,0.75,0.42857142857142855,2.439285714285714,postmanlabs_openapi-to-postman_shreyshah97_at_gmail.com,postmanlabs/openapi-to-postman,OSS,1
+5,2,0,0,0,1,0.75,0.14285714285714285,0.5964285714285715,postmanlabs_openapi-to-postman_shreyshah97_at_gmail.com,postmanlabs/openapi-to-postman,OSS,1
+6,2,3,0,0,1,1.0,0.14285714285714285,1.2214285714285715,postmanlabs_openapi-to-postman_shreyshah97_at_gmail.com,postmanlabs/openapi-to-postman,OSS,1
+7,0,0,0,0,0,0.75,0.0,0.07500000000000001,postmanlabs_openapi-to-postman_shreyshah97_at_gmail.com,postmanlabs/openapi-to-postman,OSS,1
+8,0,0,0,0,0,0.5,0.0,0.05,postmanlabs_openapi-to-postman_shreyshah97_at_gmail.com,postmanlabs/openapi-to-postman,OSS,2
+9,5,2,0,1,2,0.5,0.2857142857142857,1.8928571428571428,postmanlabs_openapi-to-postman_shreyshah97_at_gmail.com,postmanlabs/openapi-to-postman,OSS,2
+10,0,0,0,0,0,0.25,0.0,0.025,postmanlabs_openapi-to-postman_shreyshah97_at_gmail.com,postmanlabs/openapi-to-postman,OSS,2
+11,0,0,0,0,0,0.25,0.0,0.025,postmanlabs_openapi-to-postman_shreyshah97_at_gmail.com,postmanlabs/openapi-to-postman,OSS,2
+12,0,0,0,0,0,0.25,0.0,0.025,postmanlabs_openapi-to-postman_shreyshah97_at_gmail.com,postmanlabs/openapi-to-postman,OSS,3
+13,0,0,0,0,0,0.0,0.0,0.0,postmanlabs_openapi-to-postman_shreyshah97_at_gmail.com,postmanlabs/openapi-to-postman,OSS,3
+14,4,1,10,0,1,0.25,0.14285714285714285,2.7464285714285714,postmanlabs_openapi-to-postman_shreyshah97_at_gmail.com,postmanlabs/openapi-to-postman,OSS,3

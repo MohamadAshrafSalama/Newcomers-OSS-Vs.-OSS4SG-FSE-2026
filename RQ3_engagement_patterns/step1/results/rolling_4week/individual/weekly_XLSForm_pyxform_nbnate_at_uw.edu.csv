@@ -1,0 +1,6 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,0,0,0,1,0.25,0.14285714285714285,0.29642857142857143,XLSForm_pyxform_nbnate_at_uw.edu,XLSForm/pyxform,OSS4SG,0
+1,8,0,0,0,3,0.5,0.42857142857142855,2.114285714285714,XLSForm_pyxform_nbnate_at_uw.edu,XLSForm/pyxform,OSS4SG,0
+2,11,0,0,0,3,0.75,0.42857142857142855,2.8892857142857142,XLSForm_pyxform_nbnate_at_uw.edu,XLSForm/pyxform,OSS4SG,0
+3,8,0,0,0,3,1.0,0.42857142857142855,2.164285714285714,XLSForm_pyxform_nbnate_at_uw.edu,XLSForm/pyxform,OSS4SG,0
+4,21,0,0,0,5,1.0,0.7142857142857143,5.457142857142856,XLSForm_pyxform_nbnate_at_uw.edu,XLSForm/pyxform,OSS4SG,1

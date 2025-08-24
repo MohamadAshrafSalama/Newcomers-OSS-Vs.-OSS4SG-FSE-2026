@@ -1,0 +1,15 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,2,1,2,0,1,0.25,0.14285714285714285,1.0464285714285713,aws_s2n-tls_soco_at_amazon.com,aws/s2n-tls,OSS,0
+1,0,1,1,0,1,0.5,0.14285714285714285,0.4214285714285714,aws_s2n-tls_soco_at_amazon.com,aws/s2n-tls,OSS,0
+2,1,0,0,0,1,0.75,0.14285714285714285,0.3464285714285714,aws_s2n-tls_soco_at_amazon.com,aws/s2n-tls,OSS,0
+3,0,0,0,0,0,0.75,0.0,0.07500000000000001,aws_s2n-tls_soco_at_amazon.com,aws/s2n-tls,OSS,0
+4,0,0,0,0,0,0.5,0.0,0.05,aws_s2n-tls_soco_at_amazon.com,aws/s2n-tls,OSS,1
+5,3,2,0,0,1,0.5,0.14285714285714285,1.2214285714285713,aws_s2n-tls_soco_at_amazon.com,aws/s2n-tls,OSS,1
+6,1,0,0,0,1,0.5,0.14285714285714285,0.3214285714285714,aws_s2n-tls_soco_at_amazon.com,aws/s2n-tls,OSS,1
+7,0,0,0,0,0,0.5,0.0,0.05,aws_s2n-tls_soco_at_amazon.com,aws/s2n-tls,OSS,1
+8,0,0,0,0,0,0.5,0.0,0.05,aws_s2n-tls_soco_at_amazon.com,aws/s2n-tls,OSS,2
+9,0,0,0,0,0,0.25,0.0,0.025,aws_s2n-tls_soco_at_amazon.com,aws/s2n-tls,OSS,2
+10,11,5,1,0,3,0.25,0.42857142857142855,3.9892857142857143,aws_s2n-tls_soco_at_amazon.com,aws/s2n-tls,OSS,2
+11,2,0,1,0,3,0.5,0.42857142857142855,0.7642857142857143,aws_s2n-tls_soco_at_amazon.com,aws/s2n-tls,OSS,2
+12,3,0,0,0,3,0.75,0.42857142857142855,0.8892857142857142,aws_s2n-tls_soco_at_amazon.com,aws/s2n-tls,OSS,3
+13,1,0,0,0,1,1.0,0.14285714285714285,0.37142857142857144,aws_s2n-tls_soco_at_amazon.com,aws/s2n-tls,OSS,3

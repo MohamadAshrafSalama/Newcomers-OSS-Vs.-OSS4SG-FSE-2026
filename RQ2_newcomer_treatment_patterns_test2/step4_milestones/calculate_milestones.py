@@ -74,9 +74,24 @@ class MilestoneAnalyzer:
         
         timeline_df['data'] = timeline_df['event_data'].apply(safe_json_parse)
         
+        # Derive contributor identifiers
+        contributor_email = contributor_info.get('contributor_email', None)
+        try:
+            contributor_username = timeline_df['username'].iloc[0]
+        except Exception:
+            contributor_username = None
+
         # 1. FIRST ACCEPTED CONTRIBUTION
         prs = timeline_df[timeline_df['event_type'] == 'pull_request']
-        merged_prs = prs[prs['data'].apply(lambda x: x.get('state') == 'MERGED')]
+        def _is_merged(pr_data: dict) -> bool:
+            # Support both boolean merged flag and state strings
+            if pr_data is None:
+                return False
+            if isinstance(pr_data.get('merged'), bool):
+                return pr_data.get('merged') is True
+            return pr_data.get('state') == 'MERGED'
+
+        merged_prs = prs[prs['data'].apply(_is_merged)]
         
         if len(merged_prs) > 0:
             first_merged = merged_prs.iloc[0]
@@ -125,35 +140,52 @@ class MilestoneAnalyzer:
                 milestones['returning_contributor']['week'] = int(returns.iloc[0]['event_week'])
         
         # 4. TRUSTED REVIEWER (reviews others' PRs)
-        # Look for review events where they're not the PR author
+        # Look for review events where contributor reviewed someone else's PR
         for _, event in timeline_df.iterrows():
-            if event['event_type'] == 'pull_request':
-                pr_data = event['data']
-                reviews = pr_data.get('reviews', [])
-                
-                # Check if this contributor reviewed someone else's PR
-                pr_author = pr_data.get('author')
-                
-                # Handle different review data structures
-                if isinstance(reviews, list):
-                    for review in reviews:
-                        if isinstance(review, dict):
-                            reviewer = review.get('reviewer')
-                            if reviewer == contributor_info['contributor_email']:
-                                if pr_author != contributor_info['contributor_email']:
-                                    milestones['trusted_reviewer']['achieved'] = True
-                                    milestones['trusted_reviewer']['week'] = int(event['event_week'])
-                                    break
-                        elif isinstance(review, str):
-                            # Sometimes reviews might be stored as strings
-                            if review == contributor_info['contributor_email']:
-                                if pr_author != contributor_info['contributor_email']:
-                                    milestones['trusted_reviewer']['achieved'] = True
-                                    milestones['trusted_reviewer']['week'] = int(event['event_week'])
-                                    break
-                
-                if milestones['trusted_reviewer']['achieved']:
-                    break
+            if event['event_type'] != 'pull_request':
+                continue
+
+            pr_data = event['data'] or {}
+
+            # Determine PR author login (if available)
+            pr_author_login = None
+            pr_author = pr_data.get('author')
+            if isinstance(pr_author, dict):
+                pr_author_login = pr_author.get('login')
+            elif isinstance(pr_author, str):
+                pr_author_login = pr_author
+
+            # Normalize reviews into a flat list of dicts
+            reviews_field = pr_data.get('reviews', [])
+            review_nodes = []
+            if isinstance(reviews_field, dict):
+                review_nodes = reviews_field.get('nodes', []) or []
+            elif isinstance(reviews_field, list):
+                review_nodes = reviews_field
+
+            for review in review_nodes:
+                reviewer_login = None
+                if isinstance(review, dict):
+                    # GraphQL shape: { author: { login }, state, ... }
+                    author_obj = review.get('author')
+                    if isinstance(author_obj, dict):
+                        reviewer_login = author_obj.get('login')
+                    # Fallbacks
+                    if reviewer_login is None:
+                        reviewer_login = review.get('reviewer')
+                elif isinstance(review, str):
+                    reviewer_login = review
+
+                # Match by username primarily; fallback to email if stored as string
+                if reviewer_login and (reviewer_login == contributor_username or reviewer_login == contributor_email):
+                    # Ensure reviewing someone else's PR
+                    if pr_author_login and pr_author_login != reviewer_login:
+                        milestones['trusted_reviewer']['achieved'] = True
+                        milestones['trusted_reviewer']['week'] = int(event['event_week'])
+                        break
+
+            if milestones['trusted_reviewer']['achieved']:
+                break
         
         # 5. CROSS-BOUNDARY CONTRIBUTION
         # Track contribution areas based on file types or PR/commit messages
@@ -203,34 +235,55 @@ class MilestoneAnalyzer:
         
         # 6. COMMUNITY HELPER (helps another contributor)
         # Look for helpful comments on others' PRs/issues
+        helpful_keywords = ['try', 'should', 'could', 'suggest', 'recommend',
+                            "here's how", 'example', 'solution', 'fix']
+
         for _, event in timeline_df.iterrows():
-            if event['event_type'] in ['pull_request', 'issue']:
-                conversations = event['data'].get('conversations', [])
-                
-                # Handle different conversation data structures
-                if isinstance(conversations, list):
-                    for conv in conversations:
-                        if isinstance(conv, dict):
-                            # Check if they're helping (not the original author)
-                            author = conv.get('author')
-                            if author == contributor_info['contributor_email']:
-                                # Check if this is on someone else's work
-                                original_author = event['data'].get('author')
-                                if original_author != contributor_info['contributor_email']:
-                                    # Check if message is helpful (contains certain keywords)
-                                    text = conv.get('text', '')
-                                    if isinstance(text, str):
-                                        text = text.lower()
-                                        helpful_keywords = ['try', 'should', 'could', 'suggest', 'recommend', 
-                                                          'here\'s how', 'example', 'solution', 'fix']
-                                        
-                                        if any(keyword in text for keyword in helpful_keywords):
-                                            milestones['community_helper']['achieved'] = True
-                                            milestones['community_helper']['week'] = int(event['event_week'])
-                                            break
-                
-                if milestones['community_helper']['achieved']:
-                    break
+            if event['event_type'] not in ['pull_request', 'issue']:
+                continue
+
+            data = event['data'] or {}
+
+            # Determine original author login (if available)
+            original_author_login = None
+            original_author = data.get('author')
+            if isinstance(original_author, dict):
+                original_author_login = original_author.get('login')
+            elif isinstance(original_author, str):
+                original_author_login = original_author
+
+            # Normalize comments
+            comments_field = data.get('comments', {})
+            comment_nodes = []
+            if isinstance(comments_field, dict):
+                comment_nodes = comments_field.get('nodes', []) or []
+            elif isinstance(comments_field, list):
+                comment_nodes = comments_field
+
+            for conv in comment_nodes:
+                if not isinstance(conv, dict):
+                    continue
+
+                # Identify comment author
+                comment_author_login = None
+                author_obj = conv.get('author')
+                if isinstance(author_obj, dict):
+                    comment_author_login = author_obj.get('login')
+                elif isinstance(author_obj, str):
+                    comment_author_login = author_obj
+
+                # Only count if made by the contributor on someone else's thread
+                if comment_author_login and (comment_author_login == contributor_username or comment_author_login == contributor_email):
+                    if original_author_login and original_author_login != comment_author_login:
+                        # Check if the comment text appears helpful
+                        text = conv.get('body') or conv.get('text') or ''
+                        if isinstance(text, str) and any(k in text.lower() for k in helpful_keywords):
+                            milestones['community_helper']['achieved'] = True
+                            milestones['community_helper']['week'] = int(event['event_week'])
+                            break
+
+            if milestones['community_helper']['achieved']:
+                break
         
         # 7. FAILURE RECOVERY (success after rejection)
         pr_history = []
@@ -622,6 +675,84 @@ class MilestoneAnalyzer:
         plt.close()
         print(f"Saved: {achievement_file}")
     
+    def create_radar_plots(self, results_df):
+        """Create radar (spider) plots for achievement rates and median timing for 5 working milestones"""
+        import numpy as np
+        import matplotlib.pyplot as plt
+
+        # Only the 5 working milestones
+        milestones = [
+            'first_accepted', 'sustained_participation', 'returning_contributor',
+            'cross_boundary', 'failure_recovery'
+        ]
+        labels = ['First Accepted', 'Sustained', 'Returning', 'Cross-Boundary', 'Failure Recovery']
+
+        # Achievement rates
+        oss_rates = []
+        oss4sg_rates = []
+        oss_medians = []
+        oss4sg_medians = []
+
+        for m in milestones:
+            oss_rates.append(results_df[results_df['project_type'] == 'OSS'][f'{m}_achieved'].mean() * 100)
+            oss4sg_rates.append(results_df[results_df['project_type'] == 'OSS4SG'][f'{m}_achieved'].mean() * 100)
+
+            # Timing medians (use 1-based weeks for presentation)
+            oss_t = results_df[(results_df['project_type'] == 'OSS') & (results_df[f'{m}_achieved'] == True)][f'{m}_week'].dropna()
+            oss4_t = results_df[(results_df['project_type'] == 'OSS4SG') & (results_df[f'{m}_achieved'] == True)][f'{m}_week'].dropna()
+            if len(oss_t) > 0:
+                oss_t = oss_t + 1
+            if len(oss4_t) > 0:
+                oss4_t = oss4_t + 1
+            # Use cleaned medians for robustness
+            oss_t_clean = self.remove_outliers(oss_t) if len(oss_t) > 0 else oss_t
+            oss4_t_clean = self.remove_outliers(oss4_t) if len(oss4_t) > 0 else oss4_t
+            oss_medians.append(float(oss_t_clean.median()) if len(oss_t_clean) > 0 else np.nan)
+            oss4sg_medians.append(float(oss4_t_clean.median()) if len(oss4_t_clean) > 0 else np.nan)
+
+        def _radar(ax, values1, values2, categories, title, color1, color2, rlim=None):
+            N = len(categories)
+            angles = np.linspace(0, 2 * np.pi, N, endpoint=False)
+            values1 = np.array(values1)
+            values2 = np.array(values2)
+            # close the polygon
+            angles = np.concatenate((angles, [angles[0]]))
+            v1 = np.concatenate((values1, [values1[0]]))
+            v2 = np.concatenate((values2, [values2[0]]))
+
+            ax.plot(angles, v1, color=color1, linewidth=2, label='OSS')
+            ax.fill(angles, v1, color=color1, alpha=0.25)
+            ax.plot(angles, v2, color=color2, linewidth=2, label='OSS4SG')
+            ax.fill(angles, v2, color=color2, alpha=0.25)
+            ax.set_thetagrids(angles[:-1] * 180/np.pi, categories)
+            if rlim is not None:
+                ax.set_rlim(rlim)
+            ax.set_title(title, fontsize=12, fontweight='bold')
+            ax.grid(True, alpha=0.3)
+            ax.legend(loc='upper right', bbox_to_anchor=(1.3, 1.1))
+
+        # Radar for achievement rates (0-100)
+        fig = plt.figure(figsize=(8, 6))
+        ax = plt.subplot(111, polar=True)
+        _radar(ax, oss_rates, oss4sg_rates, labels, 'Milestone Achievement Rates (%)', self.colors['OSS'], self.colors['OSS4SG'], rlim=(0, 100))
+        plt.tight_layout()
+        out1 = self.viz_dir / 'milestone_achievement_radar.png'
+        plt.savefig(out1, dpi=300, bbox_inches='tight')
+        plt.close()
+        print(f"Saved: {out1}")
+
+        # Radar for median weeks (auto-scale)
+        all_vals = [v for v in oss_medians + oss4sg_medians if not np.isnan(v)]
+        rmax = max(all_vals) if all_vals else 10
+        fig = plt.figure(figsize=(8, 6))
+        ax = plt.subplot(111, polar=True)
+        _radar(ax, oss_medians, oss4sg_medians, labels, 'Median Weeks to Milestone (Cleaned)', self.colors['OSS'], self.colors['OSS4SG'], rlim=(0, rmax * 1.1))
+        plt.tight_layout()
+        out2 = self.viz_dir / 'milestone_timing_radar.png'
+        plt.savefig(out2, dpi=300, bbox_inches='tight')
+        plt.close()
+        print(f"Saved: {out2}")
+    
     def generate_summary_statistics(self, results_df):
         """Generate summary statistics table"""
         
@@ -648,6 +779,12 @@ class MilestoneAnalyzer:
                 (results_df[f'{milestone}_achieved'] == True)
             ][f'{milestone}_week'].dropna()
             
+            # REPORTING OFFSET: convert week indices (0-based) to 1-based for presentation
+            if len(oss_timing) > 0:
+                oss_timing = oss_timing + 1
+            if len(oss4sg_timing) > 0:
+                oss4sg_timing = oss4sg_timing + 1
+
             # Remove outliers for robust statistics
             oss_timing_clean = self.remove_outliers(oss_timing) if len(oss_timing) > 0 else oss_timing
             oss4sg_timing_clean = self.remove_outliers(oss4sg_timing) if len(oss4sg_timing) > 0 else oss4sg_timing

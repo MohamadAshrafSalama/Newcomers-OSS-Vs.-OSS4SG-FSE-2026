@@ -1,0 +1,9 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,7,0,0,0,4,0.25,0.5714285714285714,1.8607142857142855,mosip_commons_shashank.agrawal_at_mindtree.com,mosip/commons,OSS4SG,0
+1,11,0,0,0,3,0.5,0.42857142857142855,2.864285714285714,mosip_commons_shashank.agrawal_at_mindtree.com,mosip/commons,OSS4SG,0
+2,0,0,0,0,0,0.5,0.0,0.05,mosip_commons_shashank.agrawal_at_mindtree.com,mosip/commons,OSS4SG,0
+3,1,0,0,0,1,0.75,0.14285714285714285,0.3464285714285714,mosip_commons_shashank.agrawal_at_mindtree.com,mosip/commons,OSS4SG,0
+4,2,0,0,0,1,0.75,0.14285714285714285,0.5964285714285715,mosip_commons_shashank.agrawal_at_mindtree.com,mosip/commons,OSS4SG,1
+5,1,0,0,0,1,0.75,0.14285714285714285,0.3464285714285714,mosip_commons_shashank.agrawal_at_mindtree.com,mosip/commons,OSS4SG,1
+6,2,0,0,0,1,1.0,0.14285714285714285,0.6214285714285714,mosip_commons_shashank.agrawal_at_mindtree.com,mosip/commons,OSS4SG,1
+7,6,0,0,0,1,1.0,0.14285714285714285,1.6214285714285714,mosip_commons_shashank.agrawal_at_mindtree.com,mosip/commons,OSS4SG,1

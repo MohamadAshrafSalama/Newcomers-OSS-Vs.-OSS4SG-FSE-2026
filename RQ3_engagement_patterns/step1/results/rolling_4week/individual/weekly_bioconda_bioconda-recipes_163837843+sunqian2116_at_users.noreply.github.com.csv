@@ -1,0 +1,2 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,12,18,11,0,4,0.25,0.5714285714285714,8.360714285714286,bioconda_bioconda-recipes_163837843+sunqian2116_at_users.noreply.github.com,bioconda/bioconda-recipes,OSS,0

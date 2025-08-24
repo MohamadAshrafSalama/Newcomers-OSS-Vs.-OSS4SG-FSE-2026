@@ -1,0 +1,17 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,3,0,0,0,3,0.25,0.42857142857142855,0.8392857142857143,marionettejs_backbone.marionette_jsoverson_at_gmail.com,marionettejs/backbone.marionette,OSS,0
+1,0,0,0,0,0,0.25,0.0,0.025,marionettejs_backbone.marionette_jsoverson_at_gmail.com,marionettejs/backbone.marionette,OSS,0
+2,1,0,0,0,1,0.5,0.14285714285714285,0.3214285714285714,marionettejs_backbone.marionette_jsoverson_at_gmail.com,marionettejs/backbone.marionette,OSS,0
+3,2,0,0,0,2,0.75,0.2857142857142857,0.6178571428571429,marionettejs_backbone.marionette_jsoverson_at_gmail.com,marionettejs/backbone.marionette,OSS,0
+4,0,0,0,0,0,0.5,0.0,0.05,marionettejs_backbone.marionette_jsoverson_at_gmail.com,marionettejs/backbone.marionette,OSS,1
+5,1,0,0,0,1,0.75,0.14285714285714285,0.3464285714285714,marionettejs_backbone.marionette_jsoverson_at_gmail.com,marionettejs/backbone.marionette,OSS,1
+6,0,0,0,0,0,0.5,0.0,0.05,marionettejs_backbone.marionette_jsoverson_at_gmail.com,marionettejs/backbone.marionette,OSS,1
+7,0,0,0,0,0,0.25,0.0,0.025,marionettejs_backbone.marionette_jsoverson_at_gmail.com,marionettejs/backbone.marionette,OSS,1
+8,1,0,0,0,1,0.5,0.14285714285714285,0.3214285714285714,marionettejs_backbone.marionette_jsoverson_at_gmail.com,marionettejs/backbone.marionette,OSS,2
+9,0,0,0,0,0,0.25,0.0,0.025,marionettejs_backbone.marionette_jsoverson_at_gmail.com,marionettejs/backbone.marionette,OSS,2
+10,0,0,0,0,0,0.25,0.0,0.025,marionettejs_backbone.marionette_jsoverson_at_gmail.com,marionettejs/backbone.marionette,OSS,2
+11,0,0,0,0,0,0.25,0.0,0.025,marionettejs_backbone.marionette_jsoverson_at_gmail.com,marionettejs/backbone.marionette,OSS,2
+12,1,0,0,0,1,0.25,0.14285714285714285,0.29642857142857143,marionettejs_backbone.marionette_jsoverson_at_gmail.com,marionettejs/backbone.marionette,OSS,3
+13,0,0,0,0,0,0.25,0.0,0.025,marionettejs_backbone.marionette_jsoverson_at_gmail.com,marionettejs/backbone.marionette,OSS,3
+14,0,0,0,0,0,0.25,0.0,0.025,marionettejs_backbone.marionette_jsoverson_at_gmail.com,marionettejs/backbone.marionette,OSS,3
+15,1,0,0,0,1,0.5,0.14285714285714285,0.3214285714285714,marionettejs_backbone.marionette_jsoverson_at_gmail.com,marionettejs/backbone.marionette,OSS,3

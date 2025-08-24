@@ -1,0 +1,6 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,6,4,2,0,3,0.25,0.42857142857142855,2.6892857142857136,nextstrain_ncov_huddlej_at_gmail.com,nextstrain/ncov,OSS4SG,0
+1,0,0,0,0,0,0.25,0.0,0.025,nextstrain_ncov_huddlej_at_gmail.com,nextstrain/ncov,OSS4SG,0
+2,0,0,0,0,0,0.25,0.0,0.025,nextstrain_ncov_huddlej_at_gmail.com,nextstrain/ncov,OSS4SG,0
+3,1,1,1,0,1,0.5,0.14285714285714285,0.6714285714285715,nextstrain_ncov_huddlej_at_gmail.com,nextstrain/ncov,OSS4SG,0
+4,13,3,15,0,4,0.5,0.5714285714285714,6.235714285714285,nextstrain_ncov_huddlej_at_gmail.com,nextstrain/ncov,OSS4SG,1

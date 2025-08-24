@@ -1,0 +1,10 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,0,0,0,1,0.25,0.14285714285714285,0.29642857142857143,landing-ai_vision-agent_yazhou.cao_at_landing.ai,landing-ai/vision-agent,OSS,0
+1,5,0,0,0,3,0.5,0.42857142857142855,1.3642857142857143,landing-ai_vision-agent_yazhou.cao_at_landing.ai,landing-ai/vision-agent,OSS,0
+2,10,0,0,0,3,0.75,0.42857142857142855,2.6392857142857142,landing-ai_vision-agent_yazhou.cao_at_landing.ai,landing-ai/vision-agent,OSS,0
+3,2,0,0,0,1,1.0,0.14285714285714285,0.6214285714285714,landing-ai_vision-agent_yazhou.cao_at_landing.ai,landing-ai/vision-agent,OSS,0
+4,8,0,0,0,5,1.0,0.7142857142857143,2.2071428571428573,landing-ai_vision-agent_yazhou.cao_at_landing.ai,landing-ai/vision-agent,OSS,1
+5,4,0,0,0,3,1.0,0.42857142857142855,1.1642857142857144,landing-ai_vision-agent_yazhou.cao_at_landing.ai,landing-ai/vision-agent,OSS,1
+6,9,0,0,0,4,1.0,0.5714285714285714,2.435714285714286,landing-ai_vision-agent_yazhou.cao_at_landing.ai,landing-ai/vision-agent,OSS,1
+7,7,0,0,0,3,1.0,0.42857142857142855,1.9142857142857144,landing-ai_vision-agent_yazhou.cao_at_landing.ai,landing-ai/vision-agent,OSS,1
+8,6,0,0,0,2,1.0,0.2857142857142857,1.642857142857143,landing-ai_vision-agent_yazhou.cao_at_landing.ai,landing-ai/vision-agent,OSS,2

@@ -1,0 +1,4 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,3,0,0,0,1,0.25,0.14285714285714285,0.7964285714285715,avniproject_avni-client_pedroasv_at_gmail.com,avniproject/avni-client,OSS4SG,0
+1,16,0,0,0,4,0.5,0.5714285714285714,4.135714285714285,avniproject_avni-client_pedroasv_at_gmail.com,avniproject/avni-client,OSS4SG,0
+2,1,0,0,0,1,0.75,0.14285714285714285,0.3464285714285714,avniproject_avni-client_pedroasv_at_gmail.com,avniproject/avni-client,OSS4SG,0

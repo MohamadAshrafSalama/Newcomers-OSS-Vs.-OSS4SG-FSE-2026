@@ -1,0 +1,3 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,8,2,1,0,3,0.25,0.42857142857142855,2.639285714285714,GeekyAnts_NativeBase_rohits_at_geekyants.com,GeekyAnts/NativeBase,OSS,0
+1,4,2,0,0,2,0.5,0.2857142857142857,1.4928571428571429,GeekyAnts_NativeBase_rohits_at_geekyants.com,GeekyAnts/NativeBase,OSS,0

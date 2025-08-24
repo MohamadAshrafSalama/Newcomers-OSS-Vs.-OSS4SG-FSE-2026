@@ -1,0 +1,13 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,0,0,1,2,0.25,0.2857142857142857,0.4678571428571429,instedd_surveda_lmatayoshi_at_manas.com.ar,instedd/surveda,OSS4SG,0
+1,8,0,0,0,3,0.5,0.42857142857142855,2.114285714285714,instedd_surveda_lmatayoshi_at_manas.com.ar,instedd/surveda,OSS4SG,0
+2,8,0,0,0,2,0.75,0.2857142857142857,2.117857142857143,instedd_surveda_lmatayoshi_at_manas.com.ar,instedd/surveda,OSS4SG,0
+3,3,0,0,1,2,1.0,0.2857142857142857,1.042857142857143,instedd_surveda_lmatayoshi_at_manas.com.ar,instedd/surveda,OSS4SG,0
+4,8,0,0,0,4,1.0,0.5714285714285714,2.185714285714286,instedd_surveda_lmatayoshi_at_manas.com.ar,instedd/surveda,OSS4SG,1
+5,11,0,0,1,4,1.0,0.5714285714285714,3.085714285714286,instedd_surveda_lmatayoshi_at_manas.com.ar,instedd/surveda,OSS4SG,1
+6,2,0,2,2,3,1.0,0.42857142857142855,1.2642857142857145,instedd_surveda_lmatayoshi_at_manas.com.ar,instedd/surveda,OSS4SG,1
+7,11,1,0,0,3,1.0,0.42857142857142855,3.1142857142857143,instedd_surveda_lmatayoshi_at_manas.com.ar,instedd/surveda,OSS4SG,1
+8,12,0,0,1,4,1.0,0.5714285714285714,3.335714285714286,instedd_surveda_lmatayoshi_at_manas.com.ar,instedd/surveda,OSS4SG,2
+9,23,3,0,2,6,1.0,0.8571428571428571,6.878571428571428,instedd_surveda_lmatayoshi_at_manas.com.ar,instedd/surveda,OSS4SG,2
+10,12,1,0,6,4,1.0,0.5714285714285714,4.285714285714285,instedd_surveda_lmatayoshi_at_manas.com.ar,instedd/surveda,OSS4SG,2
+11,20,2,0,1,4,1.0,0.5714285714285714,5.735714285714286,instedd_surveda_lmatayoshi_at_manas.com.ar,instedd/surveda,OSS4SG,2

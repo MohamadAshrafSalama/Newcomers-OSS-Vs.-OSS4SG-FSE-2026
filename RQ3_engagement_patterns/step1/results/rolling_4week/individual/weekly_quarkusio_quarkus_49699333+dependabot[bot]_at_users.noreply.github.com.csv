@@ -1,0 +1,9 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,10,0,0,0,4,0.25,0.5714285714285714,2.6107142857142858,quarkusio_quarkus_49699333+dependabot[bot]_at_users.noreply.github.com,quarkusio/quarkus,OSS,0
+1,8,0,0,0,4,0.5,0.5714285714285714,2.1357142857142857,quarkusio_quarkus_49699333+dependabot[bot]_at_users.noreply.github.com,quarkusio/quarkus,OSS,0
+2,13,0,0,0,4,0.75,0.5714285714285714,3.410714285714286,quarkusio_quarkus_49699333+dependabot[bot]_at_users.noreply.github.com,quarkusio/quarkus,OSS,0
+3,8,0,0,0,4,1.0,0.5714285714285714,2.185714285714286,quarkusio_quarkus_49699333+dependabot[bot]_at_users.noreply.github.com,quarkusio/quarkus,OSS,0
+4,7,0,0,0,4,1.0,0.5714285714285714,1.9357142857142857,quarkusio_quarkus_49699333+dependabot[bot]_at_users.noreply.github.com,quarkusio/quarkus,OSS,1
+5,12,0,0,0,4,1.0,0.5714285714285714,3.185714285714286,quarkusio_quarkus_49699333+dependabot[bot]_at_users.noreply.github.com,quarkusio/quarkus,OSS,1
+6,14,0,0,0,5,1.0,0.7142857142857143,3.7071428571428573,quarkusio_quarkus_49699333+dependabot[bot]_at_users.noreply.github.com,quarkusio/quarkus,OSS,1
+7,26,0,0,0,5,1.0,0.7142857142857143,6.707142857142856,quarkusio_quarkus_49699333+dependabot[bot]_at_users.noreply.github.com,quarkusio/quarkus,OSS,1

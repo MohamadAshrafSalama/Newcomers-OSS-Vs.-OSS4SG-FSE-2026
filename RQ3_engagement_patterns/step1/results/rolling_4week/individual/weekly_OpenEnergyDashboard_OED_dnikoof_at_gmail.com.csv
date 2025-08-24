@@ -1,0 +1,5 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,4,0,0,0,2,0.25,0.2857142857142857,1.0678571428571428,OpenEnergyDashboard_OED_dnikoof_at_gmail.com,OpenEnergyDashboard/OED,OSS4SG,0
+1,11,0,0,0,4,0.5,0.5714285714285714,2.8857142857142857,OpenEnergyDashboard_OED_dnikoof_at_gmail.com,OpenEnergyDashboard/OED,OSS4SG,0
+2,2,1,12,0,3,0.75,0.42857142857142855,2.6392857142857142,OpenEnergyDashboard_OED_dnikoof_at_gmail.com,OpenEnergyDashboard/OED,OSS4SG,0
+3,12,0,0,0,5,1.0,0.7142857142857143,3.2071428571428573,OpenEnergyDashboard_OED_dnikoof_at_gmail.com,OpenEnergyDashboard/OED,OSS4SG,0

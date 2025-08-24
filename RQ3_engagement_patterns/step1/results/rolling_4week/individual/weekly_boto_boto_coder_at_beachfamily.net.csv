@@ -1,0 +1,16 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,0,0,0,1,0.25,0.14285714285714285,0.29642857142857143,boto_boto_coder_at_beachfamily.net,boto/boto,OSS,0
+1,0,0,0,0,0,0.25,0.0,0.025,boto_boto_coder_at_beachfamily.net,boto/boto,OSS,0
+2,0,0,0,0,0,0.25,0.0,0.025,boto_boto_coder_at_beachfamily.net,boto/boto,OSS,0
+3,0,0,0,0,0,0.25,0.0,0.025,boto_boto_coder_at_beachfamily.net,boto/boto,OSS,0
+4,0,0,0,0,0,0.0,0.0,0.0,boto_boto_coder_at_beachfamily.net,boto/boto,OSS,1
+5,0,0,0,0,0,0.0,0.0,0.0,boto_boto_coder_at_beachfamily.net,boto/boto,OSS,1
+6,0,0,0,0,0,0.0,0.0,0.0,boto_boto_coder_at_beachfamily.net,boto/boto,OSS,1
+7,0,0,0,0,0,0.0,0.0,0.0,boto_boto_coder_at_beachfamily.net,boto/boto,OSS,1
+8,4,0,0,0,1,0.25,0.14285714285714285,1.0464285714285713,boto_boto_coder_at_beachfamily.net,boto/boto,OSS,2
+9,4,0,0,0,2,0.5,0.2857142857142857,1.092857142857143,boto_boto_coder_at_beachfamily.net,boto/boto,OSS,2
+10,2,0,0,0,1,0.75,0.14285714285714285,0.5964285714285715,boto_boto_coder_at_beachfamily.net,boto/boto,OSS,2
+11,0,0,0,0,0,0.75,0.0,0.07500000000000001,boto_boto_coder_at_beachfamily.net,boto/boto,OSS,2
+12,7,0,0,0,1,0.75,0.14285714285714285,1.8464285714285713,boto_boto_coder_at_beachfamily.net,boto/boto,OSS,3
+13,0,0,0,0,0,0.5,0.0,0.05,boto_boto_coder_at_beachfamily.net,boto/boto,OSS,3
+14,2,0,0,0,1,0.5,0.14285714285714285,0.5714285714285715,boto_boto_coder_at_beachfamily.net,boto/boto,OSS,3

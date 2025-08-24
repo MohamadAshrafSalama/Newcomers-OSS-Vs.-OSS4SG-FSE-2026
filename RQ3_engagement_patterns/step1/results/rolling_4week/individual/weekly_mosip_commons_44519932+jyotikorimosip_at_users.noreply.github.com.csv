@@ -1,0 +1,10 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,0,0,0,1,0.25,0.14285714285714285,0.29642857142857143,mosip_commons_44519932+jyotikorimosip_at_users.noreply.github.com,mosip/commons,OSS4SG,0
+1,0,0,0,0,0,0.25,0.0,0.025,mosip_commons_44519932+jyotikorimosip_at_users.noreply.github.com,mosip/commons,OSS4SG,0
+2,0,0,0,0,0,0.25,0.0,0.025,mosip_commons_44519932+jyotikorimosip_at_users.noreply.github.com,mosip/commons,OSS4SG,0
+3,0,0,0,0,0,0.25,0.0,0.025,mosip_commons_44519932+jyotikorimosip_at_users.noreply.github.com,mosip/commons,OSS4SG,0
+4,0,0,0,0,0,0.0,0.0,0.0,mosip_commons_44519932+jyotikorimosip_at_users.noreply.github.com,mosip/commons,OSS4SG,1
+5,15,0,0,0,2,0.25,0.2857142857142857,3.8178571428571426,mosip_commons_44519932+jyotikorimosip_at_users.noreply.github.com,mosip/commons,OSS4SG,1
+6,6,0,0,0,3,0.5,0.42857142857142855,1.6142857142857143,mosip_commons_44519932+jyotikorimosip_at_users.noreply.github.com,mosip/commons,OSS4SG,1
+7,41,0,0,0,4,0.75,0.5714285714285714,10.410714285714285,mosip_commons_44519932+jyotikorimosip_at_users.noreply.github.com,mosip/commons,OSS4SG,1
+8,11,0,0,0,2,1.0,0.2857142857142857,2.892857142857143,mosip_commons_44519932+jyotikorimosip_at_users.noreply.github.com,mosip/commons,OSS4SG,2

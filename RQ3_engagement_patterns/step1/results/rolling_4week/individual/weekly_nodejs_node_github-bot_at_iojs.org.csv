@@ -1,0 +1,17 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+-1,0,0,0,0,1,0.0,0.14285714285714285,0.021428571428571425,nodejs_node_github-bot_at_iojs.org,nodejs/node,OSS,-1
+0,1,0,0,0,1,0.25,0.14285714285714285,0.29642857142857143,nodejs_node_github-bot_at_iojs.org,nodejs/node,OSS,0
+1,1,0,0,0,1,0.5,0.14285714285714285,0.3214285714285714,nodejs_node_github-bot_at_iojs.org,nodejs/node,OSS,0
+2,2,2,0,0,2,0.75,0.2857142857142857,1.0178571428571428,nodejs_node_github-bot_at_iojs.org,nodejs/node,OSS,0
+3,1,1,0,0,1,1.0,0.14285714285714285,0.5714285714285714,nodejs_node_github-bot_at_iojs.org,nodejs/node,OSS,0
+4,1,0,0,0,1,1.0,0.14285714285714285,0.37142857142857144,nodejs_node_github-bot_at_iojs.org,nodejs/node,OSS,1
+5,1,1,0,0,1,1.0,0.14285714285714285,0.5714285714285714,nodejs_node_github-bot_at_iojs.org,nodejs/node,OSS,1
+6,2,1,0,0,2,1.0,0.2857142857142857,0.8428571428571427,nodejs_node_github-bot_at_iojs.org,nodejs/node,OSS,1
+7,1,1,0,0,1,1.0,0.14285714285714285,0.5714285714285714,nodejs_node_github-bot_at_iojs.org,nodejs/node,OSS,1
+8,1,0,0,0,1,1.0,0.14285714285714285,0.37142857142857144,nodejs_node_github-bot_at_iojs.org,nodejs/node,OSS,2
+9,1,0,0,0,1,1.0,0.14285714285714285,0.37142857142857144,nodejs_node_github-bot_at_iojs.org,nodejs/node,OSS,2
+10,1,1,0,0,1,1.0,0.14285714285714285,0.5714285714285714,nodejs_node_github-bot_at_iojs.org,nodejs/node,OSS,2
+11,3,1,2,0,2,1.0,0.2857142857142857,1.392857142857143,nodejs_node_github-bot_at_iojs.org,nodejs/node,OSS,2
+12,1,1,1,0,1,1.0,0.14285714285714285,0.7214285714285714,nodejs_node_github-bot_at_iojs.org,nodejs/node,OSS,3
+13,1,1,3,0,2,1.0,0.2857142857142857,1.0428571428571427,nodejs_node_github-bot_at_iojs.org,nodejs/node,OSS,3
+14,2,3,10,0,1,1.0,0.14285714285714285,2.7214285714285715,nodejs_node_github-bot_at_iojs.org,nodejs/node,OSS,3

@@ -1,0 +1,3 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+-1,0,0,5,0,1,0.25,0.14285714285714285,0.7964285714285715,rubyforgood_human-essentials_127896538+gabe-torres_at_users.noreply.github.com,rubyforgood/human-essentials,OSS4SG,-1
+0,9,1,12,0,2,0.5,0.2857142857142857,4.3428571428571425,rubyforgood_human-essentials_127896538+gabe-torres_at_users.noreply.github.com,rubyforgood/human-essentials,OSS4SG,0

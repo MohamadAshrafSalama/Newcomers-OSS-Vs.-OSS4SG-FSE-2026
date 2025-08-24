@@ -1,0 +1,13 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,2,1,2,0,1,0.25,0.14285714285714285,1.0464285714285713,zostera_django-bootstrap3_jonas_at_lophus.org,zostera/django-bootstrap3,OSS,0
+1,2,0,0,0,1,0.5,0.14285714285714285,0.5714285714285715,zostera_django-bootstrap3_jonas_at_lophus.org,zostera/django-bootstrap3,OSS,0
+2,0,0,0,0,0,0.5,0.0,0.05,zostera_django-bootstrap3_jonas_at_lophus.org,zostera/django-bootstrap3,OSS,0
+3,0,0,0,0,0,0.5,0.0,0.05,zostera_django-bootstrap3_jonas_at_lophus.org,zostera/django-bootstrap3,OSS,0
+4,0,0,0,0,0,0.25,0.0,0.025,zostera_django-bootstrap3_jonas_at_lophus.org,zostera/django-bootstrap3,OSS,1
+5,0,0,0,0,0,0.0,0.0,0.0,zostera_django-bootstrap3_jonas_at_lophus.org,zostera/django-bootstrap3,OSS,1
+6,0,0,0,0,0,0.0,0.0,0.0,zostera_django-bootstrap3_jonas_at_lophus.org,zostera/django-bootstrap3,OSS,1
+7,0,0,0,0,0,0.0,0.0,0.0,zostera_django-bootstrap3_jonas_at_lophus.org,zostera/django-bootstrap3,OSS,1
+8,0,0,0,0,0,0.0,0.0,0.0,zostera_django-bootstrap3_jonas_at_lophus.org,zostera/django-bootstrap3,OSS,2
+9,0,0,0,0,0,0.0,0.0,0.0,zostera_django-bootstrap3_jonas_at_lophus.org,zostera/django-bootstrap3,OSS,2
+10,0,0,0,0,0,0.0,0.0,0.0,zostera_django-bootstrap3_jonas_at_lophus.org,zostera/django-bootstrap3,OSS,2
+11,1,0,4,1,1,0.25,0.14285714285714285,1.0464285714285713,zostera_django-bootstrap3_jonas_at_lophus.org,zostera/django-bootstrap3,OSS,2

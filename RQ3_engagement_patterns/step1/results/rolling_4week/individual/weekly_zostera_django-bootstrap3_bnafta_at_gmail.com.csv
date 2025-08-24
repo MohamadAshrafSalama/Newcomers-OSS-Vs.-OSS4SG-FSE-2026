@@ -1,0 +1,15 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+-12,0,0,2,2,1,0.25,0.14285714285714285,0.6464285714285715,zostera_django-bootstrap3_bnafta_at_gmail.com,zostera/django-bootstrap3,OSS,-3
+-11,0,0,0,0,0,0.25,0.0,0.025,zostera_django-bootstrap3_bnafta_at_gmail.com,zostera/django-bootstrap3,OSS,-3
+-10,0,0,0,0,0,0.25,0.0,0.025,zostera_django-bootstrap3_bnafta_at_gmail.com,zostera/django-bootstrap3,OSS,-3
+-9,0,0,0,0,0,0.25,0.0,0.025,zostera_django-bootstrap3_bnafta_at_gmail.com,zostera/django-bootstrap3,OSS,-3
+-8,0,0,0,0,0,0.0,0.0,0.0,zostera_django-bootstrap3_bnafta_at_gmail.com,zostera/django-bootstrap3,OSS,-2
+-7,0,0,0,0,0,0.0,0.0,0.0,zostera_django-bootstrap3_bnafta_at_gmail.com,zostera/django-bootstrap3,OSS,-2
+-6,0,0,0,0,0,0.0,0.0,0.0,zostera_django-bootstrap3_bnafta_at_gmail.com,zostera/django-bootstrap3,OSS,-2
+-5,0,0,0,0,0,0.0,0.0,0.0,zostera_django-bootstrap3_bnafta_at_gmail.com,zostera/django-bootstrap3,OSS,-2
+-4,0,0,0,0,0,0.0,0.0,0.0,zostera_django-bootstrap3_bnafta_at_gmail.com,zostera/django-bootstrap3,OSS,-1
+-3,0,0,0,0,0,0.0,0.0,0.0,zostera_django-bootstrap3_bnafta_at_gmail.com,zostera/django-bootstrap3,OSS,-1
+-2,0,0,0,0,0,0.0,0.0,0.0,zostera_django-bootstrap3_bnafta_at_gmail.com,zostera/django-bootstrap3,OSS,-1
+-1,0,0,0,0,0,0.0,0.0,0.0,zostera_django-bootstrap3_bnafta_at_gmail.com,zostera/django-bootstrap3,OSS,-1
+0,6,1,2,0,1,0.25,0.14285714285714285,2.0464285714285713,zostera_django-bootstrap3_bnafta_at_gmail.com,zostera/django-bootstrap3,OSS,0
+1,0,0,1,1,1,0.5,0.14285714285714285,0.3714285714285714,zostera_django-bootstrap3_bnafta_at_gmail.com,zostera/django-bootstrap3,OSS,0

@@ -1,0 +1,8 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+-4,0,0,6,2,2,0.25,0.2857142857142857,1.2678571428571428,riot_riot_juha_at_pakastin.fi,riot/riot,OSS,-1
+-3,0,0,0,0,0,0.25,0.0,0.025,riot_riot_juha_at_pakastin.fi,riot/riot,OSS,-1
+-2,0,0,0,0,0,0.25,0.0,0.025,riot_riot_juha_at_pakastin.fi,riot/riot,OSS,-1
+-1,0,0,0,0,0,0.25,0.0,0.025,riot_riot_juha_at_pakastin.fi,riot/riot,OSS,-1
+0,10,1,12,1,3,0.25,0.42857142857142855,4.739285714285715,riot_riot_juha_at_pakastin.fi,riot/riot,OSS,0
+1,0,0,0,0,0,0.25,0.0,0.025,riot_riot_juha_at_pakastin.fi,riot/riot,OSS,0
+2,2,1,5,0,1,0.5,0.14285714285714285,1.5214285714285714,riot_riot_juha_at_pakastin.fi,riot/riot,OSS,0

@@ -1,0 +1,6 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,3,3,5,1,3,0.25,0.42857142857142855,2.339285714285714,bioconda_bioconda-recipes_38504854+dslarm_at_users.noreply.github.com,bioconda/bioconda-recipes,OSS,0
+1,4,4,7,0,3,0.5,0.42857142857142855,2.9642857142857144,bioconda_bioconda-recipes_38504854+dslarm_at_users.noreply.github.com,bioconda/bioconda-recipes,OSS,0
+2,1,3,6,0,3,0.75,0.42857142857142855,1.8892857142857142,bioconda_bioconda-recipes_38504854+dslarm_at_users.noreply.github.com,bioconda/bioconda-recipes,OSS,0
+3,1,0,0,0,1,1.0,0.14285714285714285,0.37142857142857144,bioconda_bioconda-recipes_38504854+dslarm_at_users.noreply.github.com,bioconda/bioconda-recipes,OSS,0
+4,10,9,4,0,3,1.0,0.42857142857142855,5.064285714285713,bioconda_bioconda-recipes_38504854+dslarm_at_users.noreply.github.com,bioconda/bioconda-recipes,OSS,1

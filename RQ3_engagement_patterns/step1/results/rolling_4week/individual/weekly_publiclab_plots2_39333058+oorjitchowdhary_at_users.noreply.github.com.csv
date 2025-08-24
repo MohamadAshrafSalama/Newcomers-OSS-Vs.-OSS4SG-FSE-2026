@@ -1,0 +1,9 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+-1,0,0,13,0,1,0.25,0.14285714285714285,1.9964285714285712,publiclab_plots2_39333058+oorjitchowdhary_at_users.noreply.github.com,publiclab/plots2,OSS4SG,-1
+0,2,2,18,0,3,0.5,0.42857142857142855,3.7142857142857135,publiclab_plots2_39333058+oorjitchowdhary_at_users.noreply.github.com,publiclab/plots2,OSS4SG,0
+1,1,1,43,0,4,0.75,0.5714285714285714,7.060714285714286,publiclab_plots2_39333058+oorjitchowdhary_at_users.noreply.github.com,publiclab/plots2,OSS4SG,0
+2,0,0,30,1,4,1.0,0.5714285714285714,4.835714285714285,publiclab_plots2_39333058+oorjitchowdhary_at_users.noreply.github.com,publiclab/plots2,OSS4SG,0
+3,5,7,71,4,6,1.0,0.8571428571428571,14.128571428571428,publiclab_plots2_39333058+oorjitchowdhary_at_users.noreply.github.com,publiclab/plots2,OSS4SG,0
+4,4,4,58,11,3,1.0,0.42857142857142855,12.314285714285715,publiclab_plots2_39333058+oorjitchowdhary_at_users.noreply.github.com,publiclab/plots2,OSS4SG,1
+5,2,1,18,3,3,1.0,0.42857142857142855,4.014285714285713,publiclab_plots2_39333058+oorjitchowdhary_at_users.noreply.github.com,publiclab/plots2,OSS4SG,1
+6,7,6,21,12,6,1.0,0.8571428571428571,8.128571428571428,publiclab_plots2_39333058+oorjitchowdhary_at_users.noreply.github.com,publiclab/plots2,OSS4SG,1

@@ -1,0 +1,13 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,0,3,0,3,0.25,0.42857142857142855,0.7892857142857143,nodejs_node_technicalcute_at_gmail.com,nodejs/node,OSS,0
+1,1,0,0,0,1,0.5,0.14285714285714285,0.3214285714285714,nodejs_node_technicalcute_at_gmail.com,nodejs/node,OSS,0
+2,0,0,0,0,0,0.5,0.0,0.05,nodejs_node_technicalcute_at_gmail.com,nodejs/node,OSS,0
+3,0,0,0,0,0,0.5,0.0,0.05,nodejs_node_technicalcute_at_gmail.com,nodejs/node,OSS,0
+4,0,0,0,0,0,0.25,0.0,0.025,nodejs_node_technicalcute_at_gmail.com,nodejs/node,OSS,1
+5,1,0,0,0,1,0.25,0.14285714285714285,0.29642857142857143,nodejs_node_technicalcute_at_gmail.com,nodejs/node,OSS,1
+6,0,0,0,0,0,0.25,0.0,0.025,nodejs_node_technicalcute_at_gmail.com,nodejs/node,OSS,1
+7,0,0,0,0,0,0.25,0.0,0.025,nodejs_node_technicalcute_at_gmail.com,nodejs/node,OSS,1
+8,0,0,0,0,0,0.25,0.0,0.025,nodejs_node_technicalcute_at_gmail.com,nodejs/node,OSS,2
+9,0,0,0,0,0,0.0,0.0,0.0,nodejs_node_technicalcute_at_gmail.com,nodejs/node,OSS,2
+10,5,0,5,0,4,0.25,0.5714285714285714,2.1107142857142858,nodejs_node_technicalcute_at_gmail.com,nodejs/node,OSS,2
+11,10,0,11,2,6,0.5,0.8571428571428571,4.628571428571429,nodejs_node_technicalcute_at_gmail.com,nodejs/node,OSS,2

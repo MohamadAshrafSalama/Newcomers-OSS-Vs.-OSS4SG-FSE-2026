@@ -1,0 +1,6 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,2,2,0,0,2,0.25,0.2857142857142857,0.9678571428571429,MisterBooo_LeetCodeAnimation_hzq_56_at_163.com,MisterBooo/LeetCodeAnimation,OSS,0
+1,3,3,0,0,3,0.5,0.42857142857142855,1.4642857142857144,MisterBooo_LeetCodeAnimation_hzq_56_at_163.com,MisterBooo/LeetCodeAnimation,OSS,0
+2,1,0,0,0,1,0.75,0.14285714285714285,0.3464285714285714,MisterBooo_LeetCodeAnimation_hzq_56_at_163.com,MisterBooo/LeetCodeAnimation,OSS,0
+3,1,1,0,0,1,1.0,0.14285714285714285,0.5714285714285714,MisterBooo_LeetCodeAnimation_hzq_56_at_163.com,MisterBooo/LeetCodeAnimation,OSS,0
+4,1,1,0,0,1,1.0,0.14285714285714285,0.5714285714285714,MisterBooo_LeetCodeAnimation_hzq_56_at_163.com,MisterBooo/LeetCodeAnimation,OSS,1

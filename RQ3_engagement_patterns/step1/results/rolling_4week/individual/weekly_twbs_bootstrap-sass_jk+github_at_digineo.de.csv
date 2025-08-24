@@ -1,0 +1,6 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,2,0,3,0,1,0.25,0.14285714285714285,0.9964285714285714,twbs_bootstrap-sass_jk+github_at_digineo.de,twbs/bootstrap-sass,OSS,0
+1,0,0,0,0,0,0.25,0.0,0.025,twbs_bootstrap-sass_jk+github_at_digineo.de,twbs/bootstrap-sass,OSS,0
+2,0,0,2,0,1,0.5,0.14285714285714285,0.3714285714285714,twbs_bootstrap-sass_jk+github_at_digineo.de,twbs/bootstrap-sass,OSS,0
+3,0,0,0,0,0,0.5,0.0,0.05,twbs_bootstrap-sass_jk+github_at_digineo.de,twbs/bootstrap-sass,OSS,0
+4,1,1,2,1,1,0.5,0.14285714285714285,0.9714285714285715,twbs_bootstrap-sass_jk+github_at_digineo.de,twbs/bootstrap-sass,OSS,1

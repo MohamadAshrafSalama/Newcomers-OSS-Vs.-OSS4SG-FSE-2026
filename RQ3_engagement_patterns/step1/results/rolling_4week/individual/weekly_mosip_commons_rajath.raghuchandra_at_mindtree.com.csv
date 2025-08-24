@@ -1,0 +1,5 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,18,0,0,0,5,0.25,0.7142857142857143,4.632142857142857,mosip_commons_rajath.raghuchandra_at_mindtree.com,mosip/commons,OSS4SG,0
+1,25,0,0,0,4,0.5,0.5714285714285714,6.385714285714285,mosip_commons_rajath.raghuchandra_at_mindtree.com,mosip/commons,OSS4SG,0
+2,13,0,0,0,3,0.75,0.42857142857142855,3.3892857142857142,mosip_commons_rajath.raghuchandra_at_mindtree.com,mosip/commons,OSS4SG,0
+3,4,0,0,0,2,1.0,0.2857142857142857,1.142857142857143,mosip_commons_rajath.raghuchandra_at_mindtree.com,mosip/commons,OSS4SG,0

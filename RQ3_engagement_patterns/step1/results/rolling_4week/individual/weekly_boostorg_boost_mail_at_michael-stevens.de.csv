@@ -1,0 +1,14 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,4,0,0,0,2,0.25,0.2857142857142857,1.0678571428571428,boostorg_boost_mail_at_michael-stevens.de,boostorg/boost,OSS,0
+1,16,0,0,0,5,0.5,0.7142857142857143,4.157142857142857,boostorg_boost_mail_at_michael-stevens.de,boostorg/boost,OSS,0
+2,13,0,0,0,5,0.75,0.7142857142857143,3.4321428571428574,boostorg_boost_mail_at_michael-stevens.de,boostorg/boost,OSS,0
+3,3,0,0,0,3,1.0,0.42857142857142855,0.9142857142857143,boostorg_boost_mail_at_michael-stevens.de,boostorg/boost,OSS,0
+4,5,0,0,0,4,1.0,0.5714285714285714,1.4357142857142857,boostorg_boost_mail_at_michael-stevens.de,boostorg/boost,OSS,1
+5,20,0,0,0,5,1.0,0.7142857142857143,5.207142857142856,boostorg_boost_mail_at_michael-stevens.de,boostorg/boost,OSS,1
+6,34,0,0,0,6,1.0,0.8571428571428571,8.728571428571428,boostorg_boost_mail_at_michael-stevens.de,boostorg/boost,OSS,1
+7,35,0,0,0,7,1.0,1.0,9.0,boostorg_boost_mail_at_michael-stevens.de,boostorg/boost,OSS,1
+8,42,0,0,0,6,1.0,0.8571428571428571,10.728571428571428,boostorg_boost_mail_at_michael-stevens.de,boostorg/boost,OSS,2
+9,11,0,0,0,3,1.0,0.42857142857142855,2.914285714285714,boostorg_boost_mail_at_michael-stevens.de,boostorg/boost,OSS,2
+10,38,0,0,0,5,1.0,0.7142857142857143,9.707142857142857,boostorg_boost_mail_at_michael-stevens.de,boostorg/boost,OSS,2
+11,56,0,0,0,6,1.0,0.8571428571428571,14.228571428571428,boostorg_boost_mail_at_michael-stevens.de,boostorg/boost,OSS,2
+12,13,0,0,0,5,1.0,0.7142857142857143,3.4571428571428573,boostorg_boost_mail_at_michael-stevens.de,boostorg/boost,OSS,3

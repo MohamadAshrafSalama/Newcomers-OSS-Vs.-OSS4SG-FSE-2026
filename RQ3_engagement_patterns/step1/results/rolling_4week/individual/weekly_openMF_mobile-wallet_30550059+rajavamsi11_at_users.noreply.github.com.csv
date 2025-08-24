@@ -1,0 +1,7 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,3,24,4,3,0.25,0.42857142857142855,5.139285714285713,openMF_mobile-wallet_30550059+rajavamsi11_at_users.noreply.github.com,openMF/mobile-wallet,OSS4SG,0
+1,3,2,10,3,4,0.5,0.5714285714285714,3.2357142857142853,openMF_mobile-wallet_30550059+rajavamsi11_at_users.noreply.github.com,openMF/mobile-wallet,OSS4SG,0
+2,0,1,11,1,4,0.75,0.5714285714285714,2.1607142857142856,openMF_mobile-wallet_30550059+rajavamsi11_at_users.noreply.github.com,openMF/mobile-wallet,OSS4SG,0
+3,0,1,1,1,2,1.0,0.2857142857142857,0.6428571428571428,openMF_mobile-wallet_30550059+rajavamsi11_at_users.noreply.github.com,openMF/mobile-wallet,OSS4SG,0
+4,2,3,25,4,6,1.0,0.8571428571428571,5.678571428571427,openMF_mobile-wallet_30550059+rajavamsi11_at_users.noreply.github.com,openMF/mobile-wallet,OSS4SG,1
+5,1,1,7,3,3,1.0,0.42857142857142855,2.1142857142857143,openMF_mobile-wallet_30550059+rajavamsi11_at_users.noreply.github.com,openMF/mobile-wallet,OSS4SG,1

@@ -1,0 +1,5 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,3,0,0,0,1,0.25,0.14285714285714285,0.7964285714285715,BytomDAO_bytom_zhouarrogant_at_outlook.com,BytomDAO/bytom,OSS,0
+1,1,0,0,0,1,0.5,0.14285714285714285,0.3214285714285714,BytomDAO_bytom_zhouarrogant_at_outlook.com,BytomDAO/bytom,OSS,0
+2,8,1,0,0,3,0.75,0.42857142857142855,2.3392857142857144,BytomDAO_bytom_zhouarrogant_at_outlook.com,BytomDAO/bytom,OSS,0
+3,5,0,0,0,3,1.0,0.42857142857142855,1.4142857142857144,BytomDAO_bytom_zhouarrogant_at_outlook.com,BytomDAO/bytom,OSS,0

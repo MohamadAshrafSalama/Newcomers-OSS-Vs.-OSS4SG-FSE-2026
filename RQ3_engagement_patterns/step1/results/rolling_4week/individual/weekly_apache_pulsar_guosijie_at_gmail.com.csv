@@ -1,0 +1,17 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,2,0,0,0,2,0.25,0.2857142857142857,0.5678571428571428,apache_pulsar_guosijie_at_gmail.com,apache/pulsar,OSS,0
+1,1,0,0,0,1,0.5,0.14285714285714285,0.3214285714285714,apache_pulsar_guosijie_at_gmail.com,apache/pulsar,OSS,0
+2,1,0,0,0,1,0.75,0.14285714285714285,0.3464285714285714,apache_pulsar_guosijie_at_gmail.com,apache/pulsar,OSS,0
+3,0,0,0,0,0,0.75,0.0,0.07500000000000001,apache_pulsar_guosijie_at_gmail.com,apache/pulsar,OSS,0
+4,0,0,0,0,0,0.5,0.0,0.05,apache_pulsar_guosijie_at_gmail.com,apache/pulsar,OSS,1
+5,0,0,0,0,0,0.25,0.0,0.025,apache_pulsar_guosijie_at_gmail.com,apache/pulsar,OSS,1
+6,0,0,0,0,0,0.0,0.0,0.0,apache_pulsar_guosijie_at_gmail.com,apache/pulsar,OSS,1
+7,0,0,0,0,0,0.0,0.0,0.0,apache_pulsar_guosijie_at_gmail.com,apache/pulsar,OSS,1
+8,0,0,0,0,0,0.0,0.0,0.0,apache_pulsar_guosijie_at_gmail.com,apache/pulsar,OSS,2
+9,0,0,0,0,0,0.0,0.0,0.0,apache_pulsar_guosijie_at_gmail.com,apache/pulsar,OSS,2
+10,1,0,0,0,1,0.25,0.14285714285714285,0.29642857142857143,apache_pulsar_guosijie_at_gmail.com,apache/pulsar,OSS,2
+11,0,0,0,0,0,0.25,0.0,0.025,apache_pulsar_guosijie_at_gmail.com,apache/pulsar,OSS,2
+12,0,0,0,0,0,0.25,0.0,0.025,apache_pulsar_guosijie_at_gmail.com,apache/pulsar,OSS,3
+13,0,0,0,0,0,0.25,0.0,0.025,apache_pulsar_guosijie_at_gmail.com,apache/pulsar,OSS,3
+14,3,0,0,0,3,0.25,0.42857142857142855,0.8392857142857143,apache_pulsar_guosijie_at_gmail.com,apache/pulsar,OSS,3
+15,5,0,0,0,3,0.5,0.42857142857142855,1.3642857142857143,apache_pulsar_guosijie_at_gmail.com,apache/pulsar,OSS,3

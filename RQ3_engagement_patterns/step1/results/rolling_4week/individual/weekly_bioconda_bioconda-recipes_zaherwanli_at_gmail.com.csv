@@ -1,0 +1,5 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,7,1,0,0,1,0.25,0.14285714285714285,1.9964285714285712,bioconda_bioconda-recipes_zaherwanli_at_gmail.com,bioconda/bioconda-recipes,OSS,0
+1,10,0,0,0,2,0.5,0.2857142857142857,2.5928571428571425,bioconda_bioconda-recipes_zaherwanli_at_gmail.com,bioconda/bioconda-recipes,OSS,0
+2,21,2,6,0,4,0.75,0.5714285714285714,6.710714285714286,bioconda_bioconda-recipes_zaherwanli_at_gmail.com,bioconda/bioconda-recipes,OSS,0
+3,6,2,2,0,2,1.0,0.2857142857142857,2.3428571428571425,bioconda_bioconda-recipes_zaherwanli_at_gmail.com,bioconda/bioconda-recipes,OSS,0

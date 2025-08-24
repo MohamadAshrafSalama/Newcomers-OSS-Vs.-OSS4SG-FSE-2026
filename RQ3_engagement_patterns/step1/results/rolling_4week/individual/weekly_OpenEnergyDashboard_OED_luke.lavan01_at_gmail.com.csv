@@ -1,0 +1,8 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,0,0,0,1,0.25,0.14285714285714285,0.29642857142857143,OpenEnergyDashboard_OED_luke.lavan01_at_gmail.com,OpenEnergyDashboard/OED,OSS4SG,0
+1,11,0,0,0,3,0.5,0.42857142857142855,2.864285714285714,OpenEnergyDashboard_OED_luke.lavan01_at_gmail.com,OpenEnergyDashboard/OED,OSS4SG,0
+2,2,0,0,0,1,0.75,0.14285714285714285,0.5964285714285715,OpenEnergyDashboard_OED_luke.lavan01_at_gmail.com,OpenEnergyDashboard/OED,OSS4SG,0
+3,10,0,0,0,1,1.0,0.14285714285714285,2.6214285714285714,OpenEnergyDashboard_OED_luke.lavan01_at_gmail.com,OpenEnergyDashboard/OED,OSS4SG,0
+4,13,0,0,0,1,1.0,0.14285714285714285,3.3714285714285714,OpenEnergyDashboard_OED_luke.lavan01_at_gmail.com,OpenEnergyDashboard/OED,OSS4SG,1
+5,1,0,0,0,1,1.0,0.14285714285714285,0.37142857142857144,OpenEnergyDashboard_OED_luke.lavan01_at_gmail.com,OpenEnergyDashboard/OED,OSS4SG,1
+6,4,0,0,0,2,1.0,0.2857142857142857,1.142857142857143,OpenEnergyDashboard_OED_luke.lavan01_at_gmail.com,OpenEnergyDashboard/OED,OSS4SG,1

@@ -1,0 +1,12 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,0,0,0,1,0.25,0.14285714285714285,0.29642857142857143,synthetichealth_synthea_9834834+nanowizard_at_users.noreply.github.com,synthetichealth/synthea,OSS4SG,0
+1,2,0,0,0,2,0.5,0.2857142857142857,0.5928571428571429,synthetichealth_synthea_9834834+nanowizard_at_users.noreply.github.com,synthetichealth/synthea,OSS4SG,0
+2,2,0,0,0,1,0.75,0.14285714285714285,0.5964285714285715,synthetichealth_synthea_9834834+nanowizard_at_users.noreply.github.com,synthetichealth/synthea,OSS4SG,0
+3,4,0,0,0,2,1.0,0.2857142857142857,1.142857142857143,synthetichealth_synthea_9834834+nanowizard_at_users.noreply.github.com,synthetichealth/synthea,OSS4SG,0
+4,15,0,0,0,5,1.0,0.7142857142857143,3.9571428571428573,synthetichealth_synthea_9834834+nanowizard_at_users.noreply.github.com,synthetichealth/synthea,OSS4SG,1
+5,10,0,0,0,2,1.0,0.2857142857142857,2.642857142857143,synthetichealth_synthea_9834834+nanowizard_at_users.noreply.github.com,synthetichealth/synthea,OSS4SG,1
+6,2,0,0,0,1,1.0,0.14285714285714285,0.6214285714285714,synthetichealth_synthea_9834834+nanowizard_at_users.noreply.github.com,synthetichealth/synthea,OSS4SG,1
+7,0,0,0,0,0,0.75,0.0,0.07500000000000001,synthetichealth_synthea_9834834+nanowizard_at_users.noreply.github.com,synthetichealth/synthea,OSS4SG,1
+8,0,0,0,0,0,0.5,0.0,0.05,synthetichealth_synthea_9834834+nanowizard_at_users.noreply.github.com,synthetichealth/synthea,OSS4SG,2
+9,2,0,0,0,1,0.5,0.14285714285714285,0.5714285714285715,synthetichealth_synthea_9834834+nanowizard_at_users.noreply.github.com,synthetichealth/synthea,OSS4SG,2
+10,2,0,0,0,1,0.5,0.14285714285714285,0.5714285714285715,synthetichealth_synthea_9834834+nanowizard_at_users.noreply.github.com,synthetichealth/synthea,OSS4SG,2

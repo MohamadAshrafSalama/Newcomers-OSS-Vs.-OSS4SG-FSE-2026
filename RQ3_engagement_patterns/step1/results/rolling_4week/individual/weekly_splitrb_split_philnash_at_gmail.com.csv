@@ -1,0 +1,16 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,0,0,0,1,0.25,0.14285714285714285,0.29642857142857143,splitrb_split_philnash_at_gmail.com,splitrb/split,OSS,0
+1,2,0,0,0,2,0.5,0.2857142857142857,0.5928571428571429,splitrb_split_philnash_at_gmail.com,splitrb/split,OSS,0
+2,0,0,0,0,0,0.5,0.0,0.05,splitrb_split_philnash_at_gmail.com,splitrb/split,OSS,0
+3,0,0,0,0,0,0.5,0.0,0.05,splitrb_split_philnash_at_gmail.com,splitrb/split,OSS,0
+4,0,0,0,0,0,0.25,0.0,0.025,splitrb_split_philnash_at_gmail.com,splitrb/split,OSS,1
+5,0,0,0,0,0,0.0,0.0,0.0,splitrb_split_philnash_at_gmail.com,splitrb/split,OSS,1
+6,0,0,0,0,0,0.0,0.0,0.0,splitrb_split_philnash_at_gmail.com,splitrb/split,OSS,1
+7,0,0,0,0,0,0.0,0.0,0.0,splitrb_split_philnash_at_gmail.com,splitrb/split,OSS,1
+8,0,0,0,0,0,0.0,0.0,0.0,splitrb_split_philnash_at_gmail.com,splitrb/split,OSS,2
+9,0,0,0,0,0,0.0,0.0,0.0,splitrb_split_philnash_at_gmail.com,splitrb/split,OSS,2
+10,0,0,0,0,0,0.0,0.0,0.0,splitrb_split_philnash_at_gmail.com,splitrb/split,OSS,2
+11,0,0,0,0,0,0.0,0.0,0.0,splitrb_split_philnash_at_gmail.com,splitrb/split,OSS,2
+12,0,0,0,0,0,0.0,0.0,0.0,splitrb_split_philnash_at_gmail.com,splitrb/split,OSS,3
+13,1,0,0,0,1,0.25,0.14285714285714285,0.29642857142857143,splitrb_split_philnash_at_gmail.com,splitrb/split,OSS,3
+14,1,0,0,0,1,0.5,0.14285714285714285,0.3214285714285714,splitrb_split_philnash_at_gmail.com,splitrb/split,OSS,3

@@ -1,0 +1,12 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,14,2,3,0,4,0.25,0.5714285714285714,4.460714285714285,tidepool-org_uploader_jana.eliz.beck_at_gmail.com,tidepool-org/uploader,OSS4SG,0
+1,2,0,0,0,1,0.5,0.14285714285714285,0.5714285714285715,tidepool-org_uploader_jana.eliz.beck_at_gmail.com,tidepool-org/uploader,OSS4SG,0
+2,12,2,2,0,3,0.75,0.42857142857142855,3.8392857142857144,tidepool-org_uploader_jana.eliz.beck_at_gmail.com,tidepool-org/uploader,OSS4SG,0
+3,2,0,0,0,1,1.0,0.14285714285714285,0.6214285714285714,tidepool-org_uploader_jana.eliz.beck_at_gmail.com,tidepool-org/uploader,OSS4SG,0
+4,0,0,0,0,0,0.75,0.0,0.07500000000000001,tidepool-org_uploader_jana.eliz.beck_at_gmail.com,tidepool-org/uploader,OSS4SG,1
+5,14,0,0,0,4,0.75,0.5714285714285714,3.660714285714286,tidepool-org_uploader_jana.eliz.beck_at_gmail.com,tidepool-org/uploader,OSS4SG,1
+6,40,1,2,0,6,0.75,0.8571428571428571,10.703571428571427,tidepool-org_uploader_jana.eliz.beck_at_gmail.com,tidepool-org/uploader,OSS4SG,1
+7,44,1,1,0,6,0.75,0.8571428571428571,11.553571428571427,tidepool-org_uploader_jana.eliz.beck_at_gmail.com,tidepool-org/uploader,OSS4SG,1
+8,34,1,3,0,2,1.0,0.2857142857142857,9.292857142857141,tidepool-org_uploader_jana.eliz.beck_at_gmail.com,tidepool-org/uploader,OSS4SG,2
+9,20,1,2,0,4,1.0,0.5714285714285714,5.685714285714285,tidepool-org_uploader_jana.eliz.beck_at_gmail.com,tidepool-org/uploader,OSS4SG,2
+10,8,1,1,0,2,1.0,0.2857142857142857,2.492857142857143,tidepool-org_uploader_jana.eliz.beck_at_gmail.com,tidepool-org/uploader,OSS4SG,2

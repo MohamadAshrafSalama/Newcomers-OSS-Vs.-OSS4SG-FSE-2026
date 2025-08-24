@@ -1,0 +1,5 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+-1,0,1,2,1,2,0.25,0.2857142857142857,0.7178571428571429,moment_moment_wp_scut_at_163.com,moment/moment,OSS,-1
+0,1,0,2,1,2,0.5,0.2857142857142857,0.7928571428571429,moment_moment_wp_scut_at_163.com,moment/moment,OSS,0
+1,0,1,2,0,1,0.75,0.14285714285714285,0.5964285714285715,moment_moment_wp_scut_at_163.com,moment/moment,OSS,0
+2,0,1,4,3,4,1.0,0.5714285714285714,1.4357142857142857,moment_moment_wp_scut_at_163.com,moment/moment,OSS,0

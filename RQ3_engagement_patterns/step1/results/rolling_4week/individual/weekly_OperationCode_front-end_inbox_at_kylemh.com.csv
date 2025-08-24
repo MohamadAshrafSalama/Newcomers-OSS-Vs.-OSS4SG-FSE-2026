@@ -1,0 +1,9 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,0,0,0,1,0.25,0.14285714285714285,0.29642857142857143,OperationCode_front-end_inbox_at_kylemh.com,OperationCode/front-end,OSS4SG,0
+1,0,0,0,0,0,0.25,0.0,0.025,OperationCode_front-end_inbox_at_kylemh.com,OperationCode/front-end,OSS4SG,0
+2,0,0,0,0,0,0.25,0.0,0.025,OperationCode_front-end_inbox_at_kylemh.com,OperationCode/front-end,OSS4SG,0
+3,0,0,0,0,0,0.25,0.0,0.025,OperationCode_front-end_inbox_at_kylemh.com,OperationCode/front-end,OSS4SG,0
+4,0,0,0,0,0,0.0,0.0,0.0,OperationCode_front-end_inbox_at_kylemh.com,OperationCode/front-end,OSS4SG,1
+5,0,0,0,0,0,0.0,0.0,0.0,OperationCode_front-end_inbox_at_kylemh.com,OperationCode/front-end,OSS4SG,1
+6,34,0,0,0,3,0.25,0.42857142857142855,8.589285714285715,OperationCode_front-end_inbox_at_kylemh.com,OperationCode/front-end,OSS4SG,1
+7,32,8,22,12,1,0.5,0.14285714285714285,14.771428571428572,OperationCode_front-end_inbox_at_kylemh.com,OperationCode/front-end,OSS4SG,1

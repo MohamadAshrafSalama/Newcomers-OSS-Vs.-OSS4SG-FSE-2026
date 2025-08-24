@@ -1,0 +1,11 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,12,0,0,0,2,0.25,0.2857142857142857,3.0678571428571426,Sunbird-Obsrv_sunbird-data-pipeline_revathi21kotla_at_gmail.com,Sunbird-Obsrv/sunbird-data-pipeline,OSS4SG,0
+1,22,0,0,0,3,0.5,0.42857142857142855,5.614285714285714,Sunbird-Obsrv_sunbird-data-pipeline_revathi21kotla_at_gmail.com,Sunbird-Obsrv/sunbird-data-pipeline,OSS4SG,0
+2,0,0,0,0,0,0.5,0.0,0.05,Sunbird-Obsrv_sunbird-data-pipeline_revathi21kotla_at_gmail.com,Sunbird-Obsrv/sunbird-data-pipeline,OSS4SG,0
+3,0,0,0,0,0,0.5,0.0,0.05,Sunbird-Obsrv_sunbird-data-pipeline_revathi21kotla_at_gmail.com,Sunbird-Obsrv/sunbird-data-pipeline,OSS4SG,0
+4,3,1,0,0,1,0.5,0.14285714285714285,1.0214285714285714,Sunbird-Obsrv_sunbird-data-pipeline_revathi21kotla_at_gmail.com,Sunbird-Obsrv/sunbird-data-pipeline,OSS4SG,1
+5,0,0,0,0,0,0.25,0.0,0.025,Sunbird-Obsrv_sunbird-data-pipeline_revathi21kotla_at_gmail.com,Sunbird-Obsrv/sunbird-data-pipeline,OSS4SG,1
+6,8,0,0,0,2,0.5,0.2857142857142857,2.0928571428571425,Sunbird-Obsrv_sunbird-data-pipeline_revathi21kotla_at_gmail.com,Sunbird-Obsrv/sunbird-data-pipeline,OSS4SG,1
+7,0,0,0,0,0,0.5,0.0,0.05,Sunbird-Obsrv_sunbird-data-pipeline_revathi21kotla_at_gmail.com,Sunbird-Obsrv/sunbird-data-pipeline,OSS4SG,1
+8,9,2,0,0,3,0.5,0.42857142857142855,2.7642857142857142,Sunbird-Obsrv_sunbird-data-pipeline_revathi21kotla_at_gmail.com,Sunbird-Obsrv/sunbird-data-pipeline,OSS4SG,2
+9,4,3,0,0,3,0.75,0.42857142857142855,1.7392857142857143,Sunbird-Obsrv_sunbird-data-pipeline_revathi21kotla_at_gmail.com,Sunbird-Obsrv/sunbird-data-pipeline,OSS4SG,2

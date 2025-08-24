@@ -1,0 +1,9 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,0,0,0,1,0.25,0.14285714285714285,0.29642857142857143,synthetichealth_synthea_cmoesel_at_mitre.org,synthetichealth/synthea,OSS4SG,0
+1,0,0,0,0,0,0.25,0.0,0.025,synthetichealth_synthea_cmoesel_at_mitre.org,synthetichealth/synthea,OSS4SG,0
+2,5,0,0,0,2,0.5,0.2857142857142857,1.342857142857143,synthetichealth_synthea_cmoesel_at_mitre.org,synthetichealth/synthea,OSS4SG,0
+3,0,0,0,0,0,0.5,0.0,0.05,synthetichealth_synthea_cmoesel_at_mitre.org,synthetichealth/synthea,OSS4SG,0
+4,0,0,0,0,0,0.25,0.0,0.025,synthetichealth_synthea_cmoesel_at_mitre.org,synthetichealth/synthea,OSS4SG,1
+5,1,0,0,0,1,0.5,0.14285714285714285,0.3214285714285714,synthetichealth_synthea_cmoesel_at_mitre.org,synthetichealth/synthea,OSS4SG,1
+6,1,0,0,0,1,0.5,0.14285714285714285,0.3214285714285714,synthetichealth_synthea_cmoesel_at_mitre.org,synthetichealth/synthea,OSS4SG,1
+7,9,0,0,0,4,0.75,0.5714285714285714,2.410714285714286,synthetichealth_synthea_cmoesel_at_mitre.org,synthetichealth/synthea,OSS4SG,1

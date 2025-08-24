@@ -1,0 +1,16 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,2,0,0,0,2,0.25,0.2857142857142857,0.5678571428571428,mosip_commons_prem.kumar4_at_mindtree.com,mosip/commons,OSS4SG,0
+1,2,0,0,0,2,0.5,0.2857142857142857,0.5928571428571429,mosip_commons_prem.kumar4_at_mindtree.com,mosip/commons,OSS4SG,0
+2,3,0,0,0,3,0.75,0.42857142857142855,0.8892857142857142,mosip_commons_prem.kumar4_at_mindtree.com,mosip/commons,OSS4SG,0
+3,3,0,0,0,1,1.0,0.14285714285714285,0.8714285714285714,mosip_commons_prem.kumar4_at_mindtree.com,mosip/commons,OSS4SG,0
+4,5,0,0,0,3,1.0,0.42857142857142855,1.4142857142857144,mosip_commons_prem.kumar4_at_mindtree.com,mosip/commons,OSS4SG,1
+5,3,0,0,0,1,1.0,0.14285714285714285,0.8714285714285714,mosip_commons_prem.kumar4_at_mindtree.com,mosip/commons,OSS4SG,1
+6,11,0,0,0,4,1.0,0.5714285714285714,2.935714285714286,mosip_commons_prem.kumar4_at_mindtree.com,mosip/commons,OSS4SG,1
+7,4,0,0,0,2,1.0,0.2857142857142857,1.142857142857143,mosip_commons_prem.kumar4_at_mindtree.com,mosip/commons,OSS4SG,1
+8,0,0,0,0,0,0.75,0.0,0.07500000000000001,mosip_commons_prem.kumar4_at_mindtree.com,mosip/commons,OSS4SG,2
+9,1,0,0,0,1,0.75,0.14285714285714285,0.3464285714285714,mosip_commons_prem.kumar4_at_mindtree.com,mosip/commons,OSS4SG,2
+10,9,0,0,0,5,0.75,0.7142857142857143,2.4321428571428574,mosip_commons_prem.kumar4_at_mindtree.com,mosip/commons,OSS4SG,2
+11,9,0,0,0,3,0.75,0.42857142857142855,2.3892857142857142,mosip_commons_prem.kumar4_at_mindtree.com,mosip/commons,OSS4SG,2
+12,3,0,0,0,2,1.0,0.2857142857142857,0.8928571428571428,mosip_commons_prem.kumar4_at_mindtree.com,mosip/commons,OSS4SG,3
+13,10,0,0,0,5,1.0,0.7142857142857143,2.7071428571428573,mosip_commons_prem.kumar4_at_mindtree.com,mosip/commons,OSS4SG,3
+14,2,0,0,0,2,1.0,0.2857142857142857,0.6428571428571428,mosip_commons_prem.kumar4_at_mindtree.com,mosip/commons,OSS4SG,3

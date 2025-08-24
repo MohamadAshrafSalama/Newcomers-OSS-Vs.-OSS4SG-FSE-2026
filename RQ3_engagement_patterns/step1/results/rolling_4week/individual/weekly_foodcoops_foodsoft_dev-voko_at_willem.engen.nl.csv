@@ -1,0 +1,7 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+-1,0,0,11,1,1,0.25,0.14285714285714285,1.846428571428571,foodcoops_foodsoft_dev-voko_at_willem.engen.nl,foodcoops/foodsoft,OSS4SG,-1
+0,4,0,0,0,3,0.5,0.42857142857142855,1.1142857142857143,foodcoops_foodsoft_dev-voko_at_willem.engen.nl,foodcoops/foodsoft,OSS4SG,0
+1,21,0,2,1,6,0.75,0.8571428571428571,5.903571428571429,foodcoops_foodsoft_dev-voko_at_willem.engen.nl,foodcoops/foodsoft,OSS4SG,0
+2,14,0,4,2,4,1.0,0.5714285714285714,4.5857142857142845,foodcoops_foodsoft_dev-voko_at_willem.engen.nl,foodcoops/foodsoft,OSS4SG,0
+3,4,0,0,0,1,1.0,0.14285714285714285,1.1214285714285714,foodcoops_foodsoft_dev-voko_at_willem.engen.nl,foodcoops/foodsoft,OSS4SG,0
+4,5,0,0,0,2,1.0,0.2857142857142857,1.392857142857143,foodcoops_foodsoft_dev-voko_at_willem.engen.nl,foodcoops/foodsoft,OSS4SG,1

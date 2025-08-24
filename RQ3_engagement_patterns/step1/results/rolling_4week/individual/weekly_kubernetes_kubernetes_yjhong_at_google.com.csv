@@ -1,0 +1,7 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,3,3,12,2,3,0.25,0.42857142857142855,3.539285714285714,kubernetes_kubernetes_yjhong_at_google.com,kubernetes/kubernetes,OSS,0
+1,1,1,1,0,1,0.5,0.14285714285714285,0.6714285714285715,kubernetes_kubernetes_yjhong_at_google.com,kubernetes/kubernetes,OSS,0
+2,3,3,5,1,2,0.75,0.2857142857142857,2.367857142857143,kubernetes_kubernetes_yjhong_at_google.com,kubernetes/kubernetes,OSS,0
+3,21,6,10,1,4,1.0,0.5714285714285714,8.285714285714285,kubernetes_kubernetes_yjhong_at_google.com,kubernetes/kubernetes,OSS,0
+4,2,1,7,2,3,1.0,0.42857142857142855,2.214285714285714,kubernetes_kubernetes_yjhong_at_google.com,kubernetes/kubernetes,OSS,1
+5,5,5,18,1,4,1.0,0.5714285714285714,5.285714285714285,kubernetes_kubernetes_yjhong_at_google.com,kubernetes/kubernetes,OSS,1

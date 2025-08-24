@@ -1,0 +1,9 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,4,2,0,0,2,0.25,0.2857142857142857,1.4678571428571427,postmanlabs_openapi-to-postman_vishalkumar.shingala_at_getpostman.com,postmanlabs/openapi-to-postman,OSS,0
+1,11,2,5,0,3,0.5,0.42857142857142855,4.014285714285714,postmanlabs_openapi-to-postman_vishalkumar.shingala_at_getpostman.com,postmanlabs/openapi-to-postman,OSS,0
+2,8,0,0,0,2,0.75,0.2857142857142857,2.117857142857143,postmanlabs_openapi-to-postman_vishalkumar.shingala_at_getpostman.com,postmanlabs/openapi-to-postman,OSS,0
+3,1,1,5,1,2,1.0,0.2857142857142857,1.4928571428571429,postmanlabs_openapi-to-postman_vishalkumar.shingala_at_getpostman.com,postmanlabs/openapi-to-postman,OSS,0
+4,0,0,0,0,0,0.75,0.0,0.07500000000000001,postmanlabs_openapi-to-postman_vishalkumar.shingala_at_getpostman.com,postmanlabs/openapi-to-postman,OSS,1
+5,10,2,4,0,4,0.75,0.5714285714285714,3.660714285714286,postmanlabs_openapi-to-postman_vishalkumar.shingala_at_getpostman.com,postmanlabs/openapi-to-postman,OSS,1
+6,0,0,0,0,0,0.5,0.0,0.05,postmanlabs_openapi-to-postman_vishalkumar.shingala_at_getpostman.com,postmanlabs/openapi-to-postman,OSS,1
+7,3,2,2,0,2,0.5,0.2857142857142857,1.542857142857143,postmanlabs_openapi-to-postman_vishalkumar.shingala_at_getpostman.com,postmanlabs/openapi-to-postman,OSS,1

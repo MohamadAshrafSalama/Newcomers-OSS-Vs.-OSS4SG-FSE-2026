@@ -1,0 +1,10 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,2,0,0,0,1,0.25,0.14285714285714285,0.5464285714285715,primeroIMS_primero_rdsubhas_at_gmail.com,primeroIMS/primero,OSS4SG,0
+1,1,0,0,0,1,0.5,0.14285714285714285,0.3214285714285714,primeroIMS_primero_rdsubhas_at_gmail.com,primeroIMS/primero,OSS4SG,0
+2,0,0,0,0,0,0.5,0.0,0.05,primeroIMS_primero_rdsubhas_at_gmail.com,primeroIMS/primero,OSS4SG,0
+3,2,0,0,0,2,0.75,0.2857142857142857,0.6178571428571429,primeroIMS_primero_rdsubhas_at_gmail.com,primeroIMS/primero,OSS4SG,0
+4,0,0,0,0,0,0.5,0.0,0.05,primeroIMS_primero_rdsubhas_at_gmail.com,primeroIMS/primero,OSS4SG,1
+5,0,0,0,0,0,0.25,0.0,0.025,primeroIMS_primero_rdsubhas_at_gmail.com,primeroIMS/primero,OSS4SG,1
+6,1,0,0,0,1,0.5,0.14285714285714285,0.3214285714285714,primeroIMS_primero_rdsubhas_at_gmail.com,primeroIMS/primero,OSS4SG,1
+7,3,0,0,0,2,0.5,0.2857142857142857,0.8428571428571429,primeroIMS_primero_rdsubhas_at_gmail.com,primeroIMS/primero,OSS4SG,1
+8,2,0,0,0,1,0.75,0.14285714285714285,0.5964285714285715,primeroIMS_primero_rdsubhas_at_gmail.com,primeroIMS/primero,OSS4SG,2

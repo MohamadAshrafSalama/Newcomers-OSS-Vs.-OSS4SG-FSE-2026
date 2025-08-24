@@ -1,0 +1,4 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+-2,0,0,2,1,1,0.25,0.14285714285714285,0.4964285714285714,moment_moment_breadson.xue_at_gmail.com,moment/moment,OSS,-1
+-1,0,0,0,0,0,0.25,0.0,0.025,moment_moment_breadson.xue_at_gmail.com,moment/moment,OSS,-1
+0,4,0,5,0,2,0.5,0.2857142857142857,1.842857142857143,moment_moment_breadson.xue_at_gmail.com,moment/moment,OSS,0

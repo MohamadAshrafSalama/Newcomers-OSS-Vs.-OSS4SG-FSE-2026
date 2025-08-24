@@ -1,0 +1,6 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,2,4,2,0,5,0.25,0.7142857142857143,1.7321428571428572,apache_pulsar_yanzhang_at_streamnative.io,apache/pulsar,OSS,0
+1,0,0,0,0,0,0.25,0.0,0.025,apache_pulsar_yanzhang_at_streamnative.io,apache/pulsar,OSS,0
+2,2,0,0,0,2,0.5,0.2857142857142857,0.5928571428571429,apache_pulsar_yanzhang_at_streamnative.io,apache/pulsar,OSS,0
+3,0,2,2,0,1,0.75,0.14285714285714285,0.7964285714285715,apache_pulsar_yanzhang_at_streamnative.io,apache/pulsar,OSS,0
+4,3,7,0,0,3,0.75,0.42857142857142855,2.2892857142857146,apache_pulsar_yanzhang_at_streamnative.io,apache/pulsar,OSS,1

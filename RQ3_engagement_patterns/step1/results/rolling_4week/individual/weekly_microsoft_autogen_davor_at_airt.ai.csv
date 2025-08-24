@@ -1,0 +1,4 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+-1,0,2,26,1,2,0.25,0.2857142857142857,4.517857142857143,microsoft_autogen_davor_at_airt.ai,microsoft/autogen,OSS,-1
+0,2,0,3,0,2,0.5,0.2857142857142857,1.0428571428571427,microsoft_autogen_davor_at_airt.ai,microsoft/autogen,OSS,0
+1,2,3,1,2,3,0.75,0.42857142857142855,1.6892857142857143,microsoft_autogen_davor_at_airt.ai,microsoft/autogen,OSS,0

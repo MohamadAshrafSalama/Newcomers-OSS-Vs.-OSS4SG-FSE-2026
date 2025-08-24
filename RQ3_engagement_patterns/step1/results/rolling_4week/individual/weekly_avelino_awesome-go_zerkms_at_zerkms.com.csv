@@ -1,0 +1,11 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,1,1,0,1,0.25,0.14285714285714285,0.6464285714285715,avelino_awesome-go_zerkms_at_zerkms.com,avelino/awesome-go,OSS,0
+1,0,0,0,0,0,0.25,0.0,0.025,avelino_awesome-go_zerkms_at_zerkms.com,avelino/awesome-go,OSS,0
+2,0,0,0,0,0,0.25,0.0,0.025,avelino_awesome-go_zerkms_at_zerkms.com,avelino/awesome-go,OSS,0
+3,0,0,0,0,0,0.25,0.0,0.025,avelino_awesome-go_zerkms_at_zerkms.com,avelino/awesome-go,OSS,0
+4,0,0,0,0,0,0.0,0.0,0.0,avelino_awesome-go_zerkms_at_zerkms.com,avelino/awesome-go,OSS,1
+5,0,0,0,0,0,0.0,0.0,0.0,avelino_awesome-go_zerkms_at_zerkms.com,avelino/awesome-go,OSS,1
+6,0,0,0,0,0,0.0,0.0,0.0,avelino_awesome-go_zerkms_at_zerkms.com,avelino/awesome-go,OSS,1
+7,0,0,0,0,0,0.0,0.0,0.0,avelino_awesome-go_zerkms_at_zerkms.com,avelino/awesome-go,OSS,1
+8,0,0,0,0,0,0.0,0.0,0.0,avelino_awesome-go_zerkms_at_zerkms.com,avelino/awesome-go,OSS,2
+9,0,0,0,1,1,0.25,0.14285714285714285,0.19642857142857142,avelino_awesome-go_zerkms_at_zerkms.com,avelino/awesome-go,OSS,2

@@ -1,0 +1,6 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,0,0,0,1,0.25,0.14285714285714285,0.29642857142857143,jenkinsci_bitbucket-branch-source-plugin_amuniz_at_users.noreply.github.com,jenkinsci/bitbucket-branch-source-plugin,OSS,0
+1,0,0,0,0,0,0.25,0.0,0.025,jenkinsci_bitbucket-branch-source-plugin_amuniz_at_users.noreply.github.com,jenkinsci/bitbucket-branch-source-plugin,OSS,0
+2,0,0,0,0,0,0.25,0.0,0.025,jenkinsci_bitbucket-branch-source-plugin_amuniz_at_users.noreply.github.com,jenkinsci/bitbucket-branch-source-plugin,OSS,0
+3,0,0,0,0,0,0.25,0.0,0.025,jenkinsci_bitbucket-branch-source-plugin_amuniz_at_users.noreply.github.com,jenkinsci/bitbucket-branch-source-plugin,OSS,0
+4,1,0,0,0,1,0.25,0.14285714285714285,0.29642857142857143,jenkinsci_bitbucket-branch-source-plugin_amuniz_at_users.noreply.github.com,jenkinsci/bitbucket-branch-source-plugin,OSS,1

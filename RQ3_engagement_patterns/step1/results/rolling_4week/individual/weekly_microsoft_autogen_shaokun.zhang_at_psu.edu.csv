@@ -1,0 +1,5 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,0,0,0,1,0.25,0.14285714285714285,0.29642857142857143,microsoft_autogen_shaokun.zhang_at_psu.edu,microsoft/autogen,OSS,0
+1,0,0,0,0,0,0.25,0.0,0.025,microsoft_autogen_shaokun.zhang_at_psu.edu,microsoft/autogen,OSS,0
+2,1,0,0,0,1,0.5,0.14285714285714285,0.3214285714285714,microsoft_autogen_shaokun.zhang_at_psu.edu,microsoft/autogen,OSS,0
+3,2,0,0,0,2,0.75,0.2857142857142857,0.6178571428571429,microsoft_autogen_shaokun.zhang_at_psu.edu,microsoft/autogen,OSS,0

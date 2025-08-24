@@ -1,0 +1,5 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,2,2,1,1,2,0.25,0.2857142857142857,1.2678571428571428,ifmeorg_ifme_siena.aguayo_at_gmail.com,ifmeorg/ifme,OSS4SG,0
+1,0,0,0,0,0,0.25,0.0,0.025,ifmeorg_ifme_siena.aguayo_at_gmail.com,ifmeorg/ifme,OSS4SG,0
+2,0,0,1,1,1,0.5,0.14285714285714285,0.3714285714285714,ifmeorg_ifme_siena.aguayo_at_gmail.com,ifmeorg/ifme,OSS4SG,0
+3,1,0,0,0,1,0.75,0.14285714285714285,0.3464285714285714,ifmeorg_ifme_siena.aguayo_at_gmail.com,ifmeorg/ifme,OSS4SG,0

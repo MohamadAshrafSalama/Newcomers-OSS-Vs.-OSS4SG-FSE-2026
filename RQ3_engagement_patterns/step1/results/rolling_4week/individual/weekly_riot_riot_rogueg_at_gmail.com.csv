@@ -1,0 +1,15 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+-1,0,0,0,1,1,0.25,0.14285714285714285,0.19642857142857142,riot_riot_rogueg_at_gmail.com,riot/riot,OSS,-1
+0,1,0,7,1,2,0.5,0.2857142857142857,1.542857142857143,riot_riot_rogueg_at_gmail.com,riot/riot,OSS,0
+1,2,1,0,0,1,0.75,0.14285714285714285,0.7964285714285715,riot_riot_rogueg_at_gmail.com,riot/riot,OSS,0
+2,0,0,0,1,1,1.0,0.14285714285714285,0.27142857142857146,riot_riot_rogueg_at_gmail.com,riot/riot,OSS,0
+3,0,0,0,0,0,0.75,0.0,0.07500000000000001,riot_riot_rogueg_at_gmail.com,riot/riot,OSS,0
+4,1,0,0,0,1,0.75,0.14285714285714285,0.3464285714285714,riot_riot_rogueg_at_gmail.com,riot/riot,OSS,1
+5,5,1,0,0,3,0.75,0.42857142857142855,1.5892857142857142,riot_riot_rogueg_at_gmail.com,riot/riot,OSS,1
+6,6,0,0,0,3,0.75,0.42857142857142855,1.6392857142857142,riot_riot_rogueg_at_gmail.com,riot/riot,OSS,1
+7,0,1,3,0,1,1.0,0.14285714285714285,0.7714285714285714,riot_riot_rogueg_at_gmail.com,riot/riot,OSS,1
+8,0,0,0,0,0,0.75,0.0,0.07500000000000001,riot_riot_rogueg_at_gmail.com,riot/riot,OSS,2
+9,0,0,0,0,0,0.5,0.0,0.05,riot_riot_rogueg_at_gmail.com,riot/riot,OSS,2
+10,0,0,0,0,0,0.25,0.0,0.025,riot_riot_rogueg_at_gmail.com,riot/riot,OSS,2
+11,0,0,0,0,0,0.0,0.0,0.0,riot_riot_rogueg_at_gmail.com,riot/riot,OSS,2
+12,0,0,4,1,1,0.25,0.14285714285714285,0.7964285714285715,riot_riot_rogueg_at_gmail.com,riot/riot,OSS,3

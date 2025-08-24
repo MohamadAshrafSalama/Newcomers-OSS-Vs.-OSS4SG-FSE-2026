@@ -1,0 +1,13 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,8,0,0,0,1,0.25,0.14285714285714285,2.0464285714285713,elastic_beats_monica_at_elastic.co,elastic/beats,OSS,0
+1,13,0,0,0,5,0.5,0.7142857142857143,3.407142857142857,elastic_beats_monica_at_elastic.co,elastic/beats,OSS,0
+2,5,0,0,1,2,0.75,0.2857142857142857,1.5178571428571428,elastic_beats_monica_at_elastic.co,elastic/beats,OSS,0
+3,0,0,0,0,0,0.75,0.0,0.07500000000000001,elastic_beats_monica_at_elastic.co,elastic/beats,OSS,0
+4,3,0,0,0,2,0.75,0.2857142857142857,0.8678571428571429,elastic_beats_monica_at_elastic.co,elastic/beats,OSS,1
+5,0,0,0,0,0,0.5,0.0,0.05,elastic_beats_monica_at_elastic.co,elastic/beats,OSS,1
+6,4,0,0,0,2,0.5,0.2857142857142857,1.092857142857143,elastic_beats_monica_at_elastic.co,elastic/beats,OSS,1
+7,10,0,0,0,5,0.75,0.7142857142857143,2.6821428571428574,elastic_beats_monica_at_elastic.co,elastic/beats,OSS,1
+8,1,0,0,0,1,0.75,0.14285714285714285,0.3464285714285714,elastic_beats_monica_at_elastic.co,elastic/beats,OSS,2
+9,9,0,0,0,3,1.0,0.42857142857142855,2.414285714285714,elastic_beats_monica_at_elastic.co,elastic/beats,OSS,2
+10,24,0,0,0,5,1.0,0.7142857142857143,6.207142857142856,elastic_beats_monica_at_elastic.co,elastic/beats,OSS,2
+11,21,0,0,0,5,1.0,0.7142857142857143,5.457142857142856,elastic_beats_monica_at_elastic.co,elastic/beats,OSS,2

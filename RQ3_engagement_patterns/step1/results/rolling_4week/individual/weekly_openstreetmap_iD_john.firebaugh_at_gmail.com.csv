@@ -1,0 +1,15 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,2,1,0,0,1,0.25,0.14285714285714285,0.7464285714285714,openstreetmap_iD_john.firebaugh_at_gmail.com,openstreetmap/iD,OSS4SG,0
+1,0,0,0,0,0,0.25,0.0,0.025,openstreetmap_iD_john.firebaugh_at_gmail.com,openstreetmap/iD,OSS4SG,0
+2,9,5,1,0,3,0.5,0.42857142857142855,3.5142857142857142,openstreetmap_iD_john.firebaugh_at_gmail.com,openstreetmap/iD,OSS4SG,0
+3,2,0,0,0,1,0.75,0.14285714285714285,0.5964285714285715,openstreetmap_iD_john.firebaugh_at_gmail.com,openstreetmap/iD,OSS4SG,0
+4,12,2,1,0,3,0.75,0.42857142857142855,3.689285714285714,openstreetmap_iD_john.firebaugh_at_gmail.com,openstreetmap/iD,OSS4SG,1
+5,23,0,0,0,5,1.0,0.7142857142857143,5.957142857142856,openstreetmap_iD_john.firebaugh_at_gmail.com,openstreetmap/iD,OSS4SG,1
+6,90,0,8,23,7,1.0,1.0,27.4,openstreetmap_iD_john.firebaugh_at_gmail.com,openstreetmap/iD,OSS4SG,1
+7,11,0,0,4,3,1.0,0.42857142857142855,3.5142857142857147,openstreetmap_iD_john.firebaugh_at_gmail.com,openstreetmap/iD,OSS4SG,1
+8,21,0,0,0,5,1.0,0.7142857142857143,5.457142857142856,openstreetmap_iD_john.firebaugh_at_gmail.com,openstreetmap/iD,OSS4SG,2
+9,12,0,0,0,3,1.0,0.42857142857142855,3.164285714285714,openstreetmap_iD_john.firebaugh_at_gmail.com,openstreetmap/iD,OSS4SG,2
+10,7,0,1,1,5,1.0,0.7142857142857143,2.257142857142857,openstreetmap_iD_john.firebaugh_at_gmail.com,openstreetmap/iD,OSS4SG,2
+11,33,0,11,14,5,1.0,0.7142857142857143,12.207142857142857,openstreetmap_iD_john.firebaugh_at_gmail.com,openstreetmap/iD,OSS4SG,2
+12,43,0,14,20,6,1.0,0.8571428571428571,16.07857142857143,openstreetmap_iD_john.firebaugh_at_gmail.com,openstreetmap/iD,OSS4SG,3
+13,69,0,13,36,7,1.0,1.0,24.849999999999998,openstreetmap_iD_john.firebaugh_at_gmail.com,openstreetmap/iD,OSS4SG,3

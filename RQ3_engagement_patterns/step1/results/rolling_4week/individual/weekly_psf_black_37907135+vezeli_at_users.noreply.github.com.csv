@@ -1,0 +1,5 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+-1,0,1,0,0,1,0.25,0.14285714285714285,0.24642857142857144,psf_black_37907135+vezeli_at_users.noreply.github.com,psf/black,OSS,-1
+0,1,1,1,0,2,0.5,0.2857142857142857,0.6928571428571428,psf_black_37907135+vezeli_at_users.noreply.github.com,psf/black,OSS,0
+1,0,0,0,0,0,0.5,0.0,0.05,psf_black_37907135+vezeli_at_users.noreply.github.com,psf/black,OSS,0
+2,1,0,0,0,1,0.75,0.14285714285714285,0.3464285714285714,psf_black_37907135+vezeli_at_users.noreply.github.com,psf/black,OSS,0

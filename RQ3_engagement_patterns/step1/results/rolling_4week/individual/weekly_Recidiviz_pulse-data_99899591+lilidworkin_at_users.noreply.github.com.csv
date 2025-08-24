@@ -1,0 +1,14 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,3,0,0,0,2,0.25,0.2857142857142857,0.8178571428571428,Recidiviz_pulse-data_99899591+lilidworkin_at_users.noreply.github.com,Recidiviz/pulse-data,OSS4SG,0
+1,4,0,0,0,2,0.5,0.2857142857142857,1.092857142857143,Recidiviz_pulse-data_99899591+lilidworkin_at_users.noreply.github.com,Recidiviz/pulse-data,OSS4SG,0
+2,8,0,0,0,5,0.75,0.7142857142857143,2.1821428571428574,Recidiviz_pulse-data_99899591+lilidworkin_at_users.noreply.github.com,Recidiviz/pulse-data,OSS4SG,0
+3,5,0,0,0,2,1.0,0.2857142857142857,1.392857142857143,Recidiviz_pulse-data_99899591+lilidworkin_at_users.noreply.github.com,Recidiviz/pulse-data,OSS4SG,0
+4,8,0,0,0,3,1.0,0.42857142857142855,2.164285714285714,Recidiviz_pulse-data_99899591+lilidworkin_at_users.noreply.github.com,Recidiviz/pulse-data,OSS4SG,1
+5,3,0,0,0,3,1.0,0.42857142857142855,0.9142857142857143,Recidiviz_pulse-data_99899591+lilidworkin_at_users.noreply.github.com,Recidiviz/pulse-data,OSS4SG,1
+6,10,0,0,0,4,1.0,0.5714285714285714,2.685714285714286,Recidiviz_pulse-data_99899591+lilidworkin_at_users.noreply.github.com,Recidiviz/pulse-data,OSS4SG,1
+7,6,0,0,0,4,1.0,0.5714285714285714,1.6857142857142857,Recidiviz_pulse-data_99899591+lilidworkin_at_users.noreply.github.com,Recidiviz/pulse-data,OSS4SG,1
+8,1,0,0,0,1,1.0,0.14285714285714285,0.37142857142857144,Recidiviz_pulse-data_99899591+lilidworkin_at_users.noreply.github.com,Recidiviz/pulse-data,OSS4SG,2
+9,4,0,0,0,2,1.0,0.2857142857142857,1.142857142857143,Recidiviz_pulse-data_99899591+lilidworkin_at_users.noreply.github.com,Recidiviz/pulse-data,OSS4SG,2
+10,9,0,0,0,5,1.0,0.7142857142857143,2.4571428571428573,Recidiviz_pulse-data_99899591+lilidworkin_at_users.noreply.github.com,Recidiviz/pulse-data,OSS4SG,2
+11,1,0,0,0,1,1.0,0.14285714285714285,0.37142857142857144,Recidiviz_pulse-data_99899591+lilidworkin_at_users.noreply.github.com,Recidiviz/pulse-data,OSS4SG,2
+12,14,0,0,0,5,1.0,0.7142857142857143,3.7071428571428573,Recidiviz_pulse-data_99899591+lilidworkin_at_users.noreply.github.com,Recidiviz/pulse-data,OSS4SG,3

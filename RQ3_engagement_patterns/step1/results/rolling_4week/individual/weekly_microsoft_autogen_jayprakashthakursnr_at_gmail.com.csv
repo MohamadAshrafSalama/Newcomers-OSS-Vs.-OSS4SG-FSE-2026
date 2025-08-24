@@ -1,0 +1,8 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+-1,0,1,2,0,1,0.25,0.14285714285714285,0.5464285714285715,microsoft_autogen_jayprakashthakursnr_at_gmail.com,microsoft/autogen,OSS,-1
+0,1,1,11,0,2,0.5,0.2857142857142857,2.1928571428571426,microsoft_autogen_jayprakashthakursnr_at_gmail.com,microsoft/autogen,OSS,0
+1,0,0,0,0,0,0.5,0.0,0.05,microsoft_autogen_jayprakashthakursnr_at_gmail.com,microsoft/autogen,OSS,0
+2,0,1,0,0,1,0.75,0.14285714285714285,0.2964285714285715,microsoft_autogen_jayprakashthakursnr_at_gmail.com,microsoft/autogen,OSS,0
+3,2,1,0,0,2,0.75,0.2857142857142857,0.8178571428571428,microsoft_autogen_jayprakashthakursnr_at_gmail.com,microsoft/autogen,OSS,0
+4,1,0,0,0,1,0.75,0.14285714285714285,0.3464285714285714,microsoft_autogen_jayprakashthakursnr_at_gmail.com,microsoft/autogen,OSS,1
+5,1,1,0,0,2,1.0,0.2857142857142857,0.5928571428571429,microsoft_autogen_jayprakashthakursnr_at_gmail.com,microsoft/autogen,OSS,1

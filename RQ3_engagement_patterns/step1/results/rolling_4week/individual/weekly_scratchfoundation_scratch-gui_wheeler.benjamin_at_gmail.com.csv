@@ -1,0 +1,17 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+-2,0,0,0,4,3,0.25,0.42857142857142855,0.6892857142857143,scratchfoundation_scratch-gui_wheeler.benjamin_at_gmail.com,scratchfoundation/scratch-gui,OSS4SG,-1
+-1,0,0,1,1,1,0.5,0.14285714285714285,0.3714285714285714,scratchfoundation_scratch-gui_wheeler.benjamin_at_gmail.com,scratchfoundation/scratch-gui,OSS4SG,-1
+0,3,2,9,4,2,0.75,0.2857142857142857,3.217857142857143,scratchfoundation_scratch-gui_wheeler.benjamin_at_gmail.com,scratchfoundation/scratch-gui,OSS4SG,0
+1,1,0,0,0,1,1.0,0.14285714285714285,0.37142857142857144,scratchfoundation_scratch-gui_wheeler.benjamin_at_gmail.com,scratchfoundation/scratch-gui,OSS4SG,0
+2,2,1,8,6,5,1.0,0.7142857142857143,3.007142857142857,scratchfoundation_scratch-gui_wheeler.benjamin_at_gmail.com,scratchfoundation/scratch-gui,OSS4SG,0
+3,1,1,15,1,2,1.0,0.2857142857142857,2.992857142857143,scratchfoundation_scratch-gui_wheeler.benjamin_at_gmail.com,scratchfoundation/scratch-gui,OSS4SG,0
+4,2,1,19,1,4,1.0,0.5714285714285714,3.8857142857142857,scratchfoundation_scratch-gui_wheeler.benjamin_at_gmail.com,scratchfoundation/scratch-gui,OSS4SG,1
+5,0,0,1,1,1,1.0,0.14285714285714285,0.4214285714285714,scratchfoundation_scratch-gui_wheeler.benjamin_at_gmail.com,scratchfoundation/scratch-gui,OSS4SG,1
+6,2,0,0,3,4,1.0,0.5714285714285714,1.1357142857142857,scratchfoundation_scratch-gui_wheeler.benjamin_at_gmail.com,scratchfoundation/scratch-gui,OSS4SG,1
+7,6,0,1,4,5,1.0,0.7142857142857143,2.4571428571428573,scratchfoundation_scratch-gui_wheeler.benjamin_at_gmail.com,scratchfoundation/scratch-gui,OSS4SG,1
+8,14,2,23,0,7,1.0,1.0,7.6,scratchfoundation_scratch-gui_wheeler.benjamin_at_gmail.com,scratchfoundation/scratch-gui,OSS4SG,2
+9,31,3,12,10,7,1.0,1.0,11.899999999999999,scratchfoundation_scratch-gui_wheeler.benjamin_at_gmail.com,scratchfoundation/scratch-gui,OSS4SG,2
+10,24,4,38,12,6,1.0,0.8571428571428571,14.528571428571428,scratchfoundation_scratch-gui_wheeler.benjamin_at_gmail.com,scratchfoundation/scratch-gui,OSS4SG,2
+11,21,7,20,9,5,1.0,0.7142857142857143,11.207142857142857,scratchfoundation_scratch-gui_wheeler.benjamin_at_gmail.com,scratchfoundation/scratch-gui,OSS4SG,2
+12,9,4,22,8,5,1.0,0.7142857142857143,7.757142857142856,scratchfoundation_scratch-gui_wheeler.benjamin_at_gmail.com,scratchfoundation/scratch-gui,OSS4SG,3
+13,29,6,27,8,6,1.0,0.8571428571428571,13.928571428571427,scratchfoundation_scratch-gui_wheeler.benjamin_at_gmail.com,scratchfoundation/scratch-gui,OSS4SG,3

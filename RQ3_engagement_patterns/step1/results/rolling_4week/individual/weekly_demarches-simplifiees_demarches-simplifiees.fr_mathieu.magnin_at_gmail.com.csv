@@ -1,0 +1,10 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,13,1,0,0,3,0.25,0.42857142857142855,3.539285714285714,demarches-simplifiees_demarches-simplifiees.fr_mathieu.magnin_at_gmail.com,demarches-simplifiees/demarches-simplifiees.fr,OSS4SG,0
+1,10,0,0,0,3,0.5,0.42857142857142855,2.614285714285714,demarches-simplifiees_demarches-simplifiees.fr_mathieu.magnin_at_gmail.com,demarches-simplifiees/demarches-simplifiees.fr,OSS4SG,0
+2,19,4,1,0,4,0.75,0.5714285714285714,5.860714285714286,demarches-simplifiees_demarches-simplifiees.fr_mathieu.magnin_at_gmail.com,demarches-simplifiees/demarches-simplifiees.fr,OSS4SG,0
+3,5,2,0,0,3,1.0,0.42857142857142855,1.8142857142857143,demarches-simplifiees_demarches-simplifiees.fr_mathieu.magnin_at_gmail.com,demarches-simplifiees/demarches-simplifiees.fr,OSS4SG,0
+4,24,3,5,0,4,1.0,0.5714285714285714,7.535714285714285,demarches-simplifiees_demarches-simplifiees.fr_mathieu.magnin_at_gmail.com,demarches-simplifiees/demarches-simplifiees.fr,OSS4SG,1
+5,18,1,0,0,4,1.0,0.5714285714285714,4.885714285714285,demarches-simplifiees_demarches-simplifiees.fr_mathieu.magnin_at_gmail.com,demarches-simplifiees/demarches-simplifiees.fr,OSS4SG,1
+6,30,3,0,0,4,1.0,0.5714285714285714,8.285714285714285,demarches-simplifiees_demarches-simplifiees.fr_mathieu.magnin_at_gmail.com,demarches-simplifiees/demarches-simplifiees.fr,OSS4SG,1
+7,21,4,0,0,4,1.0,0.5714285714285714,6.235714285714285,demarches-simplifiees_demarches-simplifiees.fr_mathieu.magnin_at_gmail.com,demarches-simplifiees/demarches-simplifiees.fr,OSS4SG,1
+8,9,2,0,0,4,1.0,0.5714285714285714,2.835714285714286,demarches-simplifiees_demarches-simplifiees.fr_mathieu.magnin_at_gmail.com,demarches-simplifiees/demarches-simplifiees.fr,OSS4SG,2

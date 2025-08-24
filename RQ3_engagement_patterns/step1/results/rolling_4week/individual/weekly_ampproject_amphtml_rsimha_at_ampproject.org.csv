@@ -1,0 +1,12 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+-2,0,0,0,0,1,0.0,0.14285714285714285,0.021428571428571425,ampproject_amphtml_rsimha_at_ampproject.org,ampproject/amphtml,OSS,-1
+-1,0,1,2,0,1,0.25,0.14285714285714285,0.5464285714285715,ampproject_amphtml_rsimha_at_ampproject.org,ampproject/amphtml,OSS,-1
+0,1,0,0,0,1,0.5,0.14285714285714285,0.3214285714285714,ampproject_amphtml_rsimha_at_ampproject.org,ampproject/amphtml,OSS,0
+1,0,0,0,0,0,0.5,0.0,0.05,ampproject_amphtml_rsimha_at_ampproject.org,ampproject/amphtml,OSS,0
+2,1,1,9,0,2,0.75,0.2857142857142857,1.9178571428571427,ampproject_amphtml_rsimha_at_ampproject.org,ampproject/amphtml,OSS,0
+3,4,5,11,1,4,0.75,0.5714285714285714,3.960714285714286,ampproject_amphtml_rsimha_at_ampproject.org,ampproject/amphtml,OSS,0
+4,3,3,31,3,3,0.75,0.42857142857142855,6.589285714285714,ampproject_amphtml_rsimha_at_ampproject.org,ampproject/amphtml,OSS,1
+5,7,7,19,0,5,1.0,0.7142857142857143,6.207142857142856,ampproject_amphtml_rsimha_at_ampproject.org,ampproject/amphtml,OSS,1
+6,6,5,5,1,6,1.0,0.8571428571428571,3.6285714285714286,ampproject_amphtml_rsimha_at_ampproject.org,ampproject/amphtml,OSS,1
+7,9,9,24,5,6,1.0,0.8571428571428571,8.628571428571426,ampproject_amphtml_rsimha_at_ampproject.org,ampproject/amphtml,OSS,1
+8,3,3,16,3,2,1.0,0.2857142857142857,4.3428571428571425,ampproject_amphtml_rsimha_at_ampproject.org,ampproject/amphtml,OSS,2

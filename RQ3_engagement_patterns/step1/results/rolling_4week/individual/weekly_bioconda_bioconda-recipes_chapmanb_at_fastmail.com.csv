@@ -1,0 +1,14 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,0,0,0,1,0.25,0.14285714285714285,0.29642857142857143,bioconda_bioconda-recipes_chapmanb_at_fastmail.com,bioconda/bioconda-recipes,OSS,0
+1,4,3,1,0,3,0.5,0.42857142857142855,1.8642857142857143,bioconda_bioconda-recipes_chapmanb_at_fastmail.com,bioconda/bioconda-recipes,OSS,0
+2,8,7,2,0,5,0.75,0.7142857142857143,3.8821428571428576,bioconda_bioconda-recipes_chapmanb_at_fastmail.com,bioconda/bioconda-recipes,OSS,0
+3,1,1,0,0,1,1.0,0.14285714285714285,0.5714285714285714,bioconda_bioconda-recipes_chapmanb_at_fastmail.com,bioconda/bioconda-recipes,OSS,0
+4,1,1,0,0,1,1.0,0.14285714285714285,0.5714285714285714,bioconda_bioconda-recipes_chapmanb_at_fastmail.com,bioconda/bioconda-recipes,OSS,1
+5,10,9,2,1,5,1.0,0.7142857142857143,4.957142857142856,bioconda_bioconda-recipes_chapmanb_at_fastmail.com,bioconda/bioconda-recipes,OSS,1
+6,9,7,0,0,5,1.0,0.7142857142857143,3.8571428571428577,bioconda_bioconda-recipes_chapmanb_at_fastmail.com,bioconda/bioconda-recipes,OSS,1
+7,4,4,0,0,4,1.0,0.5714285714285714,1.9857142857142858,bioconda_bioconda-recipes_chapmanb_at_fastmail.com,bioconda/bioconda-recipes,OSS,1
+8,2,2,0,0,2,1.0,0.2857142857142857,1.042857142857143,bioconda_bioconda-recipes_chapmanb_at_fastmail.com,bioconda/bioconda-recipes,OSS,2
+9,7,7,2,0,7,1.0,1.0,3.7,bioconda_bioconda-recipes_chapmanb_at_fastmail.com,bioconda/bioconda-recipes,OSS,2
+10,7,8,0,0,7,1.0,1.0,3.6,bioconda_bioconda-recipes_chapmanb_at_fastmail.com,bioconda/bioconda-recipes,OSS,2
+11,7,7,2,1,5,1.0,0.7142857142857143,3.8071428571428574,bioconda_bioconda-recipes_chapmanb_at_fastmail.com,bioconda/bioconda-recipes,OSS,2
+12,8,8,0,0,7,1.0,1.0,3.85,bioconda_bioconda-recipes_chapmanb_at_fastmail.com,bioconda/bioconda-recipes,OSS,3

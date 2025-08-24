@@ -1,0 +1,8 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,6,2,0,0,2,0.25,0.2857142857142857,1.9678571428571427,BytomDAO_bytom_icodezjb_at_163.com,BytomDAO/bytom,OSS,0
+1,1,1,0,0,2,0.5,0.2857142857142857,0.5428571428571429,BytomDAO_bytom_icodezjb_at_163.com,BytomDAO/bytom,OSS,0
+2,3,2,0,0,2,0.75,0.2857142857142857,1.2678571428571428,BytomDAO_bytom_icodezjb_at_163.com,BytomDAO/bytom,OSS,0
+3,10,2,2,1,3,1.0,0.42857142857142855,3.514285714285714,BytomDAO_bytom_icodezjb_at_163.com,BytomDAO/bytom,OSS,0
+4,0,0,0,0,0,0.75,0.0,0.07500000000000001,BytomDAO_bytom_icodezjb_at_163.com,BytomDAO/bytom,OSS,1
+5,1,1,7,0,2,0.75,0.2857142857142857,1.6178571428571429,BytomDAO_bytom_icodezjb_at_163.com,BytomDAO/bytom,OSS,1
+6,4,1,0,0,3,0.75,0.42857142857142855,1.3392857142857142,BytomDAO_bytom_icodezjb_at_163.com,BytomDAO/bytom,OSS,1

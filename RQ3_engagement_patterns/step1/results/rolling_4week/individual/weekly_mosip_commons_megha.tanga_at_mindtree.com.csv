@@ -1,0 +1,5 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,13,0,0,0,2,0.25,0.2857142857142857,3.3178571428571426,mosip_commons_megha.tanga_at_mindtree.com,mosip/commons,OSS4SG,0
+1,29,0,0,0,5,0.5,0.7142857142857143,7.407142857142857,mosip_commons_megha.tanga_at_mindtree.com,mosip/commons,OSS4SG,0
+2,4,0,0,0,2,0.75,0.2857142857142857,1.1178571428571429,mosip_commons_megha.tanga_at_mindtree.com,mosip/commons,OSS4SG,0
+3,5,0,0,0,1,1.0,0.14285714285714285,1.3714285714285714,mosip_commons_megha.tanga_at_mindtree.com,mosip/commons,OSS4SG,0

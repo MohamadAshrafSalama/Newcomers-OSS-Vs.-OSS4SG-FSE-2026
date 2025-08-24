@@ -1,0 +1,14 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,2,1,27,0,4,0.25,0.5714285714285714,4.860714285714286,tidepool-org_blip_henry.liang_at_tidepool.org,tidepool-org/blip,OSS4SG,0
+1,74,3,11,0,5,0.5,0.7142857142857143,20.90714285714286,tidepool-org_blip_henry.liang_at_tidepool.org,tidepool-org/blip,OSS4SG,0
+2,27,1,6,0,5,0.75,0.7142857142857143,8.032142857142857,tidepool-org_blip_henry.liang_at_tidepool.org,tidepool-org/blip,OSS4SG,0
+3,47,3,25,0,6,1.0,0.8571428571428571,16.328571428571433,tidepool-org_blip_henry.liang_at_tidepool.org,tidepool-org/blip,OSS4SG,0
+4,65,1,0,0,6,1.0,0.8571428571428571,16.67857142857143,tidepool-org_blip_henry.liang_at_tidepool.org,tidepool-org/blip,OSS4SG,1
+5,11,0,0,0,2,1.0,0.2857142857142857,2.892857142857143,tidepool-org_blip_henry.liang_at_tidepool.org,tidepool-org/blip,OSS4SG,1
+6,13,1,1,0,2,1.0,0.2857142857142857,3.742857142857143,tidepool-org_blip_henry.liang_at_tidepool.org,tidepool-org/blip,OSS4SG,1
+7,40,7,15,0,5,1.0,0.7142857142857143,13.857142857142858,tidepool-org_blip_henry.liang_at_tidepool.org,tidepool-org/blip,OSS4SG,1
+8,41,3,6,0,5,1.0,0.7142857142857143,11.957142857142857,tidepool-org_blip_henry.liang_at_tidepool.org,tidepool-org/blip,OSS4SG,2
+9,48,2,29,0,6,1.0,0.8571428571428571,16.97857142857143,tidepool-org_blip_henry.liang_at_tidepool.org,tidepool-org/blip,OSS4SG,2
+10,79,0,0,0,6,1.0,0.8571428571428571,19.97857142857143,tidepool-org_blip_henry.liang_at_tidepool.org,tidepool-org/blip,OSS4SG,2
+11,34,3,10,0,6,1.0,0.8571428571428571,10.828571428571427,tidepool-org_blip_henry.liang_at_tidepool.org,tidepool-org/blip,OSS4SG,2
+12,30,2,4,0,5,1.0,0.7142857142857143,8.707142857142857,tidepool-org_blip_henry.liang_at_tidepool.org,tidepool-org/blip,OSS4SG,3

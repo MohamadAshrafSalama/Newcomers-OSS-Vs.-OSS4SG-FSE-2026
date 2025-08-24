@@ -1,0 +1,12 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,2,0,0,0,2,0.25,0.2857142857142857,0.5678571428571428,mosip_commons_kiranraj.s_at_mindtree.com,mosip/commons,OSS4SG,0
+1,6,0,0,0,4,0.5,0.5714285714285714,1.6357142857142857,mosip_commons_kiranraj.s_at_mindtree.com,mosip/commons,OSS4SG,0
+2,18,0,0,0,5,0.75,0.7142857142857143,4.682142857142857,mosip_commons_kiranraj.s_at_mindtree.com,mosip/commons,OSS4SG,0
+3,5,0,0,0,1,1.0,0.14285714285714285,1.3714285714285714,mosip_commons_kiranraj.s_at_mindtree.com,mosip/commons,OSS4SG,0
+4,7,0,0,0,4,1.0,0.5714285714285714,1.9357142857142857,mosip_commons_kiranraj.s_at_mindtree.com,mosip/commons,OSS4SG,1
+5,7,0,0,0,2,1.0,0.2857142857142857,1.892857142857143,mosip_commons_kiranraj.s_at_mindtree.com,mosip/commons,OSS4SG,1
+6,0,0,0,0,0,0.75,0.0,0.07500000000000001,mosip_commons_kiranraj.s_at_mindtree.com,mosip/commons,OSS4SG,1
+7,6,0,0,0,2,0.75,0.2857142857142857,1.6178571428571429,mosip_commons_kiranraj.s_at_mindtree.com,mosip/commons,OSS4SG,1
+8,0,0,0,0,0,0.5,0.0,0.05,mosip_commons_kiranraj.s_at_mindtree.com,mosip/commons,OSS4SG,2
+9,17,0,0,0,5,0.5,0.7142857142857143,4.407142857142857,mosip_commons_kiranraj.s_at_mindtree.com,mosip/commons,OSS4SG,2
+10,12,0,0,0,4,0.75,0.5714285714285714,3.160714285714286,mosip_commons_kiranraj.s_at_mindtree.com,mosip/commons,OSS4SG,2

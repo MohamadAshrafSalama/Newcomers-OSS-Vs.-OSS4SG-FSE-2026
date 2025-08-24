@@ -1,0 +1,8 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+-6,0,3,0,0,1,0.25,0.14285714285714285,0.6464285714285716,lra_mackup_44045911+kidonng_at_users.noreply.github.com,lra/mackup,OSS,-2
+-5,0,0,0,0,0,0.25,0.0,0.025,lra_mackup_44045911+kidonng_at_users.noreply.github.com,lra/mackup,OSS,-2
+-4,0,0,0,0,0,0.25,0.0,0.025,lra_mackup_44045911+kidonng_at_users.noreply.github.com,lra/mackup,OSS,-1
+-3,0,0,0,0,0,0.25,0.0,0.025,lra_mackup_44045911+kidonng_at_users.noreply.github.com,lra/mackup,OSS,-1
+-2,0,0,0,0,0,0.0,0.0,0.0,lra_mackup_44045911+kidonng_at_users.noreply.github.com,lra/mackup,OSS,-1
+-1,0,0,0,0,0,0.0,0.0,0.0,lra_mackup_44045911+kidonng_at_users.noreply.github.com,lra/mackup,OSS,-1
+0,2,1,0,0,1,0.25,0.14285714285714285,0.7464285714285714,lra_mackup_44045911+kidonng_at_users.noreply.github.com,lra/mackup,OSS,0

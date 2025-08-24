@@ -1,0 +1,10 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,3,0,0,0,1,0.25,0.14285714285714285,0.7964285714285715,GeekyAnts_NativeBase_supriya_at_sahusoft.com,GeekyAnts/NativeBase,OSS,0
+1,0,0,0,0,0,0.25,0.0,0.025,GeekyAnts_NativeBase_supriya_at_sahusoft.com,GeekyAnts/NativeBase,OSS,0
+2,0,0,0,0,0,0.25,0.0,0.025,GeekyAnts_NativeBase_supriya_at_sahusoft.com,GeekyAnts/NativeBase,OSS,0
+3,0,0,0,0,0,0.25,0.0,0.025,GeekyAnts_NativeBase_supriya_at_sahusoft.com,GeekyAnts/NativeBase,OSS,0
+4,0,0,0,0,0,0.0,0.0,0.0,GeekyAnts_NativeBase_supriya_at_sahusoft.com,GeekyAnts/NativeBase,OSS,1
+5,2,0,0,0,1,0.25,0.14285714285714285,0.5464285714285715,GeekyAnts_NativeBase_supriya_at_sahusoft.com,GeekyAnts/NativeBase,OSS,1
+6,5,0,0,0,2,0.5,0.2857142857142857,1.342857142857143,GeekyAnts_NativeBase_supriya_at_sahusoft.com,GeekyAnts/NativeBase,OSS,1
+7,2,0,0,0,2,0.75,0.2857142857142857,0.6178571428571429,GeekyAnts_NativeBase_supriya_at_sahusoft.com,GeekyAnts/NativeBase,OSS,1
+8,1,0,0,0,1,1.0,0.14285714285714285,0.37142857142857144,GeekyAnts_NativeBase_supriya_at_sahusoft.com,GeekyAnts/NativeBase,OSS,2

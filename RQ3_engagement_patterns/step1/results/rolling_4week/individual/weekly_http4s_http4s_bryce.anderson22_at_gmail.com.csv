@@ -1,0 +1,6 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,17,0,0,0,4,0.25,0.5714285714285714,4.360714285714286,http4s_http4s_bryce.anderson22_at_gmail.com,http4s/http4s,OSS,0
+1,36,0,0,0,7,0.5,1.0,9.200000000000001,http4s_http4s_bryce.anderson22_at_gmail.com,http4s/http4s,OSS,0
+2,11,0,0,0,6,0.75,0.8571428571428571,2.9535714285714287,http4s_http4s_bryce.anderson22_at_gmail.com,http4s/http4s,OSS,0
+3,3,0,0,0,1,1.0,0.14285714285714285,0.8714285714285714,http4s_http4s_bryce.anderson22_at_gmail.com,http4s/http4s,OSS,0
+4,4,0,0,0,3,1.0,0.42857142857142855,1.1642857142857144,http4s_http4s_bryce.anderson22_at_gmail.com,http4s/http4s,OSS,1

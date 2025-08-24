@@ -1,0 +1,4 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+-1,0,0,1,0,1,0.25,0.14285714285714285,0.19642857142857142,riot_riot_cognitom_at_gmail.com,riot/riot,OSS,-1
+0,5,1,1,0,2,0.5,0.2857142857142857,1.6928571428571428,riot_riot_cognitom_at_gmail.com,riot/riot,OSS,0
+1,0,0,9,2,2,0.75,0.2857142857142857,1.7678571428571428,riot_riot_cognitom_at_gmail.com,riot/riot,OSS,0

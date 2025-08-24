@@ -1,0 +1,11 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,4,0,0,0,2,0.25,0.2857142857142857,1.0678571428571428,wevote_WebApp_dale.mcgrew_at_wevoteusa.org,wevote/WebApp,OSS4SG,0
+1,1,0,0,0,1,0.5,0.14285714285714285,0.3214285714285714,wevote_WebApp_dale.mcgrew_at_wevoteusa.org,wevote/WebApp,OSS4SG,0
+2,7,0,0,0,3,0.75,0.42857142857142855,1.8892857142857142,wevote_WebApp_dale.mcgrew_at_wevoteusa.org,wevote/WebApp,OSS4SG,0
+3,5,0,0,0,4,1.0,0.5714285714285714,1.4357142857142857,wevote_WebApp_dale.mcgrew_at_wevoteusa.org,wevote/WebApp,OSS4SG,0
+4,6,0,20,7,4,1.0,0.5714285714285714,5.735714285714285,wevote_WebApp_dale.mcgrew_at_wevoteusa.org,wevote/WebApp,OSS4SG,1
+5,4,0,2,2,3,1.0,0.42857142857142855,1.7642857142857145,wevote_WebApp_dale.mcgrew_at_wevoteusa.org,wevote/WebApp,OSS4SG,1
+6,10,0,17,8,5,1.0,0.7142857142857143,6.457142857142856,wevote_WebApp_dale.mcgrew_at_wevoteusa.org,wevote/WebApp,OSS4SG,1
+7,11,0,4,7,6,1.0,0.8571428571428571,4.628571428571428,wevote_WebApp_dale.mcgrew_at_wevoteusa.org,wevote/WebApp,OSS4SG,1
+8,15,3,21,11,4,1.0,0.5714285714285714,9.335714285714285,wevote_WebApp_dale.mcgrew_at_wevoteusa.org,wevote/WebApp,OSS4SG,2
+9,1,1,9,3,2,1.0,0.2857142857142857,2.392857142857143,wevote_WebApp_dale.mcgrew_at_wevoteusa.org,wevote/WebApp,OSS4SG,2

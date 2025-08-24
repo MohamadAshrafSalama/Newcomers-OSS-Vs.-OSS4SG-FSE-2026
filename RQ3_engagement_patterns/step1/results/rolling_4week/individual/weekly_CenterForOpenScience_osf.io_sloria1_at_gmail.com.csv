@@ -1,0 +1,4 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,30,0,0,0,5,0.25,0.7142857142857143,7.632142857142857,CenterForOpenScience_osf.io_sloria1_at_gmail.com,CenterForOpenScience/osf.io,OSS4SG,0
+1,35,0,0,0,6,0.5,0.8571428571428571,8.928571428571429,CenterForOpenScience_osf.io_sloria1_at_gmail.com,CenterForOpenScience/osf.io,OSS4SG,0
+2,36,0,0,0,5,0.75,0.7142857142857143,9.182142857142857,CenterForOpenScience_osf.io_sloria1_at_gmail.com,CenterForOpenScience/osf.io,OSS4SG,0

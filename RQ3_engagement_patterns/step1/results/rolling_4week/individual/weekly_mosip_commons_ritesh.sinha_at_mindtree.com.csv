@@ -1,0 +1,13 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,2,0,0,0,1,0.25,0.14285714285714285,0.5464285714285715,mosip_commons_ritesh.sinha_at_mindtree.com,mosip/commons,OSS4SG,0
+1,3,0,0,0,1,0.5,0.14285714285714285,0.8214285714285715,mosip_commons_ritesh.sinha_at_mindtree.com,mosip/commons,OSS4SG,0
+2,3,0,0,0,2,0.75,0.2857142857142857,0.8678571428571429,mosip_commons_ritesh.sinha_at_mindtree.com,mosip/commons,OSS4SG,0
+3,20,0,0,0,4,1.0,0.5714285714285714,5.185714285714285,mosip_commons_ritesh.sinha_at_mindtree.com,mosip/commons,OSS4SG,0
+4,6,0,0,0,2,1.0,0.2857142857142857,1.642857142857143,mosip_commons_ritesh.sinha_at_mindtree.com,mosip/commons,OSS4SG,1
+5,0,0,0,0,0,0.75,0.0,0.07500000000000001,mosip_commons_ritesh.sinha_at_mindtree.com,mosip/commons,OSS4SG,1
+6,8,0,0,0,3,0.75,0.42857142857142855,2.1392857142857142,mosip_commons_ritesh.sinha_at_mindtree.com,mosip/commons,OSS4SG,1
+7,8,0,0,0,3,0.75,0.42857142857142855,2.1392857142857142,mosip_commons_ritesh.sinha_at_mindtree.com,mosip/commons,OSS4SG,1
+8,0,0,0,0,0,0.5,0.0,0.05,mosip_commons_ritesh.sinha_at_mindtree.com,mosip/commons,OSS4SG,2
+9,8,0,0,0,3,0.75,0.42857142857142855,2.1392857142857142,mosip_commons_ritesh.sinha_at_mindtree.com,mosip/commons,OSS4SG,2
+10,0,0,0,0,0,0.5,0.0,0.05,mosip_commons_ritesh.sinha_at_mindtree.com,mosip/commons,OSS4SG,2
+11,4,0,0,0,1,0.5,0.14285714285714285,1.0714285714285714,mosip_commons_ritesh.sinha_at_mindtree.com,mosip/commons,OSS4SG,2

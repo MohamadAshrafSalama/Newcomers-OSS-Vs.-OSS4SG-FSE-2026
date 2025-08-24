@@ -1,0 +1,5 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,4,0,4,1,2,0.25,0.2857142857142857,1.8178571428571428,scratchfoundation_scratch-gui_bogusred_at_paperdemon.com,scratchfoundation/scratch-gui,OSS4SG,0
+1,10,1,10,0,1,0.5,0.14285714285714285,4.271428571428571,scratchfoundation_scratch-gui_bogusred_at_paperdemon.com,scratchfoundation/scratch-gui,OSS4SG,0
+2,0,0,0,0,0,0.5,0.0,0.05,scratchfoundation_scratch-gui_bogusred_at_paperdemon.com,scratchfoundation/scratch-gui,OSS4SG,0
+3,5,0,0,0,1,0.75,0.14285714285714285,1.3464285714285713,scratchfoundation_scratch-gui_bogusred_at_paperdemon.com,scratchfoundation/scratch-gui,OSS4SG,0

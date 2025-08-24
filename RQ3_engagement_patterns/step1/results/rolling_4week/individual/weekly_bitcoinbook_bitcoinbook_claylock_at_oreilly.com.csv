@@ -1,0 +1,7 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,4,0,0,0,3,0.25,0.42857142857142855,1.0892857142857142,bitcoinbook_bitcoinbook_claylock_at_oreilly.com,bitcoinbook/bitcoinbook,OSS,0
+1,1,0,0,0,1,0.5,0.14285714285714285,0.3214285714285714,bitcoinbook_bitcoinbook_claylock_at_oreilly.com,bitcoinbook/bitcoinbook,OSS,0
+2,0,0,0,0,0,0.5,0.0,0.05,bitcoinbook_bitcoinbook_claylock_at_oreilly.com,bitcoinbook/bitcoinbook,OSS,0
+3,5,0,0,0,3,0.75,0.42857142857142855,1.3892857142857142,bitcoinbook_bitcoinbook_claylock_at_oreilly.com,bitcoinbook/bitcoinbook,OSS,0
+4,19,0,0,0,4,0.75,0.5714285714285714,4.910714285714286,bitcoinbook_bitcoinbook_claylock_at_oreilly.com,bitcoinbook/bitcoinbook,OSS,1
+5,2,0,0,0,1,0.75,0.14285714285714285,0.5964285714285715,bitcoinbook_bitcoinbook_claylock_at_oreilly.com,bitcoinbook/bitcoinbook,OSS,1

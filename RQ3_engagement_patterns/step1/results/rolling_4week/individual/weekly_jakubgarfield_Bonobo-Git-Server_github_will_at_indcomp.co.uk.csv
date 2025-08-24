@@ -1,0 +1,5 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,8,17,8,6,0.25,0.8571428571428571,5.75357142857143,jakubgarfield_Bonobo-Git-Server_github_will_at_indcomp.co.uk,jakubgarfield/Bonobo-Git-Server,OSS,0
+1,0,1,23,8,4,0.5,0.5714285714285714,4.985714285714285,jakubgarfield_Bonobo-Git-Server_github_will_at_indcomp.co.uk,jakubgarfield/Bonobo-Git-Server,OSS,0
+2,3,1,8,5,4,0.75,0.5714285714285714,3.060714285714286,jakubgarfield_Bonobo-Git-Server_github_will_at_indcomp.co.uk,jakubgarfield/Bonobo-Git-Server,OSS,0
+3,4,5,12,4,6,1.0,0.8571428571428571,4.628571428571428,jakubgarfield_Bonobo-Git-Server_github_will_at_indcomp.co.uk,jakubgarfield/Bonobo-Git-Server,OSS,0

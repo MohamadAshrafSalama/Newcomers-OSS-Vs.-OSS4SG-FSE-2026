@@ -1,0 +1,2 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,10,0,0,0,2,0.25,0.2857142857142857,2.5678571428571426,jenkinsci_bitbucket-branch-source-plugin_rene.scheibe_at_gmail.com,jenkinsci/bitbucket-branch-source-plugin,OSS,0

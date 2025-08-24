@@ -1,0 +1,11 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,1,0,0,1,0.25,0.14285714285714285,0.49642857142857144,opencrvs_opencrvs-core_tahmidrahman.dsi_at_gmail.com,opencrvs/opencrvs-core,OSS4SG,0
+1,1,1,0,0,1,0.5,0.14285714285714285,0.5214285714285715,opencrvs_opencrvs-core_tahmidrahman.dsi_at_gmail.com,opencrvs/opencrvs-core,OSS4SG,0
+2,10,3,4,0,4,0.75,0.5714285714285714,3.860714285714286,opencrvs_opencrvs-core_tahmidrahman.dsi_at_gmail.com,opencrvs/opencrvs-core,OSS4SG,0
+3,8,2,4,0,3,1.0,0.42857142857142855,3.164285714285714,opencrvs_opencrvs-core_tahmidrahman.dsi_at_gmail.com,opencrvs/opencrvs-core,OSS4SG,0
+4,8,2,2,0,2,1.0,0.2857142857142857,2.8428571428571425,opencrvs_opencrvs-core_tahmidrahman.dsi_at_gmail.com,opencrvs/opencrvs-core,OSS4SG,1
+5,9,1,9,0,4,1.0,0.5714285714285714,3.9857142857142858,opencrvs_opencrvs-core_tahmidrahman.dsi_at_gmail.com,opencrvs/opencrvs-core,OSS4SG,1
+6,17,2,0,0,5,1.0,0.7142857142857143,4.857142857142857,opencrvs_opencrvs-core_tahmidrahman.dsi_at_gmail.com,opencrvs/opencrvs-core,OSS4SG,1
+7,13,1,0,0,4,1.0,0.5714285714285714,3.635714285714286,opencrvs_opencrvs-core_tahmidrahman.dsi_at_gmail.com,opencrvs/opencrvs-core,OSS4SG,1
+8,19,3,1,0,5,1.0,0.7142857142857143,5.707142857142856,opencrvs_opencrvs-core_tahmidrahman.dsi_at_gmail.com,opencrvs/opencrvs-core,OSS4SG,2
+9,17,3,8,0,3,1.0,0.42857142857142855,6.2142857142857135,opencrvs_opencrvs-core_tahmidrahman.dsi_at_gmail.com,opencrvs/opencrvs-core,OSS4SG,2

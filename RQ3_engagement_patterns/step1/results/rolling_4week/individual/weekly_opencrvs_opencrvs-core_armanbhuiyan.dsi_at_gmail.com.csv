@@ -1,0 +1,7 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,1,0,0,1,0.25,0.14285714285714285,0.49642857142857144,opencrvs_opencrvs-core_armanbhuiyan.dsi_at_gmail.com,opencrvs/opencrvs-core,OSS4SG,0
+1,0,0,0,0,0,0.25,0.0,0.025,opencrvs_opencrvs-core_armanbhuiyan.dsi_at_gmail.com,opencrvs/opencrvs-core,OSS4SG,0
+2,26,2,0,0,4,0.5,0.5714285714285714,7.035714285714286,opencrvs_opencrvs-core_armanbhuiyan.dsi_at_gmail.com,opencrvs/opencrvs-core,OSS4SG,0
+3,23,2,1,0,2,0.75,0.2857142857142857,6.417857142857144,opencrvs_opencrvs-core_armanbhuiyan.dsi_at_gmail.com,opencrvs/opencrvs-core,OSS4SG,0
+4,22,1,0,0,3,0.75,0.42857142857142855,5.839285714285714,opencrvs_opencrvs-core_armanbhuiyan.dsi_at_gmail.com,opencrvs/opencrvs-core,OSS4SG,1
+5,6,1,2,0,1,1.0,0.14285714285714285,2.1214285714285714,opencrvs_opencrvs-core_armanbhuiyan.dsi_at_gmail.com,opencrvs/opencrvs-core,OSS4SG,1

@@ -1,0 +1,3 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+-1,0,0,0,0,1,0.0,0.14285714285714285,0.021428571428571425,avelino_awesome-go_6425762_at_gmail.com,avelino/awesome-go,OSS,-1
+0,1,1,3,0,2,0.25,0.2857142857142857,0.9678571428571427,avelino_awesome-go_6425762_at_gmail.com,avelino/awesome-go,OSS,0

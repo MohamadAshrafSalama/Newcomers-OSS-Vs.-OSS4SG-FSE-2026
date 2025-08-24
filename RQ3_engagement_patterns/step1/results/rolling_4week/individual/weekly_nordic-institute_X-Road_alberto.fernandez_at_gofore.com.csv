@@ -1,0 +1,13 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,4,0,0,0,1,0.25,0.14285714285714285,1.0464285714285713,nordic-institute_X-Road_alberto.fernandez_at_gofore.com,nordic-institute/X-Road,OSS4SG,0
+1,2,0,0,0,1,0.5,0.14285714285714285,0.5714285714285715,nordic-institute_X-Road_alberto.fernandez_at_gofore.com,nordic-institute/X-Road,OSS4SG,0
+2,2,0,0,0,2,0.75,0.2857142857142857,0.6178571428571429,nordic-institute_X-Road_alberto.fernandez_at_gofore.com,nordic-institute/X-Road,OSS4SG,0
+3,7,0,0,0,3,1.0,0.42857142857142855,1.9142857142857144,nordic-institute_X-Road_alberto.fernandez_at_gofore.com,nordic-institute/X-Road,OSS4SG,0
+4,2,0,0,0,2,1.0,0.2857142857142857,0.6428571428571428,nordic-institute_X-Road_alberto.fernandez_at_gofore.com,nordic-institute/X-Road,OSS4SG,1
+5,3,0,0,0,1,1.0,0.14285714285714285,0.8714285714285714,nordic-institute_X-Road_alberto.fernandez_at_gofore.com,nordic-institute/X-Road,OSS4SG,1
+6,6,0,0,0,4,1.0,0.5714285714285714,1.6857142857142857,nordic-institute_X-Road_alberto.fernandez_at_gofore.com,nordic-institute/X-Road,OSS4SG,1
+7,9,0,0,0,4,1.0,0.5714285714285714,2.435714285714286,nordic-institute_X-Road_alberto.fernandez_at_gofore.com,nordic-institute/X-Road,OSS4SG,1
+8,1,0,0,0,1,1.0,0.14285714285714285,0.37142857142857144,nordic-institute_X-Road_alberto.fernandez_at_gofore.com,nordic-institute/X-Road,OSS4SG,2
+9,0,0,0,0,0,0.75,0.0,0.07500000000000001,nordic-institute_X-Road_alberto.fernandez_at_gofore.com,nordic-institute/X-Road,OSS4SG,2
+10,32,0,0,0,2,0.75,0.2857142857142857,8.117857142857142,nordic-institute_X-Road_alberto.fernandez_at_gofore.com,nordic-institute/X-Road,OSS4SG,2
+11,25,0,0,0,1,0.75,0.14285714285714285,6.3464285714285715,nordic-institute_X-Road_alberto.fernandez_at_gofore.com,nordic-institute/X-Road,OSS4SG,2

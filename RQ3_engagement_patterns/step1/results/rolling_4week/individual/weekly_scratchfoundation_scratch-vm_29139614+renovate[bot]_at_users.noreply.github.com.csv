@@ -1,0 +1,13 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,7,0,0,0,2,0.25,0.2857142857142857,1.8178571428571428,scratchfoundation_scratch-vm_29139614+renovate[bot]_at_users.noreply.github.com,scratchfoundation/scratch-vm,OSS4SG,0
+1,11,0,0,0,5,0.5,0.7142857142857143,2.907142857142857,scratchfoundation_scratch-vm_29139614+renovate[bot]_at_users.noreply.github.com,scratchfoundation/scratch-vm,OSS4SG,0
+2,9,0,0,0,4,0.75,0.5714285714285714,2.410714285714286,scratchfoundation_scratch-vm_29139614+renovate[bot]_at_users.noreply.github.com,scratchfoundation/scratch-vm,OSS4SG,0
+3,5,0,0,0,2,1.0,0.2857142857142857,1.392857142857143,scratchfoundation_scratch-vm_29139614+renovate[bot]_at_users.noreply.github.com,scratchfoundation/scratch-vm,OSS4SG,0
+4,11,0,0,0,6,1.0,0.8571428571428571,2.9785714285714286,scratchfoundation_scratch-vm_29139614+renovate[bot]_at_users.noreply.github.com,scratchfoundation/scratch-vm,OSS4SG,1
+5,5,0,0,0,4,1.0,0.5714285714285714,1.4357142857142857,scratchfoundation_scratch-vm_29139614+renovate[bot]_at_users.noreply.github.com,scratchfoundation/scratch-vm,OSS4SG,1
+6,4,0,0,0,4,1.0,0.5714285714285714,1.1857142857142857,scratchfoundation_scratch-vm_29139614+renovate[bot]_at_users.noreply.github.com,scratchfoundation/scratch-vm,OSS4SG,1
+7,4,0,0,0,4,1.0,0.5714285714285714,1.1857142857142857,scratchfoundation_scratch-vm_29139614+renovate[bot]_at_users.noreply.github.com,scratchfoundation/scratch-vm,OSS4SG,1
+8,5,0,0,0,5,1.0,0.7142857142857143,1.4571428571428573,scratchfoundation_scratch-vm_29139614+renovate[bot]_at_users.noreply.github.com,scratchfoundation/scratch-vm,OSS4SG,2
+9,4,0,0,0,4,1.0,0.5714285714285714,1.1857142857142857,scratchfoundation_scratch-vm_29139614+renovate[bot]_at_users.noreply.github.com,scratchfoundation/scratch-vm,OSS4SG,2
+10,10,0,0,0,5,1.0,0.7142857142857143,2.7071428571428573,scratchfoundation_scratch-vm_29139614+renovate[bot]_at_users.noreply.github.com,scratchfoundation/scratch-vm,OSS4SG,2
+11,7,0,0,0,3,1.0,0.42857142857142855,1.9142857142857144,scratchfoundation_scratch-vm_29139614+renovate[bot]_at_users.noreply.github.com,scratchfoundation/scratch-vm,OSS4SG,2

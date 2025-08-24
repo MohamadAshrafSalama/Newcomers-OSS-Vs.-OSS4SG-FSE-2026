@@ -1,0 +1,10 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,7,11,3,1,3,0.25,0.42857142857142855,4.639285714285715,bioconda_bioconda-recipes_tomkinsc_at_broadinstitute.org,bioconda/bioconda-recipes,OSS,0
+1,0,0,0,0,0,0.25,0.0,0.025,bioconda_bioconda-recipes_tomkinsc_at_broadinstitute.org,bioconda/bioconda-recipes,OSS,0
+2,9,8,4,0,3,0.5,0.42857142857142855,4.564285714285714,bioconda_bioconda-recipes_tomkinsc_at_broadinstitute.org,bioconda/bioconda-recipes,OSS,0
+3,5,4,2,1,3,0.75,0.42857142857142855,2.6392857142857142,bioconda_bioconda-recipes_tomkinsc_at_broadinstitute.org,bioconda/bioconda-recipes,OSS,0
+4,2,2,0,0,2,0.75,0.2857142857142857,1.0178571428571428,bioconda_bioconda-recipes_tomkinsc_at_broadinstitute.org,bioconda/bioconda-recipes,OSS,1
+5,1,1,0,0,1,1.0,0.14285714285714285,0.5714285714285714,bioconda_bioconda-recipes_tomkinsc_at_broadinstitute.org,bioconda/bioconda-recipes,OSS,1
+6,0,0,0,0,0,0.75,0.0,0.07500000000000001,bioconda_bioconda-recipes_tomkinsc_at_broadinstitute.org,bioconda/bioconda-recipes,OSS,1
+7,0,0,0,0,0,0.5,0.0,0.05,bioconda_bioconda-recipes_tomkinsc_at_broadinstitute.org,bioconda/bioconda-recipes,OSS,1
+8,35,21,7,1,7,0.5,1.0,14.350000000000001,bioconda_bioconda-recipes_tomkinsc_at_broadinstitute.org,bioconda/bioconda-recipes,OSS,2

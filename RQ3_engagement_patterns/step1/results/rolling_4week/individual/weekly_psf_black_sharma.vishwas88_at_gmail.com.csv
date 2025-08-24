@@ -1,0 +1,4 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,2,0,0,0,2,0.25,0.2857142857142857,0.5678571428571428,psf_black_sharma.vishwas88_at_gmail.com,psf/black,OSS,0
+1,0,0,0,0,0,0.25,0.0,0.025,psf_black_sharma.vishwas88_at_gmail.com,psf/black,OSS,0
+2,1,0,0,0,1,0.5,0.14285714285714285,0.3214285714285714,psf_black_sharma.vishwas88_at_gmail.com,psf/black,OSS,0

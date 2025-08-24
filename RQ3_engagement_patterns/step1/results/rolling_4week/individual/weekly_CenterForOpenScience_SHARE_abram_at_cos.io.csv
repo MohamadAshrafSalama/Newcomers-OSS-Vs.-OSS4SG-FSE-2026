@@ -1,0 +1,7 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+-2,0,2,0,0,2,0.25,0.2857142857142857,0.4678571428571429,CenterForOpenScience_SHARE_abram_at_cos.io,CenterForOpenScience/SHARE,OSS4SG,-1
+-1,0,0,0,0,1,0.25,0.14285714285714285,0.04642857142857143,CenterForOpenScience_SHARE_abram_at_cos.io,CenterForOpenScience/SHARE,OSS4SG,-1
+0,7,2,0,0,3,0.5,0.42857142857142855,2.2642857142857142,CenterForOpenScience_SHARE_abram_at_cos.io,CenterForOpenScience/SHARE,OSS4SG,0
+1,12,3,0,1,4,0.75,0.5714285714285714,3.910714285714286,CenterForOpenScience_SHARE_abram_at_cos.io,CenterForOpenScience/SHARE,OSS4SG,0
+2,7,2,0,0,3,0.75,0.42857142857142855,2.2892857142857146,CenterForOpenScience_SHARE_abram_at_cos.io,CenterForOpenScience/SHARE,OSS4SG,0
+3,0,1,0,0,1,1.0,0.14285714285714285,0.32142857142857145,CenterForOpenScience_SHARE_abram_at_cos.io,CenterForOpenScience/SHARE,OSS4SG,0

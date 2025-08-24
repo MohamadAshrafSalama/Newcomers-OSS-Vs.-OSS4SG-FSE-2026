@@ -1,0 +1,7 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,8,0,0,0,3,0.25,0.42857142857142855,2.089285714285714,apache_fineract_bot_at_renovateapp.com,apache/fineract,OSS4SG,0
+1,15,0,0,0,6,0.5,0.8571428571428571,3.9285714285714284,apache_fineract_bot_at_renovateapp.com,apache/fineract,OSS4SG,0
+2,6,0,0,0,4,0.75,0.5714285714285714,1.6607142857142856,apache_fineract_bot_at_renovateapp.com,apache/fineract,OSS4SG,0
+3,8,0,0,0,4,1.0,0.5714285714285714,2.185714285714286,apache_fineract_bot_at_renovateapp.com,apache/fineract,OSS4SG,0
+4,10,0,0,0,5,1.0,0.7142857142857143,2.7071428571428573,apache_fineract_bot_at_renovateapp.com,apache/fineract,OSS4SG,1
+5,2,0,0,0,2,1.0,0.2857142857142857,0.6428571428571428,apache_fineract_bot_at_renovateapp.com,apache/fineract,OSS4SG,1

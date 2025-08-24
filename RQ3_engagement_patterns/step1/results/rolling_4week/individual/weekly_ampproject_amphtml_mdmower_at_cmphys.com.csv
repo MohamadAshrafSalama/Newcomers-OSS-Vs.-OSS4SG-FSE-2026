@@ -1,0 +1,17 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+-4,0,1,12,0,1,0.25,0.14285714285714285,2.0464285714285713,ampproject_amphtml_mdmower_at_cmphys.com,ampproject/amphtml,OSS,-1
+-3,0,0,0,0,0,0.25,0.0,0.025,ampproject_amphtml_mdmower_at_cmphys.com,ampproject/amphtml,OSS,-1
+-2,0,1,7,1,1,0.5,0.14285714285714285,1.4714285714285713,ampproject_amphtml_mdmower_at_cmphys.com,ampproject/amphtml,OSS,-1
+-1,0,8,28,2,4,0.75,0.5714285714285714,6.260714285714286,ampproject_amphtml_mdmower_at_cmphys.com,ampproject/amphtml,OSS,-1
+0,5,6,22,1,5,0.75,0.7142857142857143,6.082142857142857,ampproject_amphtml_mdmower_at_cmphys.com,ampproject/amphtml,OSS,0
+1,8,20,9,0,5,1.0,0.7142857142857143,7.557142857142856,ampproject_amphtml_mdmower_at_cmphys.com,ampproject/amphtml,OSS,0
+2,21,5,0,1,5,1.0,0.7142857142857143,6.607142857142857,ampproject_amphtml_mdmower_at_cmphys.com,ampproject/amphtml,OSS,0
+3,0,1,11,0,1,1.0,0.14285714285714285,1.9714285714285713,ampproject_amphtml_mdmower_at_cmphys.com,ampproject/amphtml,OSS,0
+4,0,1,4,0,1,1.0,0.14285714285714285,0.9214285714285715,ampproject_amphtml_mdmower_at_cmphys.com,ampproject/amphtml,OSS,1
+5,5,2,6,0,4,1.0,0.5714285714285714,2.7357142857142858,ampproject_amphtml_mdmower_at_cmphys.com,ampproject/amphtml,OSS,1
+6,3,1,2,0,3,1.0,0.42857142857142855,1.4142857142857144,ampproject_amphtml_mdmower_at_cmphys.com,ampproject/amphtml,OSS,1
+7,2,0,4,1,3,1.0,0.42857142857142855,1.4142857142857144,ampproject_amphtml_mdmower_at_cmphys.com,ampproject/amphtml,OSS,1
+8,2,2,8,0,2,1.0,0.2857142857142857,2.242857142857143,ampproject_amphtml_mdmower_at_cmphys.com,ampproject/amphtml,OSS,2
+9,0,1,5,0,1,1.0,0.14285714285714285,1.0714285714285714,ampproject_amphtml_mdmower_at_cmphys.com,ampproject/amphtml,OSS,2
+10,1,5,34,0,3,1.0,0.42857142857142855,6.514285714285713,ampproject_amphtml_mdmower_at_cmphys.com,ampproject/amphtml,OSS,2
+11,5,0,0,0,2,1.0,0.2857142857142857,1.392857142857143,ampproject_amphtml_mdmower_at_cmphys.com,ampproject/amphtml,OSS,2

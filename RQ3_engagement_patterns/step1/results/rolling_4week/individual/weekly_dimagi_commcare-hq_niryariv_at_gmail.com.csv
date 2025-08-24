@@ -1,0 +1,9 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,3,0,0,0,1,0.25,0.14285714285714285,0.7964285714285715,dimagi_commcare-hq_niryariv_at_gmail.com,dimagi/commcare-hq,OSS4SG,0
+1,19,0,0,0,3,0.5,0.42857142857142855,4.864285714285714,dimagi_commcare-hq_niryariv_at_gmail.com,dimagi/commcare-hq,OSS4SG,0
+2,4,0,0,0,1,0.75,0.14285714285714285,1.0964285714285713,dimagi_commcare-hq_niryariv_at_gmail.com,dimagi/commcare-hq,OSS4SG,0
+3,0,0,0,0,0,0.75,0.0,0.07500000000000001,dimagi_commcare-hq_niryariv_at_gmail.com,dimagi/commcare-hq,OSS4SG,0
+4,0,0,0,0,0,0.5,0.0,0.05,dimagi_commcare-hq_niryariv_at_gmail.com,dimagi/commcare-hq,OSS4SG,1
+5,20,0,0,0,3,0.5,0.42857142857142855,5.114285714285714,dimagi_commcare-hq_niryariv_at_gmail.com,dimagi/commcare-hq,OSS4SG,1
+6,44,0,0,0,4,0.5,0.5714285714285714,11.135714285714286,dimagi_commcare-hq_niryariv_at_gmail.com,dimagi/commcare-hq,OSS4SG,1
+7,46,0,0,0,4,0.75,0.5714285714285714,11.660714285714285,dimagi_commcare-hq_niryariv_at_gmail.com,dimagi/commcare-hq,OSS4SG,1

@@ -1,0 +1,4 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,4,1,2,0,3,0.25,0.42857142857142855,1.5892857142857142,ifmeorg_ifme_ektap.098_at_gmail.com,ifmeorg/ifme,OSS4SG,0
+1,1,1,2,0,2,0.5,0.2857142857142857,0.8428571428571429,ifmeorg_ifme_ektap.098_at_gmail.com,ifmeorg/ifme,OSS4SG,0
+2,3,0,0,0,3,0.75,0.42857142857142855,0.8892857142857142,ifmeorg_ifme_ektap.098_at_gmail.com,ifmeorg/ifme,OSS4SG,0

@@ -1,0 +1,9 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,0,0,0,1,0.25,0.14285714285714285,0.29642857142857143,instedd_verboice_none_at_none,instedd/verboice,OSS4SG,0
+1,0,0,0,0,0,0.25,0.0,0.025,instedd_verboice_none_at_none,instedd/verboice,OSS4SG,0
+2,0,0,0,0,0,0.25,0.0,0.025,instedd_verboice_none_at_none,instedd/verboice,OSS4SG,0
+3,16,0,0,0,4,0.5,0.5714285714285714,4.135714285714285,instedd_verboice_none_at_none,instedd/verboice,OSS4SG,0
+4,9,0,0,0,3,0.5,0.42857142857142855,2.364285714285714,instedd_verboice_none_at_none,instedd/verboice,OSS4SG,1
+5,5,0,0,0,2,0.75,0.2857142857142857,1.3678571428571429,instedd_verboice_none_at_none,instedd/verboice,OSS4SG,1
+6,16,0,0,0,6,1.0,0.8571428571428571,4.228571428571428,instedd_verboice_none_at_none,instedd/verboice,OSS4SG,1
+7,20,0,0,0,3,1.0,0.42857142857142855,5.164285714285714,instedd_verboice_none_at_none,instedd/verboice,OSS4SG,1

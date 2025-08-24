@@ -1,0 +1,10 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,3,1,1,0,2,0.25,0.2857142857142857,1.1678571428571427,rubyforgood_human-essentials_wanguiwawerub_at_gmail.com,rubyforgood/human-essentials,OSS4SG,0
+1,5,2,0,0,3,0.5,0.42857142857142855,1.7642857142857142,rubyforgood_human-essentials_wanguiwawerub_at_gmail.com,rubyforgood/human-essentials,OSS4SG,0
+2,4,0,0,0,1,0.75,0.14285714285714285,1.0964285714285713,rubyforgood_human-essentials_wanguiwawerub_at_gmail.com,rubyforgood/human-essentials,OSS4SG,0
+3,0,0,0,0,0,0.75,0.0,0.07500000000000001,rubyforgood_human-essentials_wanguiwawerub_at_gmail.com,rubyforgood/human-essentials,OSS4SG,0
+4,0,0,0,0,0,0.5,0.0,0.05,rubyforgood_human-essentials_wanguiwawerub_at_gmail.com,rubyforgood/human-essentials,OSS4SG,1
+5,0,0,0,0,0,0.25,0.0,0.025,rubyforgood_human-essentials_wanguiwawerub_at_gmail.com,rubyforgood/human-essentials,OSS4SG,1
+6,2,1,0,0,1,0.25,0.14285714285714285,0.7464285714285714,rubyforgood_human-essentials_wanguiwawerub_at_gmail.com,rubyforgood/human-essentials,OSS4SG,1
+7,0,0,0,0,0,0.25,0.0,0.025,rubyforgood_human-essentials_wanguiwawerub_at_gmail.com,rubyforgood/human-essentials,OSS4SG,1
+8,4,1,1,0,3,0.5,0.42857142857142855,1.4642857142857142,rubyforgood_human-essentials_wanguiwawerub_at_gmail.com,rubyforgood/human-essentials,OSS4SG,2

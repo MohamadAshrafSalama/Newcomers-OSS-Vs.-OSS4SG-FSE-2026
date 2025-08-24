@@ -1,0 +1,10 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,0,4,3,2,0.25,0.2857142857142857,1.3678571428571427,CenterForOpenScience_SHARE_efc_at_clst.org,CenterForOpenScience/SHARE,OSS4SG,0
+1,0,0,0,1,1,0.5,0.14285714285714285,0.22142857142857142,CenterForOpenScience_SHARE_efc_at_clst.org,CenterForOpenScience/SHARE,OSS4SG,0
+2,0,0,0,1,1,0.75,0.14285714285714285,0.24642857142857144,CenterForOpenScience_SHARE_efc_at_clst.org,CenterForOpenScience/SHARE,OSS4SG,0
+3,0,0,0,0,0,0.75,0.0,0.07500000000000001,CenterForOpenScience_SHARE_efc_at_clst.org,CenterForOpenScience/SHARE,OSS4SG,0
+4,1,0,5,2,2,0.75,0.2857142857142857,1.417857142857143,CenterForOpenScience_SHARE_efc_at_clst.org,CenterForOpenScience/SHARE,OSS4SG,1
+5,0,0,2,10,1,0.75,0.14285714285714285,1.8964285714285714,CenterForOpenScience_SHARE_efc_at_clst.org,CenterForOpenScience/SHARE,OSS4SG,1
+6,0,0,0,0,0,0.5,0.0,0.05,CenterForOpenScience_SHARE_efc_at_clst.org,CenterForOpenScience/SHARE,OSS4SG,1
+7,0,0,0,0,0,0.5,0.0,0.05,CenterForOpenScience_SHARE_efc_at_clst.org,CenterForOpenScience/SHARE,OSS4SG,1
+8,0,0,3,3,2,0.5,0.2857142857142857,0.9928571428571428,CenterForOpenScience_SHARE_efc_at_clst.org,CenterForOpenScience/SHARE,OSS4SG,2

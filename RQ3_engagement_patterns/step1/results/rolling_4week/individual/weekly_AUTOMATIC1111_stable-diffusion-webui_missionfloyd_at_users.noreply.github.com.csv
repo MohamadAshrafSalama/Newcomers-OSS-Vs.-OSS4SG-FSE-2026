@@ -1,0 +1,4 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,3,2,0,0,2,0.25,0.2857142857142857,1.2178571428571427,AUTOMATIC1111_stable-diffusion-webui_missionfloyd_at_users.noreply.github.com,AUTOMATIC1111/stable-diffusion-webui,OSS,0
+1,4,1,1,0,3,0.5,0.42857142857142855,1.4642857142857142,AUTOMATIC1111_stable-diffusion-webui_missionfloyd_at_users.noreply.github.com,AUTOMATIC1111/stable-diffusion-webui,OSS,0
+2,1,1,0,0,1,0.75,0.14285714285714285,0.5464285714285715,AUTOMATIC1111_stable-diffusion-webui_missionfloyd_at_users.noreply.github.com,AUTOMATIC1111/stable-diffusion-webui,OSS,0

@@ -1,0 +1,16 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,2,0,0,0,2,0.25,0.2857142857142857,0.5678571428571428,bioconda_bioconda-recipes_m.vandenbeek_at_gmail.com,bioconda/bioconda-recipes,OSS,0
+1,0,0,0,0,0,0.25,0.0,0.025,bioconda_bioconda-recipes_m.vandenbeek_at_gmail.com,bioconda/bioconda-recipes,OSS,0
+2,0,0,0,0,0,0.25,0.0,0.025,bioconda_bioconda-recipes_m.vandenbeek_at_gmail.com,bioconda/bioconda-recipes,OSS,0
+3,3,0,0,0,2,0.5,0.2857142857142857,0.8428571428571429,bioconda_bioconda-recipes_m.vandenbeek_at_gmail.com,bioconda/bioconda-recipes,OSS,0
+4,2,0,0,0,2,0.5,0.2857142857142857,0.5928571428571429,bioconda_bioconda-recipes_m.vandenbeek_at_gmail.com,bioconda/bioconda-recipes,OSS,1
+5,4,0,0,0,2,0.75,0.2857142857142857,1.1178571428571429,bioconda_bioconda-recipes_m.vandenbeek_at_gmail.com,bioconda/bioconda-recipes,OSS,1
+6,0,0,0,0,0,0.75,0.0,0.07500000000000001,bioconda_bioconda-recipes_m.vandenbeek_at_gmail.com,bioconda/bioconda-recipes,OSS,1
+7,3,0,0,0,2,0.75,0.2857142857142857,0.8678571428571429,bioconda_bioconda-recipes_m.vandenbeek_at_gmail.com,bioconda/bioconda-recipes,OSS,1
+8,1,0,0,0,1,0.75,0.14285714285714285,0.3464285714285714,bioconda_bioconda-recipes_m.vandenbeek_at_gmail.com,bioconda/bioconda-recipes,OSS,2
+9,7,0,0,0,3,0.75,0.42857142857142855,1.8892857142857142,bioconda_bioconda-recipes_m.vandenbeek_at_gmail.com,bioconda/bioconda-recipes,OSS,2
+10,0,0,0,0,0,0.75,0.0,0.07500000000000001,bioconda_bioconda-recipes_m.vandenbeek_at_gmail.com,bioconda/bioconda-recipes,OSS,2
+11,0,0,0,0,0,0.5,0.0,0.05,bioconda_bioconda-recipes_m.vandenbeek_at_gmail.com,bioconda/bioconda-recipes,OSS,2
+12,7,0,0,0,2,0.5,0.2857142857142857,1.842857142857143,bioconda_bioconda-recipes_m.vandenbeek_at_gmail.com,bioconda/bioconda-recipes,OSS,3
+13,2,0,0,0,2,0.5,0.2857142857142857,0.5928571428571429,bioconda_bioconda-recipes_m.vandenbeek_at_gmail.com,bioconda/bioconda-recipes,OSS,3
+14,3,0,0,0,1,0.75,0.14285714285714285,0.8464285714285715,bioconda_bioconda-recipes_m.vandenbeek_at_gmail.com,bioconda/bioconda-recipes,OSS,3

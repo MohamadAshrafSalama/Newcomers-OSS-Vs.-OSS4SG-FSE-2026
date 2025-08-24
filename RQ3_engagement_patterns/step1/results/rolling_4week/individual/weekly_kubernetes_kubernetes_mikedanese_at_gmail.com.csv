@@ -1,0 +1,16 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,1,0,1,1,0.25,0.14285714285714285,0.6464285714285715,kubernetes_kubernetes_mikedanese_at_gmail.com,kubernetes/kubernetes,OSS,0
+1,0,0,3,0,1,0.5,0.14285714285714285,0.5214285714285714,kubernetes_kubernetes_mikedanese_at_gmail.com,kubernetes/kubernetes,OSS,0
+2,2,2,2,0,2,0.75,0.2857142857142857,1.3178571428571428,kubernetes_kubernetes_mikedanese_at_gmail.com,kubernetes/kubernetes,OSS,0
+3,0,0,0,0,0,0.75,0.0,0.07500000000000001,kubernetes_kubernetes_mikedanese_at_gmail.com,kubernetes/kubernetes,OSS,0
+4,2,2,6,0,2,0.75,0.2857142857142857,1.9178571428571427,kubernetes_kubernetes_mikedanese_at_gmail.com,kubernetes/kubernetes,OSS,1
+5,4,4,7,0,2,0.75,0.2857142857142857,2.967857142857143,kubernetes_kubernetes_mikedanese_at_gmail.com,kubernetes/kubernetes,OSS,1
+6,0,0,0,0,0,0.5,0.0,0.05,kubernetes_kubernetes_mikedanese_at_gmail.com,kubernetes/kubernetes,OSS,1
+7,0,0,0,0,0,0.5,0.0,0.05,kubernetes_kubernetes_mikedanese_at_gmail.com,kubernetes/kubernetes,OSS,1
+8,0,0,0,0,0,0.25,0.0,0.025,kubernetes_kubernetes_mikedanese_at_gmail.com,kubernetes/kubernetes,OSS,2
+9,0,0,0,0,0,0.0,0.0,0.0,kubernetes_kubernetes_mikedanese_at_gmail.com,kubernetes/kubernetes,OSS,2
+10,4,4,1,0,2,0.25,0.2857142857142857,2.017857142857143,kubernetes_kubernetes_mikedanese_at_gmail.com,kubernetes/kubernetes,OSS,2
+11,3,1,9,0,3,0.5,0.42857142857142855,2.4142857142857137,kubernetes_kubernetes_mikedanese_at_gmail.com,kubernetes/kubernetes,OSS,2
+12,7,5,20,2,3,0.75,0.42857142857142855,6.189285714285714,kubernetes_kubernetes_mikedanese_at_gmail.com,kubernetes/kubernetes,OSS,3
+13,4,1,4,0,3,1.0,0.42857142857142855,1.9642857142857142,kubernetes_kubernetes_mikedanese_at_gmail.com,kubernetes/kubernetes,OSS,3
+14,4,4,7,0,2,1.0,0.2857142857142857,2.992857142857143,kubernetes_kubernetes_mikedanese_at_gmail.com,kubernetes/kubernetes,OSS,3

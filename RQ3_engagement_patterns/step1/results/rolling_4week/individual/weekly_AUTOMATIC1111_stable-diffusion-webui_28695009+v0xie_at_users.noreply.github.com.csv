@@ -1,0 +1,2 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,1,2,0,1,0.25,0.14285714285714285,0.7964285714285715,AUTOMATIC1111_stable-diffusion-webui_28695009+v0xie_at_users.noreply.github.com,AUTOMATIC1111/stable-diffusion-webui,OSS,0

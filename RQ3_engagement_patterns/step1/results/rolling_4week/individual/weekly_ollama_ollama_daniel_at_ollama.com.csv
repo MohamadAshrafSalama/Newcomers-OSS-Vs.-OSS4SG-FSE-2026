@@ -1,0 +1,16 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,1,1,0,2,0.25,0.2857142857142857,0.6678571428571428,ollama_ollama_daniel_at_ollama.com,ollama/ollama,OSS,0
+1,1,1,15,0,2,0.5,0.2857142857142857,2.7928571428571427,ollama_ollama_daniel_at_ollama.com,ollama/ollama,OSS,0
+2,0,0,0,0,0,0.5,0.0,0.05,ollama_ollama_daniel_at_ollama.com,ollama/ollama,OSS,0
+3,1,0,0,0,1,0.75,0.14285714285714285,0.3464285714285714,ollama_ollama_daniel_at_ollama.com,ollama/ollama,OSS,0
+4,0,0,0,0,0,0.5,0.0,0.05,ollama_ollama_daniel_at_ollama.com,ollama/ollama,OSS,1
+5,5,0,0,0,4,0.5,0.5714285714285714,1.3857142857142857,ollama_ollama_daniel_at_ollama.com,ollama/ollama,OSS,1
+6,15,5,18,0,6,0.75,0.8571428571428571,7.653571428571428,ollama_ollama_daniel_at_ollama.com,ollama/ollama,OSS,1
+7,2,0,0,0,2,0.75,0.2857142857142857,0.6178571428571429,ollama_ollama_daniel_at_ollama.com,ollama/ollama,OSS,1
+8,14,10,7,0,5,1.0,0.7142857142857143,6.757142857142856,ollama_ollama_daniel_at_ollama.com,ollama/ollama,OSS,2
+9,8,7,8,0,5,1.0,0.7142857142857143,4.807142857142857,ollama_ollama_daniel_at_ollama.com,ollama/ollama,OSS,2
+10,11,9,13,0,5,1.0,0.7142857142857143,6.707142857142856,ollama_ollama_daniel_at_ollama.com,ollama/ollama,OSS,2
+11,13,13,17,1,7,1.0,1.0,8.799999999999999,ollama_ollama_daniel_at_ollama.com,ollama/ollama,OSS,2
+12,3,5,10,1,5,1.0,0.7142857142857143,3.607142857142857,ollama_ollama_daniel_at_ollama.com,ollama/ollama,OSS,3
+13,5,4,5,1,6,1.0,0.8571428571428571,3.1785714285714284,ollama_ollama_daniel_at_ollama.com,ollama/ollama,OSS,3
+14,14,5,6,1,7,1.0,1.0,5.800000000000001,ollama_ollama_daniel_at_ollama.com,ollama/ollama,OSS,3

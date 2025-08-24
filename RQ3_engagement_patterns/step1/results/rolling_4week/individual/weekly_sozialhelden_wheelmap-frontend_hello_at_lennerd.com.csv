@@ -1,0 +1,7 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,70,8,11,0,4,0.25,0.5714285714285714,20.860714285714284,sozialhelden_wheelmap-frontend_hello_at_lennerd.com,sozialhelden/wheelmap-frontend,OSS4SG,0
+1,104,0,0,0,5,0.5,0.7142857142857143,26.15714285714286,sozialhelden_wheelmap-frontend_hello_at_lennerd.com,sozialhelden/wheelmap-frontend,OSS4SG,0
+2,0,0,0,0,0,0.5,0.0,0.05,sozialhelden_wheelmap-frontend_hello_at_lennerd.com,sozialhelden/wheelmap-frontend,OSS4SG,0
+3,0,0,0,0,0,0.5,0.0,0.05,sozialhelden_wheelmap-frontend_hello_at_lennerd.com,sozialhelden/wheelmap-frontend,OSS4SG,0
+4,68,8,8,0,3,0.5,0.42857142857142855,19.914285714285715,sozialhelden_wheelmap-frontend_hello_at_lennerd.com,sozialhelden/wheelmap-frontend,OSS4SG,1
+5,90,13,24,0,5,0.5,0.7142857142857143,28.85714285714286,sozialhelden_wheelmap-frontend_hello_at_lennerd.com,sozialhelden/wheelmap-frontend,OSS4SG,1

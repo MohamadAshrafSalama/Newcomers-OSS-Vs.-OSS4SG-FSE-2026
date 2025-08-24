@@ -1,0 +1,11 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,12,0,0,0,4,0.25,0.5714285714285714,3.1107142857142858,usetania_tania-core_gkgranada_at_gmail.com,usetania/tania-core,OSS4SG,0
+1,12,0,0,0,5,0.5,0.7142857142857143,3.157142857142857,usetania_tania-core_gkgranada_at_gmail.com,usetania/tania-core,OSS4SG,0
+2,9,0,0,0,4,0.75,0.5714285714285714,2.410714285714286,usetania_tania-core_gkgranada_at_gmail.com,usetania/tania-core,OSS4SG,0
+3,14,0,0,0,4,1.0,0.5714285714285714,3.685714285714286,usetania_tania-core_gkgranada_at_gmail.com,usetania/tania-core,OSS4SG,0
+4,8,0,0,0,3,1.0,0.42857142857142855,2.164285714285714,usetania_tania-core_gkgranada_at_gmail.com,usetania/tania-core,OSS4SG,1
+5,15,0,0,0,6,1.0,0.8571428571428571,3.9785714285714286,usetania_tania-core_gkgranada_at_gmail.com,usetania/tania-core,OSS4SG,1
+6,8,0,0,0,4,1.0,0.5714285714285714,2.185714285714286,usetania_tania-core_gkgranada_at_gmail.com,usetania/tania-core,OSS4SG,1
+7,16,0,0,0,6,1.0,0.8571428571428571,4.228571428571428,usetania_tania-core_gkgranada_at_gmail.com,usetania/tania-core,OSS4SG,1
+8,11,0,0,0,3,1.0,0.42857142857142855,2.914285714285714,usetania_tania-core_gkgranada_at_gmail.com,usetania/tania-core,OSS4SG,2
+9,1,0,0,0,1,1.0,0.14285714285714285,0.37142857142857144,usetania_tania-core_gkgranada_at_gmail.com,usetania/tania-core,OSS4SG,2

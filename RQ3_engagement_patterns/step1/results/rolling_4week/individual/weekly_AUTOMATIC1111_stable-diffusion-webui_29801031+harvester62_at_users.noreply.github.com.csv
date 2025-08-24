@@ -1,0 +1,4 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+-2,0,0,2,2,2,0.25,0.2857142857142857,0.6678571428571428,AUTOMATIC1111_stable-diffusion-webui_29801031+harvester62_at_users.noreply.github.com,AUTOMATIC1111/stable-diffusion-webui,OSS,-1
+-1,0,0,0,0,0,0.25,0.0,0.025,AUTOMATIC1111_stable-diffusion-webui_29801031+harvester62_at_users.noreply.github.com,AUTOMATIC1111/stable-diffusion-webui,OSS,-1
+0,3,2,2,0,2,0.5,0.2857142857142857,1.542857142857143,AUTOMATIC1111_stable-diffusion-webui_29801031+harvester62_at_users.noreply.github.com,AUTOMATIC1111/stable-diffusion-webui,OSS,0

@@ -1,0 +1,10 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,2,0,0,0,2,0.25,0.2857142857142857,0.5678571428571428,magma_magma_pshelar_at_ovn.org,magma/magma,OSS4SG,0
+1,4,0,0,0,3,0.5,0.42857142857142855,1.1142857142857143,magma_magma_pshelar_at_ovn.org,magma/magma,OSS4SG,0
+2,5,0,0,0,3,0.75,0.42857142857142855,1.3892857142857142,magma_magma_pshelar_at_ovn.org,magma/magma,OSS4SG,0
+3,5,0,0,0,3,1.0,0.42857142857142855,1.4142857142857144,magma_magma_pshelar_at_ovn.org,magma/magma,OSS4SG,0
+4,7,0,0,0,3,1.0,0.42857142857142855,1.9142857142857144,magma_magma_pshelar_at_ovn.org,magma/magma,OSS4SG,1
+5,3,0,0,0,3,1.0,0.42857142857142855,0.9142857142857143,magma_magma_pshelar_at_ovn.org,magma/magma,OSS4SG,1
+6,5,0,0,0,5,1.0,0.7142857142857143,1.4571428571428573,magma_magma_pshelar_at_ovn.org,magma/magma,OSS4SG,1
+7,2,0,0,0,1,1.0,0.14285714285714285,0.6214285714285714,magma_magma_pshelar_at_ovn.org,magma/magma,OSS4SG,1
+8,7,0,0,0,3,1.0,0.42857142857142855,1.9142857142857144,magma_magma_pshelar_at_ovn.org,magma/magma,OSS4SG,2

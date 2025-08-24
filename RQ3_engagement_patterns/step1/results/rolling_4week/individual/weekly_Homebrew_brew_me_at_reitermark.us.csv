@@ -1,0 +1,13 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,11,7,6,0,4,0.25,0.5714285714285714,5.1607142857142865,Homebrew_brew_me_at_reitermark.us,Homebrew/brew,OSS,0
+1,26,11,25,0,6,0.5,0.8571428571428571,12.628571428571428,Homebrew_brew_me_at_reitermark.us,Homebrew/brew,OSS,0
+2,2,0,0,0,2,0.75,0.2857142857142857,0.6178571428571429,Homebrew_brew_me_at_reitermark.us,Homebrew/brew,OSS,0
+3,5,2,15,0,4,1.0,0.5714285714285714,4.085714285714285,Homebrew_brew_me_at_reitermark.us,Homebrew/brew,OSS,0
+4,7,1,0,0,6,1.0,0.8571428571428571,2.1785714285714284,Homebrew_brew_me_at_reitermark.us,Homebrew/brew,OSS,1
+5,74,16,30,0,7,1.0,1.0,26.45,Homebrew_brew_me_at_reitermark.us,Homebrew/brew,OSS,1
+6,32,7,17,0,6,1.0,0.8571428571428571,12.178571428571427,Homebrew_brew_me_at_reitermark.us,Homebrew/brew,OSS,1
+7,23,9,3,0,6,1.0,0.8571428571428571,8.228571428571428,Homebrew_brew_me_at_reitermark.us,Homebrew/brew,OSS,1
+8,16,3,6,0,5,1.0,0.7142857142857143,5.707142857142856,Homebrew_brew_me_at_reitermark.us,Homebrew/brew,OSS,2
+9,39,15,16,0,6,1.0,0.8571428571428571,15.378571428571428,Homebrew_brew_me_at_reitermark.us,Homebrew/brew,OSS,2
+10,10,4,6,0,2,1.0,0.2857142857142857,4.342857142857142,Homebrew_brew_me_at_reitermark.us,Homebrew/brew,OSS,2
+11,2,0,0,0,2,1.0,0.2857142857142857,0.6428571428571428,Homebrew_brew_me_at_reitermark.us,Homebrew/brew,OSS,2

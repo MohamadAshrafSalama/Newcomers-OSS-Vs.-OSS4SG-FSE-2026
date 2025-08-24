@@ -1,0 +1,13 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+-11,0,0,0,0,1,0.0,0.14285714285714285,0.021428571428571425,avelino_awesome-go_qiang.xue_at_gmail.com,avelino/awesome-go,OSS,-3
+-10,0,0,0,0,0,0.0,0.0,0.0,avelino_awesome-go_qiang.xue_at_gmail.com,avelino/awesome-go,OSS,-3
+-9,0,0,0,0,0,0.0,0.0,0.0,avelino_awesome-go_qiang.xue_at_gmail.com,avelino/awesome-go,OSS,-3
+-8,0,0,0,0,0,0.0,0.0,0.0,avelino_awesome-go_qiang.xue_at_gmail.com,avelino/awesome-go,OSS,-2
+-7,0,0,0,0,0,0.0,0.0,0.0,avelino_awesome-go_qiang.xue_at_gmail.com,avelino/awesome-go,OSS,-2
+-6,0,0,0,0,0,0.0,0.0,0.0,avelino_awesome-go_qiang.xue_at_gmail.com,avelino/awesome-go,OSS,-2
+-5,0,0,0,0,0,0.0,0.0,0.0,avelino_awesome-go_qiang.xue_at_gmail.com,avelino/awesome-go,OSS,-2
+-4,0,0,0,0,0,0.0,0.0,0.0,avelino_awesome-go_qiang.xue_at_gmail.com,avelino/awesome-go,OSS,-1
+-3,0,0,0,0,0,0.0,0.0,0.0,avelino_awesome-go_qiang.xue_at_gmail.com,avelino/awesome-go,OSS,-1
+-2,0,0,0,0,0,0.0,0.0,0.0,avelino_awesome-go_qiang.xue_at_gmail.com,avelino/awesome-go,OSS,-1
+-1,0,0,0,0,0,0.0,0.0,0.0,avelino_awesome-go_qiang.xue_at_gmail.com,avelino/awesome-go,OSS,-1
+0,1,1,0,0,1,0.25,0.14285714285714285,0.49642857142857144,avelino_awesome-go_qiang.xue_at_gmail.com,avelino/awesome-go,OSS,0

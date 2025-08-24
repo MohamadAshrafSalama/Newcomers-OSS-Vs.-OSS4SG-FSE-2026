@@ -1,0 +1,5 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+-1,0,1,4,0,1,0.25,0.14285714285714285,0.8464285714285715,microsoft_autogen_96101829+hk669_at_users.noreply.github.com,microsoft/autogen,OSS,-1
+0,2,1,22,1,4,0.5,0.5714285714285714,4.285714285714286,microsoft_autogen_96101829+hk669_at_users.noreply.github.com,microsoft/autogen,OSS,0
+1,1,1,1,0,1,0.75,0.14285714285714285,0.6964285714285714,microsoft_autogen_96101829+hk669_at_users.noreply.github.com,microsoft/autogen,OSS,0
+2,0,1,21,0,1,1.0,0.14285714285714285,3.4714285714285715,microsoft_autogen_96101829+hk669_at_users.noreply.github.com,microsoft/autogen,OSS,0

@@ -1,0 +1,6 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,2,3,2,0,2,0.25,0.2857142857142857,1.467857142857143,chaynHQ_soulmedicine_sophie.hebdidge_at_gmail.com,chaynHQ/soulmedicine,OSS4SG,0
+1,20,2,0,0,2,0.5,0.2857142857142857,5.492857142857143,chaynHQ_soulmedicine_sophie.hebdidge_at_gmail.com,chaynHQ/soulmedicine,OSS4SG,0
+2,22,4,0,0,2,0.75,0.2857142857142857,6.417857142857143,chaynHQ_soulmedicine_sophie.hebdidge_at_gmail.com,chaynHQ/soulmedicine,OSS4SG,0
+3,10,5,0,0,2,1.0,0.2857142857142857,3.642857142857143,chaynHQ_soulmedicine_sophie.hebdidge_at_gmail.com,chaynHQ/soulmedicine,OSS4SG,0
+4,32,8,0,0,3,1.0,0.42857142857142855,9.764285714285714,chaynHQ_soulmedicine_sophie.hebdidge_at_gmail.com,chaynHQ/soulmedicine,OSS4SG,1

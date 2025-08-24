@@ -1,0 +1,5 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,0,0,0,1,0.25,0.14285714285714285,0.29642857142857143,dimagi_commcare-cloud_skelly_at_dimagi.com,dimagi/commcare-cloud,OSS4SG,0
+1,1,0,0,0,1,0.5,0.14285714285714285,0.3214285714285714,dimagi_commcare-cloud_skelly_at_dimagi.com,dimagi/commcare-cloud,OSS4SG,0
+2,1,0,0,0,1,0.75,0.14285714285714285,0.3464285714285714,dimagi_commcare-cloud_skelly_at_dimagi.com,dimagi/commcare-cloud,OSS4SG,0
+3,14,3,5,2,4,1.0,0.5714285714285714,5.3357142857142845,dimagi_commcare-cloud_skelly_at_dimagi.com,dimagi/commcare-cloud,OSS4SG,0

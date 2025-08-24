@@ -1,0 +1,5 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,1,2,0,1,0.25,0.14285714285714285,0.7964285714285715,radiantearth_stac-spec_tom_at_tombh.co.uk,radiantearth/stac-spec,OSS4SG,0
+1,0,0,0,0,0,0.25,0.0,0.025,radiantearth_stac-spec_tom_at_tombh.co.uk,radiantearth/stac-spec,OSS4SG,0
+2,0,0,1,1,1,0.5,0.14285714285714285,0.3714285714285714,radiantearth_stac-spec_tom_at_tombh.co.uk,radiantearth/stac-spec,OSS4SG,0
+3,0,0,0,1,1,0.75,0.14285714285714285,0.24642857142857144,radiantearth_stac-spec_tom_at_tombh.co.uk,radiantearth/stac-spec,OSS4SG,0

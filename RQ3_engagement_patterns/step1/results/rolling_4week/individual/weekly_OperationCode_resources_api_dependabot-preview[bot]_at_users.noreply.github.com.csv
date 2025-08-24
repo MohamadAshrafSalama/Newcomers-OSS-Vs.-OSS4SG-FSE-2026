@@ -1,0 +1,4 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,5,0,0,0,2,0.25,0.2857142857142857,1.3178571428571428,OperationCode_resources_api_dependabot-preview[bot]_at_users.noreply.github.com,OperationCode/resources_api,OSS4SG,0
+1,3,0,0,0,2,0.5,0.2857142857142857,0.8428571428571429,OperationCode_resources_api_dependabot-preview[bot]_at_users.noreply.github.com,OperationCode/resources_api,OSS4SG,0
+2,3,0,0,0,3,0.75,0.42857142857142855,0.8892857142857142,OperationCode_resources_api_dependabot-preview[bot]_at_users.noreply.github.com,OperationCode/resources_api,OSS4SG,0

@@ -1,0 +1,6 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,0,0,0,1,0.25,0.14285714285714285,0.29642857142857143,kobotoolbox_kpi_john_at_tmoj.net,kobotoolbox/kpi,OSS4SG,0
+1,1,0,0,0,1,0.5,0.14285714285714285,0.3214285714285714,kobotoolbox_kpi_john_at_tmoj.net,kobotoolbox/kpi,OSS4SG,0
+2,4,0,0,0,3,0.75,0.42857142857142855,1.1392857142857142,kobotoolbox_kpi_john_at_tmoj.net,kobotoolbox/kpi,OSS4SG,0
+3,12,1,0,0,4,1.0,0.5714285714285714,3.385714285714286,kobotoolbox_kpi_john_at_tmoj.net,kobotoolbox/kpi,OSS4SG,0
+4,6,2,0,0,3,1.0,0.42857142857142855,2.064285714285714,kobotoolbox_kpi_john_at_tmoj.net,kobotoolbox/kpi,OSS4SG,1

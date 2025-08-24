@@ -1,0 +1,13 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,2,0,0,0,1,0.25,0.14285714285714285,0.5464285714285715,bioconda_bioconda-recipes_simon.vanheeringen_at_gmail.com,bioconda/bioconda-recipes,OSS,0
+1,0,0,0,0,0,0.25,0.0,0.025,bioconda_bioconda-recipes_simon.vanheeringen_at_gmail.com,bioconda/bioconda-recipes,OSS,0
+2,0,0,0,0,0,0.25,0.0,0.025,bioconda_bioconda-recipes_simon.vanheeringen_at_gmail.com,bioconda/bioconda-recipes,OSS,0
+3,3,1,0,0,1,0.5,0.14285714285714285,1.0214285714285714,bioconda_bioconda-recipes_simon.vanheeringen_at_gmail.com,bioconda/bioconda-recipes,OSS,0
+4,0,0,0,0,0,0.25,0.0,0.025,bioconda_bioconda-recipes_simon.vanheeringen_at_gmail.com,bioconda/bioconda-recipes,OSS,1
+5,11,1,0,0,1,0.5,0.14285714285714285,3.0214285714285714,bioconda_bioconda-recipes_simon.vanheeringen_at_gmail.com,bioconda/bioconda-recipes,OSS,1
+6,0,0,0,0,0,0.5,0.0,0.05,bioconda_bioconda-recipes_simon.vanheeringen_at_gmail.com,bioconda/bioconda-recipes,OSS,1
+7,0,0,0,0,0,0.25,0.0,0.025,bioconda_bioconda-recipes_simon.vanheeringen_at_gmail.com,bioconda/bioconda-recipes,OSS,1
+8,0,0,0,0,0,0.25,0.0,0.025,bioconda_bioconda-recipes_simon.vanheeringen_at_gmail.com,bioconda/bioconda-recipes,OSS,2
+9,2,1,2,1,3,0.25,0.42857142857142855,1.239285714285714,bioconda_bioconda-recipes_simon.vanheeringen_at_gmail.com,bioconda/bioconda-recipes,OSS,2
+10,0,0,0,0,0,0.25,0.0,0.025,bioconda_bioconda-recipes_simon.vanheeringen_at_gmail.com,bioconda/bioconda-recipes,OSS,2
+11,31,1,5,1,3,0.5,0.42857142857142855,8.964285714285715,bioconda_bioconda-recipes_simon.vanheeringen_at_gmail.com,bioconda/bioconda-recipes,OSS,2

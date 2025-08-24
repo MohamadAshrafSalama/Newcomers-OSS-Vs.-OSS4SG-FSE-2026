@@ -1,0 +1,16 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+-1,0,0,0,0,1,0.0,0.14285714285714285,0.021428571428571425,unicef_etools_roman_at_razortheory.com,unicef/etools,OSS4SG,-1
+0,3,0,0,0,2,0.25,0.2857142857142857,0.8178571428571428,unicef_etools_roman_at_razortheory.com,unicef/etools,OSS4SG,0
+1,21,0,0,0,5,0.5,0.7142857142857143,5.407142857142857,unicef_etools_roman_at_razortheory.com,unicef/etools,OSS4SG,0
+2,11,0,0,0,1,0.75,0.14285714285714285,2.8464285714285715,unicef_etools_roman_at_razortheory.com,unicef/etools,OSS4SG,0
+3,35,0,0,0,4,1.0,0.5714285714285714,8.935714285714285,unicef_etools_roman_at_razortheory.com,unicef/etools,OSS4SG,0
+4,2,0,0,0,1,1.0,0.14285714285714285,0.6214285714285714,unicef_etools_roman_at_razortheory.com,unicef/etools,OSS4SG,1
+5,22,1,1,0,2,1.0,0.2857142857142857,5.992857142857143,unicef_etools_roman_at_razortheory.com,unicef/etools,OSS4SG,1
+6,19,0,0,0,5,1.0,0.7142857142857143,4.957142857142856,unicef_etools_roman_at_razortheory.com,unicef/etools,OSS4SG,1
+7,16,0,0,0,4,1.0,0.5714285714285714,4.185714285714285,unicef_etools_roman_at_razortheory.com,unicef/etools,OSS4SG,1
+8,15,1,0,0,4,1.0,0.5714285714285714,4.135714285714285,unicef_etools_roman_at_razortheory.com,unicef/etools,OSS4SG,2
+9,24,0,0,0,5,1.0,0.7142857142857143,6.207142857142856,unicef_etools_roman_at_razortheory.com,unicef/etools,OSS4SG,2
+10,26,0,0,0,3,1.0,0.42857142857142855,6.664285714285714,unicef_etools_roman_at_razortheory.com,unicef/etools,OSS4SG,2
+11,12,2,0,0,3,1.0,0.42857142857142855,3.5642857142857145,unicef_etools_roman_at_razortheory.com,unicef/etools,OSS4SG,2
+12,26,1,0,0,5,1.0,0.7142857142857143,6.907142857142857,unicef_etools_roman_at_razortheory.com,unicef/etools,OSS4SG,3
+13,14,1,0,0,3,1.0,0.42857142857142855,3.8642857142857143,unicef_etools_roman_at_razortheory.com,unicef/etools,OSS4SG,3

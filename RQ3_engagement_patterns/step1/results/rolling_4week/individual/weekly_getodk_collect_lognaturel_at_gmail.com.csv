@@ -1,0 +1,5 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,15,3,0,0,3,0.25,0.42857142857142855,4.439285714285714,getodk_collect_lognaturel_at_gmail.com,getodk/collect,OSS4SG,0
+1,6,3,5,5,2,0.5,0.2857142857142857,3.6928571428571426,getodk_collect_lognaturel_at_gmail.com,getodk/collect,OSS4SG,0
+2,2,1,1,1,2,0.75,0.2857142857142857,1.1178571428571429,getodk_collect_lognaturel_at_gmail.com,getodk/collect,OSS4SG,0
+3,17,3,0,0,3,1.0,0.42857142857142855,5.014285714285713,getodk_collect_lognaturel_at_gmail.com,getodk/collect,OSS4SG,0

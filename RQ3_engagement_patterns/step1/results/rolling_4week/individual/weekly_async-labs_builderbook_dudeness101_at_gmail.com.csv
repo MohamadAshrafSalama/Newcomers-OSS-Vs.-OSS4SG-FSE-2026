@@ -1,0 +1,8 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,9,0,4,7,3,0.25,0.42857142857142855,3.9892857142857143,async-labs_builderbook_dudeness101_at_gmail.com,async-labs/builderbook,OSS,0
+1,6,0,2,4,3,0.5,0.42857142857142855,2.5142857142857142,async-labs_builderbook_dudeness101_at_gmail.com,async-labs/builderbook,OSS,0
+2,10,0,0,3,3,0.75,0.42857142857142855,3.0892857142857144,async-labs_builderbook_dudeness101_at_gmail.com,async-labs/builderbook,OSS,0
+3,9,0,2,2,4,1.0,0.5714285714285714,3.0357142857142856,async-labs_builderbook_dudeness101_at_gmail.com,async-labs/builderbook,OSS,0
+4,16,0,0,1,5,1.0,0.7142857142857143,4.357142857142857,async-labs_builderbook_dudeness101_at_gmail.com,async-labs/builderbook,OSS,1
+5,26,0,4,3,7,1.0,1.0,7.8,async-labs_builderbook_dudeness101_at_gmail.com,async-labs/builderbook,OSS,1
+6,17,0,1,2,5,1.0,0.7142857142857143,4.907142857142857,async-labs_builderbook_dudeness101_at_gmail.com,async-labs/builderbook,OSS,1

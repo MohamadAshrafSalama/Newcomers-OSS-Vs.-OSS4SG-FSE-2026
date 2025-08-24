@@ -1,0 +1,15 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,1,0,0,1,0.25,0.14285714285714285,0.49642857142857144,http4s_http4s_sperl.matthias0_at_gmail.com,http4s/http4s,OSS,0
+1,0,0,0,0,0,0.25,0.0,0.025,http4s_http4s_sperl.matthias0_at_gmail.com,http4s/http4s,OSS,0
+2,0,0,0,0,0,0.25,0.0,0.025,http4s_http4s_sperl.matthias0_at_gmail.com,http4s/http4s,OSS,0
+3,0,0,0,0,0,0.25,0.0,0.025,http4s_http4s_sperl.matthias0_at_gmail.com,http4s/http4s,OSS,0
+4,0,0,0,0,0,0.0,0.0,0.0,http4s_http4s_sperl.matthias0_at_gmail.com,http4s/http4s,OSS,1
+5,0,0,0,0,0,0.0,0.0,0.0,http4s_http4s_sperl.matthias0_at_gmail.com,http4s/http4s,OSS,1
+6,2,2,5,0,2,0.25,0.2857142857142857,1.7178571428571427,http4s_http4s_sperl.matthias0_at_gmail.com,http4s/http4s,OSS,1
+7,3,2,9,0,4,0.5,0.5714285714285714,2.6357142857142857,http4s_http4s_sperl.matthias0_at_gmail.com,http4s/http4s,OSS,1
+8,9,2,4,0,3,0.75,0.42857142857142855,3.3892857142857142,http4s_http4s_sperl.matthias0_at_gmail.com,http4s/http4s,OSS,2
+9,19,5,20,0,7,1.0,1.0,9.0,http4s_http4s_sperl.matthias0_at_gmail.com,http4s/http4s,OSS,2
+10,15,3,6,1,5,1.0,0.7142857142857143,5.607142857142857,http4s_http4s_sperl.matthias0_at_gmail.com,http4s/http4s,OSS,2
+11,15,5,10,1,5,1.0,0.7142857142857143,6.607142857142857,http4s_http4s_sperl.matthias0_at_gmail.com,http4s/http4s,OSS,2
+12,16,6,2,0,4,1.0,0.5714285714285714,5.685714285714285,http4s_http4s_sperl.matthias0_at_gmail.com,http4s/http4s,OSS,3
+13,14,7,5,0,2,1.0,0.2857142857142857,5.792857142857143,http4s_http4s_sperl.matthias0_at_gmail.com,http4s/http4s,OSS,3

@@ -1,0 +1,11 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,8,1,10,3,2,0.25,0.2857142857142857,4.217857142857143,scratchfoundation_scratch-blocks_kchadha_at_scratch.mit.edu,scratchfoundation/scratch-blocks,OSS4SG,0
+1,14,1,2,3,2,0.5,0.2857142857142857,4.542857142857143,scratchfoundation_scratch-blocks_kchadha_at_scratch.mit.edu,scratchfoundation/scratch-blocks,OSS4SG,0
+2,4,2,3,3,3,0.75,0.42857142857142855,2.439285714285714,scratchfoundation_scratch-blocks_kchadha_at_scratch.mit.edu,scratchfoundation/scratch-blocks,OSS4SG,0
+3,6,0,0,0,3,1.0,0.42857142857142855,1.6642857142857144,scratchfoundation_scratch-blocks_kchadha_at_scratch.mit.edu,scratchfoundation/scratch-blocks,OSS4SG,0
+4,4,1,6,2,3,1.0,0.42857142857142855,2.5642857142857136,scratchfoundation_scratch-blocks_kchadha_at_scratch.mit.edu,scratchfoundation/scratch-blocks,OSS4SG,1
+5,38,3,4,0,5,1.0,0.7142857142857143,10.907142857142857,scratchfoundation_scratch-blocks_kchadha_at_scratch.mit.edu,scratchfoundation/scratch-blocks,OSS4SG,1
+6,0,0,0,0,0,0.75,0.0,0.07500000000000001,scratchfoundation_scratch-blocks_kchadha_at_scratch.mit.edu,scratchfoundation/scratch-blocks,OSS4SG,1
+7,0,0,0,0,0,0.5,0.0,0.05,scratchfoundation_scratch-blocks_kchadha_at_scratch.mit.edu,scratchfoundation/scratch-blocks,OSS4SG,1
+8,16,0,0,0,4,0.5,0.5714285714285714,4.135714285714285,scratchfoundation_scratch-blocks_kchadha_at_scratch.mit.edu,scratchfoundation/scratch-blocks,OSS4SG,2
+9,30,2,16,4,4,0.5,0.5714285714285714,11.035714285714286,scratchfoundation_scratch-blocks_kchadha_at_scratch.mit.edu,scratchfoundation/scratch-blocks,OSS4SG,2

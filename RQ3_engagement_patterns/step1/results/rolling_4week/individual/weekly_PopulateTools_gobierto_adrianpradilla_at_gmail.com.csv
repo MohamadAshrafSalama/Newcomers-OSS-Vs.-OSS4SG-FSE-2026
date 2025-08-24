@@ -1,0 +1,17 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,6,1,0,0,1,0.25,0.14285714285714285,1.7464285714285712,PopulateTools_gobierto_adrianpradilla_at_gmail.com,PopulateTools/gobierto,OSS4SG,0
+1,0,0,0,0,0,0.25,0.0,0.025,PopulateTools_gobierto_adrianpradilla_at_gmail.com,PopulateTools/gobierto,OSS4SG,0
+2,0,0,0,0,0,0.25,0.0,0.025,PopulateTools_gobierto_adrianpradilla_at_gmail.com,PopulateTools/gobierto,OSS4SG,0
+3,35,1,1,0,5,0.5,0.7142857142857143,9.257142857142858,PopulateTools_gobierto_adrianpradilla_at_gmail.com,PopulateTools/gobierto,OSS4SG,0
+4,18,0,0,0,6,0.5,0.8571428571428571,4.678571428571428,PopulateTools_gobierto_adrianpradilla_at_gmail.com,PopulateTools/gobierto,OSS4SG,1
+5,24,1,1,0,4,0.75,0.5714285714285714,6.510714285714286,PopulateTools_gobierto_adrianpradilla_at_gmail.com,PopulateTools/gobierto,OSS4SG,1
+6,20,2,1,0,4,1.0,0.5714285714285714,5.735714285714286,PopulateTools_gobierto_adrianpradilla_at_gmail.com,PopulateTools/gobierto,OSS4SG,1
+7,0,0,0,0,0,0.75,0.0,0.07500000000000001,PopulateTools_gobierto_adrianpradilla_at_gmail.com,PopulateTools/gobierto,OSS4SG,1
+8,15,3,5,0,5,0.75,0.7142857142857143,5.282142857142857,PopulateTools_gobierto_adrianpradilla_at_gmail.com,PopulateTools/gobierto,OSS4SG,2
+9,23,2,0,0,5,0.75,0.7142857142857143,6.332142857142857,PopulateTools_gobierto_adrianpradilla_at_gmail.com,PopulateTools/gobierto,OSS4SG,2
+10,33,3,0,0,5,0.75,0.7142857142857143,9.032142857142857,PopulateTools_gobierto_adrianpradilla_at_gmail.com,PopulateTools/gobierto,OSS4SG,2
+11,38,0,0,4,5,1.0,0.7142857142857143,10.307142857142857,PopulateTools_gobierto_adrianpradilla_at_gmail.com,PopulateTools/gobierto,OSS4SG,2
+12,53,6,7,0,5,1.0,0.7142857142857143,15.707142857142857,PopulateTools_gobierto_adrianpradilla_at_gmail.com,PopulateTools/gobierto,OSS4SG,3
+13,31,2,12,0,5,1.0,0.7142857142857143,10.157142857142857,PopulateTools_gobierto_adrianpradilla_at_gmail.com,PopulateTools/gobierto,OSS4SG,3
+14,45,1,0,0,6,1.0,0.8571428571428571,11.678571428571427,PopulateTools_gobierto_adrianpradilla_at_gmail.com,PopulateTools/gobierto,OSS4SG,3
+15,49,0,2,3,6,1.0,0.8571428571428571,13.228571428571428,PopulateTools_gobierto_adrianpradilla_at_gmail.com,PopulateTools/gobierto,OSS4SG,3

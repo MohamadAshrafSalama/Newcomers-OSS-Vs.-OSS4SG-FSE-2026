@@ -1,0 +1,8 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,1,0,0,1,0.25,0.14285714285714285,0.49642857142857144,microsoft_autogen_a21.mathur21_at_gmail.com,microsoft/autogen,OSS,0
+1,0,1,11,0,1,0.5,0.14285714285714285,1.9214285714285713,microsoft_autogen_a21.mathur21_at_gmail.com,microsoft/autogen,OSS,0
+2,2,1,19,0,4,0.75,0.5714285714285714,3.710714285714286,microsoft_autogen_a21.mathur21_at_gmail.com,microsoft/autogen,OSS,0
+3,1,1,1,0,2,1.0,0.2857142857142857,0.7428571428571428,microsoft_autogen_a21.mathur21_at_gmail.com,microsoft/autogen,OSS,0
+4,0,0,0,0,0,0.75,0.0,0.07500000000000001,microsoft_autogen_a21.mathur21_at_gmail.com,microsoft/autogen,OSS,1
+5,1,2,15,0,2,0.75,0.2857142857142857,3.017857142857143,microsoft_autogen_a21.mathur21_at_gmail.com,microsoft/autogen,OSS,1
+6,1,0,0,0,1,0.75,0.14285714285714285,0.3464285714285714,microsoft_autogen_a21.mathur21_at_gmail.com,microsoft/autogen,OSS,1

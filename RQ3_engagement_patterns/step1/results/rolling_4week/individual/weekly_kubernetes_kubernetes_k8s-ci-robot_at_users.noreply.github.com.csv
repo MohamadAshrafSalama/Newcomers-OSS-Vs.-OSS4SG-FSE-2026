@@ -1,0 +1,2 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,32,0,0,0,7,0.25,1.0,8.175,kubernetes_kubernetes_k8s-ci-robot_at_users.noreply.github.com,kubernetes/kubernetes,OSS,0

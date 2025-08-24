@@ -1,0 +1,9 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,5,0,0,0,1,0.25,0.14285714285714285,1.2964285714285713,openfoodfoundation_openfoodnetwork_will_at_willmarshall.me,openfoodfoundation/openfoodnetwork,OSS4SG,0
+1,20,0,0,0,4,0.5,0.5714285714285714,5.135714285714285,openfoodfoundation_openfoodnetwork_will_at_willmarshall.me,openfoodfoundation/openfoodnetwork,OSS4SG,0
+2,5,0,0,0,2,0.75,0.2857142857142857,1.3678571428571429,openfoodfoundation_openfoodnetwork_will_at_willmarshall.me,openfoodfoundation/openfoodnetwork,OSS4SG,0
+3,16,0,0,0,4,1.0,0.5714285714285714,4.185714285714285,openfoodfoundation_openfoodnetwork_will_at_willmarshall.me,openfoodfoundation/openfoodnetwork,OSS4SG,0
+4,14,0,0,0,2,1.0,0.2857142857142857,3.642857142857143,openfoodfoundation_openfoodnetwork_will_at_willmarshall.me,openfoodfoundation/openfoodnetwork,OSS4SG,1
+5,20,0,0,0,3,1.0,0.42857142857142855,5.164285714285714,openfoodfoundation_openfoodnetwork_will_at_willmarshall.me,openfoodfoundation/openfoodnetwork,OSS4SG,1
+6,16,0,0,0,3,1.0,0.42857142857142855,4.164285714285714,openfoodfoundation_openfoodnetwork_will_at_willmarshall.me,openfoodfoundation/openfoodnetwork,OSS4SG,1
+7,25,0,0,0,4,1.0,0.5714285714285714,6.435714285714285,openfoodfoundation_openfoodnetwork_will_at_willmarshall.me,openfoodfoundation/openfoodnetwork,OSS4SG,1

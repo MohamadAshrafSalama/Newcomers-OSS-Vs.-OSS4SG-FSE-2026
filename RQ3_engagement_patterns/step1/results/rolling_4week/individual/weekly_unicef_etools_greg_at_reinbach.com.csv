@@ -1,0 +1,5 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,19,0,0,0,3,0.25,0.42857142857142855,4.839285714285714,unicef_etools_greg_at_reinbach.com,unicef/etools,OSS4SG,0
+1,77,4,15,0,5,0.5,0.7142857142857143,22.45714285714286,unicef_etools_greg_at_reinbach.com,unicef/etools,OSS4SG,0
+2,53,0,0,0,4,0.75,0.5714285714285714,13.410714285714285,unicef_etools_greg_at_reinbach.com,unicef/etools,OSS4SG,0
+3,87,6,14,0,5,1.0,0.7142857142857143,25.25714285714286,unicef_etools_greg_at_reinbach.com,unicef/etools,OSS4SG,0

@@ -1,0 +1,4 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,2,1,1,0,2,0.25,0.2857142857142857,0.9178571428571428,rubenlagus_TelegramBots_chmilev.fedor_at_gmail.com,rubenlagus/TelegramBots,OSS,0
+1,0,0,0,0,0,0.25,0.0,0.025,rubenlagus_TelegramBots_chmilev.fedor_at_gmail.com,rubenlagus/TelegramBots,OSS,0
+2,4,0,0,0,1,0.5,0.14285714285714285,1.0714285714285714,rubenlagus_TelegramBots_chmilev.fedor_at_gmail.com,rubenlagus/TelegramBots,OSS,0

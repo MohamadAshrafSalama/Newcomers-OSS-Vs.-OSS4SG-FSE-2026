@@ -1,0 +1,6 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,17,0,0,0,5,0.25,0.7142857142857143,4.382142857142857,KubeOperator_KubeOperator_zhengkun_at_fit2cloud.com,KubeOperator/KubeOperator,OSS,0
+1,21,0,0,0,4,0.5,0.5714285714285714,5.385714285714285,KubeOperator_KubeOperator_zhengkun_at_fit2cloud.com,KubeOperator/KubeOperator,OSS,0
+2,9,0,0,0,3,0.75,0.42857142857142855,2.3892857142857142,KubeOperator_KubeOperator_zhengkun_at_fit2cloud.com,KubeOperator/KubeOperator,OSS,0
+3,25,0,0,0,6,1.0,0.8571428571428571,6.478571428571428,KubeOperator_KubeOperator_zhengkun_at_fit2cloud.com,KubeOperator/KubeOperator,OSS,0
+4,47,0,0,0,5,1.0,0.7142857142857143,11.957142857142857,KubeOperator_KubeOperator_zhengkun_at_fit2cloud.com,KubeOperator/KubeOperator,OSS,1

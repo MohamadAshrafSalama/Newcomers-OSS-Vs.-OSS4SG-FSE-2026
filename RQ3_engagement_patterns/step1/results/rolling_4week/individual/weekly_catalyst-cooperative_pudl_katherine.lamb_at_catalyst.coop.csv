@@ -1,0 +1,17 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,3,1,11,0,3,0.25,0.42857142857142855,2.6892857142857136,catalyst-cooperative_pudl_katherine.lamb_at_catalyst.coop,catalyst-cooperative/pudl,OSS4SG,0
+1,4,0,0,0,1,0.5,0.14285714285714285,1.0714285714285714,catalyst-cooperative_pudl_katherine.lamb_at_catalyst.coop,catalyst-cooperative/pudl,OSS4SG,0
+2,5,1,6,0,2,0.75,0.2857142857142857,2.4678571428571425,catalyst-cooperative_pudl_katherine.lamb_at_catalyst.coop,catalyst-cooperative/pudl,OSS4SG,0
+3,12,0,0,0,4,1.0,0.5714285714285714,3.185714285714286,catalyst-cooperative_pudl_katherine.lamb_at_catalyst.coop,catalyst-cooperative/pudl,OSS4SG,0
+4,6,0,0,0,1,1.0,0.14285714285714285,1.6214285714285714,catalyst-cooperative_pudl_katherine.lamb_at_catalyst.coop,catalyst-cooperative/pudl,OSS4SG,1
+5,5,1,2,0,3,1.0,0.42857142857142855,1.9142857142857144,catalyst-cooperative_pudl_katherine.lamb_at_catalyst.coop,catalyst-cooperative/pudl,OSS4SG,1
+6,1,0,0,0,1,1.0,0.14285714285714285,0.37142857142857144,catalyst-cooperative_pudl_katherine.lamb_at_catalyst.coop,catalyst-cooperative/pudl,OSS4SG,1
+7,0,0,0,1,1,1.0,0.14285714285714285,0.27142857142857146,catalyst-cooperative_pudl_katherine.lamb_at_catalyst.coop,catalyst-cooperative/pudl,OSS4SG,1
+8,1,1,14,0,1,1.0,0.14285714285714285,2.6714285714285717,catalyst-cooperative_pudl_katherine.lamb_at_catalyst.coop,catalyst-cooperative/pudl,OSS4SG,2
+9,4,1,11,3,4,1.0,0.5714285714285714,3.4857142857142858,catalyst-cooperative_pudl_katherine.lamb_at_catalyst.coop,catalyst-cooperative/pudl,OSS4SG,2
+10,11,0,0,0,3,1.0,0.42857142857142855,2.914285714285714,catalyst-cooperative_pudl_katherine.lamb_at_catalyst.coop,catalyst-cooperative/pudl,OSS4SG,2
+11,14,0,1,4,5,1.0,0.7142857142857143,4.457142857142856,catalyst-cooperative_pudl_katherine.lamb_at_catalyst.coop,catalyst-cooperative/pudl,OSS4SG,2
+12,12,1,9,2,5,1.0,0.7142857142857143,5.057142857142856,catalyst-cooperative_pudl_katherine.lamb_at_catalyst.coop,catalyst-cooperative/pudl,OSS4SG,3
+13,8,1,28,6,5,1.0,0.7142857142857143,7.507142857142857,catalyst-cooperative_pudl_katherine.lamb_at_catalyst.coop,catalyst-cooperative/pudl,OSS4SG,3
+14,5,1,8,0,3,1.0,0.42857142857142855,2.8142857142857145,catalyst-cooperative_pudl_katherine.lamb_at_catalyst.coop,catalyst-cooperative/pudl,OSS4SG,3
+15,4,0,0,0,3,1.0,0.42857142857142855,1.1642857142857144,catalyst-cooperative_pudl_katherine.lamb_at_catalyst.coop,catalyst-cooperative/pudl,OSS4SG,3

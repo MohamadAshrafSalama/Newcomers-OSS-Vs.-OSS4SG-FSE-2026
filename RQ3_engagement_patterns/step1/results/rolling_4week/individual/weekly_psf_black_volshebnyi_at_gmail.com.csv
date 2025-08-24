@@ -1,0 +1,13 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+-11,0,1,2,0,1,0.25,0.14285714285714285,0.5464285714285715,psf_black_volshebnyi_at_gmail.com,psf/black,OSS,-3
+-10,0,0,0,0,0,0.25,0.0,0.025,psf_black_volshebnyi_at_gmail.com,psf/black,OSS,-3
+-9,0,0,0,0,0,0.25,0.0,0.025,psf_black_volshebnyi_at_gmail.com,psf/black,OSS,-3
+-8,0,1,16,0,2,0.5,0.2857142857142857,2.6928571428571426,psf_black_volshebnyi_at_gmail.com,psf/black,OSS,-2
+-7,0,0,0,0,0,0.25,0.0,0.025,psf_black_volshebnyi_at_gmail.com,psf/black,OSS,-2
+-6,0,0,0,0,0,0.25,0.0,0.025,psf_black_volshebnyi_at_gmail.com,psf/black,OSS,-2
+-5,0,0,0,0,0,0.25,0.0,0.025,psf_black_volshebnyi_at_gmail.com,psf/black,OSS,-2
+-4,0,0,0,0,0,0.0,0.0,0.0,psf_black_volshebnyi_at_gmail.com,psf/black,OSS,-1
+-3,0,0,0,0,0,0.0,0.0,0.0,psf_black_volshebnyi_at_gmail.com,psf/black,OSS,-1
+-2,0,0,0,0,0,0.0,0.0,0.0,psf_black_volshebnyi_at_gmail.com,psf/black,OSS,-1
+-1,0,0,0,0,0,0.0,0.0,0.0,psf_black_volshebnyi_at_gmail.com,psf/black,OSS,-1
+0,1,0,0,0,1,0.25,0.14285714285714285,0.29642857142857143,psf_black_volshebnyi_at_gmail.com,psf/black,OSS,0

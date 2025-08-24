@@ -1,0 +1,13 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+-2,0,0,1,0,1,0.25,0.14285714285714285,0.19642857142857142,riot_riot_r_bondi_at_hotmail.com,riot/riot,OSS,-1
+-1,0,0,2,1,1,0.5,0.14285714285714285,0.5214285714285714,riot_riot_r_bondi_at_hotmail.com,riot/riot,OSS,-1
+0,1,1,0,0,2,0.75,0.2857142857142857,0.5678571428571428,riot_riot_r_bondi_at_hotmail.com,riot/riot,OSS,0
+1,0,0,4,1,1,1.0,0.14285714285714285,0.8714285714285714,riot_riot_r_bondi_at_hotmail.com,riot/riot,OSS,0
+2,0,0,1,1,1,1.0,0.14285714285714285,0.4214285714285714,riot_riot_r_bondi_at_hotmail.com,riot/riot,OSS,0
+3,0,0,5,1,1,1.0,0.14285714285714285,1.0214285714285716,riot_riot_r_bondi_at_hotmail.com,riot/riot,OSS,0
+4,0,0,0,0,0,0.75,0.0,0.07500000000000001,riot_riot_r_bondi_at_hotmail.com,riot/riot,OSS,1
+5,0,0,0,0,0,0.5,0.0,0.05,riot_riot_r_bondi_at_hotmail.com,riot/riot,OSS,1
+6,0,0,0,0,0,0.25,0.0,0.025,riot_riot_r_bondi_at_hotmail.com,riot/riot,OSS,1
+7,0,0,0,0,0,0.0,0.0,0.0,riot_riot_r_bondi_at_hotmail.com,riot/riot,OSS,1
+8,4,1,9,0,2,0.25,0.2857142857142857,2.6178571428571424,riot_riot_r_bondi_at_hotmail.com,riot/riot,OSS,2
+9,9,5,11,1,5,0.5,0.7142857142857143,5.207142857142857,riot_riot_r_bondi_at_hotmail.com,riot/riot,OSS,2

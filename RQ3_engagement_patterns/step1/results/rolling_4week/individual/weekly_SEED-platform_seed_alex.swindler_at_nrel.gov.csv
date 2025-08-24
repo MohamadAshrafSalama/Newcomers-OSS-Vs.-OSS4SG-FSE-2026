@@ -1,0 +1,4 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,3,1,2,0,2,0.25,0.2857142857142857,1.3178571428571428,SEED-platform_seed_alex.swindler_at_nrel.gov,SEED-platform/seed,OSS4SG,0
+1,0,0,0,0,0,0.25,0.0,0.025,SEED-platform_seed_alex.swindler_at_nrel.gov,SEED-platform/seed,OSS4SG,0
+2,3,2,3,1,2,0.5,0.2857142857142857,1.8428571428571427,SEED-platform_seed_alex.swindler_at_nrel.gov,SEED-platform/seed,OSS4SG,0

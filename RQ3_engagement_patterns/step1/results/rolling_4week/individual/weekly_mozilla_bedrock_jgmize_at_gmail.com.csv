@@ -1,0 +1,12 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,2,0,0,0,1,0.25,0.14285714285714285,0.5464285714285715,mozilla_bedrock_jgmize_at_gmail.com,mozilla/bedrock,OSS,0
+1,8,4,2,0,5,0.5,0.7142857142857143,3.2571428571428567,mozilla_bedrock_jgmize_at_gmail.com,mozilla/bedrock,OSS,0
+2,5,0,0,0,3,0.75,0.42857142857142855,1.3892857142857142,mozilla_bedrock_jgmize_at_gmail.com,mozilla/bedrock,OSS,0
+3,4,1,2,0,4,1.0,0.5714285714285714,1.6857142857142857,mozilla_bedrock_jgmize_at_gmail.com,mozilla/bedrock,OSS,0
+4,1,0,0,0,1,1.0,0.14285714285714285,0.37142857142857144,mozilla_bedrock_jgmize_at_gmail.com,mozilla/bedrock,OSS,1
+5,8,2,2,0,4,1.0,0.5714285714285714,2.8857142857142857,mozilla_bedrock_jgmize_at_gmail.com,mozilla/bedrock,OSS,1
+6,15,0,0,0,6,1.0,0.8571428571428571,3.9785714285714286,mozilla_bedrock_jgmize_at_gmail.com,mozilla/bedrock,OSS,1
+7,2,1,1,0,1,1.0,0.14285714285714285,0.9714285714285714,mozilla_bedrock_jgmize_at_gmail.com,mozilla/bedrock,OSS,1
+8,5,1,6,0,3,1.0,0.42857142857142855,2.514285714285714,mozilla_bedrock_jgmize_at_gmail.com,mozilla/bedrock,OSS,2
+9,3,0,0,0,2,1.0,0.2857142857142857,0.8928571428571428,mozilla_bedrock_jgmize_at_gmail.com,mozilla/bedrock,OSS,2
+10,6,0,0,0,2,1.0,0.2857142857142857,1.642857142857143,mozilla_bedrock_jgmize_at_gmail.com,mozilla/bedrock,OSS,2

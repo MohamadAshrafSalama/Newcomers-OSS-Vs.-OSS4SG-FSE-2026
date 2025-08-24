@@ -1,0 +1,15 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,7,4,11,6,5,0.25,0.7142857142857143,5.232142857142857,sugarlabs_musicblocks_anindya.k22_at_outlook.com,sugarlabs/musicblocks,OSS4SG,0
+1,6,3,7,2,6,0.5,0.8571428571428571,3.6285714285714286,sugarlabs_musicblocks_anindya.k22_at_outlook.com,sugarlabs/musicblocks,OSS4SG,0
+2,3,3,5,0,5,0.75,0.7142857142857143,2.2821428571428575,sugarlabs_musicblocks_anindya.k22_at_outlook.com,sugarlabs/musicblocks,OSS4SG,0
+3,0,0,0,0,0,0.75,0.0,0.07500000000000001,sugarlabs_musicblocks_anindya.k22_at_outlook.com,sugarlabs/musicblocks,OSS4SG,0
+4,1,1,0,0,1,0.75,0.14285714285714285,0.5464285714285715,sugarlabs_musicblocks_anindya.k22_at_outlook.com,sugarlabs/musicblocks,OSS4SG,1
+5,0,0,0,0,0,0.5,0.0,0.05,sugarlabs_musicblocks_anindya.k22_at_outlook.com,sugarlabs/musicblocks,OSS4SG,1
+6,3,3,1,0,3,0.5,0.42857142857142855,1.6142857142857143,sugarlabs_musicblocks_anindya.k22_at_outlook.com,sugarlabs/musicblocks,OSS4SG,1
+7,1,1,2,2,3,0.75,0.42857142857142855,1.1892857142857143,sugarlabs_musicblocks_anindya.k22_at_outlook.com,sugarlabs/musicblocks,OSS4SG,1
+8,0,0,0,0,0,0.5,0.0,0.05,sugarlabs_musicblocks_anindya.k22_at_outlook.com,sugarlabs/musicblocks,OSS4SG,2
+9,8,3,0,1,3,0.75,0.42857142857142855,2.8892857142857142,sugarlabs_musicblocks_anindya.k22_at_outlook.com,sugarlabs/musicblocks,OSS4SG,2
+10,23,6,12,1,6,0.75,0.8571428571428571,9.103571428571428,sugarlabs_musicblocks_anindya.k22_at_outlook.com,sugarlabs/musicblocks,OSS4SG,2
+11,5,3,0,0,3,0.75,0.42857142857142855,1.9892857142857143,sugarlabs_musicblocks_anindya.k22_at_outlook.com,sugarlabs/musicblocks,OSS4SG,2
+12,14,4,7,1,3,1.0,0.42857142857142855,5.664285714285714,sugarlabs_musicblocks_anindya.k22_at_outlook.com,sugarlabs/musicblocks,OSS4SG,3
+13,8,3,8,0,3,1.0,0.42857142857142855,3.964285714285714,sugarlabs_musicblocks_anindya.k22_at_outlook.com,sugarlabs/musicblocks,OSS4SG,3

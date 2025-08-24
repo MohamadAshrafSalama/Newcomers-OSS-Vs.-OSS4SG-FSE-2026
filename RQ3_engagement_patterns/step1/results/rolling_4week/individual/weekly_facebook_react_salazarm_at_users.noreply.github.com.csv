@@ -1,0 +1,15 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+-1,0,0,0,0,1,0.0,0.14285714285714285,0.021428571428571425,facebook_react_salazarm_at_users.noreply.github.com,facebook/react,OSS,-1
+0,3,3,4,0,4,0.25,0.5714285714285714,2.060714285714286,facebook_react_salazarm_at_users.noreply.github.com,facebook/react,OSS,0
+1,0,1,7,0,1,0.5,0.14285714285714285,1.3214285714285714,facebook_react_salazarm_at_users.noreply.github.com,facebook/react,OSS,0
+2,2,1,4,0,3,0.75,0.42857142857142855,1.439285714285714,facebook_react_salazarm_at_users.noreply.github.com,facebook/react,OSS,0
+3,1,3,20,0,3,1.0,0.42857142857142855,4.014285714285714,facebook_react_salazarm_at_users.noreply.github.com,facebook/react,OSS,0
+4,2,1,1,0,2,1.0,0.2857142857142857,0.9928571428571428,facebook_react_salazarm_at_users.noreply.github.com,facebook/react,OSS,1
+5,0,0,2,0,2,1.0,0.2857142857142857,0.44285714285714284,facebook_react_salazarm_at_users.noreply.github.com,facebook/react,OSS,1
+6,0,0,3,0,2,1.0,0.2857142857142857,0.5928571428571429,facebook_react_salazarm_at_users.noreply.github.com,facebook/react,OSS,1
+7,0,1,0,0,2,1.0,0.2857142857142857,0.34285714285714286,facebook_react_salazarm_at_users.noreply.github.com,facebook/react,OSS,1
+8,0,0,10,0,1,1.0,0.14285714285714285,1.6214285714285714,facebook_react_salazarm_at_users.noreply.github.com,facebook/react,OSS,2
+9,1,0,0,0,1,1.0,0.14285714285714285,0.37142857142857144,facebook_react_salazarm_at_users.noreply.github.com,facebook/react,OSS,2
+10,2,1,1,0,3,1.0,0.42857142857142855,1.0142857142857142,facebook_react_salazarm_at_users.noreply.github.com,facebook/react,OSS,2
+11,1,1,6,0,2,1.0,0.2857142857142857,1.4928571428571429,facebook_react_salazarm_at_users.noreply.github.com,facebook/react,OSS,2
+12,1,1,0,0,2,1.0,0.2857142857142857,0.5928571428571429,facebook_react_salazarm_at_users.noreply.github.com,facebook/react,OSS,3

@@ -1,0 +1,13 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,2,2,7,0,3,0.25,0.42857142857142855,2.039285714285714,WorldBrain_Memex_mukeshnithcse_at_gmail.com,WorldBrain/Memex,OSS,0
+1,0,0,0,0,0,0.25,0.0,0.025,WorldBrain_Memex_mukeshnithcse_at_gmail.com,WorldBrain/Memex,OSS,0
+2,1,1,1,0,1,0.5,0.14285714285714285,0.6714285714285715,WorldBrain_Memex_mukeshnithcse_at_gmail.com,WorldBrain/Memex,OSS,0
+3,7,0,0,0,2,0.75,0.2857142857142857,1.8678571428571429,WorldBrain_Memex_mukeshnithcse_at_gmail.com,WorldBrain/Memex,OSS,0
+4,0,0,0,0,0,0.5,0.0,0.05,WorldBrain_Memex_mukeshnithcse_at_gmail.com,WorldBrain/Memex,OSS,1
+5,0,0,0,0,0,0.5,0.0,0.05,WorldBrain_Memex_mukeshnithcse_at_gmail.com,WorldBrain/Memex,OSS,1
+6,11,2,2,0,3,0.5,0.42857142857142855,3.564285714285714,WorldBrain_Memex_mukeshnithcse_at_gmail.com,WorldBrain/Memex,OSS,1
+7,5,3,0,0,3,0.5,0.42857142857142855,1.9642857142857144,WorldBrain_Memex_mukeshnithcse_at_gmail.com,WorldBrain/Memex,OSS,1
+8,8,1,0,0,1,0.75,0.14285714285714285,2.2964285714285717,WorldBrain_Memex_mukeshnithcse_at_gmail.com,WorldBrain/Memex,OSS,2
+9,15,1,0,0,5,1.0,0.7142857142857143,4.157142857142857,WorldBrain_Memex_mukeshnithcse_at_gmail.com,WorldBrain/Memex,OSS,2
+10,16,1,1,0,5,1.0,0.7142857142857143,4.557142857142857,WorldBrain_Memex_mukeshnithcse_at_gmail.com,WorldBrain/Memex,OSS,2
+11,6,2,3,0,3,1.0,0.42857142857142855,2.514285714285714,WorldBrain_Memex_mukeshnithcse_at_gmail.com,WorldBrain/Memex,OSS,2

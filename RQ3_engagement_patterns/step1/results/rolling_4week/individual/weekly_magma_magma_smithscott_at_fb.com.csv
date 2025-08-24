@@ -1,0 +1,8 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,0,0,0,1,0.25,0.14285714285714285,0.29642857142857143,magma_magma_smithscott_at_fb.com,magma/magma,OSS4SG,0
+1,2,0,0,0,1,0.5,0.14285714285714285,0.5714285714285715,magma_magma_smithscott_at_fb.com,magma/magma,OSS4SG,0
+2,0,0,0,0,0,0.5,0.0,0.05,magma_magma_smithscott_at_fb.com,magma/magma,OSS4SG,0
+3,0,0,0,0,0,0.5,0.0,0.05,magma_magma_smithscott_at_fb.com,magma/magma,OSS4SG,0
+4,0,0,0,0,0,0.25,0.0,0.025,magma_magma_smithscott_at_fb.com,magma/magma,OSS4SG,1
+5,0,0,0,0,1,0.0,0.14285714285714285,0.021428571428571425,magma_magma_smithscott_at_fb.com,magma/magma,OSS4SG,1
+6,9,0,0,0,3,0.25,0.42857142857142855,2.339285714285714,magma_magma_smithscott_at_fb.com,magma/magma,OSS4SG,1

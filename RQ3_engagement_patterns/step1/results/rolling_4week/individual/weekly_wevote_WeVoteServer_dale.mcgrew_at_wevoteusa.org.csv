@@ -1,0 +1,6 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+-3,0,0,1,1,1,0.25,0.14285714285714285,0.3464285714285714,wevote_WeVoteServer_dale.mcgrew_at_wevoteusa.org,wevote/WeVoteServer,OSS4SG,-1
+-2,0,0,0,0,0,0.25,0.0,0.025,wevote_WeVoteServer_dale.mcgrew_at_wevoteusa.org,wevote/WeVoteServer,OSS4SG,-1
+-1,0,0,0,0,0,0.25,0.0,0.025,wevote_WeVoteServer_dale.mcgrew_at_wevoteusa.org,wevote/WeVoteServer,OSS4SG,-1
+0,7,0,0,1,2,0.5,0.2857142857142857,1.9928571428571429,wevote_WeVoteServer_dale.mcgrew_at_wevoteusa.org,wevote/WeVoteServer,OSS4SG,0
+1,1,0,0,1,2,0.5,0.2857142857142857,0.4928571428571429,wevote_WeVoteServer_dale.mcgrew_at_wevoteusa.org,wevote/WeVoteServer,OSS4SG,0

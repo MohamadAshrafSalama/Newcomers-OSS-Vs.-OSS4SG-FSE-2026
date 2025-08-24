@@ -1,0 +1,10 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,1,17,0,1,0.25,0.14285714285714285,3.0464285714285713,uber_RIBs_fran.aguilera_at_uber.com,uber/RIBs,OSS,0
+1,0,0,0,1,1,0.5,0.14285714285714285,0.22142857142857142,uber_RIBs_fran.aguilera_at_uber.com,uber/RIBs,OSS,0
+2,2,1,8,1,2,0.75,0.2857142857142857,2.1678571428571427,uber_RIBs_fran.aguilera_at_uber.com,uber/RIBs,OSS,0
+3,2,2,8,1,2,1.0,0.2857142857142857,2.392857142857143,uber_RIBs_fran.aguilera_at_uber.com,uber/RIBs,OSS,0
+4,0,0,0,0,0,0.75,0.0,0.07500000000000001,uber_RIBs_fran.aguilera_at_uber.com,uber/RIBs,OSS,1
+5,0,0,0,0,0,0.5,0.0,0.05,uber_RIBs_fran.aguilera_at_uber.com,uber/RIBs,OSS,1
+6,0,0,0,0,0,0.25,0.0,0.025,uber_RIBs_fran.aguilera_at_uber.com,uber/RIBs,OSS,1
+7,0,0,0,0,0,0.0,0.0,0.0,uber_RIBs_fran.aguilera_at_uber.com,uber/RIBs,OSS,1
+8,0,0,13,1,1,0.25,0.14285714285714285,2.1464285714285714,uber_RIBs_fran.aguilera_at_uber.com,uber/RIBs,OSS,2

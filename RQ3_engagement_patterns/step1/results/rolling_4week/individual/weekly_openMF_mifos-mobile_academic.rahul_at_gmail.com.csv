@@ -1,0 +1,4 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,2,2,21,3,4,0.25,0.5714285714285714,4.610714285714286,openMF_mifos-mobile_academic.rahul_at_gmail.com,openMF/mifos-mobile,OSS4SG,0
+1,2,2,12,4,5,0.5,0.7142857142857143,3.457142857142857,openMF_mifos-mobile_academic.rahul_at_gmail.com,openMF/mifos-mobile,OSS4SG,0
+2,4,4,24,9,6,0.75,0.8571428571428571,6.953571428571428,openMF_mifos-mobile_academic.rahul_at_gmail.com,openMF/mifos-mobile,OSS4SG,0

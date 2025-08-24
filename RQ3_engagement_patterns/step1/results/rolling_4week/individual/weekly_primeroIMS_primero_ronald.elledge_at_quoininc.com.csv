@@ -1,0 +1,6 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,0,0,0,1,0.25,0.14285714285714285,0.29642857142857143,primeroIMS_primero_ronald.elledge_at_quoininc.com,primeroIMS/primero,OSS4SG,0
+1,0,0,0,0,0,0.25,0.0,0.025,primeroIMS_primero_ronald.elledge_at_quoininc.com,primeroIMS/primero,OSS4SG,0
+2,0,0,0,0,0,0.25,0.0,0.025,primeroIMS_primero_ronald.elledge_at_quoininc.com,primeroIMS/primero,OSS4SG,0
+3,6,0,0,0,2,0.5,0.2857142857142857,1.592857142857143,primeroIMS_primero_ronald.elledge_at_quoininc.com,primeroIMS/primero,OSS4SG,0
+4,4,0,0,0,3,0.5,0.42857142857142855,1.1142857142857143,primeroIMS_primero_ronald.elledge_at_quoininc.com,primeroIMS/primero,OSS4SG,1

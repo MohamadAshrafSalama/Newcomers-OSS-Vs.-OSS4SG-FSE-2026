@@ -1,0 +1,6 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,6,2,7,0,4,0.25,0.5714285714285714,3.060714285714286,elastic_beats_spam_at_ruflin.com,elastic/beats,OSS,0
+1,11,0,0,0,3,0.5,0.42857142857142855,2.864285714285714,elastic_beats_spam_at_ruflin.com,elastic/beats,OSS,0
+2,0,0,0,0,0,0.5,0.0,0.05,elastic_beats_spam_at_ruflin.com,elastic/beats,OSS,0
+3,42,4,1,0,4,0.75,0.5714285714285714,11.610714285714286,elastic_beats_spam_at_ruflin.com,elastic/beats,OSS,0
+4,33,2,1,0,6,0.75,0.8571428571428571,9.003571428571428,elastic_beats_spam_at_ruflin.com,elastic/beats,OSS,1

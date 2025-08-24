@@ -1,0 +1,7 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,1,7,0,2,0.25,0.2857142857142857,1.5678571428571428,facebook_react_chi187_at_gmail.com,facebook/react,OSS,0
+1,0,0,0,0,0,0.25,0.0,0.025,facebook_react_chi187_at_gmail.com,facebook/react,OSS,0
+2,0,0,0,0,0,0.25,0.0,0.025,facebook_react_chi187_at_gmail.com,facebook/react,OSS,0
+3,0,0,0,0,0,0.25,0.0,0.025,facebook_react_chi187_at_gmail.com,facebook/react,OSS,0
+4,6,2,6,0,3,0.25,0.42857142857142855,2.889285714285714,facebook_react_chi187_at_gmail.com,facebook/react,OSS,1
+5,4,1,0,0,1,0.5,0.14285714285714285,1.2714285714285714,facebook_react_chi187_at_gmail.com,facebook/react,OSS,1

@@ -1,0 +1,4 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,2,2,0,0,2,0.25,0.2857142857142857,0.9678571428571429,Snailclimb_JavaGuide_47074522+fengwei2000_at_users.noreply.github.com,Snailclimb/JavaGuide,OSS,0
+1,5,5,0,0,3,0.5,0.42857142857142855,2.364285714285714,Snailclimb_JavaGuide_47074522+fengwei2000_at_users.noreply.github.com,Snailclimb/JavaGuide,OSS,0
+2,4,4,0,0,3,0.75,0.42857142857142855,1.9392857142857143,Snailclimb_JavaGuide_47074522+fengwei2000_at_users.noreply.github.com,Snailclimb/JavaGuide,OSS,0

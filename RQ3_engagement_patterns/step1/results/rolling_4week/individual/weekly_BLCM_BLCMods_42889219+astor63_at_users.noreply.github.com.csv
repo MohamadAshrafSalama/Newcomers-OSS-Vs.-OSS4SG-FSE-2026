@@ -1,0 +1,8 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,14,2,1,0,2,0.25,0.2857142857142857,4.117857142857143,BLCM_BLCMods_42889219+astor63_at_users.noreply.github.com,BLCM/BLCMods,OSS,0
+1,52,5,2,0,5,0.5,0.7142857142857143,14.457142857142859,BLCM_BLCMods_42889219+astor63_at_users.noreply.github.com,BLCM/BLCMods,OSS,0
+2,14,5,2,0,4,0.75,0.5714285714285714,4.960714285714285,BLCM_BLCMods_42889219+astor63_at_users.noreply.github.com,BLCM/BLCMods,OSS,0
+3,1,1,0,0,1,1.0,0.14285714285714285,0.5714285714285714,BLCM_BLCMods_42889219+astor63_at_users.noreply.github.com,BLCM/BLCMods,OSS,0
+4,2,1,0,0,1,1.0,0.14285714285714285,0.8214285714285714,BLCM_BLCMods_42889219+astor63_at_users.noreply.github.com,BLCM/BLCMods,OSS,1
+5,5,2,0,0,4,1.0,0.5714285714285714,1.8357142857142856,BLCM_BLCMods_42889219+astor63_at_users.noreply.github.com,BLCM/BLCMods,OSS,1
+6,13,3,1,0,4,1.0,0.5714285714285714,4.185714285714285,BLCM_BLCMods_42889219+astor63_at_users.noreply.github.com,BLCM/BLCMods,OSS,1

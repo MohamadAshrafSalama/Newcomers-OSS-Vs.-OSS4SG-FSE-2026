@@ -1,0 +1,15 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+-2,0,0,3,0,2,0.25,0.2857142857142857,0.5178571428571428,publiclab_plots2_bansal.sidharth2996_at_gmail.com,publiclab/plots2,OSS4SG,-1
+-1,0,1,1,0,1,0.5,0.14285714285714285,0.4214285714285714,publiclab_plots2_bansal.sidharth2996_at_gmail.com,publiclab/plots2,OSS4SG,-1
+0,1,1,4,0,3,0.75,0.42857142857142855,1.1892857142857143,publiclab_plots2_bansal.sidharth2996_at_gmail.com,publiclab/plots2,OSS4SG,0
+1,1,0,0,0,1,1.0,0.14285714285714285,0.37142857142857144,publiclab_plots2_bansal.sidharth2996_at_gmail.com,publiclab/plots2,OSS4SG,0
+2,2,2,9,2,4,1.0,0.5714285714285714,2.7357142857142858,publiclab_plots2_bansal.sidharth2996_at_gmail.com,publiclab/plots2,OSS4SG,0
+3,0,2,21,5,5,1.0,0.7142857142857143,4.507142857142856,publiclab_plots2_bansal.sidharth2996_at_gmail.com,publiclab/plots2,OSS4SG,0
+4,0,0,0,0,0,0.75,0.0,0.07500000000000001,publiclab_plots2_bansal.sidharth2996_at_gmail.com,publiclab/plots2,OSS4SG,1
+5,0,0,0,0,0,0.5,0.0,0.05,publiclab_plots2_bansal.sidharth2996_at_gmail.com,publiclab/plots2,OSS4SG,1
+6,1,1,9,5,4,0.5,0.5714285714285714,2.6857142857142855,publiclab_plots2_bansal.sidharth2996_at_gmail.com,publiclab/plots2,OSS4SG,1
+7,7,10,44,14,7,0.5,1.0,12.65,publiclab_plots2_bansal.sidharth2996_at_gmail.com,publiclab/plots2,OSS4SG,1
+8,7,2,4,2,2,0.75,0.2857142857142857,3.1678571428571427,publiclab_plots2_bansal.sidharth2996_at_gmail.com,publiclab/plots2,OSS4SG,2
+9,3,4,36,9,5,1.0,0.7142857142857143,8.507142857142856,publiclab_plots2_bansal.sidharth2996_at_gmail.com,publiclab/plots2,OSS4SG,2
+10,6,7,47,8,6,1.0,0.8571428571428571,11.378571428571426,publiclab_plots2_bansal.sidharth2996_at_gmail.com,publiclab/plots2,OSS4SG,2
+11,7,9,20,7,6,1.0,0.8571428571428571,7.828571428571427,publiclab_plots2_bansal.sidharth2996_at_gmail.com,publiclab/plots2,OSS4SG,2

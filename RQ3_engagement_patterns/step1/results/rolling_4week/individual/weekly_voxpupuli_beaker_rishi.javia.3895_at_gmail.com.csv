@@ -1,0 +1,10 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,2,2,4,0,3,0.25,0.42857142857142855,1.5892857142857142,voxpupuli_beaker_rishi.javia.3895_at_gmail.com,voxpupuli/beaker,OSS,0
+1,1,1,4,0,1,0.5,0.14285714285714285,1.1214285714285714,voxpupuli_beaker_rishi.javia.3895_at_gmail.com,voxpupuli/beaker,OSS,0
+2,1,1,4,0,1,0.75,0.14285714285714285,1.1464285714285714,voxpupuli_beaker_rishi.javia.3895_at_gmail.com,voxpupuli/beaker,OSS,0
+3,3,2,5,0,2,1.0,0.2857142857142857,2.0428571428571427,voxpupuli_beaker_rishi.javia.3895_at_gmail.com,voxpupuli/beaker,OSS,0
+4,4,2,1,0,2,1.0,0.2857142857142857,1.6928571428571428,voxpupuli_beaker_rishi.javia.3895_at_gmail.com,voxpupuli/beaker,OSS,1
+5,2,0,0,0,1,1.0,0.14285714285714285,0.6214285714285714,voxpupuli_beaker_rishi.javia.3895_at_gmail.com,voxpupuli/beaker,OSS,1
+6,3,2,2,0,3,1.0,0.42857142857142855,1.6142857142857143,voxpupuli_beaker_rishi.javia.3895_at_gmail.com,voxpupuli/beaker,OSS,1
+7,1,2,4,0,1,1.0,0.14285714285714285,1.3714285714285714,voxpupuli_beaker_rishi.javia.3895_at_gmail.com,voxpupuli/beaker,OSS,1
+8,3,3,2,0,3,1.0,0.42857142857142855,1.8142857142857145,voxpupuli_beaker_rishi.javia.3895_at_gmail.com,voxpupuli/beaker,OSS,2

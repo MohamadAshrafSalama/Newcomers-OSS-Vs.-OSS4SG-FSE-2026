@@ -1,0 +1,7 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,7,0,0,0,2,0.25,0.2857142857142857,1.8178571428571428,magma_magma_davidmokonbond_at_fb.com,magma/magma,OSS4SG,0
+1,1,0,0,0,1,0.5,0.14285714285714285,0.3214285714285714,magma_magma_davidmokonbond_at_fb.com,magma/magma,OSS4SG,0
+2,1,0,0,0,1,0.75,0.14285714285714285,0.3464285714285714,magma_magma_davidmokonbond_at_fb.com,magma/magma,OSS4SG,0
+3,15,0,0,0,3,1.0,0.42857142857142855,3.914285714285714,magma_magma_davidmokonbond_at_fb.com,magma/magma,OSS4SG,0
+4,5,0,0,0,3,1.0,0.42857142857142855,1.4142857142857144,magma_magma_davidmokonbond_at_fb.com,magma/magma,OSS4SG,1
+5,0,0,0,0,1,0.75,0.14285714285714285,0.09642857142857143,magma_magma_davidmokonbond_at_fb.com,magma/magma,OSS4SG,1

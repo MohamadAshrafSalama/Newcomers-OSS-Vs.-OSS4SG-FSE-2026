@@ -1,0 +1,17 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,3,3,1,1,4,0.25,0.5714285714285714,1.7607142857142855,nodejs_node_daeyeon.dev_at_gmail.com,nodejs/node,OSS,0
+1,0,1,3,0,1,0.5,0.14285714285714285,0.7214285714285714,nodejs_node_daeyeon.dev_at_gmail.com,nodejs/node,OSS,0
+2,1,1,5,0,4,0.75,0.5714285714285714,1.3607142857142855,nodejs_node_daeyeon.dev_at_gmail.com,nodejs/node,OSS,0
+3,0,1,0,0,1,1.0,0.14285714285714285,0.32142857142857145,nodejs_node_daeyeon.dev_at_gmail.com,nodejs/node,OSS,0
+4,1,1,7,0,2,1.0,0.2857142857142857,1.642857142857143,nodejs_node_daeyeon.dev_at_gmail.com,nodejs/node,OSS,1
+5,1,2,6,0,3,1.0,0.42857142857142855,1.7142857142857142,nodejs_node_daeyeon.dev_at_gmail.com,nodejs/node,OSS,1
+6,1,2,3,0,2,1.0,0.2857142857142857,1.242857142857143,nodejs_node_daeyeon.dev_at_gmail.com,nodejs/node,OSS,1
+7,2,0,0,0,1,1.0,0.14285714285714285,0.6214285714285714,nodejs_node_daeyeon.dev_at_gmail.com,nodejs/node,OSS,1
+8,1,2,12,0,3,1.0,0.42857142857142855,2.6142857142857143,nodejs_node_daeyeon.dev_at_gmail.com,nodejs/node,OSS,2
+9,0,1,1,0,1,1.0,0.14285714285714285,0.4714285714285714,nodejs_node_daeyeon.dev_at_gmail.com,nodejs/node,OSS,2
+10,1,2,0,1,3,1.0,0.42857142857142855,0.9642857142857143,nodejs_node_daeyeon.dev_at_gmail.com,nodejs/node,OSS,2
+11,2,3,6,0,4,1.0,0.5714285714285714,2.185714285714286,nodejs_node_daeyeon.dev_at_gmail.com,nodejs/node,OSS,2
+12,0,2,8,0,2,1.0,0.2857142857142857,1.742857142857143,nodejs_node_daeyeon.dev_at_gmail.com,nodejs/node,OSS,3
+13,2,1,2,0,2,1.0,0.2857142857142857,1.142857142857143,nodejs_node_daeyeon.dev_at_gmail.com,nodejs/node,OSS,3
+14,3,2,18,0,3,1.0,0.42857142857142855,4.014285714285713,nodejs_node_daeyeon.dev_at_gmail.com,nodejs/node,OSS,3
+15,4,2,3,0,5,1.0,0.7142857142857143,2.057142857142857,nodejs_node_daeyeon.dev_at_gmail.com,nodejs/node,OSS,3

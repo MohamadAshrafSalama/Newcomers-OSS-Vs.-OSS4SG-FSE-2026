@@ -1,0 +1,11 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,10,2,2,0,3,0.25,0.42857142857142855,3.289285714285714,SORMAS-Foundation_SORMAS-Project_michal.kozakiewicz_at_softgent.com,SORMAS-Foundation/SORMAS-Project,OSS4SG,0
+1,9,1,8,0,4,0.5,0.5714285714285714,3.785714285714286,SORMAS-Foundation_SORMAS-Project_michal.kozakiewicz_at_softgent.com,SORMAS-Foundation/SORMAS-Project,OSS4SG,0
+2,16,1,1,0,5,0.75,0.7142857142857143,4.5321428571428575,SORMAS-Foundation_SORMAS-Project_michal.kozakiewicz_at_softgent.com,SORMAS-Foundation/SORMAS-Project,OSS4SG,0
+3,1,2,5,0,3,1.0,0.42857142857142855,1.5642857142857143,SORMAS-Foundation_SORMAS-Project_michal.kozakiewicz_at_softgent.com,SORMAS-Foundation/SORMAS-Project,OSS4SG,0
+4,1,0,0,0,3,1.0,0.42857142857142855,0.41428571428571426,SORMAS-Foundation_SORMAS-Project_michal.kozakiewicz_at_softgent.com,SORMAS-Foundation/SORMAS-Project,OSS4SG,1
+5,8,4,10,0,4,1.0,0.5714285714285714,4.485714285714285,SORMAS-Foundation_SORMAS-Project_michal.kozakiewicz_at_softgent.com,SORMAS-Foundation/SORMAS-Project,OSS4SG,1
+6,47,4,5,0,5,1.0,0.7142857142857143,13.507142857142858,SORMAS-Foundation_SORMAS-Project_michal.kozakiewicz_at_softgent.com,SORMAS-Foundation/SORMAS-Project,OSS4SG,1
+7,18,0,0,0,3,1.0,0.42857142857142855,4.664285714285714,SORMAS-Foundation_SORMAS-Project_michal.kozakiewicz_at_softgent.com,SORMAS-Foundation/SORMAS-Project,OSS4SG,1
+8,50,2,4,0,6,1.0,0.8571428571428571,13.728571428571428,SORMAS-Foundation_SORMAS-Project_michal.kozakiewicz_at_softgent.com,SORMAS-Foundation/SORMAS-Project,OSS4SG,2
+9,27,2,4,0,4,1.0,0.5714285714285714,7.935714285714285,SORMAS-Foundation_SORMAS-Project_michal.kozakiewicz_at_softgent.com,SORMAS-Foundation/SORMAS-Project,OSS4SG,2

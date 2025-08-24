@@ -1,0 +1,6 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,2,0,0,0,1,0.25,0.14285714285714285,0.5464285714285715,OADA_server_alex_at_layton.in,OADA/server,OSS4SG,0
+1,0,0,0,0,0,0.25,0.0,0.025,OADA_server_alex_at_layton.in,OADA/server,OSS4SG,0
+2,0,0,0,0,0,0.25,0.0,0.025,OADA_server_alex_at_layton.in,OADA/server,OSS4SG,0
+3,0,0,0,0,0,0.25,0.0,0.025,OADA_server_alex_at_layton.in,OADA/server,OSS4SG,0
+4,6,0,0,0,1,0.25,0.14285714285714285,1.5464285714285713,OADA_server_alex_at_layton.in,OADA/server,OSS4SG,1

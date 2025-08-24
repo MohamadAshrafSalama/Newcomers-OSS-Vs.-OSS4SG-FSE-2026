@@ -1,0 +1,4 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+-2,0,0,10,1,1,0.25,0.14285714285714285,1.6964285714285712,Significant-Gravitas_AutoGPT_119627414+boostrix_at_users.noreply.github.com,Significant-Gravitas/AutoGPT,OSS,-1
+-1,0,3,22,8,5,0.5,0.7142857142857143,5.257142857142856,Significant-Gravitas_AutoGPT_119627414+boostrix_at_users.noreply.github.com,Significant-Gravitas/AutoGPT,OSS,-1
+0,2,3,8,8,6,0.75,0.8571428571428571,3.7035714285714287,Significant-Gravitas_AutoGPT_119627414+boostrix_at_users.noreply.github.com,Significant-Gravitas/AutoGPT,OSS,0

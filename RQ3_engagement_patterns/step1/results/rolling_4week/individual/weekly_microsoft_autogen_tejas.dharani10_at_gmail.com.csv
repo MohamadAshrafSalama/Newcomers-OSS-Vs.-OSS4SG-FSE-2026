@@ -1,0 +1,6 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+-1,0,3,12,0,3,0.25,0.42857142857142855,2.4892857142857143,microsoft_autogen_tejas.dharani10_at_gmail.com,microsoft/autogen,OSS,-1
+0,1,4,31,0,5,0.5,0.7142857142857143,5.857142857142856,microsoft_autogen_tejas.dharani10_at_gmail.com,microsoft/autogen,OSS,0
+1,0,0,0,0,0,0.5,0.0,0.05,microsoft_autogen_tejas.dharani10_at_gmail.com,microsoft/autogen,OSS,0
+2,4,0,0,0,4,0.75,0.5714285714285714,1.1607142857142856,microsoft_autogen_tejas.dharani10_at_gmail.com,microsoft/autogen,OSS,0
+3,1,0,0,0,1,0.75,0.14285714285714285,0.3464285714285714,microsoft_autogen_tejas.dharani10_at_gmail.com,microsoft/autogen,OSS,0

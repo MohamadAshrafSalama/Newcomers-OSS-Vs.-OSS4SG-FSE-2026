@@ -1,0 +1,10 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,20,0,0,0,2,0.25,0.2857142857142857,5.067857142857143,scratchfoundation_scratch-blocks_27856297+dependabot-preview[bot]_at_users.noreply.github.com,scratchfoundation/scratch-blocks,OSS4SG,0
+1,4,0,0,0,1,0.5,0.14285714285714285,1.0714285714285714,scratchfoundation_scratch-blocks_27856297+dependabot-preview[bot]_at_users.noreply.github.com,scratchfoundation/scratch-blocks,OSS4SG,0
+2,4,0,0,0,1,0.75,0.14285714285714285,1.0964285714285713,scratchfoundation_scratch-blocks_27856297+dependabot-preview[bot]_at_users.noreply.github.com,scratchfoundation/scratch-blocks,OSS4SG,0
+3,4,0,0,0,1,1.0,0.14285714285714285,1.1214285714285714,scratchfoundation_scratch-blocks_27856297+dependabot-preview[bot]_at_users.noreply.github.com,scratchfoundation/scratch-blocks,OSS4SG,0
+4,4,0,0,0,1,1.0,0.14285714285714285,1.1214285714285714,scratchfoundation_scratch-blocks_27856297+dependabot-preview[bot]_at_users.noreply.github.com,scratchfoundation/scratch-blocks,OSS4SG,1
+5,20,0,0,0,5,1.0,0.7142857142857143,5.207142857142856,scratchfoundation_scratch-blocks_27856297+dependabot-preview[bot]_at_users.noreply.github.com,scratchfoundation/scratch-blocks,OSS4SG,1
+6,24,0,0,0,6,1.0,0.8571428571428571,6.228571428571428,scratchfoundation_scratch-blocks_27856297+dependabot-preview[bot]_at_users.noreply.github.com,scratchfoundation/scratch-blocks,OSS4SG,1
+7,28,0,0,0,6,1.0,0.8571428571428571,7.228571428571428,scratchfoundation_scratch-blocks_27856297+dependabot-preview[bot]_at_users.noreply.github.com,scratchfoundation/scratch-blocks,OSS4SG,1
+8,20,0,0,0,5,1.0,0.7142857142857143,5.207142857142856,scratchfoundation_scratch-blocks_27856297+dependabot-preview[bot]_at_users.noreply.github.com,scratchfoundation/scratch-blocks,OSS4SG,2

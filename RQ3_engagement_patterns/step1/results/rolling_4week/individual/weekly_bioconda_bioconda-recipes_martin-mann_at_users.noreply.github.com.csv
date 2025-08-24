@@ -1,0 +1,4 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,4,0,0,0,1,0.25,0.14285714285714285,1.0464285714285713,bioconda_bioconda-recipes_martin-mann_at_users.noreply.github.com,bioconda/bioconda-recipes,OSS,0
+1,20,0,0,0,4,0.5,0.5714285714285714,5.135714285714285,bioconda_bioconda-recipes_martin-mann_at_users.noreply.github.com,bioconda/bioconda-recipes,OSS,0
+2,24,0,0,0,2,0.75,0.2857142857142857,6.117857142857143,bioconda_bioconda-recipes_martin-mann_at_users.noreply.github.com,bioconda/bioconda-recipes,OSS,0

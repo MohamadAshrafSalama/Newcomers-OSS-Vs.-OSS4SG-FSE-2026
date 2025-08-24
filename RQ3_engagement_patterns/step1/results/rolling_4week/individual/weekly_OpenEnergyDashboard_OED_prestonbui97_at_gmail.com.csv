@@ -1,0 +1,10 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,21,2,2,0,4,0.25,0.5714285714285714,6.060714285714286,OpenEnergyDashboard_OED_prestonbui97_at_gmail.com,OpenEnergyDashboard/OED,OSS4SG,0
+1,2,1,0,0,1,0.5,0.14285714285714285,0.7714285714285715,OpenEnergyDashboard_OED_prestonbui97_at_gmail.com,OpenEnergyDashboard/OED,OSS4SG,0
+2,0,0,0,0,0,0.5,0.0,0.05,OpenEnergyDashboard_OED_prestonbui97_at_gmail.com,OpenEnergyDashboard/OED,OSS4SG,0
+3,36,0,0,0,6,0.75,0.8571428571428571,9.203571428571427,OpenEnergyDashboard_OED_prestonbui97_at_gmail.com,OpenEnergyDashboard/OED,OSS4SG,0
+4,12,1,5,0,4,0.75,0.5714285714285714,4.110714285714286,OpenEnergyDashboard_OED_prestonbui97_at_gmail.com,OpenEnergyDashboard/OED,OSS4SG,1
+5,8,0,0,0,2,0.75,0.2857142857142857,2.117857142857143,OpenEnergyDashboard_OED_prestonbui97_at_gmail.com,OpenEnergyDashboard/OED,OSS4SG,1
+6,0,0,0,0,0,0.75,0.0,0.07500000000000001,OpenEnergyDashboard_OED_prestonbui97_at_gmail.com,OpenEnergyDashboard/OED,OSS4SG,1
+7,6,1,1,0,2,0.75,0.2857142857142857,1.9678571428571427,OpenEnergyDashboard_OED_prestonbui97_at_gmail.com,OpenEnergyDashboard/OED,OSS4SG,1
+8,12,1,0,0,1,0.75,0.14285714285714285,3.2964285714285717,OpenEnergyDashboard_OED_prestonbui97_at_gmail.com,OpenEnergyDashboard/OED,OSS4SG,2

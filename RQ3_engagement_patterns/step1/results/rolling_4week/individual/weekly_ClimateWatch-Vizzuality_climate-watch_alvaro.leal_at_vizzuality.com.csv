@@ -1,0 +1,5 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,37,6,1,0,5,0.25,0.7142857142857143,10.732142857142858,ClimateWatch-Vizzuality_climate-watch_alvaro.leal_at_vizzuality.com,ClimateWatch-Vizzuality/climate-watch,OSS4SG,0
+1,33,7,3,0,5,0.5,0.7142857142857143,10.257142857142858,ClimateWatch-Vizzuality_climate-watch_alvaro.leal_at_vizzuality.com,ClimateWatch-Vizzuality/climate-watch,OSS4SG,0
+2,34,12,1,0,4,0.75,0.5714285714285714,11.210714285714285,ClimateWatch-Vizzuality_climate-watch_alvaro.leal_at_vizzuality.com,ClimateWatch-Vizzuality/climate-watch,OSS4SG,0
+3,43,6,3,0,5,1.0,0.7142857142857143,12.607142857142856,ClimateWatch-Vizzuality_climate-watch_alvaro.leal_at_vizzuality.com,ClimateWatch-Vizzuality/climate-watch,OSS4SG,0

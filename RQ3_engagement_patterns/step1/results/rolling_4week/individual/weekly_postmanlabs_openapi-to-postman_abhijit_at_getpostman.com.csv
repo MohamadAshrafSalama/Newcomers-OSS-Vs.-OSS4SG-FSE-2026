@@ -1,0 +1,17 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,3,0,0,0,3,0.25,0.42857142857142855,0.8392857142857143,postmanlabs_openapi-to-postman_abhijit_at_getpostman.com,postmanlabs/openapi-to-postman,OSS,0
+1,0,0,0,0,0,0.25,0.0,0.025,postmanlabs_openapi-to-postman_abhijit_at_getpostman.com,postmanlabs/openapi-to-postman,OSS,0
+2,0,0,0,0,0,0.25,0.0,0.025,postmanlabs_openapi-to-postman_abhijit_at_getpostman.com,postmanlabs/openapi-to-postman,OSS,0
+3,0,0,0,0,0,0.25,0.0,0.025,postmanlabs_openapi-to-postman_abhijit_at_getpostman.com,postmanlabs/openapi-to-postman,OSS,0
+4,1,0,0,0,1,0.25,0.14285714285714285,0.29642857142857143,postmanlabs_openapi-to-postman_abhijit_at_getpostman.com,postmanlabs/openapi-to-postman,OSS,1
+5,0,0,0,0,0,0.25,0.0,0.025,postmanlabs_openapi-to-postman_abhijit_at_getpostman.com,postmanlabs/openapi-to-postman,OSS,1
+6,0,0,0,0,0,0.25,0.0,0.025,postmanlabs_openapi-to-postman_abhijit_at_getpostman.com,postmanlabs/openapi-to-postman,OSS,1
+7,0,0,0,0,0,0.25,0.0,0.025,postmanlabs_openapi-to-postman_abhijit_at_getpostman.com,postmanlabs/openapi-to-postman,OSS,1
+8,0,0,0,0,0,0.0,0.0,0.0,postmanlabs_openapi-to-postman_abhijit_at_getpostman.com,postmanlabs/openapi-to-postman,OSS,2
+9,0,0,0,0,0,0.0,0.0,0.0,postmanlabs_openapi-to-postman_abhijit_at_getpostman.com,postmanlabs/openapi-to-postman,OSS,2
+10,4,0,0,0,2,0.25,0.2857142857142857,1.0678571428571428,postmanlabs_openapi-to-postman_abhijit_at_getpostman.com,postmanlabs/openapi-to-postman,OSS,2
+11,2,0,0,0,1,0.5,0.14285714285714285,0.5714285714285715,postmanlabs_openapi-to-postman_abhijit_at_getpostman.com,postmanlabs/openapi-to-postman,OSS,2
+12,0,0,0,0,0,0.5,0.0,0.05,postmanlabs_openapi-to-postman_abhijit_at_getpostman.com,postmanlabs/openapi-to-postman,OSS,3
+13,0,0,0,0,0,0.5,0.0,0.05,postmanlabs_openapi-to-postman_abhijit_at_getpostman.com,postmanlabs/openapi-to-postman,OSS,3
+14,0,0,0,0,0,0.25,0.0,0.025,postmanlabs_openapi-to-postman_abhijit_at_getpostman.com,postmanlabs/openapi-to-postman,OSS,3
+15,2,0,0,0,1,0.25,0.14285714285714285,0.5464285714285715,postmanlabs_openapi-to-postman_abhijit_at_getpostman.com,postmanlabs/openapi-to-postman,OSS,3

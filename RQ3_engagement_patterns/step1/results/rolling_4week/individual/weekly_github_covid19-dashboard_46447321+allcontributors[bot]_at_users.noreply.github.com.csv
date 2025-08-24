@@ -1,0 +1,8 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,38,0,0,0,1,0.25,0.14285714285714285,9.546428571428573,github_covid19-dashboard_46447321+allcontributors[bot]_at_users.noreply.github.com,github/covid19-dashboard,OSS4SG,0
+1,18,0,0,0,5,0.5,0.7142857142857143,4.657142857142857,github_covid19-dashboard_46447321+allcontributors[bot]_at_users.noreply.github.com,github/covid19-dashboard,OSS4SG,0
+2,6,0,0,0,3,0.75,0.42857142857142855,1.6392857142857142,github_covid19-dashboard_46447321+allcontributors[bot]_at_users.noreply.github.com,github/covid19-dashboard,OSS4SG,0
+3,2,0,0,0,1,1.0,0.14285714285714285,0.6214285714285714,github_covid19-dashboard_46447321+allcontributors[bot]_at_users.noreply.github.com,github/covid19-dashboard,OSS4SG,0
+4,4,0,0,0,2,1.0,0.2857142857142857,1.142857142857143,github_covid19-dashboard_46447321+allcontributors[bot]_at_users.noreply.github.com,github/covid19-dashboard,OSS4SG,1
+5,4,0,0,0,1,1.0,0.14285714285714285,1.1214285714285714,github_covid19-dashboard_46447321+allcontributors[bot]_at_users.noreply.github.com,github/covid19-dashboard,OSS4SG,1
+6,6,0,0,0,2,1.0,0.2857142857142857,1.642857142857143,github_covid19-dashboard_46447321+allcontributors[bot]_at_users.noreply.github.com,github/covid19-dashboard,OSS4SG,1

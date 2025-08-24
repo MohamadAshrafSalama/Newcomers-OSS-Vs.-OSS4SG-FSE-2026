@@ -1,0 +1,2 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,7,7,0,0,5,0.25,0.7142857142857143,3.2821428571428575,AUTOMATIC1111_stable-diffusion-webui_karun.ellango7_at_gmail.com,AUTOMATIC1111/stable-diffusion-webui,OSS,0

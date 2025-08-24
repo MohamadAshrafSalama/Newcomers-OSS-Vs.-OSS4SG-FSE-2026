@@ -1,0 +1,7 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,10,1,0,0,5,0.25,0.7142857142857143,2.8321428571428573,BytomDAO_bytom_xuliuchengxlc_at_gmail.com,BytomDAO/bytom,OSS,0
+1,0,0,0,0,0,0.25,0.0,0.025,BytomDAO_bytom_xuliuchengxlc_at_gmail.com,BytomDAO/bytom,OSS,0
+2,3,3,0,0,3,0.5,0.42857142857142855,1.4642857142857144,BytomDAO_bytom_xuliuchengxlc_at_gmail.com,BytomDAO/bytom,OSS,0
+3,5,5,1,0,5,0.75,0.7142857142857143,2.5821428571428573,BytomDAO_bytom_xuliuchengxlc_at_gmail.com,BytomDAO/bytom,OSS,0
+4,3,2,0,0,3,0.75,0.42857142857142855,1.2892857142857141,BytomDAO_bytom_xuliuchengxlc_at_gmail.com,BytomDAO/bytom,OSS,1
+5,6,0,0,0,2,1.0,0.2857142857142857,1.642857142857143,BytomDAO_bytom_xuliuchengxlc_at_gmail.com,BytomDAO/bytom,OSS,1

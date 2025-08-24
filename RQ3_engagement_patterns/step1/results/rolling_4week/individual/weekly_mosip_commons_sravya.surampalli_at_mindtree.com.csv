@@ -1,0 +1,5 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,19,0,0,0,4,0.25,0.5714285714285714,4.860714285714286,mosip_commons_sravya.surampalli_at_mindtree.com,mosip/commons,OSS4SG,0
+1,2,0,0,0,1,0.5,0.14285714285714285,0.5714285714285715,mosip_commons_sravya.surampalli_at_mindtree.com,mosip/commons,OSS4SG,0
+2,17,0,0,0,4,0.75,0.5714285714285714,4.410714285714286,mosip_commons_sravya.surampalli_at_mindtree.com,mosip/commons,OSS4SG,0
+3,13,0,0,0,4,1.0,0.5714285714285714,3.435714285714286,mosip_commons_sravya.surampalli_at_mindtree.com,mosip/commons,OSS4SG,0

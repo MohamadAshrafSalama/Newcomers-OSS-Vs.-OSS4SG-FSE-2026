@@ -1,0 +1,9 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,6,0,0,0,2,0.25,0.2857142857142857,1.5678571428571428,scratchfoundation_scratch-www_29139614+renovate[bot]_at_users.noreply.github.com,scratchfoundation/scratch-www,OSS4SG,0
+1,17,0,0,0,6,0.5,0.8571428571428571,4.428571428571428,scratchfoundation_scratch-www_29139614+renovate[bot]_at_users.noreply.github.com,scratchfoundation/scratch-www,OSS4SG,0
+2,15,0,0,0,5,0.75,0.7142857142857143,3.9321428571428574,scratchfoundation_scratch-www_29139614+renovate[bot]_at_users.noreply.github.com,scratchfoundation/scratch-www,OSS4SG,0
+3,22,0,0,0,7,1.0,1.0,5.75,scratchfoundation_scratch-www_29139614+renovate[bot]_at_users.noreply.github.com,scratchfoundation/scratch-www,OSS4SG,0
+4,25,0,0,0,7,1.0,1.0,6.5,scratchfoundation_scratch-www_29139614+renovate[bot]_at_users.noreply.github.com,scratchfoundation/scratch-www,OSS4SG,1
+5,14,0,0,0,6,1.0,0.8571428571428571,3.7285714285714286,scratchfoundation_scratch-www_29139614+renovate[bot]_at_users.noreply.github.com,scratchfoundation/scratch-www,OSS4SG,1
+6,17,0,0,0,6,1.0,0.8571428571428571,4.478571428571428,scratchfoundation_scratch-www_29139614+renovate[bot]_at_users.noreply.github.com,scratchfoundation/scratch-www,OSS4SG,1
+7,14,0,0,0,5,1.0,0.7142857142857143,3.7071428571428573,scratchfoundation_scratch-www_29139614+renovate[bot]_at_users.noreply.github.com,scratchfoundation/scratch-www,OSS4SG,1

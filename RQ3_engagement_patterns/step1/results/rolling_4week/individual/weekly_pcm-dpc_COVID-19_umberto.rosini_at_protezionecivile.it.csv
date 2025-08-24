@@ -1,0 +1,15 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+-3,0,0,6,1,1,0.25,0.14285714285714285,1.096428571428571,pcm-dpc_COVID-19_umberto.rosini_at_protezionecivile.it,pcm-dpc/COVID-19,OSS4SG,-1
+-2,0,0,0,0,0,0.25,0.0,0.025,pcm-dpc_COVID-19_umberto.rosini_at_protezionecivile.it,pcm-dpc/COVID-19,OSS4SG,-1
+-1,0,0,0,0,0,0.25,0.0,0.025,pcm-dpc_COVID-19_umberto.rosini_at_protezionecivile.it,pcm-dpc/COVID-19,OSS4SG,-1
+0,6,0,0,0,2,0.5,0.2857142857142857,1.592857142857143,pcm-dpc_COVID-19_umberto.rosini_at_protezionecivile.it,pcm-dpc/COVID-19,OSS4SG,0
+1,11,0,0,0,7,0.5,1.0,2.9499999999999997,pcm-dpc_COVID-19_umberto.rosini_at_protezionecivile.it,pcm-dpc/COVID-19,OSS4SG,0
+2,7,0,0,0,3,0.75,0.42857142857142855,1.8892857142857142,pcm-dpc_COVID-19_umberto.rosini_at_protezionecivile.it,pcm-dpc/COVID-19,OSS4SG,0
+3,0,0,0,0,0,0.75,0.0,0.07500000000000001,pcm-dpc_COVID-19_umberto.rosini_at_protezionecivile.it,pcm-dpc/COVID-19,OSS4SG,0
+4,0,0,7,1,1,0.75,0.14285714285714285,1.2964285714285713,pcm-dpc_COVID-19_umberto.rosini_at_protezionecivile.it,pcm-dpc/COVID-19,OSS4SG,1
+5,3,0,0,0,2,0.75,0.2857142857142857,0.8678571428571429,pcm-dpc_COVID-19_umberto.rosini_at_protezionecivile.it,pcm-dpc/COVID-19,OSS4SG,1
+6,13,0,0,0,7,0.75,1.0,3.475,pcm-dpc_COVID-19_umberto.rosini_at_protezionecivile.it,pcm-dpc/COVID-19,OSS4SG,1
+7,14,0,0,0,7,1.0,1.0,3.75,pcm-dpc_COVID-19_umberto.rosini_at_protezionecivile.it,pcm-dpc/COVID-19,OSS4SG,1
+8,13,0,0,0,7,1.0,1.0,3.5,pcm-dpc_COVID-19_umberto.rosini_at_protezionecivile.it,pcm-dpc/COVID-19,OSS4SG,2
+9,11,0,0,0,7,1.0,1.0,3.0,pcm-dpc_COVID-19_umberto.rosini_at_protezionecivile.it,pcm-dpc/COVID-19,OSS4SG,2
+10,11,0,0,0,7,1.0,1.0,3.0,pcm-dpc_COVID-19_umberto.rosini_at_protezionecivile.it,pcm-dpc/COVID-19,OSS4SG,2

@@ -1,0 +1,2 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,1,7,1,2,0.25,0.2857142857142857,1.7178571428571427,psf_black_247849+jalaziz_at_users.noreply.github.com,psf/black,OSS,0

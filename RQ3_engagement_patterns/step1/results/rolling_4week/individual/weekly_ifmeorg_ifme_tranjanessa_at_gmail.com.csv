@@ -1,0 +1,5 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,0,0,0,1,0.25,0.14285714285714285,0.29642857142857143,ifmeorg_ifme_tranjanessa_at_gmail.com,ifmeorg/ifme,OSS4SG,0
+1,2,0,0,0,2,0.5,0.2857142857142857,0.5928571428571429,ifmeorg_ifme_tranjanessa_at_gmail.com,ifmeorg/ifme,OSS4SG,0
+2,3,1,6,0,2,0.75,0.2857142857142857,1.9678571428571427,ifmeorg_ifme_tranjanessa_at_gmail.com,ifmeorg/ifme,OSS4SG,0
+3,2,1,0,0,2,1.0,0.2857142857142857,0.8428571428571427,ifmeorg_ifme_tranjanessa_at_gmail.com,ifmeorg/ifme,OSS4SG,0

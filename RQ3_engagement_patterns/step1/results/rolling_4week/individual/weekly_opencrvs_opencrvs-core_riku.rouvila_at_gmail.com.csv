@@ -1,0 +1,6 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,15,5,3,1,5,0.25,0.7142857142857143,5.482142857142858,opencrvs_opencrvs-core_riku.rouvila_at_gmail.com,opencrvs/opencrvs-core,OSS4SG,0
+1,16,7,1,1,3,0.5,0.42857142857142855,5.814285714285715,opencrvs_opencrvs-core_riku.rouvila_at_gmail.com,opencrvs/opencrvs-core,OSS4SG,0
+2,4,1,0,1,2,0.75,0.2857142857142857,1.4678571428571427,opencrvs_opencrvs-core_riku.rouvila_at_gmail.com,opencrvs/opencrvs-core,OSS4SG,0
+3,7,0,1,2,3,1.0,0.42857142857142855,2.3642857142857143,opencrvs_opencrvs-core_riku.rouvila_at_gmail.com,opencrvs/opencrvs-core,OSS4SG,0
+4,13,4,1,1,2,1.0,0.2857142857142857,4.492857142857143,opencrvs_opencrvs-core_riku.rouvila_at_gmail.com,opencrvs/opencrvs-core,OSS4SG,1

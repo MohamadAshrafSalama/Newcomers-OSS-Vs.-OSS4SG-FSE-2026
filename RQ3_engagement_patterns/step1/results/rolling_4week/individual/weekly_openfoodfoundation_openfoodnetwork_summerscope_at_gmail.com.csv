@@ -1,0 +1,16 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,11,0,0,0,3,0.25,0.42857142857142855,2.839285714285714,openfoodfoundation_openfoodnetwork_summerscope_at_gmail.com,openfoodfoundation/openfoodnetwork,OSS4SG,0
+1,11,0,0,0,2,0.5,0.2857142857142857,2.8428571428571425,openfoodfoundation_openfoodnetwork_summerscope_at_gmail.com,openfoodfoundation/openfoodnetwork,OSS4SG,0
+2,36,0,0,0,3,0.75,0.42857142857142855,9.139285714285714,openfoodfoundation_openfoodnetwork_summerscope_at_gmail.com,openfoodfoundation/openfoodnetwork,OSS4SG,0
+3,1,0,0,0,1,1.0,0.14285714285714285,0.37142857142857144,openfoodfoundation_openfoodnetwork_summerscope_at_gmail.com,openfoodfoundation/openfoodnetwork,OSS4SG,0
+4,7,0,0,0,2,1.0,0.2857142857142857,1.892857142857143,openfoodfoundation_openfoodnetwork_summerscope_at_gmail.com,openfoodfoundation/openfoodnetwork,OSS4SG,1
+5,66,0,0,0,4,1.0,0.5714285714285714,16.685714285714287,openfoodfoundation_openfoodnetwork_summerscope_at_gmail.com,openfoodfoundation/openfoodnetwork,OSS4SG,1
+6,33,0,0,0,4,1.0,0.5714285714285714,8.435714285714285,openfoodfoundation_openfoodnetwork_summerscope_at_gmail.com,openfoodfoundation/openfoodnetwork,OSS4SG,1
+7,23,0,0,0,3,1.0,0.42857142857142855,5.914285714285714,openfoodfoundation_openfoodnetwork_summerscope_at_gmail.com,openfoodfoundation/openfoodnetwork,OSS4SG,1
+8,67,0,0,0,4,1.0,0.5714285714285714,16.935714285714287,openfoodfoundation_openfoodnetwork_summerscope_at_gmail.com,openfoodfoundation/openfoodnetwork,OSS4SG,2
+9,22,0,0,0,4,1.0,0.5714285714285714,5.685714285714285,openfoodfoundation_openfoodnetwork_summerscope_at_gmail.com,openfoodfoundation/openfoodnetwork,OSS4SG,2
+10,24,0,0,0,3,1.0,0.42857142857142855,6.164285714285714,openfoodfoundation_openfoodnetwork_summerscope_at_gmail.com,openfoodfoundation/openfoodnetwork,OSS4SG,2
+11,36,0,0,0,3,1.0,0.42857142857142855,9.164285714285715,openfoodfoundation_openfoodnetwork_summerscope_at_gmail.com,openfoodfoundation/openfoodnetwork,OSS4SG,2
+12,20,0,0,0,2,1.0,0.2857142857142857,5.142857142857142,openfoodfoundation_openfoodnetwork_summerscope_at_gmail.com,openfoodfoundation/openfoodnetwork,OSS4SG,3
+13,40,0,0,0,3,1.0,0.42857142857142855,10.164285714285715,openfoodfoundation_openfoodnetwork_summerscope_at_gmail.com,openfoodfoundation/openfoodnetwork,OSS4SG,3
+14,34,0,0,0,3,1.0,0.42857142857142855,8.664285714285715,openfoodfoundation_openfoodnetwork_summerscope_at_gmail.com,openfoodfoundation/openfoodnetwork,OSS4SG,3

@@ -1,0 +1,14 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,0,0,0,1,0.25,0.14285714285714285,0.29642857142857143,scratchfoundation_scratch-vm_kchadha_at_media.mit.edu,scratchfoundation/scratch-vm,OSS4SG,0
+1,1,0,0,0,1,0.5,0.14285714285714285,0.3214285714285714,scratchfoundation_scratch-vm_kchadha_at_media.mit.edu,scratchfoundation/scratch-vm,OSS4SG,0
+2,1,0,0,0,1,0.75,0.14285714285714285,0.3464285714285714,scratchfoundation_scratch-vm_kchadha_at_media.mit.edu,scratchfoundation/scratch-vm,OSS4SG,0
+3,0,0,0,0,0,0.75,0.0,0.07500000000000001,scratchfoundation_scratch-vm_kchadha_at_media.mit.edu,scratchfoundation/scratch-vm,OSS4SG,0
+4,1,0,0,0,1,0.75,0.14285714285714285,0.3464285714285714,scratchfoundation_scratch-vm_kchadha_at_media.mit.edu,scratchfoundation/scratch-vm,OSS4SG,1
+5,3,0,0,0,1,0.75,0.14285714285714285,0.8464285714285715,scratchfoundation_scratch-vm_kchadha_at_media.mit.edu,scratchfoundation/scratch-vm,OSS4SG,1
+6,1,0,0,0,1,0.75,0.14285714285714285,0.3464285714285714,scratchfoundation_scratch-vm_kchadha_at_media.mit.edu,scratchfoundation/scratch-vm,OSS4SG,1
+7,14,0,0,0,4,1.0,0.5714285714285714,3.685714285714286,scratchfoundation_scratch-vm_kchadha_at_media.mit.edu,scratchfoundation/scratch-vm,OSS4SG,1
+8,13,0,0,0,4,1.0,0.5714285714285714,3.435714285714286,scratchfoundation_scratch-vm_kchadha_at_media.mit.edu,scratchfoundation/scratch-vm,OSS4SG,2
+9,8,0,0,0,3,1.0,0.42857142857142855,2.164285714285714,scratchfoundation_scratch-vm_kchadha_at_media.mit.edu,scratchfoundation/scratch-vm,OSS4SG,2
+10,4,0,0,0,2,1.0,0.2857142857142857,1.142857142857143,scratchfoundation_scratch-vm_kchadha_at_media.mit.edu,scratchfoundation/scratch-vm,OSS4SG,2
+11,6,0,0,0,3,1.0,0.42857142857142855,1.6642857142857144,scratchfoundation_scratch-vm_kchadha_at_media.mit.edu,scratchfoundation/scratch-vm,OSS4SG,2
+12,8,0,0,0,5,1.0,0.7142857142857143,2.2071428571428573,scratchfoundation_scratch-vm_kchadha_at_media.mit.edu,scratchfoundation/scratch-vm,OSS4SG,3

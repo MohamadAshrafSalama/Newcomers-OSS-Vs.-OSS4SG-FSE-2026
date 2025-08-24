@@ -1,0 +1,13 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,1,3,0,2,0.25,0.2857142857142857,0.9678571428571427,ampproject_amphtml_mkhatib727_at_gmail.com,ampproject/amphtml,OSS,0
+1,0,0,0,0,0,0.25,0.0,0.025,ampproject_amphtml_mkhatib727_at_gmail.com,ampproject/amphtml,OSS,0
+2,3,2,5,2,2,0.5,0.2857142857142857,2.2928571428571423,ampproject_amphtml_mkhatib727_at_gmail.com,ampproject/amphtml,OSS,0
+3,3,2,13,0,2,0.75,0.2857142857142857,3.2178571428571425,ampproject_amphtml_mkhatib727_at_gmail.com,ampproject/amphtml,OSS,0
+4,3,1,1,1,2,0.75,0.2857142857142857,1.3678571428571427,ampproject_amphtml_mkhatib727_at_gmail.com,ampproject/amphtml,OSS,1
+5,5,3,7,0,5,1.0,0.7142857142857143,3.1071428571428577,ampproject_amphtml_mkhatib727_at_gmail.com,ampproject/amphtml,OSS,1
+6,8,4,11,9,6,1.0,0.8571428571428571,6.028571428571427,ampproject_amphtml_mkhatib727_at_gmail.com,ampproject/amphtml,OSS,1
+7,8,3,2,1,4,1.0,0.5714285714285714,3.2357142857142858,ampproject_amphtml_mkhatib727_at_gmail.com,ampproject/amphtml,OSS,1
+8,8,4,4,0,4,1.0,0.5714285714285714,3.585714285714286,ampproject_amphtml_mkhatib727_at_gmail.com,ampproject/amphtml,OSS,2
+9,1,0,0,0,1,1.0,0.14285714285714285,0.37142857142857144,ampproject_amphtml_mkhatib727_at_gmail.com,ampproject/amphtml,OSS,2
+10,7,4,18,3,5,1.0,0.7142857142857143,5.907142857142857,ampproject_amphtml_mkhatib727_at_gmail.com,ampproject/amphtml,OSS,2
+11,1,1,13,2,2,1.0,0.2857142857142857,2.8428571428571425,ampproject_amphtml_mkhatib727_at_gmail.com,ampproject/amphtml,OSS,2

@@ -1,0 +1,10 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,7,4,7,0,3,0.25,0.42857142857142855,3.6892857142857136,CenterForOpenScience_SHARE_lauren_at_cos.io,CenterForOpenScience/SHARE,OSS4SG,0
+1,9,9,5,0,7,0.5,1.0,5.0,CenterForOpenScience_SHARE_lauren_at_cos.io,CenterForOpenScience/SHARE,OSS4SG,0
+2,5,2,3,0,3,0.75,0.42857142857142855,2.239285714285714,CenterForOpenScience_SHARE_lauren_at_cos.io,CenterForOpenScience/SHARE,OSS4SG,0
+3,7,2,1,0,5,1.0,0.7142857142857143,2.507142857142857,CenterForOpenScience_SHARE_lauren_at_cos.io,CenterForOpenScience/SHARE,OSS4SG,0
+4,1,1,0,5,3,1.0,0.42857142857142855,1.3642857142857143,CenterForOpenScience_SHARE_lauren_at_cos.io,CenterForOpenScience/SHARE,OSS4SG,1
+5,1,0,1,2,3,1.0,0.42857142857142855,0.8642857142857142,CenterForOpenScience_SHARE_lauren_at_cos.io,CenterForOpenScience/SHARE,OSS4SG,1
+6,0,0,0,0,0,0.75,0.0,0.07500000000000001,CenterForOpenScience_SHARE_lauren_at_cos.io,CenterForOpenScience/SHARE,OSS4SG,1
+7,6,4,3,0,4,0.75,0.5714285714285714,2.910714285714286,CenterForOpenScience_SHARE_lauren_at_cos.io,CenterForOpenScience/SHARE,OSS4SG,1
+8,10,8,3,2,5,0.75,0.7142857142857143,5.032142857142857,CenterForOpenScience_SHARE_lauren_at_cos.io,CenterForOpenScience/SHARE,OSS4SG,2

@@ -1,0 +1,9 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,2,0,0,0,2,0.25,0.2857142857142857,0.5678571428571428,aws_s2n-tls_kimbaek_at_amazon.com,aws/s2n-tls,OSS,0
+1,4,0,0,0,2,0.5,0.2857142857142857,1.092857142857143,aws_s2n-tls_kimbaek_at_amazon.com,aws/s2n-tls,OSS,0
+2,0,0,0,0,0,0.5,0.0,0.05,aws_s2n-tls_kimbaek_at_amazon.com,aws/s2n-tls,OSS,0
+3,4,0,0,0,2,0.75,0.2857142857142857,1.1178571428571429,aws_s2n-tls_kimbaek_at_amazon.com,aws/s2n-tls,OSS,0
+4,2,0,0,0,1,0.75,0.14285714285714285,0.5964285714285715,aws_s2n-tls_kimbaek_at_amazon.com,aws/s2n-tls,OSS,1
+5,11,0,0,0,6,0.75,0.8571428571428571,2.9535714285714287,aws_s2n-tls_kimbaek_at_amazon.com,aws/s2n-tls,OSS,1
+6,8,0,0,0,4,1.0,0.5714285714285714,2.185714285714286,aws_s2n-tls_kimbaek_at_amazon.com,aws/s2n-tls,OSS,1
+7,3,0,0,0,1,1.0,0.14285714285714285,0.8714285714285714,aws_s2n-tls_kimbaek_at_amazon.com,aws/s2n-tls,OSS,1

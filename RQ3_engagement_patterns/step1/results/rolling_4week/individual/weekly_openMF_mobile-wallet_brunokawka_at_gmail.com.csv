@@ -1,0 +1,7 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,7,6,6,5,3,0.25,0.42857142857142855,4.689285714285714,openMF_mobile-wallet_brunokawka_at_gmail.com,openMF/mobile-wallet,OSS4SG,0
+1,1,2,1,0,3,0.5,0.42857142857142855,0.9142857142857144,openMF_mobile-wallet_brunokawka_at_gmail.com,openMF/mobile-wallet,OSS4SG,0
+2,0,0,0,0,0,0.5,0.0,0.05,openMF_mobile-wallet_brunokawka_at_gmail.com,openMF/mobile-wallet,OSS4SG,0
+3,3,0,0,0,1,0.75,0.14285714285714285,0.8464285714285715,openMF_mobile-wallet_brunokawka_at_gmail.com,openMF/mobile-wallet,OSS4SG,0
+4,8,10,18,18,7,0.75,1.0,9.624999999999998,openMF_mobile-wallet_brunokawka_at_gmail.com,openMF/mobile-wallet,OSS4SG,1
+5,5,4,3,2,4,0.75,0.5714285714285714,2.960714285714286,openMF_mobile-wallet_brunokawka_at_gmail.com,openMF/mobile-wallet,OSS4SG,1

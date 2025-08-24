@@ -1,0 +1,7 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,1,2,0,2,0.25,0.2857142857142857,0.8178571428571428,voxpupuli_beaker_jamey_at_jowens.org,voxpupuli/beaker,OSS,0
+1,0,0,0,0,0,0.25,0.0,0.025,voxpupuli_beaker_jamey_at_jowens.org,voxpupuli/beaker,OSS,0
+2,0,0,0,0,0,0.25,0.0,0.025,voxpupuli_beaker_jamey_at_jowens.org,voxpupuli/beaker,OSS,0
+3,12,1,3,0,3,0.5,0.42857142857142855,3.7642857142857142,voxpupuli_beaker_jamey_at_jowens.org,voxpupuli/beaker,OSS,0
+4,25,1,4,0,4,0.5,0.5714285714285714,7.185714285714285,voxpupuli_beaker_jamey_at_jowens.org,voxpupuli/beaker,OSS,1
+5,1,0,0,0,1,0.75,0.14285714285714285,0.3464285714285714,voxpupuli_beaker_jamey_at_jowens.org,voxpupuli/beaker,OSS,1

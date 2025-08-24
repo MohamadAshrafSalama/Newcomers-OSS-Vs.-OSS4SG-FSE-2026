@@ -1,0 +1,15 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,0,0,0,1,0.25,0.14285714285714285,0.29642857142857143,bootstrap-vue_bootstrap-vue_29139614+renovate[bot]_at_users.noreply.github.com,bootstrap-vue/bootstrap-vue,OSS,0
+1,9,0,0,0,5,0.5,0.7142857142857143,2.407142857142857,bootstrap-vue_bootstrap-vue_29139614+renovate[bot]_at_users.noreply.github.com,bootstrap-vue/bootstrap-vue,OSS,0
+2,11,0,0,0,6,0.75,0.8571428571428571,2.9535714285714287,bootstrap-vue_bootstrap-vue_29139614+renovate[bot]_at_users.noreply.github.com,bootstrap-vue/bootstrap-vue,OSS,0
+3,11,0,0,0,4,1.0,0.5714285714285714,2.935714285714286,bootstrap-vue_bootstrap-vue_29139614+renovate[bot]_at_users.noreply.github.com,bootstrap-vue/bootstrap-vue,OSS,0
+4,14,0,0,0,7,1.0,1.0,3.75,bootstrap-vue_bootstrap-vue_29139614+renovate[bot]_at_users.noreply.github.com,bootstrap-vue/bootstrap-vue,OSS,1
+5,6,0,0,0,4,1.0,0.5714285714285714,1.6857142857142857,bootstrap-vue_bootstrap-vue_29139614+renovate[bot]_at_users.noreply.github.com,bootstrap-vue/bootstrap-vue,OSS,1
+6,8,0,0,0,5,1.0,0.7142857142857143,2.2071428571428573,bootstrap-vue_bootstrap-vue_29139614+renovate[bot]_at_users.noreply.github.com,bootstrap-vue/bootstrap-vue,OSS,1
+7,9,0,0,0,6,1.0,0.8571428571428571,2.4785714285714286,bootstrap-vue_bootstrap-vue_29139614+renovate[bot]_at_users.noreply.github.com,bootstrap-vue/bootstrap-vue,OSS,1
+8,2,0,0,0,2,1.0,0.2857142857142857,0.6428571428571428,bootstrap-vue_bootstrap-vue_29139614+renovate[bot]_at_users.noreply.github.com,bootstrap-vue/bootstrap-vue,OSS,2
+9,3,0,0,0,2,1.0,0.2857142857142857,0.8928571428571428,bootstrap-vue_bootstrap-vue_29139614+renovate[bot]_at_users.noreply.github.com,bootstrap-vue/bootstrap-vue,OSS,2
+10,13,0,0,0,6,1.0,0.8571428571428571,3.4785714285714286,bootstrap-vue_bootstrap-vue_29139614+renovate[bot]_at_users.noreply.github.com,bootstrap-vue/bootstrap-vue,OSS,2
+11,4,0,0,0,2,1.0,0.2857142857142857,1.142857142857143,bootstrap-vue_bootstrap-vue_29139614+renovate[bot]_at_users.noreply.github.com,bootstrap-vue/bootstrap-vue,OSS,2
+12,6,0,0,0,4,1.0,0.5714285714285714,1.6857142857142857,bootstrap-vue_bootstrap-vue_29139614+renovate[bot]_at_users.noreply.github.com,bootstrap-vue/bootstrap-vue,OSS,3
+13,6,0,0,0,3,1.0,0.42857142857142855,1.6642857142857144,bootstrap-vue_bootstrap-vue_29139614+renovate[bot]_at_users.noreply.github.com,bootstrap-vue/bootstrap-vue,OSS,3

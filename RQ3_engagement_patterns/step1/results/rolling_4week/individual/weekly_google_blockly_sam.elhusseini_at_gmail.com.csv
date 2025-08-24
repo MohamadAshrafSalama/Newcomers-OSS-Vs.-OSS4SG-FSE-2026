@@ -1,0 +1,10 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,3,0,0,0,1,0.25,0.14285714285714285,0.7964285714285715,google_blockly_sam.elhusseini_at_gmail.com,google/blockly,OSS,0
+1,5,0,0,0,2,0.5,0.2857142857142857,1.342857142857143,google_blockly_sam.elhusseini_at_gmail.com,google/blockly,OSS,0
+2,9,0,0,0,4,0.75,0.5714285714285714,2.410714285714286,google_blockly_sam.elhusseini_at_gmail.com,google/blockly,OSS,0
+3,9,0,0,0,3,1.0,0.42857142857142855,2.414285714285714,google_blockly_sam.elhusseini_at_gmail.com,google/blockly,OSS,0
+4,8,0,0,0,3,1.0,0.42857142857142855,2.164285714285714,google_blockly_sam.elhusseini_at_gmail.com,google/blockly,OSS,1
+5,11,0,0,0,5,1.0,0.7142857142857143,2.9571428571428573,google_blockly_sam.elhusseini_at_gmail.com,google/blockly,OSS,1
+6,8,0,0,0,3,1.0,0.42857142857142855,2.164285714285714,google_blockly_sam.elhusseini_at_gmail.com,google/blockly,OSS,1
+7,20,0,0,0,4,1.0,0.5714285714285714,5.185714285714285,google_blockly_sam.elhusseini_at_gmail.com,google/blockly,OSS,1
+8,10,0,0,0,3,1.0,0.42857142857142855,2.664285714285714,google_blockly_sam.elhusseini_at_gmail.com,google/blockly,OSS,2

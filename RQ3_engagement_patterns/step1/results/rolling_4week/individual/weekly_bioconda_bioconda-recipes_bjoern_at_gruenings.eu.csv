@@ -1,0 +1,2 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,40,0,0,0,5,0.25,0.7142857142857143,10.132142857142858,bioconda_bioconda-recipes_bjoern_at_gruenings.eu,bioconda/bioconda-recipes,OSS,0

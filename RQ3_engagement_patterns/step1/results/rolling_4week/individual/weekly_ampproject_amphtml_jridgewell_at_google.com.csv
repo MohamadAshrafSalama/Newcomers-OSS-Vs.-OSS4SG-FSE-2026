@@ -1,0 +1,13 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,2,0,0,0,1,0.25,0.14285714285714285,0.5464285714285715,ampproject_amphtml_jridgewell_at_google.com,ampproject/amphtml,OSS,0
+1,2,0,0,0,2,0.5,0.2857142857142857,0.5928571428571429,ampproject_amphtml_jridgewell_at_google.com,ampproject/amphtml,OSS,0
+2,2,0,0,0,1,0.75,0.14285714285714285,0.5964285714285715,ampproject_amphtml_jridgewell_at_google.com,ampproject/amphtml,OSS,0
+3,3,0,0,0,1,1.0,0.14285714285714285,0.8714285714285714,ampproject_amphtml_jridgewell_at_google.com,ampproject/amphtml,OSS,0
+4,0,0,0,0,0,0.75,0.0,0.07500000000000001,ampproject_amphtml_jridgewell_at_google.com,ampproject/amphtml,OSS,1
+5,2,0,0,0,2,0.75,0.2857142857142857,0.6178571428571429,ampproject_amphtml_jridgewell_at_google.com,ampproject/amphtml,OSS,1
+6,4,0,0,0,1,0.75,0.14285714285714285,1.0964285714285713,ampproject_amphtml_jridgewell_at_google.com,ampproject/amphtml,OSS,1
+7,3,0,0,0,2,0.75,0.2857142857142857,0.8678571428571429,ampproject_amphtml_jridgewell_at_google.com,ampproject/amphtml,OSS,1
+8,8,0,0,0,4,1.0,0.5714285714285714,2.185714285714286,ampproject_amphtml_jridgewell_at_google.com,ampproject/amphtml,OSS,2
+9,8,0,0,0,3,1.0,0.42857142857142855,2.164285714285714,ampproject_amphtml_jridgewell_at_google.com,ampproject/amphtml,OSS,2
+10,1,0,0,0,1,1.0,0.14285714285714285,0.37142857142857144,ampproject_amphtml_jridgewell_at_google.com,ampproject/amphtml,OSS,2
+11,3,0,0,0,2,1.0,0.2857142857142857,0.8928571428571428,ampproject_amphtml_jridgewell_at_google.com,ampproject/amphtml,OSS,2

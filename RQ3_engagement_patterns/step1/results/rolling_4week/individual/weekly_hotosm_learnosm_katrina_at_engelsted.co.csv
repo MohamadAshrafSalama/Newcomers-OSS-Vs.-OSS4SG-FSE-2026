@@ -1,0 +1,8 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+-4,0,0,3,2,1,0.25,0.14285714285714285,0.7964285714285715,hotosm_learnosm_katrina_at_engelsted.co,hotosm/learnosm,OSS4SG,-1
+-3,0,0,0,0,0,0.25,0.0,0.025,hotosm_learnosm_katrina_at_engelsted.co,hotosm/learnosm,OSS4SG,-1
+-2,0,1,0,0,1,0.5,0.14285714285714285,0.27142857142857146,hotosm_learnosm_katrina_at_engelsted.co,hotosm/learnosm,OSS4SG,-1
+-1,0,0,0,0,0,0.5,0.0,0.05,hotosm_learnosm_katrina_at_engelsted.co,hotosm/learnosm,OSS4SG,-1
+0,1,0,0,0,1,0.5,0.14285714285714285,0.3214285714285714,hotosm_learnosm_katrina_at_engelsted.co,hotosm/learnosm,OSS4SG,0
+1,0,0,0,0,0,0.5,0.0,0.05,hotosm_learnosm_katrina_at_engelsted.co,hotosm/learnosm,OSS4SG,0
+2,0,0,1,2,2,0.5,0.2857142857142857,0.5428571428571428,hotosm_learnosm_katrina_at_engelsted.co,hotosm/learnosm,OSS4SG,0

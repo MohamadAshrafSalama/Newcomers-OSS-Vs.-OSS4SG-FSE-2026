@@ -1,0 +1,10 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,2,0,0,0,2,0.25,0.2857142857142857,0.5678571428571428,jakubgarfield_Bonobo-Git-Server_davidans_at_microsoft.com,jakubgarfield/Bonobo-Git-Server,OSS,0
+1,2,0,0,0,2,0.5,0.2857142857142857,0.5928571428571429,jakubgarfield_Bonobo-Git-Server_davidans_at_microsoft.com,jakubgarfield/Bonobo-Git-Server,OSS,0
+2,2,0,0,0,1,0.75,0.14285714285714285,0.5964285714285715,jakubgarfield_Bonobo-Git-Server_davidans_at_microsoft.com,jakubgarfield/Bonobo-Git-Server,OSS,0
+3,1,0,0,0,1,1.0,0.14285714285714285,0.37142857142857144,jakubgarfield_Bonobo-Git-Server_davidans_at_microsoft.com,jakubgarfield/Bonobo-Git-Server,OSS,0
+4,0,0,0,0,0,0.75,0.0,0.07500000000000001,jakubgarfield_Bonobo-Git-Server_davidans_at_microsoft.com,jakubgarfield/Bonobo-Git-Server,OSS,1
+5,0,0,0,0,0,0.5,0.0,0.05,jakubgarfield_Bonobo-Git-Server_davidans_at_microsoft.com,jakubgarfield/Bonobo-Git-Server,OSS,1
+6,0,0,0,0,0,0.25,0.0,0.025,jakubgarfield_Bonobo-Git-Server_davidans_at_microsoft.com,jakubgarfield/Bonobo-Git-Server,OSS,1
+7,0,0,0,0,0,0.0,0.0,0.0,jakubgarfield_Bonobo-Git-Server_davidans_at_microsoft.com,jakubgarfield/Bonobo-Git-Server,OSS,1
+8,1,1,0,0,1,0.25,0.14285714285714285,0.49642857142857144,jakubgarfield_Bonobo-Git-Server_davidans_at_microsoft.com,jakubgarfield/Bonobo-Git-Server,OSS,2

@@ -1,0 +1,9 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,3,0,0,0,2,0.25,0.2857142857142857,0.8178571428571428,learningequality_kolibri_whitzhu_at_gmail.com,learningequality/kolibri,OSS4SG,0
+1,12,4,2,0,4,0.5,0.5714285714285714,4.235714285714285,learningequality_kolibri_whitzhu_at_gmail.com,learningequality/kolibri,OSS4SG,0
+2,7,4,3,0,2,0.75,0.2857142857142857,3.117857142857143,learningequality_kolibri_whitzhu_at_gmail.com,learningequality/kolibri,OSS4SG,0
+3,1,0,1,0,2,1.0,0.2857142857142857,0.5428571428571429,learningequality_kolibri_whitzhu_at_gmail.com,learningequality/kolibri,OSS4SG,0
+4,8,4,3,0,2,1.0,0.2857142857142857,3.392857142857143,learningequality_kolibri_whitzhu_at_gmail.com,learningequality/kolibri,OSS4SG,1
+5,0,0,0,0,0,0.75,0.0,0.07500000000000001,learningequality_kolibri_whitzhu_at_gmail.com,learningequality/kolibri,OSS4SG,1
+6,12,4,3,0,2,0.75,0.2857142857142857,4.367857142857143,learningequality_kolibri_whitzhu_at_gmail.com,learningequality/kolibri,OSS4SG,1
+7,23,4,4,0,5,0.75,0.7142857142857143,7.332142857142856,learningequality_kolibri_whitzhu_at_gmail.com,learningequality/kolibri,OSS4SG,1

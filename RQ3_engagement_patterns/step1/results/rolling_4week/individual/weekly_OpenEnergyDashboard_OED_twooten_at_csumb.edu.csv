@@ -1,0 +1,6 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,7,0,0,0,3,0.25,0.42857142857142855,1.8392857142857142,OpenEnergyDashboard_OED_twooten_at_csumb.edu,OpenEnergyDashboard/OED,OSS4SG,0
+1,5,0,0,0,2,0.5,0.2857142857142857,1.342857142857143,OpenEnergyDashboard_OED_twooten_at_csumb.edu,OpenEnergyDashboard/OED,OSS4SG,0
+2,14,0,0,0,4,0.75,0.5714285714285714,3.660714285714286,OpenEnergyDashboard_OED_twooten_at_csumb.edu,OpenEnergyDashboard/OED,OSS4SG,0
+3,17,0,0,0,4,1.0,0.5714285714285714,4.435714285714285,OpenEnergyDashboard_OED_twooten_at_csumb.edu,OpenEnergyDashboard/OED,OSS4SG,0
+4,6,0,0,0,3,1.0,0.42857142857142855,1.6642857142857144,OpenEnergyDashboard_OED_twooten_at_csumb.edu,OpenEnergyDashboard/OED,OSS4SG,1

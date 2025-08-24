@@ -1,0 +1,5 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+-3,0,0,1,0,1,0.25,0.14285714285714285,0.19642857142857142,avelino_awesome-go_aregm_at_users.noreply.github.com,avelino/awesome-go,OSS,-1
+-2,0,0,4,0,1,0.5,0.14285714285714285,0.6714285714285715,avelino_awesome-go_aregm_at_users.noreply.github.com,avelino/awesome-go,OSS,-1
+-1,0,0,0,0,0,0.5,0.0,0.05,avelino_awesome-go_aregm_at_users.noreply.github.com,avelino/awesome-go,OSS,-1
+0,1,1,4,0,2,0.75,0.2857142857142857,1.167857142857143,avelino_awesome-go_aregm_at_users.noreply.github.com,avelino/awesome-go,OSS,0

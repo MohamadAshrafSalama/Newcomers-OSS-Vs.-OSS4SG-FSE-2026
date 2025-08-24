@@ -1,0 +1,8 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,28,0,0,0,5,0.25,0.7142857142857143,7.132142857142857,onaio_onadata_andrew.ei.marder_at_gmail.com,onaio/onadata,OSS4SG,0
+1,46,0,0,0,6,0.5,0.8571428571428571,11.678571428571429,onaio_onadata_andrew.ei.marder_at_gmail.com,onaio/onadata,OSS4SG,0
+2,21,0,0,0,5,0.75,0.7142857142857143,5.432142857142857,onaio_onadata_andrew.ei.marder_at_gmail.com,onaio/onadata,OSS4SG,0
+3,22,0,0,0,4,1.0,0.5714285714285714,5.685714285714285,onaio_onadata_andrew.ei.marder_at_gmail.com,onaio/onadata,OSS4SG,0
+4,21,0,0,0,6,1.0,0.8571428571428571,5.478571428571428,onaio_onadata_andrew.ei.marder_at_gmail.com,onaio/onadata,OSS4SG,1
+5,24,0,0,0,5,1.0,0.7142857142857143,6.207142857142856,onaio_onadata_andrew.ei.marder_at_gmail.com,onaio/onadata,OSS4SG,1
+6,10,0,0,0,4,1.0,0.5714285714285714,2.685714285714286,onaio_onadata_andrew.ei.marder_at_gmail.com,onaio/onadata,OSS4SG,1

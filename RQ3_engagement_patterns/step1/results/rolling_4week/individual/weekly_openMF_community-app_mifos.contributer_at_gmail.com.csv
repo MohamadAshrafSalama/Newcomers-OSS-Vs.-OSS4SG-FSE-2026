@@ -1,0 +1,6 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,1,1,0,0,1,0.25,0.14285714285714285,0.49642857142857144,openMF_community-app_mifos.contributer_at_gmail.com,openMF/community-app,OSS4SG,0
+1,5,5,0,0,3,0.5,0.42857142857142855,2.364285714285714,openMF_community-app_mifos.contributer_at_gmail.com,openMF/community-app,OSS4SG,0
+2,3,3,0,0,1,0.75,0.14285714285714285,1.4464285714285714,openMF_community-app_mifos.contributer_at_gmail.com,openMF/community-app,OSS4SG,0
+3,4,4,0,0,3,1.0,0.42857142857142855,1.9642857142857144,openMF_community-app_mifos.contributer_at_gmail.com,openMF/community-app,OSS4SG,0
+4,8,8,0,0,5,1.0,0.7142857142857143,3.8071428571428574,openMF_community-app_mifos.contributer_at_gmail.com,openMF/community-app,OSS4SG,1

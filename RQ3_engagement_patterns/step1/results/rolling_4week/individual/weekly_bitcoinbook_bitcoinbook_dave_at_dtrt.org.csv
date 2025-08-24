@@ -1,0 +1,4 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,59,0,0,0,4,0.25,0.5714285714285714,14.860714285714286,bitcoinbook_bitcoinbook_dave_at_dtrt.org,bitcoinbook/bitcoinbook,OSS,0
+1,32,0,0,0,5,0.5,0.7142857142857143,8.157142857142858,bitcoinbook_bitcoinbook_dave_at_dtrt.org,bitcoinbook/bitcoinbook,OSS,0
+2,20,0,0,0,6,0.75,0.8571428571428571,5.203571428571428,bitcoinbook_bitcoinbook_dave_at_dtrt.org,bitcoinbook/bitcoinbook,OSS,0

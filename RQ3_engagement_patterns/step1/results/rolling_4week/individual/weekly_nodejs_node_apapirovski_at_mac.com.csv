@@ -1,0 +1,4 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,3,0,17,0,3,0.25,0.42857142857142855,3.389285714285714,nodejs_node_apapirovski_at_mac.com,nodejs/node,OSS,0
+1,7,0,30,0,6,0.5,0.8571428571428571,6.428571428571428,nodejs_node_apapirovski_at_mac.com,nodejs/node,OSS,0
+2,7,0,34,0,6,0.75,0.8571428571428571,7.053571428571428,nodejs_node_apapirovski_at_mac.com,nodejs/node,OSS,0

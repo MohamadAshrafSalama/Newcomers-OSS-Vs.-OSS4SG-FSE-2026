@@ -1,0 +1,14 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,11,0,0,0,4,0.25,0.5714285714285714,2.8607142857142858,hotosm_tasking-manager_eternaltyro_at_protonmail.ch,hotosm/tasking-manager,OSS4SG,0
+1,1,0,0,0,1,0.5,0.14285714285714285,0.3214285714285714,hotosm_tasking-manager_eternaltyro_at_protonmail.ch,hotosm/tasking-manager,OSS4SG,0
+2,0,0,0,0,0,0.5,0.0,0.05,hotosm_tasking-manager_eternaltyro_at_protonmail.ch,hotosm/tasking-manager,OSS4SG,0
+3,0,0,0,0,0,0.5,0.0,0.05,hotosm_tasking-manager_eternaltyro_at_protonmail.ch,hotosm/tasking-manager,OSS4SG,0
+4,0,0,0,0,0,0.25,0.0,0.025,hotosm_tasking-manager_eternaltyro_at_protonmail.ch,hotosm/tasking-manager,OSS4SG,1
+5,0,0,0,0,0,0.0,0.0,0.0,hotosm_tasking-manager_eternaltyro_at_protonmail.ch,hotosm/tasking-manager,OSS4SG,1
+6,0,0,0,0,0,0.0,0.0,0.0,hotosm_tasking-manager_eternaltyro_at_protonmail.ch,hotosm/tasking-manager,OSS4SG,1
+7,2,0,0,0,2,0.25,0.2857142857142857,0.5678571428571428,hotosm_tasking-manager_eternaltyro_at_protonmail.ch,hotosm/tasking-manager,OSS4SG,1
+8,24,0,0,0,4,0.5,0.5714285714285714,6.135714285714285,hotosm_tasking-manager_eternaltyro_at_protonmail.ch,hotosm/tasking-manager,OSS4SG,2
+9,0,0,0,0,0,0.5,0.0,0.05,hotosm_tasking-manager_eternaltyro_at_protonmail.ch,hotosm/tasking-manager,OSS4SG,2
+10,0,0,0,0,0,0.5,0.0,0.05,hotosm_tasking-manager_eternaltyro_at_protonmail.ch,hotosm/tasking-manager,OSS4SG,2
+11,1,0,0,0,1,0.5,0.14285714285714285,0.3214285714285714,hotosm_tasking-manager_eternaltyro_at_protonmail.ch,hotosm/tasking-manager,OSS4SG,2
+12,7,0,0,0,3,0.5,0.42857142857142855,1.8642857142857143,hotosm_tasking-manager_eternaltyro_at_protonmail.ch,hotosm/tasking-manager,OSS4SG,3

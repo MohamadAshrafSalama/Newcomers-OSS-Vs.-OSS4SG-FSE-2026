@@ -1,0 +1,8 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,44,0,0,0,4,0.25,0.5714285714285714,11.110714285714286,neo4j_neo4j_jakewins_at_voltvoodoo.com,neo4j/neo4j,OSS,0
+1,40,0,0,0,3,0.5,0.42857142857142855,10.114285714285716,neo4j_neo4j_jakewins_at_voltvoodoo.com,neo4j/neo4j,OSS,0
+2,0,0,0,0,0,0.5,0.0,0.05,neo4j_neo4j_jakewins_at_voltvoodoo.com,neo4j/neo4j,OSS,0
+3,128,0,0,0,5,0.75,0.7142857142857143,32.18214285714286,neo4j_neo4j_jakewins_at_voltvoodoo.com,neo4j/neo4j,OSS,0
+4,84,0,0,0,5,0.75,0.7142857142857143,21.182142857142857,neo4j_neo4j_jakewins_at_voltvoodoo.com,neo4j/neo4j,OSS,1
+5,106,0,0,0,5,0.75,0.7142857142857143,26.682142857142857,neo4j_neo4j_jakewins_at_voltvoodoo.com,neo4j/neo4j,OSS,1
+6,131,0,0,0,6,1.0,0.8571428571428571,32.97857142857143,neo4j_neo4j_jakewins_at_voltvoodoo.com,neo4j/neo4j,OSS,1

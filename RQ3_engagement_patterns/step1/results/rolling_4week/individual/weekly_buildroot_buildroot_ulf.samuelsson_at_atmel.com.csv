@@ -1,0 +1,13 @@
+week_num,commits,prs_merged,comments,issues_opened,active_days,duration,active_days_norm,contribution_index,contributor_id,project,project_type,month_num
+0,3,0,0,0,2,0.25,0.2857142857142857,0.8178571428571428,buildroot_buildroot_ulf.samuelsson_at_atmel.com,buildroot/buildroot,OSS,0
+1,25,0,0,0,5,0.5,0.7142857142857143,6.407142857142857,buildroot_buildroot_ulf.samuelsson_at_atmel.com,buildroot/buildroot,OSS,0
+2,43,0,0,0,4,0.75,0.5714285714285714,10.910714285714285,buildroot_buildroot_ulf.samuelsson_at_atmel.com,buildroot/buildroot,OSS,0
+3,86,0,0,0,6,1.0,0.8571428571428571,21.72857142857143,buildroot_buildroot_ulf.samuelsson_at_atmel.com,buildroot/buildroot,OSS,0
+4,36,0,0,0,3,1.0,0.42857142857142855,9.164285714285715,buildroot_buildroot_ulf.samuelsson_at_atmel.com,buildroot/buildroot,OSS,1
+5,52,0,0,0,5,1.0,0.7142857142857143,13.207142857142857,buildroot_buildroot_ulf.samuelsson_at_atmel.com,buildroot/buildroot,OSS,1
+6,60,0,0,0,7,1.0,1.0,15.25,buildroot_buildroot_ulf.samuelsson_at_atmel.com,buildroot/buildroot,OSS,1
+7,21,0,0,0,4,1.0,0.5714285714285714,5.435714285714285,buildroot_buildroot_ulf.samuelsson_at_atmel.com,buildroot/buildroot,OSS,1
+8,15,0,0,0,2,1.0,0.2857142857142857,3.892857142857143,buildroot_buildroot_ulf.samuelsson_at_atmel.com,buildroot/buildroot,OSS,2
+9,12,0,0,0,3,1.0,0.42857142857142855,3.164285714285714,buildroot_buildroot_ulf.samuelsson_at_atmel.com,buildroot/buildroot,OSS,2
+10,8,0,0,0,1,1.0,0.14285714285714285,2.1214285714285714,buildroot_buildroot_ulf.samuelsson_at_atmel.com,buildroot/buildroot,OSS,2
+11,34,0,0,0,3,1.0,0.42857142857142855,8.664285714285715,buildroot_buildroot_ulf.samuelsson_at_atmel.com,buildroot/buildroot,OSS,2
