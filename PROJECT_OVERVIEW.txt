@@ -742,18 +742,21 @@ RQ3_engagement_patterns/ COMPLETED - ENGAGEMENT PATTERNS ANALYSIS
 ├── step1/                      # COMPLETED: Pre-core timeseries generation
 │   ├── contribution_timeseries_generator.py  # Clean pre-core data only
 │   └── results/rolling_4week/               # 199,984 weekly data points
-├── step2/                      # COMPLETED: DTW clustering analysis
-│   ├── dtw_clustering.py                     # k=2 to k=6 clustering
-│   ├── clustering_results_fixed/             # Optimal k=2 (silhouette 0.1789)
-│   └── README.md                             # Clustering methodology
-└── step3_scott_knott_clustering/  # COMPLETED: Pattern effectiveness analysis
-    ├── scott_knott_clustering_analysis.py    # Main analysis on 3,421 contributors
-    ├── scott_knott_implementation.py         # Helper script for cluster assignments
-    ├── pattern_effectiveness_results/        # Comprehensive outputs
-    │   ├── pattern_effectiveness_analysis.png  # Publication-ready visualization
-    │   ├── analysis_report.txt                 # Complete findings report
-    │   └── README.md                           # Step 3 methodology
-    └── README.md                               # RQ3 complete overview
+├── step2_final/                # FINALIZED: DTW clustering artifacts
+│   └── clustering_results_min6_per_series/
+│       ├── cluster_membership_k3.csv        # Used by Step 3.1
+│       ├── clustering_k3_results.json       # Silhouette, sizes (k=3)
+│       ├── clustering_k3_analysis.png       # Visualization (k=3)
+│       ├── per_cluster_k3/cluster_*.png     # Per-cluster plots
+│       ├── clustering_k4_results.json       # Silhouette, sizes (k=4)
+│       └── per_cluster_k4/cluster_*.png     # Per-cluster plots
+└── step3.1_clusters_only/     # COMPLETED: Pattern effectiveness (clusters-only)
+    ├── step3_1_clusters_only_analysis_FIXED.py
+    └── results/
+        ├── group_statistics.csv
+        ├── scott_knott_results.csv
+        ├── analysis_report_CORRECTED.txt
+        └── pattern_effectiveness_CORRECTED.png
 
 RQ3_engagement_patterns/
 ├── scripts/                    # Analysis code
@@ -861,7 +864,7 @@ Current Phase: Ready for RQ1-RQ2-RQ3 integration and academic paper preparation
 ====================================================================
 - **RQ1**: Community structure analysis - OSS4SG superiority confirmed
 - **RQ2**: Newcomer treatment patterns - OSS4SG 2-4x higher milestone rates
-- **RQ3**: Engagement patterns - Clean temporal analysis reveals Late Bloomers (77%)
+- **RQ3**: Engagement patterns - Clusters-only effectiveness: Late Spike fastest (~21w), Early Spike slowest (~51–60w)
 - **Methodology**: Eliminated 75.4% data contamination across all analyses
 
 COMPLETED RESEARCH QUESTIONS:
@@ -880,9 +883,8 @@ RQ2: COMPLETE - Newcomer treatment patterns analysis
 
 RQ3: COMPLETE - Engagement patterns analysis
 - Timeseries generation: Clean pre-core data only (199,984 weekly points)
-- DTW clustering: k=2 to k=6 analysis with optimal k=2 (silhouette 0.1789)
-- Engagement patterns: Late Bloomers (77%) dominate newcomer transitions
-- Scott-Knott clustering: Pattern effectiveness analysis on 3,421 contributors
+- DTW clustering: final artifacts in step2_final; k=3 used for effectiveness
+- Pattern effectiveness: Late Spike fastest (~21w), Early Spike slowest (~51–60w)
 - Major methodological breakthrough: Post-core contamination eliminated
 
 MAJOR BREAKTHROUGH: COMPLETE METHODOLOGICAL CORRECTIONS ACROSS ALL RQs
@@ -898,9 +900,7 @@ Major Findings:
 - RQ2: Complete milestone detection (7 milestones, 6,530 contributors, 100% success rate)
 - RQ2: Corrected treatment metrics analysis (91 metrics, bias-free methodology)
 - RQ2: OSS4SG contributors are 2.1x more active and achieve 2-4x higher milestone rates
-- RQ3: Clean engagement patterns show Late Bloomers (77%) dominate newcomer transitions
-- RQ3: Scott-Knott analysis reveals Low/Gradual Activity is fastest path to core (21 weeks median)
-- RQ3: Early Spike pattern is slowest (51-60 weeks median) - 2.4-2.8x slower than gradual
+- RQ3: Clusters-only analysis: Late Spike fastest (~21w); Early Spike slowest (~51–60w)
 - RQ3: OSS4SG consistently faster across all patterns (6-22 weeks vs 8-32 weeks for OSS)
 
 RQ2 COMPLETE ANALYSIS PIPELINE:

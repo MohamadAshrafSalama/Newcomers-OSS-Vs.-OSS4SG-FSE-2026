@@ -350,7 +350,7 @@ class Step31ClustersOnlyFixed:
         lines.append("-"*40)
         lines.append("• Cluster 0: Early Spike (high activity early, then decreases)")
         lines.append("• Cluster 1: Low/Gradual Activity (consistently low activity)")  
-        lines.append("• Cluster 2: Sustained Activity (gradual increase over time)")
+        lines.append("• Cluster 2: Late Spike (gradual increase leading to a late activity spike)")
         lines.append("")
         
         lines.append(f"DATASET SUMMARY")
@@ -379,7 +379,7 @@ class Step31ClustersOnlyFixed:
         
         lines.append("KEY INSIGHTS (CORRECTED)")
         lines.append("-"*40)
-        lines.append("• Low/Gradual Activity is the FASTEST pattern (not Early Spike!)")
+        lines.append("• Late Spike is the FASTEST pattern (not Early Spike!)")
         lines.append("• Early Spike is actually the SLOWEST in both ecosystems")
         lines.append("• OSS4SG is more forgiving - multiple patterns work well")
         lines.append("• Pattern choice has larger impact in OSS than OSS4SG")

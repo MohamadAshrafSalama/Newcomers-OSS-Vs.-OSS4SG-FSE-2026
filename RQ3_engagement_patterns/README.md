@@ -20,11 +20,12 @@ This directory contains the analysis of newcomer engagement patterns in OSS vs O
   - **CRITICAL FIX**: Now filters by `is_pre_core == True` only
   - `results/rolling_4week/`: Weekly and monthly activity data
 
-### `step2/` - DTW Clustering Analysis (COMPLETE)
+### `step2_final/` - DTW Clustering Analysis (FINALIZED)
 - **Purpose**: Cluster engagement patterns using Dynamic Time Warping
 - **Key Components**:
-  - `dtw_clustering.py`: Main clustering analysis with k=2 to k=6
-  - `clustering_results_fixed/`: All clustering results and visualizations
+  - Finalized artifacts under `step2_final/clustering_results_min6_per_series/`
+  - `cluster_membership_k3.csv` used downstream by Step 3.1
+  - Per‑cluster plots for k=3 and k=4
 
 ### `step2.1_experimental_archive.zip` - Experimental DTW Variants (ARCHIVED)
 - **Purpose**: Experimental DTW implementations (not used in final analysis)
@@ -47,32 +48,16 @@ This directory contains the analysis of newcomer engagement patterns in OSS vs O
 
 ## 🎯 **ENGAGEMENT PATTERN DISCOVERY**
 
-### **Optimal Clustering Results (k=2)**
-| Cluster | Pattern Type | Size | Peak Activity | Trend |
-|---------|--------------|------|---------------|-------|
-| **Cluster 0** | Late Bloomers | 1,237 (36.2%) | Week 51 | Growing |
-| **Cluster 1** | Late Bloomers | 2,184 (63.8%) | Week 51 | Growing |
-
-### **Complete k-value Analysis**
-| k-value | Silhouette Score | Best Clusters |
-|---------|------------------|---------------|
-| **k=2** | **0.1789** ⭐ **BEST** | Late Bloomers (100%) |
-| **k=3** | 0.1597 | Late Bloomers (81.2%) + Declining (18.8%) |
-| **k=4** | 0.0976 | Late Bloomers (67.2%) + Growing (15.8%) + Declining (16.9%) |
-| **k=5** | 0.0846 | Late Bloomers (56.8%) + Growing (15.3%) + Early Burst (16.0%) + Sustained (11.9%) |
-| **k=6** | 0.0856 | Late Bloomers (77.5%) + Early Burst (12.4%) + Sustained (10.1%) |
+### **Clustering Results Summary (final artifacts)**
+- k=3: silhouette ≈ 0.1597, `n_contributors = 3421` (used for Step 3.1)
+- k=4: silhouette ≈ 0.0976, `n_contributors = 3421`
 
 ## 🔍 **Key Insights**
 
-### **Dominant Pattern: Late Bloomers**
-- **77% of newcomers** show growing activity toward the end of their transition period
-- **Peak activity** typically occurs at week 51 (near end of transition)
-- **Growing trend** suggests successful newcomer integration
-
-### **Secondary Patterns**
-- **Early Burst Contributors** (12.4%): Peak early, then decline
-- **Sustained Contributors** (10.1%): Consistent activity throughout transition
-- **Growing Contributors** (15.3%): Steady growth pattern
+### **Downstream Pattern Effectiveness (Step 3.1, k=3 clusters)**
+- Pattern names (by cluster id): 0=Early Spike, 1=Low/Gradual Activity, 2=Late Spike
+- Fastest median weeks to core: Late Spike (≈21 weeks)
+- Slowest: Early Spike (≈51–60 weeks depending on type)
 
 ## 📊 **Data Quality Metrics**
 
@@ -104,10 +89,11 @@ python3 dtw_clustering.py
 - `results/rolling_4week/weekly_pivot_for_dtw.csv` - Weekly activity data
 - `results/rolling_4week/monthly_pivot_for_dtw.csv` - Monthly activity data
 
-### **Step 2 Results**
-- `clustering_results_fixed/clustering_k2_analysis.png` - k=2 clustering visualization
-- `clustering_results_fixed/clustering_k2_results.json` - k=2 clustering results
-- Similar files for k=3, k=4, k=5, k=6
+### **Step 2 Results (finalized)**
+- `step2_final/clustering_results_min6_per_series/cluster_membership_k3.csv`
+- `step2_final/clustering_results_min6_per_series/clustering_k3_results.json`
+- `step2_final/clustering_results_min6_per_series/clustering_k3_analysis.png`
+- Similar files for k=4
 
 ### **Archived Experimental Results**
 - `step2.1_experimental_archive.zip` - Complete archive of experimental DTW variants (1.1MB)

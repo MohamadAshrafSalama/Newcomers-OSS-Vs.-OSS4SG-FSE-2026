@@ -1,0 +1,63 @@
+======================================================================
+MEMORY-OPTIMIZED CLUSTERING ANALYSIS SUMMARY
+======================================================================
+
+Generated: 2025-08-17 14:53:13.694178
+Total experiments: 0
+
+ALL EXPERIMENTS:
+----------------------------------------
+
+
+EXPERIMENT LOG:
+----------------------------------------
+[14:53:06]   Processed 200/300 series
+[14:53:07]   Processed 300/300 series
+[14:53:07] Preprocessed 300 valid series
+[14:53:07] Loading batch 20 (size=300)...
+[14:53:08] Loaded batch: 300 contributors
+[14:53:08] Preprocessing to length 52...
+[14:53:08]   Processed 100/300 series
+[14:53:08]   Processed 200/300 series
+[14:53:08]   Processed 300/300 series
+[14:53:08] Preprocessed 300 valid series
+[14:53:10] Loading batch 21 (size=300)...
+[14:53:10] Loaded batch: 230 contributors
+[14:53:10] Preprocessing to length 52...
+[14:53:10]   Processed 100/230 series
+[14:53:10]   Processed 200/230 series
+[14:53:10] Preprocessed 230 valid series
+[14:53:10] Loading batch 22 (size=300)...
+[14:53:11] Loaded batch: 0 contributors
+[14:53:11] Combining batches...
+[14:53:11] Total processed: 6530 series of length 52
+[14:53:11] Running MiniBatchKMeans for k=2 to 7
+[14:53:11] Testing k=2...
+[14:53:11]   k=2: silhouette=0.376
+[14:53:11] Checkpoint saved: kmeans_k2
+[14:53:11] Testing k=3...
+[14:53:11]   k=3: silhouette=0.437
+[14:53:11] Checkpoint saved: kmeans_k3
+[14:53:11] Testing k=4...
+[14:53:12]   k=4: silhouette=0.543
+[14:53:12] Checkpoint saved: kmeans_k4
+[14:53:12] Testing k=5...
+[14:53:12]   k=5: silhouette=0.524
+[14:53:12] Checkpoint saved: kmeans_k5
+[14:53:12] Testing k=6...
+[14:53:12]   k=6: silhouette=0.570
+[14:53:12] Checkpoint saved: kmeans_k6
+[14:53:12] Testing k=7...
+[14:53:13]   k=7: silhouette=0.625
+[14:53:13] Checkpoint saved: kmeans_k7
+[14:53:13] Best k=7 with silhouette=0.625
+[14:53:13] Analyzing clusters...
+[14:53:13] Cluster composition by project type:
+[14:53:13]   Cluster 0: OSS=60.8%, OSS4SG=39.2%
+[14:53:13]   Cluster 1: OSS=86.8%, OSS4SG=13.2%
+[14:53:13]   Cluster 2: OSS=60.1%, OSS4SG=39.9%
+[14:53:13]   Cluster 3: OSS=55.6%, OSS4SG=44.4%
+[14:53:13]   Cluster 4: OSS=55.6%, OSS4SG=44.4%
+[14:53:13]   Cluster 5: OSS=47.3%, OSS4SG=52.7%
+[14:53:13]   Cluster 6: OSS=80.2%, OSS4SG=19.8%
+[14:53:13] Experiment failed: Object of type ndarray is not JSON serializable

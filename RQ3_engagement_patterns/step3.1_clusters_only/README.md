@@ -1,6 +1,6 @@
 # RQ3 Step 3.1: Pattern Effectiveness from Step 2 Clusters Only
 
-This step re-runs the pattern effectiveness analysis using ONLY the finalized Step 2 cluster membership as input for patterns, combined with RQ1 transition outcomes to compute time to core. No Step 1 time series are used here.
+This step re-runs the pattern effectiveness analysis using ONLY the finalized Step 2 cluster membership as input for patterns, combined with RQ1 transition outcomes to compute time to core. Step 1 time series are used only to compute `weeks_to_core` (no clustering is done here).
 
 ## Inputs
 - Step 2_final membership: `../step2_final/clustering_results_min6_per_series/cluster_membership_k3.csv`
@@ -18,7 +18,7 @@ This step re-runs the pattern effectiveness analysis using ONLY the finalized St
 ## How to Run
 ```bash
 cd "RQ3_engagement_patterns/step3.1_clusters_only"
-python step3_1_clusters_only_analysis.py
+python step3_1_clusters_only_analysis_FIXED.py
 ```
 
 ## Outputs
