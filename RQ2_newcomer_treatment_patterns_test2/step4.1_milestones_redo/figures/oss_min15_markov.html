@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 900px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#FB7E81", "font": {"color": "black", "size": 24}, "id": "START", "label": "START", "margin": 15, "shape": "box"}, {"color": "#97C2FC", "font": {"color": "black", "size": 24}, "id": "FailureRecovery", "label": "FailureRecovery", "margin": 15, "shape": "box"}, {"color": "#97C2FC", "font": {"color": "black", "size": 24}, "id": "FirstMergedPullRequest", "label": "FirstMergedPullRequest", "margin": 15, "shape": "box"}, {"color": "#FB7E81", "font": {"color": "black", "size": 24}, "id": "END", "label": "END", "margin": 15, "shape": "box"}, {"color": "#97C2FC", "font": {"color": "black", "size": 24}, "id": "HighAcceptanceTrajectory", "label": "HighAcceptanceTrajectory", "margin": 15, "shape": "box"}, {"color": "#97C2FC", "font": {"color": "black", "size": 24}, "id": "SustainedParticipation12w", "label": "SustainedParticipation12w", "margin": 15, "shape": "box"}, {"color": "#97C2FC", "font": {"color": "black", "size": 24}, "id": "DirectCommitAccessProxy", "label": "DirectCommitAccessProxy", "margin": 15, "shape": "box"}, {"color": "#97C2FC", "font": {"color": "black", "size": 24}, "id": "ReturnAfterExtendedAbsence", "label": "ReturnAfterExtendedAbsence", "margin": 15, "shape": "box"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "START", "title": "0.12", "to": "FailureRecovery", "value": 0.12144702842377261, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "START", "title": "0.40", "to": "FirstMergedPullRequest", "value": 0.4024547803617571, "width": 2}, {"arrows": "to", "color": "red", "font": {"color": "gray", "size": 18}, "from": "START", "title": "0.29", "to": "SustainedParticipation12w", "value": 0.2868217054263566, "width": 5}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "START", "title": "0.19", "to": "ReturnAfterExtendedAbsence", "value": 0.1892764857881137, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "FailureRecovery", "title": "0.18", "to": "FirstMergedPullRequest", "value": 0.17951541850220265, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "FailureRecovery", "title": "0.41", "to": "END", "value": 0.4063876651982379, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "FailureRecovery", "title": "0.06", "to": "DirectCommitAccessProxy", "value": 0.05837004405286344, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "FailureRecovery", "title": "0.25", "to": "SustainedParticipation12w", "value": 0.2544052863436123, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "FailureRecovery", "title": "0.06", "to": "HighAcceptanceTrajectory", "value": 0.05947136563876652, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "FirstMergedPullRequest", "title": "0.06", "to": "END", "value": 0.055992141453831044, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "FirstMergedPullRequest", "title": "0.80", "to": "HighAcceptanceTrajectory", "value": 0.8025540275049116, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "FirstMergedPullRequest", "title": "0.06", "to": "FailureRecovery", "value": 0.06483300589390963, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "HighAcceptanceTrajectory", "title": "0.60", "to": "FailureRecovery", "value": 0.6047032474804032, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "HighAcceptanceTrajectory", "title": "0.19", "to": "END", "value": 0.19260918253079506, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "HighAcceptanceTrajectory", "title": "0.11", "to": "SustainedParticipation12w", "value": 0.10638297872340426, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "HighAcceptanceTrajectory", "title": "0.06", "to": "ReturnAfterExtendedAbsence", "value": 0.055991041433370664, "width": 2}, {"arrows": "to", "color": "red", "font": {"color": "gray", "size": 18}, "from": "SustainedParticipation12w", "title": "0.72", "to": "END", "value": 0.7166853303471444, "width": 5}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "SustainedParticipation12w", "title": "0.13", "to": "FirstMergedPullRequest", "value": 0.1265397536394177, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "SustainedParticipation12w", "title": "0.06", "to": "ReturnAfterExtendedAbsence", "value": 0.055991041433370664, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "SustainedParticipation12w", "title": "0.07", "to": "FailureRecovery", "value": 0.06606942889137737, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "DirectCommitAccessProxy", "title": "0.95", "to": "END", "value": 0.9485294117647058, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "ReturnAfterExtendedAbsence", "title": "0.39", "to": "END", "value": 0.3934782608695652, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "ReturnAfterExtendedAbsence", "title": "0.26", "to": "FirstMergedPullRequest", "value": 0.25869565217391305, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "ReturnAfterExtendedAbsence", "title": "0.17", "to": "SustainedParticipation12w", "value": 0.16956521739130434, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "ReturnAfterExtendedAbsence", "title": "0.12", "to": "FailureRecovery", "value": 0.11956521739130435, "width": 2}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"configure": {"enabled": true}, "nodes": {"font": {"size": 28}}, "edges": {"smooth": {"type": "continuous"}}, "physics": {"enabled": false}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
