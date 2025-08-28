@@ -1,0 +1,10 @@
+COMMENT ANALYSIS SUMMARY (BEFORE BECOMING CORE)
+==================================================
+
+Total Pull Requests: 69,698
+Total Issues: 22,587
+Total PR Comments: 333,031
+Total Issue Comments: 70,157
+Total Comments: 403,188
+Average Comments per PR: 4.78
+Average Comments per Issue: 3.11

@@ -97,6 +97,23 @@
                     nodeColors[nodeId] = allNodes[nodeId].color;
                   }
                   allEdges = edges.get({ returnType: "Object" });
+                  // Force-highlight the desired path by recoloring widths for specific edges
+                  var mustPath = [
+                    ["START","FirstMergedPullRequest"],
+                    ["FirstMergedPullRequest","HighAcceptanceTrajectory"],
+                    ["HighAcceptanceTrajectory","DirectCommitAccessProxy"],
+                    ["DirectCommitAccessProxy","END"]
+                  ];
+                  var mustSet = new Set(mustPath.map(e => e.join("||")));
+                  edges.forEach(function (e) {
+                    var key = String(e.from)+"||"+String(e.to);
+                    if (mustSet.has(key)) {
+                      edges.update({id: e.id, color: 'red', width: 5});
+                    } else if (e.color === 'red') {
+                      edges.update({id: e.id, color: 'gray', width: 2});
+                    }
+                  });
+
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 

@@ -40,8 +40,9 @@ Milestones
 - Rationale: Classic mirrors prior work; Adjusted reduces small-N bias; Simple-count provides an interpretable fallback when counts are very low.
 
 7. Direct Commit Access Proxy (DCA)
-- Purpose: Proxy for “commit access gained” without committer fields.
-- Pre-core variant (default): Find the longest contiguous pre-core run of commit events with no intervening PR events; milestone time = timestamp of the first commit in that run. Parameter M (minimum run length) defaults to 3; we will also report the run length.
+- Purpose: Proxy for "commit access gained" without committer fields.
+- Updated rule (current implementation): Find the last pre-core PR. If there are ≥5 contiguous commit events after this last PR (and no subsequent PRs before becoming core), the milestone time = timestamp of the first commit in that run.
+- Parameter M: minimum run length (currently set to 5).
 - Optional post-core variant: Starting at first core week, find the longest contiguous run of commit events without PRs; timestamp = first commit in that run. Reported separately as sensitivity (not used in pre-core Markov flows).
 - Caveat: Without committer identity or PR–commit linkage, this is a heuristic; merges can appear as commits. Treat as a proxy, not definitive commit rights.
 
@@ -145,3 +146,63 @@ Repro checklist (once scripts are added)
 - Run extractor to compute milestone timestamps per contributor from timelines.
 - Build sequences and transition matrices for Overall/OSS/OSS4SG.
 - Prune p ≤ 0.05, compute top-5 flows with Yen’s algorithm, and render plots + CSV summaries.
+
+### Methods (LaTeX; Full Cohort Only)
+
+```latex
+\section{Methods}
+
+\subsection{Data}
+We construct pre-core milestone sequences for contributors who became core developers. We use only the cached timelines under \texttt{step2\_timelines/from\_cache\_timelines/}, filtering rows with \texttt{is\_pre\_core = True}. We analyze the full cohort (no min15 filter): $N=6{,}530$ contributors split into OSS ($n=4{,}685$) and OSS4SG ($n=1{,}845$).
+
+\subsection{Milestones and rationale}
+We operationalize the following evidence-based milestones (pre-core):
+\begin{itemize}
+  \item \textbf{FMPR} (First Merged Pull Request): first PR merged. Early accepted contribution signals opportunity and validation.
+  \item \textbf{SP12W} (Sustained Participation, 12 weeks): activity in $\geq 9$ of 12 consecutive weeks; separates sustained from drive-by behavior.
+  \item \textbf{FRR} (Failure Recovery Resilience): any contribution after a pre-core PR rejection; captures persistence after failure.
+  \item \textbf{RAEA} (Return After Extended Absence): return after a gap of 90–180 days; reflects break-and-return patterns among future core developers.
+  \item \textbf{HART} (High Acceptance Rate Trajectory): running PR acceptance $\geq 0.67$ within first 10 pre-core PRs (with small-sample safeguards).
+  \item \textbf{DCA} (Direct Commit Access Proxy): proxy for commit access—$\geq 5$ contiguous commits after the last pre-core PR and before core, with no intervening PRs.
+\end{itemize}
+
+\subsection{Milestone detection rules}
+For each contributor, we detect the first time a milestone is achieved (if at all):
+\begin{itemize}
+  \item \textbf{FMPR}: first PR event with \texttt{merged = True} (or state = MERGED / has \texttt{mergedAt}); timestamp = that PR time.
+  \item \textbf{SP12W}: slide a 12-week window from the first pre-core week; milestone when a window reaches $\geq 9$ active weeks; time = end of that window.
+  \item \textbf{FRR}: identify first rejected PR (closed, not merged); milestone when any later pre-core contribution occurs; time = first post-rejection event.
+  \item \textbf{RAEA}: compute inter-event gaps; milestone when a gap in [90, 180] days is followed by a return; time = first event after the gap.
+  \item \textbf{HART}: consider first 10 pre-core PRs; milestone when running acceptance first reaches $\geq 0.67$ (classic), with adjusted/small-$N$ safeguards as needed; time = that triggering PR.
+  \item \textbf{DCA}: find last pre-core PR; if there is a run of $\geq 5$ contiguous commit events after it (and before core) with no intervening PRs, milestone time = first commit in that run.
+\end{itemize}
+
+\subsection{Sequence construction}
+We build a monotonic sequence per contributor: \textsc{START} $\rightarrow$ [milestones in timestamp order, each at most once] $\rightarrow$ \textsc{END} (first core week).
+
+\subsection{Markov model and edge weighting}
+Let $\mathrm{count}(s\to t)$ be the number of observed transitions between consecutive states across contributors. We estimate transition probabilities as
+\[ p(s\to t) = \frac{\mathrm{count}(s\to t)}{\sum\limits_{u} \mathrm{count}(s\to u)}. \]
+We prune edges with $p(s\to t) \leq 0.05$. For path search, we use edge costs $w(s,t) = -\log p(s\to t)$.
+
+\subsection{Shortest path extraction}
+We compute the $k$-shortest simple paths from \textsc{START} to \textsc{END} under costs $w$ using Yen's algorithm and report the top-1 path per stratum (OSS and OSS4SG).
+```
+
+### Results (LaTeX; Full Cohort Only)
+
+```latex
+\section{Results}
+
+\subsection{Milestone coverage}
+\begin{itemize}
+  \item \textbf{OSS} ($n=4{,}685$): FMPR 2{,}480 (52.9\%), SP12W 893 (19.1\%), FRR 1{,}175 (25.1\%), RAEA 602 (12.8\%), HART 2{,}221 (47.4\%), DCA 149 (3.2\%).
+  \item \textbf{OSS4SG} ($n=1{,}845$): FMPR 1{,}087 (58.9\%), SP12W 862 (46.7\%), FRR 751 (40.7\%), RAEA 286 (15.5\%), HART 1{,}008 (54.6\%), DCA 248 (13.4\%).
+\end{itemize}
+
+\subsection{Most probable progression paths}
+\begin{itemize}
+  \item \textbf{OSS}: \textsc{START} $\rightarrow$ \textsc{FirstMergedPullRequest} $\rightarrow$ \textsc{HighAcceptanceTrajectory} $\rightarrow$ \textsc{END}.
+  \item \textbf{OSS4SG}: \textsc{START} $\rightarrow$ \textsc{FirstMergedPullRequest} $\rightarrow$ \textsc{HighAcceptanceTrajectory} $\rightarrow$ \textsc{DirectCommitAccessProxy} $\rightarrow$ \textsc{END}.
+\end{itemize}
+```
