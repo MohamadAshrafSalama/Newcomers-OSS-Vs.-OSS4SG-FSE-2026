@@ -1,0 +1,6 @@
+rank,sequence,count,percentage
+1,"START,END",394,21.36
+2,"START,SustainedParticipation12w,END",231,12.52
+3,"START,FirstMergedPullRequest,HighAcceptanceTrajectory,END",161,8.73
+4,"START,FirstMergedPullRequest,HighAcceptanceTrajectory,FailureRecovery,SustainedParticipation12w,END",113,6.12
+5,"START,FirstMergedPullRequest,HighAcceptanceTrajectory,FailureRecovery,END",111,6.02
