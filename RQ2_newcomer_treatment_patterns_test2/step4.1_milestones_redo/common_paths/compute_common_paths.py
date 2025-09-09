@@ -4,7 +4,7 @@ import argparse
 import csv
 import os
 from collections import Counter
-from typing import Dict, Iterable, List, Tuple
+from typing import Dict, Iterable, List, Tuple, Optional
 
 
 def normalize_sequence(raw_sequence: str) -> str:
@@ -14,6 +14,12 @@ def normalize_sequence(raw_sequence: str) -> str:
     """
     tokens = [token.strip() for token in raw_sequence.split(",") if token.strip() != ""]
     return ",".join(tokens)
+
+
+def parse_prefix(prefix: Optional[str]) -> Optional[List[str]]:
+    if prefix is None or prefix.strip() == "":
+        return None
+    return [token.strip() for token in prefix.split(",") if token.strip() != ""]
 
 
 def read_sequences(csv_path: str) -> List[Tuple[str, str]]:
@@ -65,21 +71,43 @@ def write_csv(rows: Iterable[Dict[str, str]], out_path: str) -> None:
 
 
 def compute_top_common_paths(
-    rows: List[Tuple[str, str]], project_type_filter: str | None, top_k: int
-) -> Tuple[Counter, int]:
+    rows: List[Tuple[str, str]],
+    project_type_filter: Optional[str],
+    top_k: int,
+    exclude_empty: bool,
+    prefix_tokens: Optional[List[str]] = None,
+) -> Tuple[Counter, int, int, int, int]:
     """Compute top-k common full sequences for an optional project_type filter.
 
     - project_type_filter=None for Overall
     - Otherwise, filter to rows where project_type == filter
-    Returns counter and the total number of sequences considered.
+    Returns (counter, total_after, excluded_count, total_before).
     """
     if project_type_filter is None:
         filtered_sequences = [sequence for (_ptype, sequence) in rows]
     else:
         filtered_sequences = [sequence for (ptype, sequence) in rows if ptype == project_type_filter]
 
-    total = len(filtered_sequences)
-    return Counter(filtered_sequences), total
+    total_before = len(filtered_sequences)
+    if exclude_empty:
+        filtered_sequences = [seq for seq in filtered_sequences if seq != "START,END"]
+    after_empty = len(filtered_sequences)
+    excluded_empty = total_before - after_empty
+
+    excluded_prefix = 0
+    if prefix_tokens:
+        prefix_len = len(prefix_tokens)
+        kept = []
+        for seq in filtered_sequences:
+            tokens = seq.split(",") if seq else []
+            if len(tokens) >= prefix_len and tokens[:prefix_len] == prefix_tokens:
+                kept.append(seq)
+        excluded_prefix = after_empty - len(kept)
+        filtered_sequences = kept
+
+    total_after = len(filtered_sequences)
+
+    return Counter(filtered_sequences), total_after, excluded_empty, excluded_prefix, total_before
 
 
 def process_one_cohort(
@@ -87,6 +115,9 @@ def process_one_cohort(
     out_dir: str,
     suffix: str,
     top_k: int,
+    exclude_empty: bool,
+    prefix_tokens: Optional[List[str]] = None,
+    prefix_tag: Optional[str] = None,
 ) -> List[str]:
     """Process one cohort CSV and write three outputs (overall, oss, oss4sg).
 
@@ -96,23 +127,78 @@ def process_one_cohort(
 
     outputs: List[str] = []
 
+    name_suffix = f"_{prefix_tag}" if prefix_tokens and prefix_tag else ("" if not prefix_tokens else "_prefix")
+
     # Overall
-    counter_all, total_all = compute_top_common_paths(rows, None, top_k)
-    out_all = os.path.join(out_dir, f"common_paths_overall{suffix}.csv")
+    counter_all, total_all, excluded_empty_all, excluded_prefix_all, before_all = compute_top_common_paths(
+        rows, None, top_k, exclude_empty, prefix_tokens
+    )
+    out_all = os.path.join(out_dir, f"common_paths_overall{name_suffix}{suffix}.csv")
     write_csv(counter_to_ranked_rows(counter_all, total_all, top_k), out_all)
     outputs.append(out_all)
 
     # OSS only
-    counter_oss, total_oss = compute_top_common_paths(rows, "OSS", top_k)
-    out_oss = os.path.join(out_dir, f"common_paths_oss{suffix}.csv")
+    counter_oss, total_oss, excluded_empty_oss, excluded_prefix_oss, before_oss = compute_top_common_paths(
+        rows, "OSS", top_k, exclude_empty, prefix_tokens
+    )
+    out_oss = os.path.join(out_dir, f"common_paths_oss{name_suffix}{suffix}.csv")
     write_csv(counter_to_ranked_rows(counter_oss, total_oss, top_k), out_oss)
     outputs.append(out_oss)
 
     # OSS4SG only
-    counter_oss4sg, total_oss4sg = compute_top_common_paths(rows, "OSS4SG", top_k)
-    out_oss4sg = os.path.join(out_dir, f"common_paths_oss4sg{suffix}.csv")
+    counter_oss4sg, total_oss4sg, excluded_empty_oss4sg, excluded_prefix_oss4sg, before_oss4sg = compute_top_common_paths(
+        rows, "OSS4SG", top_k, exclude_empty, prefix_tokens
+    )
+    out_oss4sg = os.path.join(out_dir, f"common_paths_oss4sg{name_suffix}{suffix}.csv")
     write_csv(counter_to_ranked_rows(counter_oss4sg, total_oss4sg, top_k), out_oss4sg)
     outputs.append(out_oss4sg)
+
+    # Write filter counts
+    excl_path = os.path.join(out_dir, f"filtered_counts{name_suffix}{suffix}.csv")
+    with open(excl_path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(
+            f,
+            fieldnames=[
+                "stratum",
+                "excluded_empty_sequences",
+                "excluded_prefix_sequences",
+                "total_before",
+                "total_after",
+                "excluded_percentage",
+            ],
+        )
+        writer.writeheader()
+        writer.writerow(
+            {
+                "stratum": "Overall",
+                "excluded_empty_sequences": str(excluded_empty_all),
+                "excluded_prefix_sequences": str(excluded_prefix_all),
+                "total_before": str(before_all),
+                "total_after": str(total_all),
+                "excluded_percentage": f"{(((excluded_empty_all + excluded_prefix_all) / before_all) * 100) if before_all else 0.0:.2f}",
+            }
+        )
+        writer.writerow(
+            {
+                "stratum": "OSS",
+                "excluded_empty_sequences": str(excluded_empty_oss),
+                "excluded_prefix_sequences": str(excluded_prefix_oss),
+                "total_before": str(before_oss),
+                "total_after": str(total_oss),
+                "excluded_percentage": f"{(((excluded_empty_oss + excluded_prefix_oss) / before_oss) * 100) if before_oss else 0.0:.2f}",
+            }
+        )
+        writer.writerow(
+            {
+                "stratum": "OSS4SG",
+                "excluded_empty_sequences": str(excluded_empty_oss4sg),
+                "excluded_prefix_sequences": str(excluded_prefix_oss4sg),
+                "total_before": str(before_oss4sg),
+                "total_after": str(total_oss4sg),
+                "excluded_percentage": f"{(((excluded_empty_oss4sg + excluded_prefix_oss4sg) / before_oss4sg) * 100) if before_oss4sg else 0.0:.2f}",
+            }
+        )
+    outputs.append(excl_path)
 
     return outputs
 
@@ -138,6 +224,24 @@ def main() -> None:
         help="Output directory for common paths CSVs (defaults to this script's directory)",
     )
     parser.add_argument("--top", dest="top", type=int, default=5, help="Top-K sequences to output (default 5)")
+    parser.add_argument(
+        "--exclude-empty",
+        dest="exclude_empty",
+        action="store_true",
+        help="Exclude sequences with no milestones (exactly 'START,END') and report how many were excluded",
+    )
+    parser.add_argument(
+        "--prefix",
+        dest="prefix",
+        default=None,
+        help="Optional comma-separated prefix tokens to filter sequences (e.g., 'START,FirstMergedPullRequest')",
+    )
+    parser.add_argument(
+        "--prefix-tag",
+        dest="prefix_tag",
+        default=None,
+        help="Tag to append to output filenames when --prefix is used (e.g., 'start_fmpr')",
+    )
     args = parser.parse_args()
 
     out_dir = os.path.abspath(args.outdir)
@@ -145,15 +249,29 @@ def main() -> None:
 
     generated: List[str] = []
 
+    prefix_tokens = parse_prefix(args.prefix)
+
     # Full cohort
     generated += process_one_cohort(
-        input_csv=os.path.abspath(args.sequences_all), out_dir=out_dir, suffix="", top_k=args.top
+        input_csv=os.path.abspath(args.sequences_all),
+        out_dir=out_dir,
+        suffix="",
+        top_k=args.top,
+        exclude_empty=args.exclude_empty,
+        prefix_tokens=prefix_tokens,
+        prefix_tag=args.prefix_tag,
     )
 
     # Min15 cohort (if available)
     if os.path.exists(args.sequences_min15):
         generated += process_one_cohort(
-            input_csv=os.path.abspath(args.sequences_min15), out_dir=out_dir, suffix="_min15", top_k=args.top
+            input_csv=os.path.abspath(args.sequences_min15),
+            out_dir=out_dir,
+            suffix="_min15",
+            top_k=args.top,
+            exclude_empty=args.exclude_empty,
+            prefix_tokens=prefix_tokens,
+            prefix_tag=args.prefix_tag,
         )
 
     # Print generated paths for convenience

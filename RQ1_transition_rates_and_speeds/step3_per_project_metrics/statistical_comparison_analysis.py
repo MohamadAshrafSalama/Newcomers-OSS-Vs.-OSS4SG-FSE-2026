@@ -9,6 +9,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os
 from scipy import stats
 import warnings
 warnings.filterwarnings('ignore')
@@ -95,7 +96,7 @@ def perform_statistical_tests(df, metrics):
     
     return pd.DataFrame(results)
 
-def create_comparison_boxplots(df, metrics, metric_labels, test_results):
+def create_comparison_boxplots(df, metrics, metric_labels, test_results, include_transition_rate=True):
     """
     Create publication-ready box plots with significance indicators
     """
@@ -138,6 +139,24 @@ def create_comparison_boxplots(df, metrics, metric_labels, test_results):
         ax.text(2, ax.get_ylim()[1]*0.95, f'n={len(oss4sg_data)}', 
                 ha='center', va='top', fontsize=10)
         
+        # Special handling for bus factor: cap y-axis to robust range to avoid extreme outliers distorting scale
+        if metric == 'bus_factor':
+            try:
+                combined_values = pd.concat([oss_data, oss4sg_data]).astype(float)
+                if len(combined_values) > 0:
+                    robust_max = np.nanpercentile(combined_values, 99)
+                    fallback = max(np.nanmax([oss_data.median(), oss4sg_data.median()]) * 3, 10)
+                    y_upper = max(robust_max, fallback)
+                    ax.set_ylim(0, y_upper)
+                    # annotate clipped counts
+                    clipped_oss = int((oss_data > y_upper).sum())
+                    clipped_oss4sg = int((oss4sg_data > y_upper).sum())
+                    if (clipped_oss + clipped_oss4sg) > 0:
+                        ax.text(1, y_upper*0.98, f'clipped={clipped_oss}', ha='center', va='top', fontsize=8)
+                        ax.text(2, y_upper*0.98, f'clipped={clipped_oss4sg}', ha='center', va='top', fontsize=8)
+            except Exception:
+                pass
+
         # Add significance stars
         test_result = test_results[test_results['Metric'] == metric].iloc[0]
         if test_result['significant']:
@@ -161,9 +180,70 @@ def create_comparison_boxplots(df, metrics, metric_labels, test_results):
                 ha='left', va='top', fontsize=9, 
                 bbox=dict(boxstyle='round,pad=0.3', facecolor='white', alpha=0.8))
         
-    # Remove empty subplot
-    if len(metrics) < 6:
-        fig.delaxes(axes[-1])
+    # Optional sixth panel: transition rate (non-zero months) from step4 results
+    added_transition_panel = False
+    if include_transition_rate:
+        try:
+            script_dir = os.path.dirname(os.path.abspath(__file__))
+            results_dir = os.path.normpath(os.path.join(script_dir, '../step4_newcomer_transition_rates/corrected_transition_results'))
+            monthly_path = os.path.join(results_dir, 'monthly_transitions.csv')
+            results_path = os.path.join(results_dir, 'monthly_analysis_results.csv')
+            if os.path.exists(monthly_path):
+                monthly_df = pd.read_csv(monthly_path)
+                non_zero_df = monthly_df[monthly_df['truly_new_core_count'] > 0]
+                oss_non_zero = non_zero_df[non_zero_df['project_type'] == 'OSS']['transition_rate'].dropna()
+                oss4sg_non_zero = non_zero_df[non_zero_df['project_type'] == 'OSS4SG']['transition_rate'].dropna()
+
+                # Use the last axis for transition rate
+                ax = axes[-1]
+                bp = ax.boxplot(
+                    [oss_non_zero, oss4sg_non_zero],
+                    labels=['OSS', 'OSS4SG'],
+                    patch_artist=True,
+                    showmeans=True,
+                    meanprops=dict(marker='D', markerfacecolor='red', markersize=6)
+                )
+                colors = ['lightblue', 'lightgreen']
+                for patch, color in zip(bp['boxes'], colors):
+                    patch.set_facecolor(color)
+
+                ax.set_title('Transition Rate (Non-Zero Months)', fontsize=14, fontweight='bold')
+                ax.set_ylabel('Value', fontsize=12)
+                ax.grid(True, alpha=0.3)
+
+                # Sample sizes (monthly records)
+                ax.text(1, ax.get_ylim()[1]*0.95, f'n={len(oss_non_zero)}', 
+                        ha='center', va='top', fontsize=10)
+                ax.text(2, ax.get_ylim()[1]*0.95, f'n={len(oss4sg_non_zero)}', 
+                        ha='center', va='top', fontsize=10)
+
+                # Significance stars using precomputed monthly analysis if available
+                if os.path.exists(results_path):
+                    try:
+                        res_df = pd.read_csv(results_path)
+                        if 'p_value' in res_df.columns:
+                            p_val = float(res_df.iloc[0]['p_value'])
+                            if p_val < 0.05:
+                                y_max = ax.get_ylim()[1]
+                                ax.plot([1, 2], [y_max*0.9, y_max*0.9], 'k-', linewidth=1)
+                                if p_val < 0.001:
+                                    stars = '***'
+                                elif p_val < 0.01:
+                                    stars = '**'
+                                else:
+                                    stars = '*'
+                                ax.text(1.5, y_max*0.91, stars, ha='center', va='bottom', fontsize=14, fontweight='bold')
+                    except Exception:
+                        pass
+
+                added_transition_panel = True
+        except Exception:
+            added_transition_panel = False
+
+    # Remove empty subplot if we didn't add the sixth panel
+    if not added_transition_panel:
+        if len(metrics) < 6:
+            fig.delaxes(axes[-1])
     
     # Add overall title
     fig.suptitle('Community Structure Comparison: OSS vs OSS4SG Projects', 

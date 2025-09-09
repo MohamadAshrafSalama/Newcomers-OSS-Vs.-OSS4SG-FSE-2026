@@ -1,6 +1,6 @@
 rank,sequence,count,percentage
-1,"START,SustainedParticipation12w,END",513,15.69
-2,"START,END",404,12.36
-3,"START,FirstMergedPullRequest,HighAcceptanceTrajectory,FailureRecovery,SustainedParticipation12w,END",274,8.38
-4,"START,FirstMergedPullRequest,HighAcceptanceTrajectory,FailureRecovery,END",257,7.86
-5,"START,FirstMergedPullRequest,HighAcceptanceTrajectory,END",164,5.02
+1,"START,SustainedParticipation12w,END",513,17.91
+2,"START,FirstMergedPullRequest,HighAcceptanceTrajectory,FailureRecovery,SustainedParticipation12w,END",274,9.56
+3,"START,FirstMergedPullRequest,HighAcceptanceTrajectory,FailureRecovery,END",257,8.97
+4,"START,FirstMergedPullRequest,HighAcceptanceTrajectory,END",164,5.72
+5,"START,SustainedParticipation12w,FirstMergedPullRequest,HighAcceptanceTrajectory,FailureRecovery,END",150,5.24

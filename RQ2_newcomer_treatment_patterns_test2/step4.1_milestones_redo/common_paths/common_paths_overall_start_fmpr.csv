@@ -1,0 +1,6 @@
+rank,sequence,count,percentage
+1,"START,FirstMergedPullRequest,HighAcceptanceTrajectory,END",1381,51.68
+2,"START,FirstMergedPullRequest,HighAcceptanceTrajectory,FailureRecovery,END",323,12.09
+3,"START,FirstMergedPullRequest,HighAcceptanceTrajectory,FailureRecovery,SustainedParticipation12w,END",274,10.25
+4,"START,FirstMergedPullRequest,HighAcceptanceTrajectory,DirectCommitAccessProxy,END",78,2.92
+5,"START,FirstMergedPullRequest,HighAcceptanceTrajectory,ReturnAfterExtendedAbsence,END",78,2.92

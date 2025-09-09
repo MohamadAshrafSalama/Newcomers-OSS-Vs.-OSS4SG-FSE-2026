@@ -1,0 +1,4 @@
+stratum,excluded_empty_sequences,excluded_prefix_sequences,total_before,total_after,excluded_percentage
+Overall,2005,1853,6530,2672,59.08
+OSS,1611,1094,4685,1980,57.74
+OSS4SG,394,759,1845,692,62.49

@@ -1,0 +1,19 @@
+Group: OSS
+- Top 3 by correlation (abs):
+  • active_days_90d: corr=0.336 (p=0.00e+00)
+  • commits_90d: corr=0.228 (p=8.59e-186)
+  • avg_commits_per_day: corr=0.228 (p=8.59e-186)
+- Top 3 by permutation importance (RF, scoring=roc_auc):
+  • lines_changed_90d: mean=0.21220 ± 0.00232
+  • files_modified_90d: mean=0.11734 ± 0.00145
+  • avg_gap_days: mean=0.02070 ± 0.00036
+
+Group: OSS4SG
+- Top 3 by correlation (abs):
+  • active_days_90d: corr=0.387 (p=2.29e-256)
+  • commits_90d: corr=0.293 (p=2.24e-142)
+  • avg_commits_per_day: corr=0.293 (p=2.24e-142)
+- Top 3 by permutation importance (RF, scoring=roc_auc):
+  • lines_changed_90d: mean=0.10597 ± 0.00270
+  • files_modified_90d: mean=0.08341 ± 0.00151
+  • avg_gap_days: mean=0.01404 ± 0.00027
