@@ -94,13 +94,13 @@
 
                   // parsing and collecting nodes and edges from the python
                   nodes = new vis.DataSet([
-                    {"color": "#FB7E81", "font": {"color": "black", "size": 24}, "id": "START", "label": "Initial Interaction", "margin": 15, "shape": "box"},
+                    {"color": "#FB7E81", "font": {"color": "black", "size": 24}, "id": "START", "label": "First Interaction", "margin": 15, "shape": "box"},
                     {"color": "#97C2FC", "font": {"color": "black", "size": 24}, "id": "FirstMergedPullRequest", "label": "First Merged Pull Request", "margin": 15, "shape": "box"},
-                    {"color": "#97C2FC", "font": {"color": "black", "size": 24}, "id": "HighAcceptanceTrajectory", "label": "High Acceptance Trajectory", "margin": 15, "shape": "box"},
+                    {"color": "#97C2FC", "font": {"color": "black", "size": 24}, "id": "HighAcceptanceTrajectory", "label": "High Acceptance Threshold", "margin": 15, "shape": "box"},
                     {"color": "#FB7E81", "font": {"color": "black", "size": 24}, "id": "END", "label": "Core Achievement", "margin": 15, "shape": "box"},
-                    {"color": "#97C2FC", "font": {"color": "black", "size": 24}, "id": "FailureRecovery", "label": "Failure Recovery", "margin": 15, "shape": "box"},
+                    {"color": "#97C2FC", "font": {"color": "black", "size": 24}, "id": "FailureRecovery", "label": "Failure Recovery Resilience", "margin": 15, "shape": "box"},
                     {"color": "#97C2FC", "font": {"color": "black", "size": 24}, "id": "DirectCommitAccessProxy", "label": "Direct Commit Access", "margin": 15, "shape": "box"},
-                    {"color": "#97C2FC", "font": {"color": "black", "size": 24}, "id": "SustainedParticipation12w", "label": "Sustained Participation (12w)", "margin": 15, "shape": "box"},
+                    {"color": "#97C2FC", "font": {"color": "black", "size": 24}, "id": "SustainedParticipation12w", "label": "Sustained Participation Over 12 Weeks", "margin": 15, "shape": "box"},
                     {"color": "#97C2FC", "font": {"color": "black", "size": 24}, "id": "ReturnAfterExtendedAbsence", "label": "Return After Extended Absence", "margin": 15, "shape": "box"}
                   ]);
                   edges = new vis.DataSet([{"arrows": "to", "color": "red", "font": {"color": "gray", "size": 18}, "from": "START", "title": "0.64", "to": "FirstMergedPullRequest", "value": 0.6441119063109955, "width": 5}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "START", "title": "0.10", "to": "FailureRecovery", "value": 0.09726740403383215, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "START", "title": "0.11", "to": "ReturnAfterExtendedAbsence", "value": 0.11418347430058555, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "START", "title": "0.14", "to": "SustainedParticipation12w", "value": 0.14443721535458687, "width": 2}, {"arrows": "to", "color": "red", "font": {"color": "gray", "size": 18}, "from": "FirstMergedPullRequest", "title": "0.85", "to": "HighAcceptanceTrajectory", "value": 0.8508064516129032, "width": 5}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "FirstMergedPullRequest", "title": "0.06", "to": "END", "value": 0.05524193548387097, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "FirstMergedPullRequest", "title": "0.06", "to": "FailureRecovery", "value": 0.059274193548387095, "width": 2}, {"arrows": "to", "color": "red", "font": {"color": "gray", "size": 18}, "from": "HighAcceptanceTrajectory", "title": "0.61", "to": "END", "value": 0.6125511596180082, "width": 5}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "HighAcceptanceTrajectory", "title": "0.28", "to": "FailureRecovery", "value": 0.2760345611641655, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "FailureRecovery", "title": "0.45", "to": "END", "value": 0.44680851063829785, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "FailureRecovery", "title": "0.21", "to": "FirstMergedPullRequest", "value": 0.20851063829787234, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "FailureRecovery", "title": "0.20", "to": "SustainedParticipation12w", "value": 0.19659574468085106, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "FailureRecovery", "title": "0.05", "to": "HighAcceptanceTrajectory", "value": 0.05106382978723404, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "DirectCommitAccessProxy", "title": "0.94", "to": "END", "value": 0.9395973154362416, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "SustainedParticipation12w", "title": "0.72", "to": "END", "value": 0.7166853303471444, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "SustainedParticipation12w", "title": "0.13", "to": "FirstMergedPullRequest", "value": 0.1265397536394177, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "SustainedParticipation12w", "title": "0.06", "to": "ReturnAfterExtendedAbsence", "value": 0.055991041433370664, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "SustainedParticipation12w", "title": "0.07", "to": "FailureRecovery", "value": 0.06606942889137737, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "ReturnAfterExtendedAbsence", "title": "0.24", "to": "FirstMergedPullRequest", "value": 0.23588039867109634, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "ReturnAfterExtendedAbsence", "title": "0.47", "to": "END", "value": 0.473421926910299, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "ReturnAfterExtendedAbsence", "title": "0.13", "to": "SustainedParticipation12w", "value": 0.12956810631229235, "width": 2}, {"arrows": "to", "color": "gray", "font": {"color": "gray", "size": 18}, "from": "ReturnAfterExtendedAbsence", "title": "0.10", "to": "FailureRecovery", "value": 0.10465116279069768, "width": 2}]);
@@ -111,48 +111,50 @@
                     nodeColors[nodeId] = allNodes[nodeId].color;
                   }
                   allEdges = edges.get({ returnType: "Object" });
-                  // Highlight top three pathways
+                  // Show all three full paths with separate curved overlays
                   (function() {
-                    // Reset all edges to base style
+                    // Dim base edges
                     edges.forEach(function (e) {
-                      edges.update({id: e.id, color: 'gray', width: 2});
+                      edges.update({id: e.id, color: '#cccccc', width: 1.5});
                     });
 
-                    var topPaths = [
-                      { color: '#e41a1c', width: 6, edges: [
-                        ["START","FirstMergedPullRequest"],
-                        ["FirstMergedPullRequest","HighAcceptanceTrajectory"],
-                        ["HighAcceptanceTrajectory","END"]
-                      ]},
-                      { color: '#377eb8', width: 5, edges: [
-                        ["START","FirstMergedPullRequest"],
-                        ["FirstMergedPullRequest","HighAcceptanceTrajectory"],
-                        ["HighAcceptanceTrajectory","FailureRecovery"],
-                        ["FailureRecovery","END"]
-                      ]},
-                      { color: '#4daf4a', width: 5, edges: [
-                        ["START","FirstMergedPullRequest"],
-                        ["FirstMergedPullRequest","HighAcceptanceTrajectory"],
-                        ["HighAcceptanceTrajectory","FailureRecovery"],
-                        ["FailureRecovery","SustainedParticipation12w"],
-                        ["SustainedParticipation12w","END"]
-                      ]}
-                    ];
+                    function addOverlayPath(stepPairs, color, width, smoothType, roundness) {
+                      for (var i = 0; i < stepPairs.length; i++) {
+                        var pair = stepPairs[i];
+                        edges.add({
+                          from: pair[0],
+                          to: pair[1],
+                          arrows: 'to',
+                          color: color,
+                          width: width,
+                          smooth: { enabled: true, type: smoothType, roundness: roundness }
+                        });
+                      }
+                    }
 
-                    var edgeIdByKey = {};
-                    edges.forEach(function (e) {
-                      edgeIdByKey[String(e.from) + '||' + String(e.to)] = e.id;
-                    });
+                    // Path 1 (61.62%): START → FMPR → HAT → END
+                    addOverlayPath([
+                      ["START","FirstMergedPullRequest"],
+                      ["FirstMergedPullRequest","HighAcceptanceTrajectory"],
+                      ["HighAcceptanceTrajectory","END"]
+                    ], '#e41a1c', 6, 'curvedCW', 0.25);
 
-                    topPaths.forEach(function (p) {
-                      p.edges.forEach(function (pair) {
-                        var key = pair[0] + '||' + pair[1];
-                        var id = edgeIdByKey[key];
-                        if (id !== undefined) {
-                          edges.update({id: id, color: p.color, width: p.width});
-                        }
-                      });
-                    });
+                    // Path 2 (10.71%): START → FMPR → HAT → FRR → END
+                    addOverlayPath([
+                      ["START","FirstMergedPullRequest"],
+                      ["FirstMergedPullRequest","HighAcceptanceTrajectory"],
+                      ["HighAcceptanceTrajectory","FailureRecovery"],
+                      ["FailureRecovery","END"]
+                    ], '#377eb8', 5, 'curvedCCW', 0.25);
+
+                    // Path 3 (8.13%): START → FMPR → HAT → FRR → SP12W → END
+                    addOverlayPath([
+                      ["START","FirstMergedPullRequest"],
+                      ["FirstMergedPullRequest","HighAcceptanceTrajectory"],
+                      ["HighAcceptanceTrajectory","FailureRecovery"],
+                      ["FailureRecovery","SustainedParticipation12w"],
+                      ["SustainedParticipation12w","END"]
+                    ], '#4daf4a', 5, 'curvedCW', 0.4);
                   })();
 
                   // adding nodes and edges to the graph
