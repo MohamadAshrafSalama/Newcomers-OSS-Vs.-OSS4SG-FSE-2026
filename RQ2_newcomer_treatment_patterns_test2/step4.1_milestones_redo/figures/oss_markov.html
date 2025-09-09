@@ -111,50 +111,36 @@
                     nodeColors[nodeId] = allNodes[nodeId].color;
                   }
                   allEdges = edges.get({ returnType: "Object" });
-                  // Show all three full paths with separate curved overlays
+                  // Uniform widths and recolor union of top-3 pathways to red (no overlays)
                   (function() {
-                    // Dim base edges
+                    // Set all edges to uniform width and base gray color
                     edges.forEach(function (e) {
-                      edges.update({id: e.id, color: '#cccccc', width: 1.5});
+                      edges.update({id: e.id, color: 'gray', width: 3});
                     });
 
-                    function addOverlayPath(stepPairs, color, width, smoothType, roundness) {
-                      for (var i = 0; i < stepPairs.length; i++) {
-                        var pair = stepPairs[i];
-                        edges.add({
-                          from: pair[0],
-                          to: pair[1],
-                          arrows: 'to',
-                          color: color,
-                          width: width,
-                          smooth: { enabled: true, type: smoothType, roundness: roundness }
-                        });
+                    var unionPairs = new Set([
+                      // START → FMPR
+                      'START||FirstMergedPullRequest',
+                      // FMPR → HAT
+                      'FirstMergedPullRequest||HighAcceptanceTrajectory',
+                      // HAT → END (direct)
+                      'HighAcceptanceTrajectory||END',
+                      // HAT → FRR
+                      'HighAcceptanceTrajectory||FailureRecovery',
+                      // FRR → END
+                      'FailureRecovery||END',
+                      // FRR → SP12W
+                      'FailureRecovery||SustainedParticipation12w',
+                      // SP12W → END
+                      'SustainedParticipation12w||END'
+                    ]);
+
+                    edges.forEach(function (e) {
+                      var key = String(e.from) + '||' + String(e.to);
+                      if (unionPairs.has(key)) {
+                        edges.update({id: e.id, color: 'red', width: 3});
                       }
-                    }
-
-                    // Path 1 (61.62%): START → FMPR → HAT → END
-                    addOverlayPath([
-                      ["START","FirstMergedPullRequest"],
-                      ["FirstMergedPullRequest","HighAcceptanceTrajectory"],
-                      ["HighAcceptanceTrajectory","END"]
-                    ], '#e41a1c', 6, 'curvedCW', 0.25);
-
-                    // Path 2 (10.71%): START → FMPR → HAT → FRR → END
-                    addOverlayPath([
-                      ["START","FirstMergedPullRequest"],
-                      ["FirstMergedPullRequest","HighAcceptanceTrajectory"],
-                      ["HighAcceptanceTrajectory","FailureRecovery"],
-                      ["FailureRecovery","END"]
-                    ], '#377eb8', 5, 'curvedCCW', 0.25);
-
-                    // Path 3 (8.13%): START → FMPR → HAT → FRR → SP12W → END
-                    addOverlayPath([
-                      ["START","FirstMergedPullRequest"],
-                      ["FirstMergedPullRequest","HighAcceptanceTrajectory"],
-                      ["HighAcceptanceTrajectory","FailureRecovery"],
-                      ["FailureRecovery","SustainedParticipation12w"],
-                      ["SustainedParticipation12w","END"]
-                    ], '#4daf4a', 5, 'curvedCW', 0.4);
+                    });
                   })();
 
                   // adding nodes and edges to the graph
